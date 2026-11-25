@@ -1,0 +1,28 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/8",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "8",
+  "Name": "Smart Storage Energy Pack",
+  "Description": "SmartStorageEnergyPack",
+  "Version": "0.70",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+      "DeviceClass": "550e8400-e29b-41d4-a716-00000000001b",
+      "DeviceContext": "Energy Pack 1",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-00000000001c"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "8",
+        "device_context": "Energy Pack 1"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

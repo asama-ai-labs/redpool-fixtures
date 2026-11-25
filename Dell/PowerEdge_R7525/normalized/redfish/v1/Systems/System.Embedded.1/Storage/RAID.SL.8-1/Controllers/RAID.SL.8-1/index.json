@@ -1,0 +1,135 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageController.StorageController",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.8-1/Controllers/RAID.SL.8-1",
+  "@odata.type": "#StorageController.v1_7_0.StorageController",
+  "Id": "RAID.SL.8-1",
+  "Name": "PERC H745 Front",
+  "Description": "RAID Controller in SL 8",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Manufacturer": "DELL",
+  "Model": "PERC H745 Front",
+  "FirmwareVersion": "51.14.0-3900",
+  "Identifiers": [
+    {
+      "DurableName": "0000000000000003",
+      "DurableNameFormat": "NAA"
+    }
+  ],
+  "SpeedGbps": 12.0,
+  "SupportedControllerProtocols": [
+    "PCIe"
+  ],
+  "SupportedDeviceProtocols": [
+    "SAS",
+    "SATA"
+  ],
+  "SupportedRAIDTypes": [
+    "RAID0",
+    "RAID1",
+    "RAID5",
+    "RAID6",
+    "RAID10",
+    "RAID50",
+    "RAID60"
+  ],
+  "CacheSummary": {
+    "TotalCacheSizeMiB": 4096
+  },
+  "PCIeInterface": {},
+  "ControllerRates": {
+    "ConsistencyCheckRatePercent": 30,
+    "RebuildRatePercent": 30
+  },
+  "Ports": {},
+  "Links": {
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/1-0/PCIeFunctions/1-0-0"
+      }
+    ],
+    "PCIeFunctions@odata.count": 1,
+    "Batteries": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.8-1/Controllers/RAID.SL.8-1/Batteries/1"
+      }
+    ],
+    "Batteries@odata.count": 1
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOemStorageController.v1_0_0.DellOemStorageController",
+      "DellStorageController": {
+        "AlarmState": "AlarmNotPresent",
+        "AutoConfigBehavior": "Off",
+        "BackgroundInitializationRatePercent": 30,
+        "BatteryLearnMode": null,
+        "BootVirtualDiskFQDD": null,
+        "CacheSizeInMB": 4096,
+        "CachecadeCapability": "NotSupported",
+        "CheckConsistencyMode": "Normal",
+        "ConnectorCount": 4,
+        "ControllerBootMode": null,
+        "ControllerFirmwareVersion": "51.14.0-3900",
+        "ControllerMode": "RAID",
+        "CopybackMode": "On",
+        "CurrentControllerMode": "RAID",
+        "Device": "0",
+        "DeviceCardDataBusWidth": "Unknown",
+        "DeviceCardSlotLength": "Unknown",
+        "DeviceCardSlotType": "Unknown",
+        "DriverVersion": "--NA--",
+        "EncryptionCapability": "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable",
+        "EncryptionMode": "None",
+        "EnhancedAutoImportForeignConfigurationMode": "Disabled",
+        "KeyID": null,
+        "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
+        "LastUpdateTime": "2026-04-27T03:33:51+00:00",
+        "LoadBalanceMode": "Automatic",
+        "MaxAvailablePCILinkSpeed": null,
+        "MaxDrivesInSpanCount": 32,
+        "MaxPossiblePCILinkSpeed": null,
+        "MaxSpansInVolumeCount": 8,
+        "MaxSupportedVolumesCount": 64,
+        "PCISlot": null,
+        "PatrolReadIterationsCount": 0,
+        "PatrolReadMode": "Automatic",
+        "PatrolReadRatePercent": 30,
+        "PatrolReadState": "Stopped",
+        "PatrolReadUnconfiguredAreaMode": "Enabled",
+        "PersistentHotspare": "Disabled",
+        "PersistentHotspareMode": "Disabled",
+        "RAIDMode": "None",
+        "RealtimeCapability": "Capable",
+        "ReconstructRatePercent": 30,
+        "RollupStatus": "OK",
+        "SASAddress": "DUMMY-SASAddress",
+        "SecurityStatus": "EncryptionCapable",
+        "SharedSlotAssignmentAllowed": "NotApplicable",
+        "SlicedVDCapability": "Supported",
+        "SpindownIdleTimeSeconds": 30,
+        "SupportControllerBootMode": "NotSupported",
+        "SupportEnhancedAutoForeignImport": "Supported",
+        "SupportRAID10UnevenSpans": "Supported",
+        "SupportedInitializationTypes": [
+          "Slow",
+          "Fast"
+        ],
+        "SupportedInitializationTypes@odata.count": 2,
+        "SupportsLKMtoSEKMTransition": "No",
+        "T10PICapability": "NotSupported"
+      }
+    },
+    "Redpool": {
+      "FruPartNumber": "0JT47Y",
+      "EngineeringChangeLevel": "A00",
+      "ManufactureWeek": 44,
+      "ManufactureYear": 2020,
+      "ManufactureDate": "2020-11-01",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolStorageController"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ComputerSystemCollection.ComputerSystemCollection",
+  "@odata.etag": "3e54e50aa8432c32ab7d0862ccf91178",
+  "@odata.id": "/redfish/v1/Systems",
+  "@odata.type": "#ComputerSystemCollection.ComputerSystemCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of Computer Systems",
+  "Name": "Computer System Collection",
+  "Oem": {}
+}

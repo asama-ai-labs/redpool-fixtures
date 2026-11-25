@@ -1,0 +1,146 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.etag": "\"cb17d28bc4fd2d2aff7f8\"",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/2",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {},
+  "Description": "This resource is used to represent a processor for a Redfish implementation.",
+  "Id": "2",
+  "Name": "Processor 2",
+  "ProcessorId": {
+    "VendorId": "GenuineIntel",
+    "Step": "0x06",
+    "EffectiveFamily": "0x06",
+    "EffectiveModel": "0x6a",
+    "MicrocodeInfo": null,
+    "IdentificationRegisters": "0x000606a6bfebfbff"
+  },
+  "ProcessorType": "CPU",
+  "ProcessorArchitecture": "x86",
+  "InstructionSet": "x86-64",
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    },
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/17"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/18"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/19"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/20"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/21"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/22"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/23"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/24"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/25"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/26"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/27"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/28"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/29"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/30"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/31"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/32"
+      }
+    ],
+    "Memory@odata.count": 16
+  },
+  "Manufacturer": "Intel(R) Corporation",
+  "MemorySummary": {
+    "TotalMemorySizeMiB": 65536,
+    "ECCModeEnabled": null
+  },
+  "Model": "Intel(R) Xeon(R) Platinum 8360Y",
+  "PartNumber": "Xeon Platinum 8360Y",
+  "SerialNumber": "",
+  "BaseSpeedMHz": 2400,
+  "MaxSpeedMHz": 3500,
+  "TDPWatts": 250,
+  "ProcessorMemory": [
+    {
+      "SpeedMHz": null,
+      "IntegratedMemory": true,
+      "CapacityMiB": 2,
+      "MemoryType": "L1Cache"
+    },
+    {
+      "SpeedMHz": null,
+      "IntegratedMemory": true,
+      "CapacityMiB": 45,
+      "MemoryType": "L2Cache"
+    },
+    {
+      "SpeedMHz": null,
+      "IntegratedMemory": true,
+      "CapacityMiB": 54,
+      "MemoryType": "L3Cache"
+    }
+  ],
+  "TotalCores": 36,
+  "TotalThreads": 72,
+  "TotalEnabledCores": 36,
+  "Socket": "CPU 2",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors/2/ProcessorMetrics"
+  },
+  "EnvironmentMetrics": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoProcessor.v1_0_0.LenovoProcessor",
+      "ExternalBusClockSpeedMHz": 100,
+      "NumberOfEnabledCores": 36,
+      "CacheInfo": [
+        {
+          "MaxCacheSizeKByte": 2880,
+          "CacheLevel": "L1",
+          "InstalledSizeKByte": 2880
+        },
+        {
+          "MaxCacheSizeKByte": 46080,
+          "CacheLevel": "L2",
+          "InstalledSizeKByte": 46080
+        },
+        {
+          "MaxCacheSizeKByte": 55296,
+          "CacheLevel": "L3",
+          "InstalledSizeKByte": 55296
+        }
+      ],
+      "ProcessorFamily": 179,
+      "CurrentClockSpeedMHz": 2400
+    }
+  }
+}

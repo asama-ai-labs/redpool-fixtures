@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1/Ports/1",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "1",
+  "Name": "Port 1",
+  "PortId": "1",
+  "LinkStatus": "LinkUp",
+  "LinkNetworkTechnology": "Ethernet",
+  "Status": {
+    "Health": "OK",
+    "State": null
+  },
+  "Ethernet": {
+    "AssociatedMACAddresses": [
+      "00:1B:44:AA:00:01"
+    ]
+  },
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+      "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+      "BadReceives": 0,
+      "BadTransmits": 0,
+      "GoodReceives": 0,
+      "GoodTransmits": 0
+    }
+  }
+}

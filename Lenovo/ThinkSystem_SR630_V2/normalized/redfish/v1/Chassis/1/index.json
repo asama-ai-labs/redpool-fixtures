@@ -1,0 +1,213 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.etag": "\"1n1977m11i6ba8lfd268kj\"",
+  "@odata.id": "/redfish/v1/Chassis/1",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "1",
+  "Name": "Chassis",
+  "Description": "This resource is used to represent a chassis or other physical enclosure for a Redfish implementation.",
+  "ChassisType": "RackMount",
+  "Manufacturer": "Lenovo",
+  "Model": "ThinkSystem SR630 V2",
+  "SerialNumber": "DUMMY-SerialNumber-2",
+  "PartNumber": "SB27A75069",
+  "SKU": "DUMMY-SKU-2|DUMMY-ID-10",
+  "AssetTag": "",
+  "PowerState": "On",
+  "IndicatorLED": "Off",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "PoweredBy": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
+      }
+    ],
+    "ManagersInChassis": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "CooledBy": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/8"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/9"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/10"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/11"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/12"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/13"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/14"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/15"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "ComputerSystems": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "PCIeDevices": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7"
+      }
+    ],
+    "Storage": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe"
+      }
+    ],
+    "Processors": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+      }
+    ],
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3"
+      }
+    ]
+  },
+  "Actions": {},
+  "Power": {
+    "@odata.id": "/redfish/v1/Chassis/1/Power"
+  },
+  "Thermal": {
+    "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+  },
+  "PowerSubsystem": {
+    "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem"
+  },
+  "ThermalSubsystem": {
+    "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem"
+  },
+  "NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+  },
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+  },
+  "PCIeSlots": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+  },
+  "Assembly": {},
+  "Sensors": {
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors"
+  },
+  "EnvironmentMetrics": {
+    "@odata.id": "/redfish/v1/Chassis/1/EnvironmentMetrics"
+  },
+  "PhysicalSecurity": {},
+  "LogServices": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices"
+  },
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoChassis.v1_0_0.LenovoChassisProperties",
+      "ProductName": "ThinkSystem SR630 V2",
+      "FruPartNumber": "03GY115",
+      "LEDs": {
+        "@odata.id": "/redfish/v1/Chassis/1/Oem/Lenovo/LEDs"
+      },
+      "SystemBoardSerialNumber": "DUMMY-SystemBoardSerialNumber-1",
+      "Slots": {
+        "@odata.id": "/redfish/v1/Chassis/1/Oem/Lenovo/Slots"
+      }
+    },
+    "Redpool": {
+      "FruPartNumber": "03GY115",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolChassis"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/UpdateService/FirmwareInventory/CPLD_Motherboard","@odata.type":"#SoftwareInventory.v1_3_0.SoftwareInventory","Description":"Other image","Id":"CPLD_Motherboard","Name":"CPLD Motherboard","RelatedItem":[],"RelatedItem@odata.count":0,"Status":{"Health":"OK","HealthRollup":"OK","State":"Enabled"},"Updateable":true,"Version":"4D.01.0C"}

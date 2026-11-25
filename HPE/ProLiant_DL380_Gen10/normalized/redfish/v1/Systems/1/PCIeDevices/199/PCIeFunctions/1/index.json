@@ -1,0 +1,17 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "W/\"A3A6BF43\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/199/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+  "Id": "1",
+  "ClassCode": "0x020000",
+  "DeviceClass": "NetworkController",
+  "DeviceId": "0X1563",
+  "FunctionId": 1,
+  "FunctionType": "Physical",
+  "Name": "Function 1",
+  "RevisionId": "0x00",
+  "SubsystemId": "0X00D1",
+  "SubsystemVendorId": "0X1590",
+  "VendorId": "0X8086"
+}

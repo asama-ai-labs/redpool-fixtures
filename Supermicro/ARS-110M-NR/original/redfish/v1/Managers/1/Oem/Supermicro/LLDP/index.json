@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/LLDP","@odata.type":"#SmcLLDPService.v1_0_0.SmcLLDPService","Description":"LLDP Service","Id":"LLDP","LLDPEnabled":false,"LLDPReceive":{},"Name":"LLDP"}

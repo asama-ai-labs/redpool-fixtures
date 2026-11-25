@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"2119586511\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/199-0/PCIeFunctions/199-0-0",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "199-0-0",
+  "Name": "FCH SATA Controller [AHCI mode]",
+  "Description": "FCH SATA Controller [AHCI mode]",
+  "DeviceClass": "MassStorageController",
+  "FunctionType": "Physical",
+  "FunctionId": 0,
+  "ClassCode": "0x010601",
+  "DeviceId": "0x7901",
+  "VendorId": "0x1022",
+  "SubsystemId": "0x08ff",
+  "SubsystemVendorId": "0x1028",
+  "RevisionId": "0x51",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "StorageControllers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1#/StorageControllers/0"
+      }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Drives": [],
+    "Drives@odata.count": 0,
+    "EthernetInterfaces": [],
+    "EthernetInterfaces@odata.count": 0,
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/199-0"
+    }
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellChassisPCIeFunction.v1_1_0.DellPCIeFunction",
+      "DellPCIeFunction": {
+        "DataBusWidth": "Unknown",
+        "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
+        "LastUpdateTime": "2024-08-07T00:50:38+00:00",
+        "SlotLength": "Unknown",
+        "SlotType": "Unknown",
+        "Id": "AHCI.Embedded.1-1"
+      }
+    }
+  }
+}

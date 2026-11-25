@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"6526582a7ba92af148d\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_1/PCIeFunctions/slot_1.01",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "slot_1.01",
+  "Name": "Broadcom 57508 100GbE QSFP56 2-port PCIe 4 Ethernet Adapter ::1",
+  "Description": "This resource represents the properties of a PCIeFunction attached to a System.",
+  "DeviceClass": "NetworkController",
+  "FunctionType": "Physical",
+  "FunctionId": 1,
+  "ClassCode": "0x020000",
+  "DeviceId": "0x1750",
+  "VendorId": "0x14e4",
+  "SubsystemId": "0x404c",
+  "SubsystemVendorId": "0x17aa",
+  "RevisionId": "0x11",
+  "Status": {
+    "HealthRollup": "OK",
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "EthernetInterfaces": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/NIC2"
+      }
+    ],
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_1"
+    },
+    "NetworkDeviceFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkDeviceFunctions/2.1"
+      }
+    ]
+  },
+  "Oem": {}
+}

@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/DiagnosticLog/Entries/MPFA",
+  "Id": "MPFA",
+  "Name": "Memory PFA Data",
+  "EntryType": "Oem",
+  "@odata.etag": "\"389989e38ae525a5f38\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "OemRecordFormat": "Lenovo",
+  "AdditionalDataSizeBytes": 0,
+  "DiagnosticDataType": "OEM",
+  "OEMDiagnosticDataType": "MPFA"
+}

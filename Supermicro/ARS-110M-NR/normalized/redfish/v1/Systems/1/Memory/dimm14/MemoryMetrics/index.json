@@ -1,0 +1,11 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#MemoryMetrics.MemoryMetrics",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/dimm14/MemoryMetrics",
+  "@odata.type": "#MemoryMetrics.v1_7_0.MemoryMetrics",
+  "Id": "MemoryMetrics",
+  "Name": "Memory Metrics",
+  "BandwidthPercent": 0,
+  "OperatingSpeedMHz": 0,
+  "HealthData": {},
+  "Oem": {}
+}

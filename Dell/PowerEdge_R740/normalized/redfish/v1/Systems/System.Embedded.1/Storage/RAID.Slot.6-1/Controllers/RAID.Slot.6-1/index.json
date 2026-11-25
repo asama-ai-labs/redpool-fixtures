@@ -1,0 +1,127 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageController.StorageController",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Controllers/RAID.Slot.6-1",
+  "@odata.type": "#StorageController.v1_7_0.StorageController",
+  "Id": "RAID.Slot.6-1",
+  "Name": "PERC H330 Adapter",
+  "Description": "RAID Controller in Slot 6",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Manufacturer": "DELL",
+  "Model": "PERC H330 Adapter",
+  "FirmwareVersion": "25.5.9.0001",
+  "Identifiers": [
+    {
+      "DurableName": "0000000000000001",
+      "DurableNameFormat": "NAA"
+    }
+  ],
+  "SpeedGbps": 12.0,
+  "SupportedControllerProtocols": [
+    "PCIe"
+  ],
+  "SupportedDeviceProtocols": [
+    "SAS",
+    "SATA"
+  ],
+  "SupportedRAIDTypes": [
+    "RAID0",
+    "RAID1",
+    "RAID5",
+    "RAID10",
+    "RAID50"
+  ],
+  "CacheSummary": {
+    "TotalCacheSizeMiB": 0
+  },
+  "PCIeInterface": {},
+  "ControllerRates": {
+    "ConsistencyCheckRatePercent": 30,
+    "RebuildRatePercent": 30
+  },
+  "Ports": {},
+  "Links": {
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0/PCIeFunctions/24-0-0"
+      }
+    ],
+    "PCIeFunctions@odata.count": 1
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOemStorageController.v1_0_0.DellOemStorageController",
+      "DellStorageController": {
+        "AlarmState": "AlarmNotPresent",
+        "AutoConfigBehavior": "NotApplicable",
+        "BackgroundInitializationRatePercent": 30,
+        "BatteryLearnMode": null,
+        "BootVirtualDiskFQDD": "Disk.Virtual.0:RAID.Slot.6-1",
+        "CacheSizeInMB": 0,
+        "CachecadeCapability": "NotSupported",
+        "CheckConsistencyMode": "Normal",
+        "ConnectorCount": 2,
+        "ControllerBootMode": "ContinueBootOnError",
+        "ControllerFirmwareVersion": "25.5.9.0001",
+        "ControllerMode": "RAID",
+        "CopybackMode": "On",
+        "CurrentControllerMode": "RAID",
+        "Device": "0",
+        "DeviceCardDataBusWidth": "8x or x8",
+        "DeviceCardSlotLength": "LongLength",
+        "DeviceCardSlotType": "PCI Express Gen3 x16",
+        "DriverVersion": "--NA--",
+        "EncryptionCapability": "None",
+        "EncryptionMode": "None",
+        "EnhancedAutoImportForeignConfigurationMode": "Disabled",
+        "KeyID": null,
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2025-05-14T11:59:46+00:00",
+        "LoadBalanceMode": "Automatic",
+        "MaxAvailablePCILinkSpeed": "Generation 3",
+        "MaxDrivesInSpanCount": 32,
+        "MaxPossiblePCILinkSpeed": "Generation 3",
+        "MaxSpansInVolumeCount": 8,
+        "MaxSupportedVolumesCount": 32,
+        "PCISlot": 6,
+        "PatrolReadIterationsCount": 0,
+        "PatrolReadMode": "Automatic",
+        "PatrolReadRatePercent": 30,
+        "PatrolReadState": "Stopped",
+        "PatrolReadUnconfiguredAreaMode": "Enabled",
+        "PersistentHotspare": "Disabled",
+        "PersistentHotspareMode": "Disabled",
+        "RAIDMode": "None",
+        "RealtimeCapability": "Capable",
+        "ReconstructRatePercent": 30,
+        "RollupStatus": "OK",
+        "SASAddress": "DUMMY-SASAddress",
+        "SecurityStatus": "EncryptionNotCapable",
+        "SharedSlotAssignmentAllowed": "NotApplicable",
+        "SlicedVDCapability": "Supported",
+        "SpindownIdleTimeSeconds": 30,
+        "SupportControllerBootMode": "Supported",
+        "SupportEnhancedAutoForeignImport": "Supported",
+        "SupportRAID10UnevenSpans": "Supported",
+        "SupportedInitializationTypes": [
+          "Slow",
+          "Fast"
+        ],
+        "SupportedInitializationTypes@odata.count": 2,
+        "SupportsLKMtoSEKMTransition": "No",
+        "T10PICapability": "NotSupported"
+      }
+    },
+    "Redpool": {
+      "FruPartNumber": "0CG2YM",
+      "EngineeringChangeLevel": "A01",
+      "ManufactureWeek": 31,
+      "ManufactureYear": 2019,
+      "ManufactureDate": "2019-08-01",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolStorageController"
+    }
+  }
+}

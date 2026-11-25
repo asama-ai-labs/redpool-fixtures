@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/fantach_FAN3","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"fantach_FAN3","Name":"FAN3","Reading":8784.0,"ReadingRangeMax":40000.0,"ReadingRangeMin":0.0,"ReadingType":"Rotational","ReadingUnits":"RPM","Status":{"Health":"OK","State":"Enabled"},"Thresholds":{"LowerCritical":{"Reading":500.0}}}

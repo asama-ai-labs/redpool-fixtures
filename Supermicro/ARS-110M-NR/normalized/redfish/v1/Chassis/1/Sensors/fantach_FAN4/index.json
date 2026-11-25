@@ -1,0 +1,22 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN4",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "fantach_FAN4",
+  "Name": "FAN4",
+  "Reading": 8837.0,
+  "ReadingType": "Rotational",
+  "ReadingUnits": "RPM",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 40000.0,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCritical": {
+      "Reading": 500.0
+    }
+  },
+  "Oem": {}
+}

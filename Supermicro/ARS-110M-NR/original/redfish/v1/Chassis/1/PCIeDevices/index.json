@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/PCIeDevices","@odata.type":"#PCIeDeviceCollection.PCIeDeviceCollection","Description":"Collection of PCIe Devices","Members":[{"@odata.id":"/redfish/v1/Chassis/1/PCIeDevices/NVMeSSD1"},{"@odata.id":"/redfish/v1/Chassis/1/PCIeDevices/NVMeSSD2"}],"Members@odata.count":2,"Name":"PCIe Device Collection"}

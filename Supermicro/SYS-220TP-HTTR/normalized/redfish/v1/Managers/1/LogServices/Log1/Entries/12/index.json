@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/Log1/Entries/12",
+  "Id": "12",
+  "Name": "Maintenance Event Log Entry 12",
+  "EntryType": "Oem",
+  "@odata.etag": "05eb8e255e6595deb5a79ff11330d1f8",
+  "Created": "2022-10-29T09:42:39Z",
+  "Severity": "OK",
+  "Message": "[MEL-0212] The fullsmbios file was uploaded successfully",
+  "MessageId": "Event.1.0.FileUploaded",
+  "OemRecordFormat": "SMC",
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcLogEntryExtensions.v1_0_1.LogEntry",
+      "Interface": "RMCP",
+      "User": "N/A",
+      "Source": "N/A",
+      "Category": "others"
+    },
+    "Redpool": {
+      "Interface": "RMCP",
+      "User": "N/A",
+      "Source": "N/A",
+      "Category": "others",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

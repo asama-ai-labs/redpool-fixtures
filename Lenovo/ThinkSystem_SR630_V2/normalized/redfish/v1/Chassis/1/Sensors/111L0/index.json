@@ -1,0 +1,26 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.etag": "\"37a54e07e1f3242900b\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/111L0",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "111L0",
+  "Name": "Pwr Rail MNOP Er",
+  "Description": "This resource is used to represent a sensor for a Redfish implementation.",
+  "Reading": 0,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {},
+  "Oem": {},
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem"
+    }
+  ]
+}

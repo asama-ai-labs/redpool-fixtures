@@ -1,0 +1,1159 @@
+redfish_bios_attributes{attribute_name="AcPwrRcvry",attribute_value="Last"} 1
+redfish_bios_attributes{attribute_name="AcPwrRcvryDelay",attribute_value="Immediate"} 1
+redfish_bios_attributes{attribute_name="AcPwrRcvryUserDelay",attribute_value="60.00"} 1
+redfish_bios_attributes{attribute_name="AdddcSetting",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AesNi",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AssetTag",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="AuthorizeDeviceFirmware",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="AvxIccpPregrant",attribute_value="IccpHeavy128"} 1
+redfish_bios_attributes{attribute_name="BootMode",attribute_value="Uefi"} 1
+redfish_bios_attributes{attribute_name="BootSeqRetry",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="CECriticalSEL",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ConTermType",attribute_value="Vt100Vt220"} 1
+redfish_bios_attributes{attribute_name="ControlledTurbo",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ControlledTurboMinusBin",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="CorrEccSmi",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="CpuInterconnectBusLinkPower",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="CpuInterconnectBusSpeed",attribute_value="MaxDataRate"} 1
+redfish_bios_attributes{attribute_name="CurrentEmbVideoState",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DcuIpPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DcuStreamerPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DeadLineLlcAlloc",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DellAutoDiscovery",attribute_value="PlatformDefault"} 1
+redfish_bios_attributes{attribute_name="DellWyseP25BIOSAccess",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DirectoryAtoS",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="DramRefreshDelay",attribute_value="Performance"} 1
+redfish_bios_attributes{attribute_name="DynamicCoreAllocation",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EmbSata",attribute_value="AhciMode"} 1
+redfish_bios_attributes{attribute_name="EmbVideo",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EnergyPerformanceBias",attribute_value="MaxPower"} 1
+redfish_bios_attributes{attribute_name="ErrPrompt",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ExtSerialConnector",attribute_value="Serial1"} 1
+redfish_bios_attributes{attribute_name="FailSafeBaud",attribute_value="115200"} 1
+redfish_bios_attributes{attribute_name="ForceInt10",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="GenericUsbBoot",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HddFailover",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HddPlaceholder",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev1DhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev1Dns1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1Dns2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1DnsDhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev1EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev1Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="HttpDev1Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="HttpDev1TlsMode",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="HttpDev1Uri",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev1VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev1VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev1VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev2DhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev2Dns1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2Dns2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2DnsDhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev2EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev2Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="HttpDev2Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="HttpDev2TlsMode",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="HttpDev2Uri",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev2VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev2VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev2VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev3DhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev3Dns1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3Dns2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3DnsDhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev3EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev3Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="HttpDev3Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="HttpDev3TlsMode",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="HttpDev3Uri",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev3VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev3VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev3VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev4DhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev4Dns1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4Dns2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4DnsDhcpEnDis",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev4EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev4Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="HttpDev4Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="HttpDev4TlsMode",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="HttpDev4Uri",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="HttpDev4VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="HttpDev4VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="HttpDev4VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="InBandManageabilityInterface",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IntegratedNetwork1",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IntelTxt",attribute_value="Off"} 1
+redfish_bios_attributes{attribute_name="InternalUsb",attribute_value="On"} 1
+redfish_bios_attributes{attribute_name="IoatEngine",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Auth",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1ChapName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1ChapSecret",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1ChapType",attribute_value="OneWay"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1DhcpEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1IsId",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Lun",attribute_value="0"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Port",attribute_value="3260.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Retry",attribute_value="3.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1RevChapName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1RevChapSecret",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1TargetIp",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1TargetName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1TgtDhcpEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1Timeout",attribute_value="10000.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con1VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Auth",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2ChapName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2ChapSecret",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2ChapType",attribute_value="OneWay"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2DhcpEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Gateway",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Ip",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2IsId",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Lun",attribute_value="0"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Mask",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Port",attribute_value="3260.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Retry",attribute_value="3.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2RevChapName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2RevChapSecret",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2TargetIp",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2TargetName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2TgtDhcpEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2Timeout",attribute_value="10000.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1Con2VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1ConOrder",attribute_value="Con1Con2"} 1
+redfish_bios_attributes{attribute_name="IscsiDev1EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IscsiF1F2ErrorPrompt",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IscsiInitiatorName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="LlcPrefetch",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="LogicalProc",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="MemFrequency",attribute_value="MaxPerf"} 1
+redfish_bios_attributes{attribute_name="MemOpMode",attribute_value="OptimizerMode"} 1
+redfish_bios_attributes{attribute_name="MemPatrolScrub",attribute_value="Standard"} 1
+redfish_bios_attributes{attribute_name="MemRefreshRate",attribute_value="1x"} 1
+redfish_bios_attributes{attribute_name="MemTest",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="MemoryMappedIOH",attribute_value="56TB"} 1
+redfish_bios_attributes{attribute_name="MmioAbove4Gb",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="MonitorMwait",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="NativeTrfcTiming",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="NodeInterleave",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NumLock",attribute_value="On"} 1
+redfish_bios_attributes{attribute_name="NvmeMode",attribute_value="NonRaid"} 1
+redfish_bios_attributes{attribute_name="OneTimeBootMode",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="OneTimeUefiBootSeqDev",attribute_value="RAID.Slot.6-1"} 1
+redfish_bios_attributes{attribute_name="OppSrefEn",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="OsWatchdogTimer",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PCIRootDeviceUnhide",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PPROnUCE",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PasswordStatus",attribute_value="Unlocked"} 1
+redfish_bios_attributes{attribute_name="PcieAspmL1",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PowerCycleRequest",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="Proc1Brand",attribute_value="Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz"} 1
+redfish_bios_attributes{attribute_name="Proc1Id",attribute_value="6-55-7"} 1
+redfish_bios_attributes{attribute_name="Proc1L2Cache",attribute_value="8x1 MB"} 1
+redfish_bios_attributes{attribute_name="Proc1L3Cache",attribute_value="11 MB"} 1
+redfish_bios_attributes{attribute_name="Proc1MaxMemoryCapacity",attribute_value="1 TB"} 1
+redfish_bios_attributes{attribute_name="Proc1Microcode",attribute_value="0x5003901"} 1
+redfish_bios_attributes{attribute_name="Proc1NumCores",attribute_value="8.00"} 1
+redfish_bios_attributes{attribute_name="Proc1TurboCoreNum",attribute_value="All"} 1
+redfish_bios_attributes{attribute_name="Proc2Brand",attribute_value="Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz"} 1
+redfish_bios_attributes{attribute_name="Proc2Id",attribute_value="6-55-7"} 1
+redfish_bios_attributes{attribute_name="Proc2L2Cache",attribute_value="8x1 MB"} 1
+redfish_bios_attributes{attribute_name="Proc2L3Cache",attribute_value="11 MB"} 1
+redfish_bios_attributes{attribute_name="Proc2MaxMemoryCapacity",attribute_value="1 TB"} 1
+redfish_bios_attributes{attribute_name="Proc2Microcode",attribute_value="0x5003901"} 1
+redfish_bios_attributes{attribute_name="Proc2NumCores",attribute_value="8.00"} 1
+redfish_bios_attributes{attribute_name="Proc2TurboCoreNum",attribute_value="All"} 1
+redfish_bios_attributes{attribute_name="ProcAdjCacheLine",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcBusSpeed",attribute_value="9.60 GT/s"} 1
+redfish_bios_attributes{attribute_name="ProcC1E",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ProcCStates",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ProcConfigTdp",attribute_value="Nominal"} 1
+redfish_bios_attributes{attribute_name="ProcCoreSpeed",attribute_value="2.10 GHz"} 1
+redfish_bios_attributes{attribute_name="ProcCores",attribute_value="All"} 1
+redfish_bios_attributes{attribute_name="ProcHwPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcPwrPerf",attribute_value="MaxPerf"} 1
+redfish_bios_attributes{attribute_name="ProcTurboMode",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcVirtualization",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcX2Apic",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PwrButton",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev1EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev1Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="PxeDev1Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="PxeDev1VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev1VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev1VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev2EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev2Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="PxeDev2Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="PxeDev2VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev2VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev2VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev3EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev3Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="PxeDev3Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="PxeDev3VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev3VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev3VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev4EnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev4Interface",attribute_value="NIC.Integrated.1-1-1"} 1
+redfish_bios_attributes{attribute_name="PxeDev4Protocol",attribute_value="IPv4"} 1
+redfish_bios_attributes{attribute_name="PxeDev4VlanEnDis",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PxeDev4VlanId",attribute_value="1.00"} 1
+redfish_bios_attributes{attribute_name="PxeDev4VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="RedirAfterBoot",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="RedundantOsBoot",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="RedundantOsLocation",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="RedundantOsState",attribute_value="Visible"} 1
+redfish_bios_attributes{attribute_name="SHA256SetupPassword",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SHA256SetupPasswordSalt",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SHA256SystemPassword",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SHA256SystemPasswordSalt",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SataPortA",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortACapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortADriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortAModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortB",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortBCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortBDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortBModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortC",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortCCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortCDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortCModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortD",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortDCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortDDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortDModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortE",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortECapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortEDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortEModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortF",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortFCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortFDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortFModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortG",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortGCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortGDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortGModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortH",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortHCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortHDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortHModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortI",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortICapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortIDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortIModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortJ",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortJCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortJDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortJModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortK",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortKCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortKDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortKModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortL",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortLCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortLDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortLModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortM",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortMCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortMDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortMModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SataPortN",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SataPortNCapacity",attribute_value="N/A"} 1
+redfish_bios_attributes{attribute_name="SataPortNDriveType",attribute_value="Unknown Device"} 1
+redfish_bios_attributes{attribute_name="SataPortNModel",attribute_value="Unknown"} 1
+redfish_bios_attributes{attribute_name="SecureBoot",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SecureBootMode",attribute_value="DeployedMode"} 1
+redfish_bios_attributes{attribute_name="SecureBootPolicy",attribute_value="Standard"} 1
+redfish_bios_attributes{attribute_name="SecurityFreezeLock",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="SerialComm",attribute_value="OnConRedirAuto"} 1
+redfish_bios_attributes{attribute_name="SerialPortAddress",attribute_value="Serial1Com2Serial2Com1"} 1
+redfish_bios_attributes{attribute_name="SetBootOrderDis",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderEn",attribute_value="RAID.Slot.6-1"} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd10",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd11",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd12",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd13",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd14",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd15",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd16",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd3",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd4",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd5",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd6",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd7",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd8",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetBootOrderFqdd9",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd1",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd10",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd11",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd12",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd13",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd14",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd15",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd16",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd3",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd4",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd5",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd6",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd7",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd8",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetLegacyHddOrderFqdd9",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetupPassword",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="Slot1",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot1Bif",attribute_value="x16"} 1
+redfish_bios_attributes{attribute_name="Slot3",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot3Bif",attribute_value="x16"} 1
+redfish_bios_attributes{attribute_name="Slot4",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot4Bif",attribute_value="x16"} 1
+redfish_bios_attributes{attribute_name="Slot5",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot5Bif",attribute_value="x8"} 1
+redfish_bios_attributes{attribute_name="Slot6",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot6Bif",attribute_value="x8"} 1
+redfish_bios_attributes{attribute_name="Slot7",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot7Bif",attribute_value="x8"} 1
+redfish_bios_attributes{attribute_name="Slot8",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot8Bif",attribute_value="x16"} 1
+redfish_bios_attributes{attribute_name="SnoopHldOff",attribute_value="Roll2KCycles"} 1
+redfish_bios_attributes{attribute_name="SriovGlobalEnable",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SubNumaCluster",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SysMemSize",attribute_value="256 GB"} 1
+redfish_bios_attributes{attribute_name="SysMemSpeed",attribute_value="2400 Mhz"} 1
+redfish_bios_attributes{attribute_name="SysMemType",attribute_value="ECC DDR4"} 1
+redfish_bios_attributes{attribute_name="SysMemVolt",attribute_value="1.20 V"} 1
+redfish_bios_attributes{attribute_name="SysMfrContactInfo",attribute_value="DUMMY.example.invalid"} 1
+redfish_bios_attributes{attribute_name="SysPassword",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SysProfile",attribute_value="PerfOptimized"} 1
+redfish_bios_attributes{attribute_name="SystemBiosVersion",attribute_value="2.25.0"} 1
+redfish_bios_attributes{attribute_name="SystemCpldVersion",attribute_value="1.1.4"} 1
+redfish_bios_attributes{attribute_name="SystemManufacturer",attribute_value="Dell Inc."} 1
+redfish_bios_attributes{attribute_name="SystemMeVersion",attribute_value="4.1.5.201"} 1
+redfish_bios_attributes{attribute_name="SystemModelName",attribute_value="PowerEdge R740"} 1
+redfish_bios_attributes{attribute_name="SystemServiceTag",attribute_value="DUMMY-SystemServiceTag-1"} 1
+redfish_bios_attributes{attribute_name="TpmInfo",attribute_value="No TPM present"} 1
+redfish_bios_attributes{attribute_name="TpmPpiBypassClear",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="TpmPpiBypassProvision",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiComplianceVersion",attribute_value="2.7"} 1
+redfish_bios_attributes{attribute_name="UefiVariableAccess",attribute_value="Standard"} 1
+redfish_bios_attributes{attribute_name="UncoreFrequency",attribute_value="MaxUFS"} 1
+redfish_bios_attributes{attribute_name="UpiPrefetch",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="UsbManagedPort",attribute_value="On"} 1
+redfish_bios_attributes{attribute_name="UsbPorts",attribute_value="AllOn"} 1
+redfish_bios_attributes{attribute_name="VideoMem",attribute_value="16 MB"} 1
+redfish_bios_attributes{attribute_name="WorkloadProfile",attribute_value="NotAvailable"} 1
+redfish_bios_attributes{attribute_name="WriteCache",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="WriteDataCrc",attribute_value="Disabled"} 1
+redfish_bmc_manager_health_info{health="OK",id="iDRAC.Embedded.1"} 1
+redfish_bmc_manager_info{firmware_version="7.00.00.183",id="iDRAC.Embedded.1",manufacturer="",model="14G Monolithic",name="Manager",uuid="550e8400-e29b-41d4-a716-000000000001"} 1
+redfish_bmc_manager_state_info{id="iDRAC.Embedded.1",state="Enabled"} 1
+redfish_chassis_health_info{health="OK",health_rollup="OK",id="Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_chassis_health_info{health="OK",health_rollup="OK",id="System.Embedded.1"} 1
+redfish_chassis_info{asset_tag="",chassis_type="RackMount",contained_by="",contains="Enclosure.Internal.0-1:RAID.Slot.6-1",device_serial_number="DUMMY-SerialNumber-1",engineering_change_level="",fru_part_number="",id="System.Embedded.1",manufacture_date="",manufacturer="Dell Inc.",model="PowerEdge R740",part_number="06WXJTA00",sku="DUMMY-SKU-1"} 1
+redfish_chassis_info{asset_tag="",chassis_type="StorageEnclosure",contained_by="System.Embedded.1",contains="",device_serial_number="",engineering_change_level="",fru_part_number="",id="Enclosure.Internal.0-1:RAID.Slot.6-1",manufacture_date="",manufacturer="",model="BP14G+ 0:1",part_number="",sku=""} 1
+redfish_chassis_intrusion_state{id="System.Embedded.1",intrusion_sensor="Normal"} 1
+redfish_chassis_power_state_info{id="Enclosure.Internal.0-1:RAID.Slot.6-1",power_state="On"} 1
+redfish_chassis_power_state_info{id="System.Embedded.1",power_state="On"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU1MEM012VR",sensor_name="CPU1 MEM012 VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU1MEM345VR",sensor_name="CPU1 MEM345 VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU1Temp",sensor_name="CPU1 Temp"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU1VCOREVR",sensor_name="CPU1 VCORE VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU2MEM012VR",sensor_name="CPU2 MEM012 VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU2MEM345VR",sensor_name="CPU2 MEM345 VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU2Temp",sensor_name="CPU2 Temp"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="CPU2VCOREVR",sensor_name="CPU2 VCORE VR"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PS1Current1",sensor_name="PS1 Current 1"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PS1Voltage",sensor_name="PS1 Voltage 1"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PS2Current2",sensor_name="PS2 Current 2"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PS2Voltage",sensor_name="PS2 Voltage 2"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.1_InputPower",sensor_name="InputPowerSensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.1_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.1_OutputPower",sensor_name="OutputPowerSensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.2_InputPower",sensor_name="InputPowerSensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.2_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="PSU.Slot.2_OutputPower",sensor_name="OutputPowerSensor"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemAirFlow",sensor_name="SystemAirFlow"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardCPUUsage",sensor_name="System Board CPU Usage"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardIOUsage",sensor_name="System Board IO Usage"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardMEMUsage",sensor_name="System Board MEM Usage"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption"} 1
+redfish_chassis_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_id="SystemBoardSYSUsage",sensor_name="System Board SYS Usage"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU1Temp",sensor_name="CPU1 Temp"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU2Temp",sensor_name="CPU2 Temp"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1MEM012VR",sensor_name="CPU1 MEM012 VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1MEM345VR",sensor_name="CPU1 MEM345 VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1VCOREVR",sensor_name="CPU1 VCORE VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2MEM012VR",sensor_name="CPU2 MEM012 VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2MEM345VR",sensor_name="CPU2 MEM345 VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2VCOREVR",sensor_name="CPU2 VCORE VR"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="Chassis",reading_type="AirFlow",reading_units="[ft_i]3/min",sensor_id="SystemAirFlow",sensor_name="SystemAirFlow"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Current",reading_units="A",sensor_id="PS1Current1",sensor_name="PS1 Current 1"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Current",reading_units="A",sensor_id="PS2Current2",sensor_name="PS2 Current 2"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Frequency",reading_units="Hz",sensor_id="PSU.Slot.1_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Frequency",reading_units="Hz",sensor_id="PSU.Slot.2_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.1_InputPower",sensor_name="InputPowerSensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.1_OutputPower",sensor_name="OutputPowerSensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.2_InputPower",sensor_name="InputPowerSensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.2_OutputPower",sensor_name="OutputPowerSensor"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Voltage",reading_units="V",sensor_id="PS1Voltage",sensor_name="PS1 Voltage 1"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Voltage",reading_units="V",sensor_id="PS2Voltage",sensor_name="PS2 Voltage 2"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardCPUUsage",sensor_name="System Board CPU Usage"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardIOUsage",sensor_name="System Board IO Usage"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardMEMUsage",sensor_name="System Board MEM Usage"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardSYSUsage",sensor_name="System Board SYS Usage"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Power",reading_units="W",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 1
+redfish_chassis_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 1
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU1Temp",sensor_name="CPU1 Temp"} 3
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU2Temp",sensor_name="CPU2 Temp"} 3
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6"} 480
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 3
+redfish_chassis_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} -7
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6"} 840
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 8
+redfish_chassis_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 3
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU1Temp",sensor_name="CPU1 Temp"} 35
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU2Temp",sensor_name="CPU2 Temp"} 39
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1MEM012VR",sensor_name="CPU1 MEM012 VR"} 1.2200000286102295
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1MEM345VR",sensor_name="CPU1 MEM345 VR"} 1.2200000286102295
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU1VCOREVR",sensor_name="CPU1 VCORE VR"} 1.7799999713897705
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2MEM012VR",sensor_name="CPU2 MEM012 VR"} 1.2200000286102295
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2MEM345VR",sensor_name="CPU2 MEM345 VR"} 1.2200000286102295
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Voltage",reading_units="V",sensor_id="CPU2VCOREVR",sensor_name="CPU2 VCORE VR"} 1.7799999713897705
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="Chassis",reading_type="AirFlow",reading_units="[ft_i]3/min",sensor_id="SystemAirFlow",sensor_name="SystemAirFlow"} 96
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Current",reading_units="A",sensor_id="PS1Current1",sensor_name="PS1 Current 1"} 0.6000000238418579
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Current",reading_units="A",sensor_id="PS2Current2",sensor_name="PS2 Current 2"} 0.4000000059604645
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Frequency",reading_units="Hz",sensor_id="PSU.Slot.1_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 63
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Frequency",reading_units="Hz",sensor_id="PSU.Slot.2_MaximumFrequency",sensor_name="MaximumFrequencySensor"} 63
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.1_InputPower",sensor_name="InputPowerSensor"} 113
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.1_OutputPower",sensor_name="OutputPowerSensor"} 97.375
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.2_InputPower",sensor_name="InputPowerSensor"} 90.25
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Power",reading_units="W",sensor_id="PSU.Slot.2_OutputPower",sensor_name="OutputPowerSensor"} 70.375
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Voltage",reading_units="V",sensor_id="PS1Voltage",sensor_name="PS1 Voltage 1"} 232
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="PowerSupply",reading_type="Voltage",reading_units="V",sensor_id="PS2Voltage",sensor_name="PS2 Voltage 2"} 228
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardCPUUsage",sensor_name="System Board CPU Usage"} 24
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardIOUsage",sensor_name="System Board IO Usage"} 0
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardMEMUsage",sensor_name="System Board MEM Usage"} 0
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardSYSUsage",sensor_name="System Board SYS Usage"} 25
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Power",reading_units="W",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption"} 192
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1"} 7920
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2"} 7800
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3"} 7800
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4"} 7680
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5"} 7920
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Rotational",reading_units="RPM",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6"} 7800
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 28
+redfish_chassis_sensor_reading{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 24
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU1MEM012VR",sensor_name="CPU1 MEM012 VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU1MEM345VR",sensor_name="CPU1 MEM345 VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU1Temp",sensor_name="CPU1 Temp",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU1VCOREVR",sensor_name="CPU1 VCORE VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU2MEM012VR",sensor_name="CPU2 MEM012 VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU2MEM345VR",sensor_name="CPU2 MEM345 VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU2Temp",sensor_name="CPU2 Temp",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="CPU2VCOREVR",sensor_name="CPU2 VCORE VR",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.1",sensor_name="System Board Fan1",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.2",sensor_name="System Board Fan2",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.3",sensor_name="System Board Fan3",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.4",sensor_name="System Board Fan4",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.5",sensor_name="System Board Fan5",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="Fan.Embedded.6",sensor_name="System Board Fan6",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PS1Current1",sensor_name="PS1 Current 1",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PS1Voltage",sensor_name="PS1 Voltage 1",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PS2Current2",sensor_name="PS2 Current 2",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PS2Voltage",sensor_name="PS2 Voltage 2",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.1_InputPower",sensor_name="InputPowerSensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.1_MaximumFrequency",sensor_name="MaximumFrequencySensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.1_OutputPower",sensor_name="OutputPowerSensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.2_InputPower",sensor_name="InputPowerSensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.2_MaximumFrequency",sensor_name="MaximumFrequencySensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="PSU.Slot.2_OutputPower",sensor_name="OutputPowerSensor",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemAirFlow",sensor_name="SystemAirFlow",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardCPUUsage",sensor_name="System Board CPU Usage",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardIOUsage",sensor_name="System Board IO Usage",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardMEMUsage",sensor_name="System Board MEM Usage",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption",state="Enabled"} 1
+redfish_chassis_sensor_state_info{chassis_id="System.Embedded.1",sensor_id="SystemBoardSYSUsage",sensor_name="System Board SYS Usage",state="Enabled"} 1
+redfish_chassis_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU1Temp",sensor_name="CPU1 Temp"} 90
+redfish_chassis_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",physical_context="CPU",reading_type="Temperature",reading_units="Cel",sensor_id="CPU2Temp",sensor_name="CPU2 Temp"} 90
+redfish_chassis_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Power",reading_units="W",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption"} 1920
+redfish_chassis_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 80
+redfish_chassis_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 42
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardCPUUsage",sensor_name="System Board CPU Usage"} 101
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardIOUsage",sensor_name="System Board IO Usage"} 101
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardMEMUsage",sensor_name="System Board MEM Usage"} 101
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Percent",reading_units="%",sensor_id="SystemBoardSYSUsage",sensor_name="System Board SYS Usage"} 101
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Power",reading_units="W",sensor_id="SystemBoardPwrConsumption",sensor_name="System Board Pwr Consumption"} 1752
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardExhaustTemp",sensor_name="System Board Exhaust Temp"} 75
+redfish_chassis_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",physical_context="SystemBoard",reading_type="Temperature",reading_units="Cel",sensor_id="SystemBoardInletTemp",sensor_name="System Board Inlet Temp"} 38
+redfish_chassis_state_info{id="Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_chassis_state_info{id="System.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-101548-25.5.9.0001__RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-103999-4.35__RAID.Backplane.Firmware.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-159-2.25.0__BIOS.Setup.1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-2-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-3-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-4-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-0-14.32.1010__NIC.Slot.3-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-0-14.32.1010__NIC.Slot.3-2"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-101548-25.5.9.0001__RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-101734-6.0__OSCollector.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-102573-00.3D.67__PSU.Slot.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-102573-00.3D.67__PSU.Slot.2"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-103900-DL2E__Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-103999-4.35__RAID.Backplane.Firmware.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104552-DL2E__Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104552-DL2E__Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104552-DL2E__Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104552-DL2E__Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104552-DL2E__Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-104684-5.4.2.0__ServiceModule.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-159-2.25.0__BIOS.Setup.1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-18981-24.01.04__DriverPack.Embedded.1:LC.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-25227-7.00.00.183__iDRAC.Embedded.1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-25806-4301A73__Diagnostics.Embedded.1:LC.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-2-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-3-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-4-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-27763-1.1.4__CPLD.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Installed-28897-7.00.00.183__USC.Embedded.1:LC.Embedded.1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-101548-25.5.8.0001__RAID.Slot.6-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-159-2.10.2__BIOS.Setup.1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-25227-4.40.10.00__iDRAC.Embedded.1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-1-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-2-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-3-1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-4-1"} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-101548-25.5.9.0001__RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="PERC H330 Adapter",related_kind="",related_location="",related_ref="",related_scope="",release_date="2020-04-17T07:53:02Z",software_id="101548",updateable="true",version="25.5.9.0001",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-103999-4.35__RAID.Backplane.Firmware.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Backplane 1",related_kind="",related_location="",related_ref="",related_scope="",release_date="2018-07-04T07:53:02Z",software_id="103999",updateable="true",version="4.35",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-159-2.25.0__BIOS.Setup.1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="BIOS",related_kind="",related_location="",related_ref="",related_scope="",release_date="2024-05-16T07:53:02Z",software_id="159",updateable="true",version="2.25.0",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:05",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-2-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:04",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-3-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:07",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Current-27479-16.20.00__NIC.Integrated.1-4-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:06",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-0-14.32.1010__NIC.Slot.3-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Eth 10/25Gb 2p 640SFP28 Adptr - NIC",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="0",updateable="true",version="14.32.1010",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-0-14.32.1010__NIC.Slot.3-2",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Eth 10/25Gb 2p 640SFP28 Adptr - NIC",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="0",updateable="true",version="14.32.1010",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-101548-25.5.9.0001__RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="PERC H330 Adapter",related_kind="",related_location="",related_ref="",related_scope="",release_date="2020-04-17T07:53:02Z",software_id="101548",updateable="true",version="25.5.9.0001",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-101734-6.0__OSCollector.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="OS COLLECTOR, v6.0, A00",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="101734",updateable="true",version="6.0",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-102573-00.3D.67__PSU.Slot.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Supply.Slot.1",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="102573",updateable="true",version="00.3D.67",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-102573-00.3D.67__PSU.Slot.2",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Supply.Slot.2",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="102573",updateable="true",version="00.3D.67",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-103900-DL2E__Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 0 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="103900",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-103999-4.35__RAID.Backplane.Firmware.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Backplane 1",related_kind="",related_location="",related_ref="",related_scope="",release_date="2018-07-04T07:53:02Z",software_id="103999",updateable="true",version="4.35",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104552-DL2E__Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 3 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104552",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104552-DL2E__Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 4 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104552",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104552-DL2E__Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 5 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104552",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104552-DL2E__Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 6 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104552",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104552-DL2E__Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Disk 7 in Backplane 1 of RAID Controller in Slot 6",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104552",updateable="true",version="DL2E",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-104684-5.4.2.0__ServiceModule.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Dell iDRAC Service Module Embedded Package v5.4.2.0, A00",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="104684",updateable="true",version="5.4.2.0",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-159-2.25.0__BIOS.Setup.1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="BIOS",related_kind="",related_location="",related_ref="",related_scope="",release_date="2024-05-16T07:53:02Z",software_id="159",updateable="true",version="2.25.0",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-18981-24.01.04__DriverPack.Embedded.1:LC.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Dell OS Driver Pack, 24.01.04, A00",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="18981",updateable="true",version="24.01.04",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-25227-7.00.00.183__iDRAC.Embedded.1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Integrated Dell Remote Access Controller",related_kind="",related_location="",related_ref="",related_scope="",release_date="2024-09-10T07:53:02Z",software_id="25227",updateable="true",version="7.00.00.183",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-25806-4301A73__Diagnostics.Embedded.1:LC.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Dell 64 Bit uEFI Diagnostics, version 4301, 4301A73, 4301.74",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="25806",updateable="true",version="4301A73",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:05",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-2-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:04",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-3-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:07",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-4-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:06",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="16.20.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-27763-1.1.4__CPLD.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="System CPLD",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="27763",updateable="true",version="1.1.4",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Installed-28897-7.00.00.183__USC.Embedded.1:LC.Embedded.1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Lifecycle Controller",related_kind="",related_location="",related_ref="",related_scope="",release_date="00:00:00Z",software_id="28897",updateable="true",version="7.00.00.183",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-101548-25.5.8.0001__RAID.Slot.6-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="PERC H330 Adapter",related_kind="",related_location="",related_ref="",related_scope="",release_date="2020-04-17T07:53:02Z",software_id="101548",updateable="true",version="25.5.8.0001",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-159-2.10.2__BIOS.Setup.1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="BIOS",related_kind="",related_location="",related_ref="",related_scope="",release_date="2024-05-16T07:53:02Z",software_id="159",updateable="true",version="2.10.2",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-25227-4.40.10.00__iDRAC.Embedded.1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="Integrated Dell Remote Access Controller",related_kind="",related_location="",related_ref="",related_scope="",release_date="2024-09-10T07:53:02Z",software_id="25227",updateable="true",version="4.40.10.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-1-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:05",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="15.20.13",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-2-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:04",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="15.20.13",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-3-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:07",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="15.20.13",write_protected=""} 1
+redfish_firmware_inventory_info{description="Represents Firmware Inventory",device_context="",installation_date="",inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-4-1",inventory_slot="",lowest_supported_version="",manufacturer="",name="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 00:1B:44:AA:00:06",related_kind="",related_location="",related_ref="",related_scope="",release_date="2022-11-30T07:53:02Z",software_id="27479",updateable="true",version="15.20.13",write_protected=""} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-101548-25.5.9.0001__RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-103999-4.35__RAID.Backplane.Firmware.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-159-2.25.0__BIOS.Setup.1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-27479-16.20.00__NIC.Integrated.1-1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-27479-16.20.00__NIC.Integrated.1-2-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-27479-16.20.00__NIC.Integrated.1-3-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Current-27479-16.20.00__NIC.Integrated.1-4-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-0-14.32.1010__NIC.Slot.3-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-0-14.32.1010__NIC.Slot.3-2",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-101548-25.5.9.0001__RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-101734-6.0__OSCollector.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-102573-00.3D.67__PSU.Slot.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-102573-00.3D.67__PSU.Slot.2",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-103900-DL2E__Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-103999-4.35__RAID.Backplane.Firmware.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104552-DL2E__Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104552-DL2E__Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104552-DL2E__Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104552-DL2E__Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104552-DL2E__Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-104684-5.4.2.0__ServiceModule.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-159-2.25.0__BIOS.Setup.1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-18981-24.01.04__DriverPack.Embedded.1:LC.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-25227-7.00.00.183__iDRAC.Embedded.1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-25806-4301A73__Diagnostics.Embedded.1:LC.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-2-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-3-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-27479-16.20.00__NIC.Integrated.1-4-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-27763-1.1.4__CPLD.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Installed-28897-7.00.00.183__USC.Embedded.1:LC.Embedded.1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-101548-25.5.8.0001__RAID.Slot.6-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-159-2.10.2__BIOS.Setup.1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-25227-4.40.10.00__iDRAC.Embedded.1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-1-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-2-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-3-1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Previous-27479-15.20.13__NIC.Integrated.1-4-1",state="Enabled"} 1
+redfish_inventory_exporter_collector_success{collector="bios",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="bmc",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="chassis",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="memory",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="network",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="pcie",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="power",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="processor",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="sensors",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="storage",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="thermal",target="mock"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM A11",device_serial_number="DUMMY-SerialNumber-19",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.A11",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM A12",device_serial_number="DUMMY-SerialNumber-25",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.A12",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM A5",device_serial_number="DUMMY-SerialNumber-24",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.A5",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM A6",device_serial_number="DUMMY-SerialNumber-20",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.A6",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM B2",device_serial_number="DUMMY-SerialNumber-23",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.B2",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM B3",device_serial_number="DUMMY-SerialNumber-21",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.B3",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM B8",device_serial_number="DUMMY-SerialNumber-22",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.B8",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="DIMM B9",device_serial_number="DUMMY-SerialNumber-26",ecc_bits="",enabled="true",error_correction="MultiBitECC",fru_part_number="",id="DIMM.Socket.B9",loc_channel="unknown",loc_imc="unknown",loc_slot="unknown",loc_socket="unknown",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="",memory_type="DDR4",operating_speed_mhz="2400",part_number="36ASF4G72PZ-3G2E7",rank_count="2"} 1
+redfish_memory_alarm_trip{id="DIMM.Socket.A11",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A11",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A11",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A11",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A11",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A12",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A12",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A12",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A12",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A12",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A5",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A5",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A5",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A5",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A5",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A6",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A6",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A6",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A6",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.A6",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B2",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B2",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B2",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B2",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B2",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B3",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B3",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B3",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B3",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B3",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B8",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B8",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B8",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B8",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B8",trip_type="UncorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B9",trip_type="AddressParityError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B9",trip_type="CorrectableECCError"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B9",trip_type="SpareBlock"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B9",trip_type="Temperature"} 0
+redfish_memory_alarm_trip{id="DIMM.Socket.B9",trip_type="UncorrectableECCError"} 0
+redfish_memory_health_info{health="OK",id="DIMM.Socket.A11"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.A12"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.A5"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.A6"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.B2"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.B3"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.B8"} 1
+redfish_memory_health_info{health="OK",id="DIMM.Socket.B9"} 1
+redfish_memory_state_info{id="DIMM.Socket.A11",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.A12",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.A5",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.A6",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.B2",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.B3",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.B8",state="Enabled"} 1
+redfish_memory_state_info{id="DIMM.Socket.B9",state="Enabled"} 1
+redfish_memory_summary_health_info{health="OK"} 1
+redfish_memory_summary_info{device_count="8",total_system_memory_gib="256.00",total_system_memory_mib="262144"} 1
+redfish_memory_summary_state_info{state="Enabled"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Integrated.1-1-1",interface_enabled="true",link_status="LinkDown",mac_address="00:1B:44:AA:00:05",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:05",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Integrated.1-2-1",interface_enabled="true",link_status="LinkDown",mac_address="00:1B:44:AA:00:04",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:04",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Integrated.1-3-1",interface_enabled="true",link_status="LinkDown",mac_address="00:1B:44:AA:00:07",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:07",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Integrated.1-4-1",interface_enabled="true",link_status="LinkDown",mac_address="00:1B:44:AA:00:06",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:06",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Slot.3-1",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:08",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:08",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="NIC.Slot.3-2",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:09",name="System Ethernet Interface",permanent_mac_address="00:1B:44:AA:00:09",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network_adapter_health_info{chassis_id="System.Embedded.1",health="OK",health_rollup="OK",id="NIC.Integrated.1"} 1
+redfish_network_adapter_health_info{chassis_id="System.Embedded.1",health="Unknown",health_rollup="Unknown",id="NIC.Slot.3"} 1
+redfish_network_adapter_info{chassis_id="System.Embedded.1",engineering_change_level="",firmware_version="14.32.1010",fru_part_number="",id="NIC.Slot.3",manufacture_date="",manufacturer="Mellanox Technologies",model="",name="Network Adapter View",part_number="",serial_number="",sku="",uuid=""} 1
+redfish_network_adapter_info{chassis_id="System.Embedded.1",engineering_change_level="",firmware_version="16.20.00",fru_part_number="",id="NIC.Integrated.1",manufacture_date="",manufacturer="Broadcom Inc. and subsidiaries",model="BRCM 10G/GbE 2+2P 57800-t rNDC",name="Network Adapter View",part_number="0Y36FR",serial_number="DUMMY-SerialNumber-16",sku="",uuid=""} 1
+redfish_network_adapter_state_info{chassis_id="System.Embedded.1",id="NIC.Integrated.1",state="Enabled"} 1
+redfish_network_adapter_state_info{chassis_id="System.Embedded.1",id="NIC.Slot.3",state="Unknown"} 1
+redfish_network_health_info{health="OK",id="NIC.Integrated.1-1-1"} 1
+redfish_network_health_info{health="OK",id="NIC.Integrated.1-2-1"} 1
+redfish_network_health_info{health="OK",id="NIC.Integrated.1-3-1"} 1
+redfish_network_health_info{health="OK",id="NIC.Integrated.1-4-1"} 1
+redfish_network_health_info{health="Unknown",id="NIC.Slot.3-1"} 1
+redfish_network_health_info{health="Unknown",id="NIC.Slot.3-2"} 1
+redfish_network_port_health_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",health="OK",id="NIC.Integrated.1-1"} 1
+redfish_network_port_health_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",health="OK",id="NIC.Integrated.1-2"} 1
+redfish_network_port_health_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",health="OK",id="NIC.Integrated.1-3"} 1
+redfish_network_port_health_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",health="OK",id="NIC.Integrated.1-4"} 1
+redfish_network_port_health_info{adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",health="Unknown",id="NIC.Slot.3-1"} 1
+redfish_network_port_health_info{adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",health="Unknown",id="NIC.Slot.3-2"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",id="NIC.Integrated.1-1",mac_address="00:1B:44:AA:00:05",name="Network Inteface Card(NIC) Port View",physical_port_number="1"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",id="NIC.Integrated.1-2",mac_address="00:1B:44:AA:00:04",name="Network Inteface Card(NIC) Port View",physical_port_number="2"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",id="NIC.Integrated.1-3",mac_address="00:1B:44:AA:00:07",name="Network Inteface Card(NIC) Port View",physical_port_number="3"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",id="NIC.Integrated.1-4",mac_address="00:1B:44:AA:00:06",name="Network Inteface Card(NIC) Port View",physical_port_number="4"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",id="NIC.Slot.3-1",mac_address="00:1B:44:AA:00:09",name="Network Inteface Card(NIC) Port View",physical_port_number="3"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",id="NIC.Slot.3-2",mac_address="00:1B:44:AA:00:09",name="Network Inteface Card(NIC) Port View",physical_port_number="3"} 1
+redfish_network_port_state_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Integrated.1-1",link_status="LinkDown",state="Enabled"} 1
+redfish_network_port_state_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Integrated.1-2",link_status="LinkDown",state="Enabled"} 1
+redfish_network_port_state_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Integrated.1-3",link_status="LinkDown",state="Enabled"} 1
+redfish_network_port_state_info{adapter_id="NIC.Integrated.1",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Integrated.1-4",link_status="LinkDown",state="Enabled"} 1
+redfish_network_port_state_info{adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Slot.3-1",link_status="LinkDown",state="Unknown"} 1
+redfish_network_port_state_info{adapter_id="NIC.Slot.3",chassis_id="System.Embedded.1",current_link_speed_mbps="0",id="NIC.Slot.3-2",link_status="LinkDown",state="Unknown"} 1
+redfish_network_state_info{id="NIC.Integrated.1-1-1",state="Enabled"} 1
+redfish_network_state_info{id="NIC.Integrated.1-2-1",state="Enabled"} 1
+redfish_network_state_info{id="NIC.Integrated.1-3-1",state="Enabled"} 1
+redfish_network_state_info{id="NIC.Integrated.1-4-1",state="Enabled"} 1
+redfish_network_state_info{id="NIC.Slot.3-1",state="Unknown"} 1
+redfish_network_state_info{id="NIC.Slot.3-2",state="Unknown"} 1
+redfish_pcie_device_health{health="OK",id="0-0"} 1
+redfish_pcie_device_health{health="OK",id="0-17"} 1
+redfish_pcie_device_health{health="OK",id="0-23"} 1
+redfish_pcie_device_health{health="OK",id="0-28"} 1
+redfish_pcie_device_health{health="OK",id="0-31"} 1
+redfish_pcie_device_health{health="OK",id="175-0"} 1
+redfish_pcie_device_health{health="OK",id="24-0"} 1
+redfish_pcie_device_health{health="OK",id="25-0"} 1
+redfish_pcie_device_health{health="OK",id="3-0"} 1
+redfish_pcie_device_health{health="OK",id="59-0"} 1
+redfish_pcie_device_health{health="OK",id="94-0"} 1
+redfish_pcie_device_info{class_code="0x000001",device_class="MassStorageController",device_id="41346",firmware_version="",function_count="1",id="0-23",lanes_in_use="0",location="",manufacturer="Intel Corporation",max_lanes="0",max_pcie_type="",model="",name="C620 Series Chipset Family SATA Controller [AHCI mode]",pcie_type="",subsystem_device_id="1813",subsystem_vendor_id="4136",vendor_id="32902"} 1
+redfish_pcie_device_info{class_code="0x000001",device_class="MassStorageController",device_id="41426",firmware_version="",function_count="1",id="0-17",lanes_in_use="0",location="",manufacturer="Intel Corporation",max_lanes="0",max_pcie_type="",model="",name="C620 Series Chipset Family SSATA Controller [AHCI mode]",pcie_type="",subsystem_device_id="1813",subsystem_vendor_id="4136",vendor_id="32902"} 1
+redfish_pcie_device_info{class_code="0x000001",device_class="MassStorageController",device_id="95",firmware_version="25.5.9.0001",function_count="1",id="24-0",lanes_in_use="8",location="",manufacturer="Broadcom / LSI",max_lanes="8",max_pcie_type="Gen3",model="Dell Storage Cntlr. H330 - Adp.",name="PERC H330 Adapter",pcie_type="Gen3",subsystem_device_id="8004",subsystem_vendor_id="4136",vendor_id="4096"} 1
+redfish_pcie_device_info{class_code="0x000002",device_class="NetworkController",device_id="4117",firmware_version="14.32.1010",function_count="2",id="94-0",lanes_in_use="16",location="",manufacturer="Mellanox Technologies",max_lanes="16",max_pcie_type="Gen3",model="",name="MT27710 Family [ConnectX-4 Lx]",pcie_type="Gen3",subsystem_device_id="212",subsystem_vendor_id="5520",vendor_id="5555"} 1
+redfish_pcie_device_info{class_code="0x000002",device_class="NetworkController",device_id="5770",firmware_version="16.20.00",function_count="4",id="25-0",lanes_in_use="0",location="",manufacturer="Broadcom Inc. and subsidiaries",max_lanes="0",max_pcie_type="",model="BRCM 10G/GbE 2+2P 57800-t rNDC",name="BCM57800 10-Gigabit Ethernet",pcie_type="",subsystem_device_id="8029",subsystem_vendor_id="4136",vendor_id="5348"} 1
+redfish_pcie_device_info{class_code="0x000003",device_class="DisplayController",device_id="1334",firmware_version="",function_count="1",id="3-0",lanes_in_use="0",location="",manufacturer="Matrox Electronics Systems Ltd.",max_lanes="0",max_pcie_type="",model="",name="Integrated Matrox G200eW3 Graphics Controller",pcie_type="",subsystem_device_id="1813",subsystem_vendor_id="4136",vendor_id="4139"} 1
+redfish_pcie_device_info{class_code="0x000003",device_class="DisplayController",device_id="7684",firmware_version="",function_count="2",id="175-0",lanes_in_use="16",location="",manufacturer="NVIDIA Corporation",max_lanes="16",max_pcie_type="Gen3",model="",name="TU102 [GeForce RTX 2080 Ti]",pcie_type="Gen3",subsystem_device_id="4782",subsystem_vendor_id="4318",vendor_id="4318"} 1
+redfish_pcie_device_info{class_code="0x000003",device_class="DisplayController",device_id="7684",firmware_version="",function_count="2",id="59-0",lanes_in_use="16",location="",manufacturer="NVIDIA Corporation",max_lanes="16",max_pcie_type="Gen3",model="",name="TU102 [GeForce RTX 2080 Ti]",pcie_type="Gen3",subsystem_device_id="9475",subsystem_vendor_id="6618",vendor_id="4318"} 1
+redfish_pcie_device_info{class_code="0x000006",device_class="Bridge",device_id="41360",firmware_version="",function_count="2",id="0-28",lanes_in_use="0",location="",manufacturer="Intel Corporation",max_lanes="0",max_pcie_type="",model="",name="C620 Series Chipset Family PCI Express Root Port #1",pcie_type="",subsystem_device_id="1813",subsystem_vendor_id="4136",vendor_id="32902"} 1
+redfish_pcie_device_info{class_code="0x000006",device_class="Bridge",device_id="41409",firmware_version="",function_count="2",id="0-31",lanes_in_use="0",location="",manufacturer="Intel Corporation",max_lanes="0",max_pcie_type="",model="",name="C621 Series Chipset LPC/eSPI Controller",pcie_type="",subsystem_device_id="1813",subsystem_vendor_id="4136",vendor_id="32902"} 1
+redfish_pcie_device_info{class_code="0x000006",device_class="Bridge",device_id="8224",firmware_version="",function_count="1",id="0-0",lanes_in_use="0",location="",manufacturer="Intel Corporation",max_lanes="0",max_pcie_type="",model="",name="Sky Lake-E DMI3 Registers",pcie_type="",subsystem_device_id="0",subsystem_vendor_id="32902",vendor_id="32902"} 1
+redfish_pcie_device_state{id="0-0",state="Enabled"} 1
+redfish_pcie_device_state{id="0-17",state="Enabled"} 1
+redfish_pcie_device_state{id="0-23",state="Enabled"} 1
+redfish_pcie_device_state{id="0-28",state="Enabled"} 1
+redfish_pcie_device_state{id="0-31",state="Enabled"} 1
+redfish_pcie_device_state{id="175-0",state="Enabled"} 1
+redfish_pcie_device_state{id="24-0",state="Enabled"} 1
+redfish_pcie_device_state{id="25-0",state="Enabled"} 1
+redfish_pcie_device_state{id="3-0",state="Enabled"} 1
+redfish_pcie_device_state{id="59-0",state="Enabled"} 1
+redfish_pcie_device_state{id="94-0",state="Enabled"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 FIVR PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM012 VDDQ PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM012 VPP PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM012 VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM012 VTT PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM345 VDDQ PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM345 VPP PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM345 VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 MEM345 VTT PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 VCCIO PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 VCORE PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 VCORE VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU1 VSA PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 FIVR PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM012 VDDQ PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM012 VPP PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM012 VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM012 VTT PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM345 VDDQ PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM345 VPP PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM345 VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 MEM345 VTT PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 VCCIO PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 VCORE PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 VCORE VR"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="CPU2 VSA PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="PS1 Voltage 1"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="PS2 Voltage 2"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board 1.8V SW PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board 2.5V SW PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board 3.3V B PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board 5V SW PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board BP0 PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board BP1 PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board BP2 PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board DIMM PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board NDC PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board PS1 PG FAIL"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board PS2 PG FAIL"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board PVNN SW PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board VSB11 SW PG"} 1
+redfish_power_voltage_health_info{chassis_id="System.Embedded.1",health="OK",name="System Board VSBM SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 FIVR PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VDDQ PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VPP PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VTT PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VDDQ PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VPP PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VTT PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 VCCIO PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 VCORE PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 VCORE VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU1 VSA PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 FIVR PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VDDQ PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VPP PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VTT PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VDDQ PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VPP PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VTT PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 VCCIO PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 VCORE PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 VCORE VR"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="CPU2 VSA PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="PS1 Voltage 1"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="PS2 Voltage 2"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board 1.8V SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board 2.5V SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board 3.3V B PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board 5V SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board BP0 PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board BP1 PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board BP2 PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board DIMM PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board NDC PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board PS1 PG FAIL"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board PS2 PG FAIL"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board PVNN SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board VSB11 SW PG"} 1
+redfish_power_voltage_info{chassis_id="System.Embedded.1",name="System Board VSBM SW PG"} 1
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 FIVR PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM012 VDDQ PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM012 VPP PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM012 VR"} 1.2200000286102295
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM012 VTT PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM345 VDDQ PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM345 VPP PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM345 VR"} 1.2200000286102295
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 MEM345 VTT PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 VCCIO PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 VCORE PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 VCORE VR"} 1.7799999713897705
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU1 VSA PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 FIVR PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM012 VDDQ PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM012 VPP PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM012 VR"} 1.2200000286102295
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM012 VTT PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM345 VDDQ PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM345 VPP PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM345 VR"} 1.2200000286102295
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 MEM345 VTT PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 VCCIO PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 VCORE PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 VCORE VR"} 1.7799999713897705
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="CPU2 VSA PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="PS1 Voltage 1"} 232
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="PS2 Voltage 2"} 228
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board 1.8V SW PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board 2.5V SW PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board 3.3V B PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board 5V SW PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board BP0 PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board BP1 PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board BP2 PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board DIMM PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board NDC PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board PS1 PG FAIL"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board PS2 PG FAIL"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board PVNN SW PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board VSB11 SW PG"} 0
+redfish_power_voltage_output{chassis_id="System.Embedded.1",name="System Board VSBM SW PG"} 0
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 FIVR PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VDDQ PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VPP PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM012 VTT PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VDDQ PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VPP PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 MEM345 VTT PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 VCCIO PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 VCORE PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 VCORE VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU1 VSA PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 FIVR PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VDDQ PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VPP PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM012 VTT PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VDDQ PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VPP PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 MEM345 VTT PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 VCCIO PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 VCORE PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 VCORE VR",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="CPU2 VSA PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="PS1 Voltage 1",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="PS2 Voltage 2",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board 1.8V SW PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board 2.5V SW PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board 3.3V B PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board 5V SW PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board BP0 PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board BP1 PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board BP2 PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board DIMM PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board NDC PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board PS1 PG FAIL",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board PS2 PG FAIL",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board PVNN SW PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board VSB11 SW PG",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="System.Embedded.1",name="System Board VSBM SW PG",state="Enabled"} 1
+redfish_powersupply_average_consumed_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 202
+redfish_powersupply_efficiency_percent{chassis_id="System.Embedded.1",name="PS1 Status"} 91
+redfish_powersupply_efficiency_percent{chassis_id="System.Embedded.1",name="PS2 Status"} 91
+redfish_powersupply_health_info{chassis_id="System.Embedded.1",health="OK",name="PS1 Status"} 1
+redfish_powersupply_health_info{chassis_id="System.Embedded.1",health="OK",name="PS2 Status"} 1
+redfish_powersupply_info{chassis_id="System.Embedded.1",engineering_change_level="",firmware_version="00.3D.67",fru_part_number="",hot_pluggable="true",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="DELL",member_id="0",model="PWR SPLY,1600W,RDNT,DELTA",name="PS1 Status",part_number="095HR5A04",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber-17"} 1
+redfish_powersupply_info{chassis_id="System.Embedded.1",engineering_change_level="",firmware_version="00.3D.67",fru_part_number="",hot_pluggable="true",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="DELL",member_id="1",model="PWR SPLY,1600W,RDNT,DELTA",name="PS2 Status",part_number="095HR5A04",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber-18"} 1
+redfish_powersupply_input_volts{chassis_id="System.Embedded.1",name="PS1 Status"} 232
+redfish_powersupply_input_volts{chassis_id="System.Embedded.1",name="PS2 Status"} 232
+redfish_powersupply_input_watts{chassis_id="System.Embedded.1",name="PS1 Status"} 112.5
+redfish_powersupply_input_watts{chassis_id="System.Embedded.1",name="PS2 Status"} 89.25
+redfish_powersupply_max_consumed_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 209
+redfish_powersupply_min_consumed_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 201
+redfish_powersupply_output_watts{chassis_id="System.Embedded.1",name="PS1 Status"} 90.625
+redfish_powersupply_output_watts{chassis_id="System.Embedded.1",name="PS2 Status"} 72.75
+redfish_powersupply_power_capacity_watts{chassis_id="System.Embedded.1",name="PS1 Status"} 1600
+redfish_powersupply_power_capacity_watts{chassis_id="System.Embedded.1",name="PS2 Status"} 1600
+redfish_powersupply_power_limit_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 304
+redfish_powersupply_power_upper_critical_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 1920
+redfish_powersupply_redundancy_health_info{chassis_id="System.Embedded.1",health="OK",redundancy_id="0"} 1
+redfish_powersupply_redundancy_info{chassis_id="System.Embedded.1",max_num_supported="2",member_count="2",min_num_needed="1",mode="N+m",name="System Board PS Redundancy",redundancy_enabled="false",redundancy_id="0"} 1
+redfish_powersupply_redundancy_member_info{chassis_id="System.Embedded.1",psu_name="PS1 Status",redundancy_id="0"} 1
+redfish_powersupply_redundancy_member_info{chassis_id="System.Embedded.1",psu_name="PS2 Status",redundancy_id="0"} 1
+redfish_powersupply_redundancy_state_info{chassis_id="System.Embedded.1",redundancy_id="0",state="Enabled"} 1
+redfish_powersupply_state_info{chassis_id="System.Embedded.1",name="PS1 Status",state="Enabled"} 1
+redfish_powersupply_state_info{chassis_id="System.Embedded.1",name="PS2 Status",state="Enabled"} 1
+redfish_powersupply_total_consumed_watts{chassis_id="System.Embedded.1",power_control_name="System Power Control"} 203
+redfish_processor_health_info{health="OK",id="CPU.Socket.1"} 1
+redfish_processor_health_info{health="OK",id="CPU.Socket.2"} 1
+redfish_processor_info{architecture="x86",base_speed_mhz="0",id="CPU.Socket.1",instruction_set="x86-64",manufacturer="Intel",max_speed_mhz="4000",model="Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz",name="CPU 1",part_number="",pcie_device_id="",processor_id_effective_family="6",processor_id_effective_model="85",processor_id_step="7",processor_id_vendor_id="GenuineIntel",processor_memory="",processor_serial_number="",socket="CPU.Socket.1",speed_mhz="4000",tdp_watts="",total_cores="8",total_enabled_cores="8",total_threads="8",type="CPU"} 1
+redfish_processor_info{architecture="x86",base_speed_mhz="0",id="CPU.Socket.2",instruction_set="x86-64",manufacturer="Intel",max_speed_mhz="4000",model="Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz",name="CPU 2",part_number="",pcie_device_id="",processor_id_effective_family="6",processor_id_effective_model="85",processor_id_step="7",processor_id_vendor_id="GenuineIntel",processor_memory="",processor_serial_number="",socket="CPU.Socket.2",speed_mhz="4000",tdp_watts="",total_cores="8",total_enabled_cores="8",total_threads="8",type="CPU"} 1
+redfish_processor_state_info{id="CPU.Socket.1",state="Enabled"} 1
+redfish_processor_state_info{id="CPU.Socket.2",state="Enabled"} 1
+redfish_processor_summary_health_info{health="OK"} 1
+redfish_processor_summary_info{architecture="x86",logical_processor_count="16",max_speed_mhz="4000",model="Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz",socket_count="2",total_cores="16",total_threads="16",type="CPU"} 1
+redfish_processor_summary_state_info{state="Enabled"} 1
+redfish_storage_controller_health_info{controller_id="AHCI.Embedded.1-1",health="Unknown",storage_id="AHCI.Embedded.1-1"} 1
+redfish_storage_controller_health_info{controller_id="AHCI.Embedded.2-1",health="Unknown",storage_id="AHCI.Embedded.2-1"} 1
+redfish_storage_controller_health_info{controller_id="RAID.Slot.6-1",health="OK",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_controller_info{asset_tag="",controller_id="AHCI.Embedded.1-1",controller_serial_number="",engineering_change_level="",firmware_version="",fru_part_number="",identifier="",manufacture_date="",manufacturer="DELL",model="C620 Series Chipset Family SSATA Controller [AHCI mode]",name="C620 Series Chipset Family SSATA Controller [AHCI mode]",part_number="",persistent_cache_size_mib="0",speed_gbps="0",storage_id="AHCI.Embedded.1-1",supported_controller_protocols="PCIe",supported_device_protocols="",supported_raid_types="",total_cache_size_mib="0"} 1
+redfish_storage_controller_info{asset_tag="",controller_id="AHCI.Embedded.2-1",controller_serial_number="",engineering_change_level="",firmware_version="",fru_part_number="",identifier="",manufacture_date="",manufacturer="DELL",model="C620 Series Chipset Family SATA Controller [AHCI mode]",name="C620 Series Chipset Family SATA Controller [AHCI mode]",part_number="",persistent_cache_size_mib="0",speed_gbps="0",storage_id="AHCI.Embedded.2-1",supported_controller_protocols="PCIe",supported_device_protocols="",supported_raid_types="",total_cache_size_mib="0"} 1
+redfish_storage_controller_info{asset_tag="",controller_id="RAID.Slot.6-1",controller_serial_number="",engineering_change_level="",firmware_version="25.5.9.0001",fru_part_number="",identifier="NAA:0000000000000001",manufacture_date="",manufacturer="DELL",model="PERC H330 Adapter",name="PERC H330 Adapter",part_number="",persistent_cache_size_mib="0",speed_gbps="12",storage_id="RAID.Slot.6-1",supported_controller_protocols="PCIe",supported_device_protocols="SAS,SATA",supported_raid_types="RAID0,RAID1,RAID5,RAID10,RAID50",total_cache_size_mib="0"} 1
+redfish_storage_controller_state_info{controller_id="AHCI.Embedded.1-1",state="Enabled",storage_id="AHCI.Embedded.1-1"} 1
+redfish_storage_controller_state_info{controller_id="AHCI.Embedded.2-1",state="Enabled",storage_id="AHCI.Embedded.2-1"} 1
+redfish_storage_controller_state_info{controller_id="RAID.Slot.6-1",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_failure_predicted{id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_failure_predicted{id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_health_info{health="OK",id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",predictive_failure="",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="119453777920",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-30",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000003",location="Slot=0",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB12",multipath="false",negotiated_speed_gbps="6",part_number="CN-0KX83R-IT200-72K-000Q-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.0:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="119453777920",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-32",drive_form_factor="Unknown",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000005",location="Slot=1",manufacturer="ATA",media_type="SSD",model="INTEL SSDSC2CW12",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="400i",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.0:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-29",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000002",location="Slot=5",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="TW-0DTH1X-ITT00-69N-022W-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-31",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000004",location="Slot=7",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="CN-0DTH1X-48112-6AC-006K-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-33",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000006",location="Slot=6",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="CN-0DTH1X-48112-6AC-003D-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-34",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000007",location="Slot=2",manufacturer="ATA",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="G2010100",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-35",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000008",location="Slot=3",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="CN-0DTH1X-IT200-6AL-03W2-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="6",capacity_bytes="1599741100032",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-36",drive_form_factor="2.5Inch",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",identifier="NAA:0000000000000009",location="Slot=4",manufacturer="INTEL",media_type="SSD",model="INTEL SSDSC2BB01",multipath="false",negotiated_speed_gbps="6",part_number="CN-0DTH1X-IT200-6AL-027X-A00",protocol="SATA",revision="G201DL2E",storage_id="RAID.Slot.6-1",volume_id="Disk.Virtual.1:RAID.Slot.6-1"} 1
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 95
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 82
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 98
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 98
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 91
+redfish_storage_drive_predicted_media_life_percent{id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 96
+redfish_storage_drive_state_info{id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_state_info{id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",raid_status="",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_drive_write_cache_enabled{id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 0
+redfish_storage_volume_health_info{health="OK",id="Disk.Virtual.0:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_volume_health_info{health="OK",id="Disk.Virtual.1:RAID.Slot.6-1",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_volume_info{block_size_bytes="512",boot_capable="false",capacity_bytes="119453777920",encrypted="false",encryption_types="NativeDriveEncryption",id="Disk.Virtual.0:RAID.Slot.6-1",io_perf_mode_enabled="false",lun="0",name="OS_DISK",optimum_io_size_bytes="65536",provisioning_policy="",raid_type="RAID1",read_cache_policy="Off",storage_id="RAID.Slot.6-1",strip_size_bytes="0",volume_type="Mirrored",write_cache_policy="WriteThrough",write_cache_state=""} 1
+redfish_storage_volume_info{block_size_bytes="512",boot_capable="false",capacity_bytes="7998705500160",encrypted="false",encryption_types="NativeDriveEncryption",id="Disk.Virtual.1:RAID.Slot.6-1",io_perf_mode_enabled="false",lun="0",name="DATA_DISK",optimum_io_size_bytes="65536",provisioning_policy="",raid_type="RAID5",read_cache_policy="Off",storage_id="RAID.Slot.6-1",strip_size_bytes="0",volume_type="StripedWithParity",write_cache_policy="WriteThrough",write_cache_state=""} 1
+redfish_storage_volume_state_info{id="Disk.Virtual.0:RAID.Slot.6-1",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_storage_volume_state_info{id="Disk.Virtual.1:RAID.Slot.6-1",state="Enabled",storage_id="RAID.Slot.6-1"} 1
+redfish_system_fan_redundancy_info{fan_redundancy=""} 1
+redfish_system_health_info{aggregate_server_health="",health="OK",health_rollup="OK"} 1
+redfish_system_info{hostname="DUMMY-HostName",manufacturer="Dell Inc.",model="PowerEdge R740",pca_part_number="",serial_number="DUMMY-SerialNumber-1",sub_model="",uuid="550e8400-e29b-41d4-a716-000000000002"} 1
+redfish_system_state_info{post_state="",power_state="On",state="Enabled"} 1
+redfish_thermal_average_fan_pwm{chassis_id="System.Embedded.1"} 28
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan1",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan2",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan3",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan4",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan5",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="System.Embedded.1",fan_name="System Board Fan6",health="OK"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan2",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan3",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan4",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan5",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_info{chassis_id="System.Embedded.1",fan_name="System Board Fan6",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1"} 1
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan1"} 480
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan2"} 480
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan3"} 480
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan4"} 480
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan5"} 480
+redfish_thermal_fan_lower_threshold_critical{chassis_id="System.Embedded.1",fan_name="System Board Fan6"} 480
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan1"} 840
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan2"} 840
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan3"} 840
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan4"} 840
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan5"} 840
+redfish_thermal_fan_lower_threshold_noncritical{chassis_id="System.Embedded.1",fan_name="System Board Fan6"} 840
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 1"} 28
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 2"} 28
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 3"} 28
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 4"} 28
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 5"} 28
+redfish_thermal_fan_speed_percent{chassis_id="System.Embedded.1",fan_name="Fan 6"} 28
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan1"} 7920
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan2"} 7800
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan3"} 7800
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan4"} 7680
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan5"} 7920
+redfish_thermal_fan_speed_rpm{chassis_id="System.Embedded.1",fan_name="System Board Fan6"} 7800
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan1",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan2",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan3",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan4",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan5",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="System.Embedded.1",fan_name="System Board Fan6",state="Enabled"} 1
+redfish_thermal_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_name="CPU1 Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_name="CPU2 Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_name="System Board Exhaust Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="System.Embedded.1",health="OK",sensor_name="System Board Inlet Temp"} 1
+redfish_thermal_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",related_ref="/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1",sensor_name="CPU1 Temp"} 1
+redfish_thermal_sensor_info{chassis_id="System.Embedded.1",physical_context="CPU",related_ref="/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2",sensor_name="CPU2 Temp"} 1
+redfish_thermal_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1",sensor_name="System Board Exhaust Temp"} 1
+redfish_thermal_sensor_info{chassis_id="System.Embedded.1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/System.Embedded.1",sensor_name="System Board Inlet Temp"} 1
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",sensor_name="CPU1 Temp"} 3
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",sensor_name="CPU2 Temp"} 3
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp"} 3
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp"} -7
+redfish_thermal_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp"} 8
+redfish_thermal_sensor_lower_threshold_noncritical{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp"} 3
+redfish_thermal_sensor_state_info{chassis_id="System.Embedded.1",sensor_name="CPU1 Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="System.Embedded.1",sensor_name="CPU2 Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp",state="Enabled"} 1
+redfish_thermal_sensor_temperature{chassis_id="System.Embedded.1",sensor_name="CPU1 Temp"} 35
+redfish_thermal_sensor_temperature{chassis_id="System.Embedded.1",sensor_name="CPU2 Temp"} 39
+redfish_thermal_sensor_temperature{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp"} 28
+redfish_thermal_sensor_temperature{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp"} 24
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",sensor_name="CPU1 Temp"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",sensor_name="CPU2 Temp"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp"} 80
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp"} 42
+redfish_thermal_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",sensor_name="System Board Exhaust Temp"} 75
+redfish_thermal_sensor_upper_threshold_noncritical{chassis_id="System.Embedded.1",sensor_name="System Board Inlet Temp"} 38
+redfish_thermal_summary_health_info{chassis_id="System.Embedded.1",health="Unknown"} 1
+redfish_thermal_summary_info{chassis_id="System.Embedded.1",url="/redfish/v1/Chassis/System.Embedded.1/Thermal"} 1
+redfish_thermal_summary_state_info{chassis_id="System.Embedded.1",state="Unknown"} 1

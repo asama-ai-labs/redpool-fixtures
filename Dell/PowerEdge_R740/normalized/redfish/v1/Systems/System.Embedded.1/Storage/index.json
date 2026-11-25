@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageCollection.StorageCollection",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage",
+  "@odata.type": "#StorageCollection.StorageCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1"
+    }
+  ],
+  "Members@odata.count": 3,
+  "Description": "Collection of Storage subsystems",
+  "Name": "StorageCollection",
+  "Oem": {}
+}

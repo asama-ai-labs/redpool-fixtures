@@ -1,0 +1,40 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia",
+  "@odata.etag": "W/\"14700DD6\"",
+  "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/2",
+  "@odata.type": "#VirtualMedia.v1_6_0.VirtualMedia",
+  "Id": "2",
+  "Name": "VirtualMedia",
+  "Description": "Virtual Removable Media",
+  "MediaTypes": [
+    "CD",
+    "DVD"
+  ],
+  "Image": "",
+  "Inserted": false,
+  "ConnectedVia": "NotConnected",
+  "WriteProtected": true,
+  "Actions": {
+    "#VirtualMedia.EjectMedia": {
+      "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/VirtualMedia.EjectMedia"
+    },
+    "#VirtualMedia.InsertMedia": {
+      "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/VirtualMedia.InsertMedia"
+    }
+  },
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOVirtualMedia.HpeiLOVirtualMedia",
+      "@odata.type": "#HpeiLOVirtualMedia.v2_2_0.HpeiLOVirtualMedia",
+      "Actions": {
+        "#HpeiLOVirtualMedia.EjectVirtualMedia": {
+          "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/Oem/Hpe/HpeiLOVirtualMedia.EjectVirtualMedia"
+        },
+        "#HpeiLOVirtualMedia.InsertVirtualMedia": {
+          "target": "/redfish/v1/Managers/1/VirtualMedia/2/Actions/Oem/Hpe/HpeiLOVirtualMedia.InsertVirtualMedia"
+        }
+      },
+      "BootOnNextServerReset": false
+    }
+  }
+}

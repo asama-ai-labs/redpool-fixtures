@@ -1,0 +1,43 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.etag": "\"8223ho15k44372o3799\"",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/AuditLog",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "AuditLog",
+  "Name": "LogService",
+  "Description": "This resource is used to represent a log service for a Redfish implementation.",
+  "DateTime": "2025-12-01T18:44:52+00:00",
+  "DateTimeLocalOffset": "+00:00",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/AuditLog/Entries"
+  },
+  "MaxNumberOfRecords": 1024,
+  "OverWritePolicy": "WrapsWhenFull",
+  "ServiceEnabled": true,
+  "LogEntryType": "Multiple",
+  "Status": {},
+  "Actions": {
+    "#LogService.ClearLog": {
+      "title": "ClearLog",
+      "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/LogService.ClearLog"
+    },
+    "Oem": {
+      "#LenovoLogService.GetLogEntriesBySequenceNumber": {
+        "title": "GetLogEntriesBySequenceNumber",
+        "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/Oem/LenovoLogService.GetLogEntriesBySequenceNumber"
+      }
+    }
+  },
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoLogService.v1_0_0.LenovoLogServiceProperties",
+      "LastSeqNum": 1335,
+      "HiddenFirstSeqNum": 1,
+      "HiddenLastSeqNum": 222,
+      "FirstSeqNum": 291,
+      "AuditLogCapabilities": [
+        "None"
+      ]
+    }
+  }
+}

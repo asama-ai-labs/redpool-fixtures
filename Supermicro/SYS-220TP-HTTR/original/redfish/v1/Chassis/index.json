@@ -1,0 +1,1 @@
+{"@odata.type":"#ChassisCollection.ChassisCollection","@odata.id":"/redfish/v1/Chassis","Name":"Chassis Collection","Members":[{"@odata.id":"/redfish/v1/Chassis/1"}],"Members@odata.count":1,"@odata.etag":"fb7c44185e1d6e2502b1b2c32686e491"}

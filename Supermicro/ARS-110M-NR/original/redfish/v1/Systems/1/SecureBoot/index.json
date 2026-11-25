@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/SecureBoot","@odata.type":"#SecureBoot.v1_1_0.SecureBoot","Id":"SecureBoot","Name":"Secureb Boot","SecureBootDatabases":{"@odata.id":"/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases"}}

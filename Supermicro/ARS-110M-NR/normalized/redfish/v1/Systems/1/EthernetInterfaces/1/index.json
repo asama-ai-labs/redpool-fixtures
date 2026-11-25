@@ -1,0 +1,23 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/1",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "1",
+  "Name": "OnBoard_NIC0",
+  "MACAddress": "00:1B:44:AA:BB:CC",
+  "PermanentMACAddress": null,
+  "SpeedMbps": null,
+  "AutoNeg": null,
+  "IPv4Addresses": [],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {},
+  "Oem": {}
+}

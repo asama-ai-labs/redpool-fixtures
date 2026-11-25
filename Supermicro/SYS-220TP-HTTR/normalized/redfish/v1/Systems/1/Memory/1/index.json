@@ -1,0 +1,62 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "b4ce9b501feb671acc38226d3da5a424",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/1",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "1",
+  "Name": "Memory",
+  "CapacityMiB": 16384,
+  "Manufacturer": "Micron Technology",
+  "PartNumber": "18ASF2G72PDZ-3G2R1",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 2933,
+  "AllowedSpeedsMHz": [
+    3200
+  ],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 1,
+  "ErrorCorrection": "SingleBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 1,
+    "Channel": 7,
+    "Slot": 0
+  },
+  "Location": {
+    "PartLocation": {
+      "LocationType": "Slot",
+      "ServiceLabel": "P2-DIMMH1"
+    }
+  },
+  "DeviceLocator": "P2-DIMMH1",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Assembly": {},
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory/1/MemoryMetrics"
+  },
+  "Oem": {
+    "Redpool": {
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

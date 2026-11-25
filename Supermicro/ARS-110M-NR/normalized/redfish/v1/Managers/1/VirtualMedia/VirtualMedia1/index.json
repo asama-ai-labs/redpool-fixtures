@@ -1,0 +1,27 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia",
+  "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/VirtualMedia1",
+  "@odata.type": "#VirtualMedia.v1_6_0.VirtualMedia",
+  "Id": "VirtualMedia1",
+  "Name": "Virtual Removable Media",
+  "MediaTypes": [
+    "CD",
+    "USBStick"
+  ],
+  "Inserted": false,
+  "ConnectedVia": "NotConnected",
+  "WriteProtected": true,
+  "TransferMethod": "Stream",
+  "Actions": {
+    "#VirtualMedia.InsertMedia": {
+      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/VirtualMedia/VirtualMedia1/InsertMediaActionInfo",
+      "target": "/redfish/v1/Managers/1/VirtualMedia/VirtualMedia1/Actions/VirtualMedia.InsertMedia"
+    }
+  },
+  "Oem": {
+    "OpenBMC": {
+      "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/VirtualMedia1#/Oem/OpenBMC",
+      "@odata.type": "#OemVirtualMedia.v1_0_0.VirtualMedia"
+    }
+  }
+}

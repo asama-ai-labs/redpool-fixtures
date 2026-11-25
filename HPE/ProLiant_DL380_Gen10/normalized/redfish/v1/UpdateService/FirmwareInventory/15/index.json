@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/15",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "15",
+  "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC",
+  "Description": "14e41657103c22be",
+  "Version": "20.30.41",
+  "Updateable": false,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+      "DeviceClass": null,
+      "DeviceContext": "Embedded LOM",
+      "DeviceInstance": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-000000000014"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "15",
+        "device_context": "Embedded LOM"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

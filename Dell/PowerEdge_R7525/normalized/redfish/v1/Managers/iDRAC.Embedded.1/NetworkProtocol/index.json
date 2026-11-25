@@ -1,0 +1,83 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ManagerNetworkProtocol.ManagerNetworkProtocol",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol",
+  "@odata.type": "#ManagerNetworkProtocol.v1_9_0.ManagerNetworkProtocol",
+  "Id": "NetworkProtocol",
+  "Name": "Manager Network Protocol",
+  "Description": "Manager Network Service Status",
+  "HostName": "DUMMY-HostName",
+  "FQDN": "",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "HTTP": {
+    "Port": 80,
+    "ProtocolEnabled": true
+  },
+  "HTTPS": {
+    "Certificates": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol/HTTPS/Certificates"
+    },
+    "Port": 443,
+    "ProtocolEnabled": true
+  },
+  "SSH": {
+    "Port": 22,
+    "ProtocolEnabled": true
+  },
+  "SNMP": {
+    "Port": 161,
+    "ProtocolEnabled": true
+  },
+  "IPMI": {
+    "ProtocolEnabled": true
+  },
+  "KVMIP": {
+    "Port": 5900,
+    "ProtocolEnabled": true
+  },
+  "NTP": {
+    "NTPServers": [],
+    "NTPServers@odata.count": 0,
+    "ProtocolEnabled": false
+  },
+  "DHCP": {
+    "ProtocolEnabled": true
+  },
+  "DHCPv6": {
+    "ProtocolEnabled": true
+  },
+  "SSDP": {},
+  "Telnet": {
+    "Port": 23,
+    "ProtocolEnabled": false
+  },
+  "VirtualMedia": {
+    "ProtocolEnabled": true
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellManagerNetworkProtocol.v1_0_0.DellManagerNetworkProtocol",
+      "PNAC": {
+        "AuthenticationServerCertificateValidationStatus": "Disabled",
+        "ClientCSC": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol/Oem/Dell/PNAC/ClientCSC"
+        },
+        "ClientCertificateType": "DefaultIDEVID",
+        "ClientCertificates": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol/Oem/Dell/PNAC/ClientCertificates"
+        },
+        "InitialDeviceIDCertificate": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Oem/Dell/HWCertificates/SecurityCertificate.2"
+        },
+        "Protocol": "IEEE 802.1x",
+        "ServerCACertificates": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol/Oem/Dell/PNAC/ServerCACertificates"
+        },
+        "ServiceStatus": "Enabled"
+      }
+    }
+  }
+}

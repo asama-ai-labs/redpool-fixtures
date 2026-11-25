@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/13",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "13",
+  "Name": "Intel Eth Adptr I350T4 OCPv3",
+  "Description": "80861521808600a3",
+  "Version": "1.2839.0",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+      "DeviceClass": null,
+      "DeviceContext": "OCP 3.0 Slot 10",
+      "DeviceInstance": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-000000000015"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "13",
+        "device_context": "OCP 3.0 Slot 10"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

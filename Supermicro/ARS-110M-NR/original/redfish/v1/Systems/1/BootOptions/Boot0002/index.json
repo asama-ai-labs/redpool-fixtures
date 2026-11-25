@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/BootOptions/Boot0002","@odata.type":"#BootOption.v1_0_4.BootOption","BootOptionEnabled":true,"BootOptionReference":"Boot0002","Description":"00:1B:44:AA:BB:CC","DisplayName":"00:1B:44:AA:BB:CC","Id":"Boot0002","Name":"Boot0002","UefiDevicePath":"192.0.2.1"}

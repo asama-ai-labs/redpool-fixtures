@@ -1,0 +1,95 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/275667",
+      "@odata.type": "#LogEntry.v1_14_0.LogEntry",
+      "Created": "2025-07-23T06:32:59+00:00",
+      "Description": "Log Entry 275667",
+      "EntryType": "Oem",
+      "Id": "275667",
+      "Links": {
+        "OriginOfCondition": {
+          "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+      },
+      "Message": "Successfully logged in using root, from 192.0.2.1 and REDFISH.",
+      "MessageArgs": [
+        "root",
+        "192.0.2.1",
+        "REDFISH"
+      ],
+      "MessageArgs@odata.count": 3,
+      "MessageId": "IDRAC.2.8.USR0030",
+      "Name": "Log Entry 275667",
+      "Oem": {
+        "Dell": {
+          "@odata.type": "#DellLCLogEntry.v1_1_0.DellLCLogEntry",
+          "Category": "Audit",
+          "Comment": null,
+          "LastUpdatedByUser": null
+        }
+      },
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/275668",
+      "@odata.type": "#LogEntry.v1_14_0.LogEntry",
+      "Created": "2025-07-23T06:33:24+00:00",
+      "Description": "Log Entry 275668",
+      "EntryType": "Oem",
+      "Id": "275668",
+      "Links": {},
+      "Message": "The previous log entry was repeated 8 times.",
+      "MessageArgs": [
+        "8"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "IDRAC.2.8.LOG007",
+      "Name": "Log Entry 275668",
+      "Oem": {
+        "Dell": {
+          "@odata.type": "#DellLCLogEntry.v1_1_0.DellLCLogEntry",
+          "Category": "Audit",
+          "Comment": null,
+          "LastUpdatedByUser": null
+        }
+      },
+      "OemRecordFormat": "Dell",
+      "Severity": "OK"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/275669",
+      "@odata.type": "#LogEntry.v1_14_0.LogEntry",
+      "Created": "2025-07-23T06:33:24+00:00",
+      "Description": "Log Entry 275669",
+      "EntryType": "Oem",
+      "Id": "275669",
+      "Links": {},
+      "Message": "The Redfish Event service cannot deliver notifications to https://DUMMY.example.invalid:18443/DUMMY-Path because of network communication issues.",
+      "MessageArgs": [
+        "https://DUMMY.example.invalid:18443/DUMMY-Path"
+      ],
+      "MessageArgs@odata.count": 1,
+      "MessageId": "IDRAC.2.8.LC083",
+      "Name": "Log Entry 275669",
+      "Oem": {
+        "Dell": {
+          "@odata.type": "#DellLCLogEntry.v1_1_0.DellLCLogEntry",
+          "Category": "Audit",
+          "Comment": null,
+          "LastUpdatedByUser": null
+        }
+      },
+      "OemRecordFormat": "Dell",
+      "Severity": "Warning"
+    }
+  ],
+  "Members@odata.count": 3,
+  "Description": "LC Logs for this manager",
+  "Name": "Log Entry Collection",
+  "Oem": {}
+}

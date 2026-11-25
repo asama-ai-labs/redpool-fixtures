@@ -1,0 +1,10 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunctionCollection.PCIeFunctionCollection",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/NVMeSSD1/PCIeFunctions",
+  "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Description": "Collection of PCIe Functions",
+  "Name": "PCIeFunctionCollection",
+  "Oem": {}
+}

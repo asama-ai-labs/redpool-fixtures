@@ -1,0 +1,1 @@
+{"@odata.type":"#LogServiceCollection.LogServiceCollection","@odata.id":"/redfish/v1/Systems/1/LogServices","Name":"System Log Service Collection","Description":"Collection of Log Services for this System","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/Systems/1/LogServices/Log1"}],"@odata.etag":"c52d3873d00dacf2a0373ea50475360e"}

@@ -1,0 +1,24 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "Sel",
+  "Name": "SEL Log Service",
+  "Description": "SEL Log Service",
+  "DateTime": "2025-10-21T12:56:42+00:00",
+  "DateTimeLocalOffset": "+00:00",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries"
+  },
+  "MaxNumberOfRecords": 1024,
+  "OverWritePolicy": "WrapsWhenFull",
+  "ServiceEnabled": true,
+  "LogEntryType": "SEL",
+  "Status": {},
+  "Actions": {
+    "#LogService.ClearLog": {
+      "target": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Actions/LogService.ClearLog"
+    }
+  },
+  "Oem": {}
+}

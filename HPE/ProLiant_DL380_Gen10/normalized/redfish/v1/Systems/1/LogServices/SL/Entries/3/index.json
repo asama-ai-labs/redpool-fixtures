@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/3",
+  "Id": "3",
+  "Name": "Security Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"1E3C9B2A\"",
+  "Severity": "Critical",
+  "Message": "The security state of \"iLO Default SSL Certificate In Use\" parameter on security dashboard is \"Risk\". State is \"True\" and ignore option is \"False\".",
+  "MessageId": "55.2",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-SL",
+  "MessageArgs@odata.count": 0,
+  "Resolution": "Refer to iLO user manual or  Security Dashboard help page.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Security",
+        "Administration",
+        "Configuration"
+      ],
+      "Class": 55,
+      "ClassDescription": "Security Configuration",
+      "Code": 2,
+      "Count": 1,
+      "EventNumber": 3,
+      "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+      "Severity": "Critical",
+      "Updated": "0000-00-00T00:00:00Z",
+      "UserAction": "None"
+    },
+    "Redpool": {
+      "Categories": [
+        "Security",
+        "Administration",
+        "Configuration"
+      ],
+      "Class": 55,
+      "ClassDescription": "Security Configuration",
+      "Code": 2,
+      "Count": 1,
+      "EventNumber": 3,
+      "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+      "UserAction": "None",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

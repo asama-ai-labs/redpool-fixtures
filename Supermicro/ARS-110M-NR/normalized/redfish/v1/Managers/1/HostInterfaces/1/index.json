@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#HostInterface.HostInterface",
+  "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1",
+  "@odata.type": "#HostInterface.v1_3_0.HostInterface",
+  "Id": "1",
+  "Name": "Host Interface",
+  "Description": "Management Host Interface",
+  "Status": {
+    "Health": "OK",
+    "State": "Disabled"
+  },
+  "InterfaceEnabled": false,
+  "HostInterfaceType": "NetworkHostInterface",
+  "ExternallyAccessible": false,
+  "AuthenticationModes": [
+    "BasicAuth",
+    "RedfishSessionAuth"
+  ],
+  "HostEthernetInterfaces": {
+    "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1/HostEthernetInterfaces"
+  },
+  "ManagerEthernetInterface": {
+    "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/ToHost"
+  },
+  "NetworkProtocol": {
+    "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol"
+  },
+  "Links": {},
+  "Oem": {}
+}

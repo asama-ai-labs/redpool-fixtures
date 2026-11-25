@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia",
+  "@odata.etag": "\"4aff634788eb24e9f11\"",
+  "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/RDOC2",
+  "@odata.type": "#VirtualMedia.v1_6_0.VirtualMedia",
+  "Id": "RDOC2",
+  "Name": "VirtualMedia",
+  "Description": "This resource shall be used to represent a virtual media service for a Redfish implementation.",
+  "MediaTypes": [
+    "CD",
+    "DVD",
+    "Floppy",
+    "USBStick"
+  ],
+  "Inserted": false,
+  "ConnectedVia": "NotConnected",
+  "WriteProtected": true,
+  "Actions": {},
+  "Oem": {}
+}

@@ -1,0 +1,53 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1",
+  "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
+  "Id": "NIC.Embedded.1-1",
+  "Name": "PowerEdge Rx5xx LOM Board",
+  "Description": "Network Port View",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "ActiveLinkTechnology": "Ethernet",
+  "AssociatedNetworkAddresses": [
+    "00:1B:44:AA:00:05"
+  ],
+  "CurrentLinkSpeedMbps": 1000,
+  "EEEEnabled": true,
+  "FlowControlConfiguration": "None",
+  "FlowControlStatus": "None",
+  "LinkStatus": "Up",
+  "NetDevFuncMaxBWAlloc": [
+    {
+      "MaxBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1"
+      }
+    }
+  ],
+  "NetDevFuncMinBWAlloc": [
+    {
+      "MinBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1"
+      }
+    }
+  ],
+  "PhysicalPortNumber": "1",
+  "SupportedEthernetCapabilities": [
+    "WakeOnLAN",
+    "EEE"
+  ],
+  "SupportedLinkCapabilities": [
+    {
+      "AutoSpeedNegotiation": true,
+      "LinkNetworkTechnology": "Ethernet",
+      "LinkSpeedMbps": 1000
+    }
+  ],
+  "VendorId": "14e4",
+  "WakeOnLANEnabled": false,
+  "Oem": {}
+}

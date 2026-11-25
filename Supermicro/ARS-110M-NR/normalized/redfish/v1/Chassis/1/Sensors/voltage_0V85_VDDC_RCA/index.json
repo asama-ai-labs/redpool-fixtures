@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_0V85_VDDC_RCA",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "voltage_0V85_VDDC_RCA",
+  "Name": "0V85 VDDC RCA",
+  "Reading": 0.903,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "V",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 2.5,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 0.655
+    },
+    "LowerCritical": {
+      "Reading": 0.641
+    },
+    "UpperCaution": {
+      "Reading": 0.963
+    },
+    "UpperCritical": {
+      "Reading": 0.981
+    }
+  },
+  "Oem": {}
+}

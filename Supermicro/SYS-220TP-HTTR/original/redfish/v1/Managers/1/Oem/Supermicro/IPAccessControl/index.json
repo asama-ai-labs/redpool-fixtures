@@ -1,0 +1,1 @@
+{"@odata.type":"#IPAccessControl.v1_0_0.IPAccessControl","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/IPAccessControl","Id":"IP Access Control","Name":"IP Access Control","ServiceEnabled":false,"FilterRules":{"@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/IPAccessControl/FilterRules"},"@odata.etag":"5c8b7cb11368c436ecab8fae02292452"}

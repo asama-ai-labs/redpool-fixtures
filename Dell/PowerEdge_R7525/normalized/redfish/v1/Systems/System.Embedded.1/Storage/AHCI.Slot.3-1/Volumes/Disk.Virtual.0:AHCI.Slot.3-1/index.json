@@ -1,0 +1,131 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Volume.Volume",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes/Disk.Virtual.0:AHCI.Slot.3-1",
+  "@odata.type": "#Volume.v1_10_0.Volume",
+  "Id": "Disk.Virtual.0:AHCI.Slot.3-1",
+  "Name": "VD_R1_1",
+  "Description": "Virtual Disk 0 on AHCI Controller in slot 3",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "CapacityBytes": 480036847616,
+  "VolumeType": "Mirrored",
+  "Encrypted": false,
+  "EncryptionTypes": [
+    "NativeDriveEncryption"
+  ],
+  "RAIDType": "RAID1",
+  "OptimumIOSizeBytes": 65536,
+  "StripSizeBytes": 65536,
+  "BlockSizeBytes": 512,
+  "MediaSpanCount": 2,
+  "ReadCachePolicy": "Off",
+  "WriteCachePolicy": "WriteThrough",
+  "DisplayName": "VD_R1_1",
+  "Identifiers": [],
+  "Links": {
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Drives/Disk.Direct.0-0:AHCI.Slot.3-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Drives/Disk.Direct.1-1:AHCI.Slot.3-1"
+      }
+    ],
+    "Drives@odata.count": 2
+  },
+  "Operations": [],
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellVolume.v1_0_0.DellVolume",
+      "DellVirtualDisk": {
+        "@odata.context": "/redfish/v1/$metadata#DellVirtualDisk.DellVirtualDisk",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes/Disk.Virtual.0:AHCI.Slot.3-1/Oem/Dell/DellVolumes/Disk.Virtual.0:AHCI.Slot.3-1",
+        "@odata.type": "#DellVirtualDisk.v1_2_0.DellVirtualDisk",
+        "BusProtocol": "SATA",
+        "Cachecade": "NonCachecadeVD",
+        "Description": "An instance of DellVirtualDisk will have data specific to the Virtual Disks in the system.",
+        "DiskCachePolicy": "Default",
+        "Id": "Disk.Virtual.0:AHCI.Slot.3-1",
+        "LastSystemInventoryTime": "2026-03-10T03:19:33+00:00",
+        "LastUpdateTime": "2026-02-05T20:28:58+00:00",
+        "LockStatus": "Unlocked",
+        "MediaType": "SolidStateDrive",
+        "Name": "DellVirtualDisk",
+        "ObjectStatus": "Current",
+        "OperationName": "None",
+        "OperationPercentComplete": 0,
+        "PrimaryStatus": "OK",
+        "RaidStatus": "Online",
+        "ReadCachePolicy": "NoReadAhead",
+        "RemainingRedundancy": 1,
+        "SpanDepth": 1,
+        "SpanLength": 2,
+        "StartingLBAinBlocks": 0,
+        "StripeSize": "64KB",
+        "T10PIStatus": "Disabled",
+        "VirtualDiskTargetID": 0,
+        "WriteCachePolicy": "WriteThrough"
+      },
+      "DellVirtualDisk@Redfish.Deprecated": "Please migrate to use DellVolume",
+      "DellVolume": {
+        "BusProtocol": "SATA",
+        "Cachecade": "NonCachecadeVD",
+        "DiskCachePolicy": "Default",
+        "DiskCachePolicy@Redfish.AllowableValues": [
+          "Default",
+          "Disabled",
+          "Enabled"
+        ],
+        "LastSystemInventoryTime": "2026-03-10T03:19:33+00:00",
+        "LastUpdateTime": "2026-02-05T20:28:58+00:00",
+        "LockStatus": "Unlocked",
+        "MediaType": "SolidStateDrive",
+        "ObjectStatus": "Current",
+        "OperationName": "None",
+        "OperationPercentComplete": 0,
+        "PrimaryStatus": "OK",
+        "RaidStatus": "Online",
+        "RemainingRedundancy": 1,
+        "SpanDepth": 1,
+        "SpanLength": 2,
+        "StartingLBAinBlocks": 0,
+        "StripeSize": "64KB",
+        "T10PIStatus": "Disabled",
+        "VirtualDiskTargetID": 0
+      }
+    }
+  },
+  "Actions": {
+    "#Volume.CheckConsistency": {
+      "@Redfish.OperationApplyTimeSupport": {
+        "@odata.type": "#Settings.v1_4_0.OperationApplyTimeSupport",
+        "SupportedValues": [
+          "Immediate",
+          "OnReset"
+        ]
+      },
+      "InitializeType@Redfish.AllowableValues": [
+        "Fast",
+        "Slow"
+      ],
+      "target": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes/Disk.Virtual.0:AHCI.Slot.3-1/Actions/Volume.CheckConsistency"
+    },
+    "#Volume.Initialize": {
+      "@Redfish.OperationApplyTimeSupport": {
+        "@odata.type": "#Settings.v1_4_0.OperationApplyTimeSupport",
+        "SupportedValues": [
+          "Immediate",
+          "OnReset"
+        ]
+      },
+      "InitializeType@Redfish.AllowableValues": [
+        "Fast",
+        "Slow"
+      ],
+      "target": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes/Disk.Virtual.0:AHCI.Slot.3-1/Actions/Volume.Initialize"
+    }
+  }
+}

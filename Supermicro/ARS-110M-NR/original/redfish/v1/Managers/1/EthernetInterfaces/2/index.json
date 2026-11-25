@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/EthernetInterfaces/2","@odata.type":"#EthernetInterface.v1_6_0.EthernetInterface","Description":"Management Network Interface","Id":"2","InterfaceEnabled":true,"LinkStatus":"LinkDown","Name":"OnBaord Manager Ethernet Interface","Status":{"Health":"OK","HealthRollup":"OK","State":"Enabled"}}

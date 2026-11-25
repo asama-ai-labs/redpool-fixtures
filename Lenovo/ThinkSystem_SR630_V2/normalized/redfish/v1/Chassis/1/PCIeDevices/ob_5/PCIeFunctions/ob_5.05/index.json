@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"4e349330019724289ec\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5/PCIeFunctions/ob_5.05",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "ob_5.05",
+  "Name": "Intel RAID Controller CPU2 ::1",
+  "Description": "This resource represents the properties of a PCIeFunction attached to a System.",
+  "DeviceClass": "MassStorageController",
+  "FunctionType": "Physical",
+  "FunctionId": 5,
+  "ClassCode": "0x010400",
+  "DeviceId": "0x28c0",
+  "VendorId": "0x8086",
+  "SubsystemId": "0x010f",
+  "SubsystemVendorId": "0x1d49",
+  "RevisionId": "0x04",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "StorageControllers": [],
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5"
+    },
+    "Drives": []
+  },
+  "Oem": {}
+}

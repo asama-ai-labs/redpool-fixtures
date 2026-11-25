@@ -1,0 +1,99 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "DIMM.Socket.B7",
+  "Name": "DIMM B7",
+  "Description": "DIMM B7",
+  "CapacityMiB": 32768,
+  "Manufacturer": "Hynix Semiconductor",
+  "PartNumber": "HMA84GR7DJR4N-XN",
+  "SerialNumber": "DUMMY-SerialNumber-21",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 3200,
+  "AllowedSpeedsMHz": [
+    3200
+  ],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 2,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 2,
+    "Channel": 5,
+    "Slot": 0
+  },
+  "Location": {},
+  "DeviceLocator": "DIMM B7",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 32768,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    },
+    "Oem": {
+      "Dell": {
+        "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+        "CPUAffinity": [
+          {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+          }
+        ],
+        "CPUAffinity@odata.count": 1
+      }
+    },
+    "Processors": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+      }
+    ],
+    "Processors@odata.count": 1
+  },
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7/Assembly"
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7/MemoryMetrics"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellMemory": {
+        "BankLabel": "B",
+        "Id": "DIMM.Socket.B7",
+        "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
+        "LastUpdateTime": "2024-07-27T07:09:26+00:00",
+        "ManufactureDate": "2021-05-01T00:00:00Z",
+        "MemoryTechnology": "DRAM",
+        "Model": "DDR4 DIMM",
+        "Name": "DellMemory",
+        "RemainingRatedWriteEndurancePercent": null,
+        "SystemEraseCapability": "NotSupported",
+        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7/Oem/Dell/DellMemory/DIMM.Socket.B7"
+      }
+    },
+    "Redpool": {
+      "ManufactureWeek": 17,
+      "ManufactureYear": 2021,
+      "ManufactureDate": "2021-05-01",
+      "FruPartNumber": "HMA84GR7DJR4N-XN",
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

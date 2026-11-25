@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0009",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0009",
+  "Name": "Boot0009",
+  "Description": "00:1B:44:AA:BB:CC",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0009",
+  "DisplayName": "00:1B:44:AA:BB:CC",
+  "UefiDevicePath": "192.0.2.1",
+  "RelatedItem": []
+}

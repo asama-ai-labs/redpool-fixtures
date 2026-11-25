@@ -1,0 +1,1 @@
+{"@odata.type":"#SysLockdown.v1_0_0.SysLockdown","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/SysLockdown","Name":"SysLockdown","Id":"SysLockdown","SysLockdownEnabled":false,"@odata.etag":"6d1f2427de6b888400cf95ce1efe8c91"}

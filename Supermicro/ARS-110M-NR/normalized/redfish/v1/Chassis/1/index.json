@@ -1,0 +1,78 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.id": "/redfish/v1/Chassis/1",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "1",
+  "Name": "1",
+  "ChassisType": "RackMount",
+  "Manufacturer": "Supermicro",
+  "Model": "R12SPD-A",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "CSE-LB16TS-R804AMP2",
+  "PowerState": "On",
+  "IndicatorLED": "Off",
+  "LocationIndicatorActive": false,
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "ComputerSystems": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ]
+  },
+  "Actions": {},
+  "Power": {
+    "@odata.id": "/redfish/v1/Chassis/1/Power"
+  },
+  "Thermal": {
+    "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+  },
+  "PowerSubsystem": {
+    "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem"
+  },
+  "ThermalSubsystem": {
+    "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem"
+  },
+  "NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+  },
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+  },
+  "PCIeSlots": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+  },
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Chassis/1/Assembly"
+  },
+  "Sensors": {
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors"
+  },
+  "EnvironmentMetrics": {
+    "@odata.id": "/redfish/v1/Chassis/1/EnvironmentMetrics"
+  },
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcChassisExtensions.v1_0_0.Chassis",
+      "BoardID": "0x1c5f",
+      "BoardPartNumber": "R12SPD-A",
+      "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+      "GUID": "550e8400-e29b-41d4-a716-446655440000"
+    },
+    "Redpool": {
+      "FruPartNumber": "ARS-110M-NR",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolChassis"
+    }
+  }
+}

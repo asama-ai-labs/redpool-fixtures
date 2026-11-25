@@ -1,0 +1,61 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "NVMeSSD.0.Group.0.StorageBackplane",
+  "Name": "Storage Backplane",
+  "ChassisType": "StorageEnclosure",
+  "Manufacturer": "SUPERMICRO",
+  "Model": "BPN-SAS3-LB16A-N10",
+  "PowerState": "On",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "ComputerSystems": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "Storage": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/NVMeSSD"
+      }
+    ]
+  },
+  "Actions": {},
+  "Power": {},
+  "Thermal": {},
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {},
+  "PCIeDevices": {},
+  "PCIeSlots": {},
+  "Assembly": {},
+  "Sensors": {},
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcChassisExtensions.v1_0_0.Chassis",
+      "CPLD_ID": "1301",
+      "DC": "13010D",
+      "Rev": "0D"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/SharedNetworkPorts","@odata.type":"#PortCollection.PortCollection","Description":"Collection of SharedNetworkPorts","Members":[{"@odata.id":"/redfish/v1/Managers/1/SharedNetworkPorts/1"},{"@odata.id":"/redfish/v1/Managers/1/SharedNetworkPorts/2"}],"Members@odata.count":2,"Name":"SharedNetworkPorts Collection"}

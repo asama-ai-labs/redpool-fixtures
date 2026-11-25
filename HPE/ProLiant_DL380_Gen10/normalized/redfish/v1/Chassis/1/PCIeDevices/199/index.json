@@ -1,0 +1,25 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "W/\"4DA55F10\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/199",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "199",
+  "Name": "HPE Eth 10Gb 2p 562T Adptr",
+  "Manufacturer": "HPE",
+  "Model": "817736-001",
+  "SerialNumber": "DUMMY-SerialNumber-8",
+  "PartNumber": "817736-001",
+  "SKU": "DUMMY-SKU-4",
+  "FirmwareVersion": "10.55.3",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/199/PCIeFunctions"
+  },
+  "Slot": {},
+  "Status": {
+    "Health": null,
+    "State": null
+  },
+  "Links": {},
+  "Oem": {}
+}

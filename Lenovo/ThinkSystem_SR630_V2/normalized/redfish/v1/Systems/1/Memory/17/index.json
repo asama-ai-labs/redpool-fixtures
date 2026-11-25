@@ -1,0 +1,48 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "\"fae22eadde1f35974afa6\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/17",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "17",
+  "Name": "DIMM 17",
+  "Description": "This resource is used to represent a memory for a Redfish implementation.",
+  "Manufacturer": "",
+  "PartNumber": "",
+  "SerialNumber": "",
+  "AllowedSpeedsMHz": [],
+  "ErrorCorrection": null,
+  "MemoryLocation": {
+    "Socket": 2,
+    "MemoryController": 0,
+    "Channel": 1,
+    "Slot": 17
+  },
+  "Location": {
+    "PartLocation": {
+      "LocationType": "Slot",
+      "ServiceLabel": "DIMM 17",
+      "LocationOrdinalValue": 16
+    }
+  },
+  "DeviceLocator": "",
+  "DeviceID": "",
+  "OperatingMemoryModes": [],
+  "MemoryMedia": [],
+  "Status": {
+    "Health": null,
+    "State": "Absent"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoMemory.v1_0_0.LenovoMemory",
+      "FruPartNumber": null
+    }
+  }
+}

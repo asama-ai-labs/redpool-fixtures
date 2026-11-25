@@ -1,0 +1,129 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+  "@odata.etag": "047f63b6f32ac0c105a75729182c1cb3",
+  "@odata.id": "/redfish/v1/Systems/1",
+  "@odata.type": "#ComputerSystem.v1_25_0.ComputerSystem",
+  "Id": "1",
+  "Name": "System",
+  "Description": "Description of server",
+  "SystemType": "Physical",
+  "Manufacturer": "Supermicro",
+  "Model": "SYS-220TP-HTTR",
+  "SubModel": "",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "SYS-220TP-HTTR",
+  "SKU": "DUMMY-SKU",
+  "UUID": "550e8400-e29b-41d4-a716-446655440000",
+  "BiosVersion": "1.4",
+  "PowerState": "On",
+  "IndicatorLED": "Off",
+  "Boot": {
+    "BootSourceOverrideEnabled": "Disabled",
+    "BootSourceOverrideMode": "Legacy",
+    "BootSourceOverrideTarget": "None",
+    "BootSourceOverrideTarget@Redfish.AllowableValues": [
+      "None",
+      "Pxe",
+      "Hdd",
+      "Cd",
+      "BiosSetup",
+      "Usb",
+      "Floppy",
+      "UsbCd"
+    ]
+  },
+  "BootProgress": {},
+  "ProcessorSummary": {
+    "Count": 2,
+    "Model": "Intel(R) Xeon(R) processor",
+    "Status": {
+      "State": "Enabled",
+      "Health": "OK",
+      "HealthRollup": "OK"
+    },
+    "Metrics": {
+      "@odata.id": "/redfish/v1/Systems/1/ProcessorSummary/ProcessorMetrics"
+    }
+  },
+  "MemorySummary": {
+    "Metrics": {
+      "@odata.id": "/redfish/v1/Systems/1/MemorySummary/MemoryMetrics"
+    },
+    "TotalSystemMemoryGiB": 256,
+    "MemoryMirroring": "System",
+    "Status": {
+      "State": "Enabled",
+      "Health": "OK",
+      "HealthRollup": "OK"
+    }
+  },
+  "TrustedModules": [],
+  "HostingRoles": [],
+  "Status": {
+    "State": "Enabled",
+    "Health": "Critical"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "Oem": {}
+  },
+  "Actions": {
+    "Oem": {},
+    "#ComputerSystem.Reset": {
+      "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset",
+      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo"
+    }
+  },
+  "Bios": {
+    "@odata.id": "/redfish/v1/Systems/1/Bios"
+  },
+  "Processors": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors"
+  },
+  "Memory": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory"
+  },
+  "EthernetInterfaces": {
+    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+  },
+  "Storage": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage"
+  },
+  "SimpleStorage": {
+    "@odata.id": "/redfish/v1/Systems/1/SimpleStorage"
+  },
+  "NetworkInterfaces": {
+    "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces"
+  },
+  "SecureBoot": {
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
+  },
+  "VirtualMedia": {},
+  "PCIeDevices": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    }
+  ],
+  "PCIeFunctions": [],
+  "LogServices": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices"
+  },
+  "GraphicalConsole": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcSystemExtensions.v1_0_0.System",
+      "NodeManager": {
+        "@odata.id": "/redfish/v1/Systems/1/Oem/Supermicro/NodeManager"
+      }
+    }
+  }
+}

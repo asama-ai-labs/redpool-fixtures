@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/power_S0_RCA_VR_Pwr","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"power_S0_RCA_VR_Pwr","Name":"S0 RCA VR Pwr","Reading":2.023,"ReadingRangeMax":204.0,"ReadingRangeMin":0.0,"ReadingType":"Power","ReadingUnits":"W","Status":{"Health":"OK","State":"Enabled"}}

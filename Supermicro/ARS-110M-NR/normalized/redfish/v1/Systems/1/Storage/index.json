@@ -1,0 +1,17 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageCollection.StorageCollection",
+  "@odata.id": "/redfish/v1/Systems/1/Storage",
+  "@odata.type": "#StorageCollection.StorageCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/NVMeSSD"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Storage subsystems",
+  "Name": "StorageCollection",
+  "Oem": {}
+}

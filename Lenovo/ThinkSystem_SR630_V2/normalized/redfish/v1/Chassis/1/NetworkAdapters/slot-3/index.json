@@ -1,0 +1,71 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+  "@odata.etag": "\"a3f0868eb4103598b9b1c\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3",
+  "@odata.type": "#NetworkAdapter.v1_11_0.NetworkAdapter",
+  "Id": "slot-3",
+  "Name": "NetworkAdapter",
+  "Description": "A NetworkAdapter represents the physical network adapter capable of connecting to a computer network.",
+  "Manufacturer": "",
+  "Model": "HPE Eth 10/25Gb 2p 640SFP28 Adpt",
+  "SerialNumber": "DUMMY-SerialNumber-13",
+  "PartNumber": "",
+  "SKU": "",
+  "Controllers": [
+    {
+      "Links": {
+        "NetworkDeviceFunctions": [],
+        "NetworkPorts": [],
+        "Ports": [],
+        "PCIeDevices": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3"
+          }
+        ]
+      },
+      "FirmwarePackageVersion": "14.27.4000",
+      "PCIeInterface": {
+        "LanesInUse": 8,
+        "MaxPCIeType": "Gen3",
+        "MaxLanes": 8,
+        "PCIeType": "Gen3"
+      },
+      "ControllerCapabilities": {
+        "NetworkPortCount": -2,
+        "NetworkDeviceFunctionCount": -2
+      },
+      "Location": {
+        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "InfoFormat": "Slot X",
+        "Info": "Slot 3",
+        "PartLocation": {
+          "ServiceLabel": "PCIe 3",
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 3
+        }
+      }
+    }
+  ],
+  "NetworkDeviceFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3/NetworkDeviceFunctions"
+  },
+  "NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3/NetworkPorts"
+  },
+  "Ports": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3/Ports"
+  },
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "Assembly": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoDeviceInfo.v1_0_0.LenovoDeviceInfo",
+      "UUID": ""
+    }
+  }
+}

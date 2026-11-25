@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.etag": "\"5ce6d7de4bb328ab5eb\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/Ports/2",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "2",
+  "Name": "Phyical Port 2",
+  "Description": "A Network Port represents a discrete physical port capable of connecting to a network.",
+  "Status": {
+    "HealthRollup": "OK",
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "LinkNetworkTechnology": "Ethernet",
+  "PortId": "2",
+  "Ethernet": {
+    "AssociatedMACAddresses": [
+      "00:1B:44:AA:00:08"
+    ]
+  },
+  "LinkStatus": "LinkDown",
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoPort.v1_0_0.LenovoPort",
+      "PhysicalPortMacAddress": "00:1B:44:AA:00:08",
+      "PortMaximumMTU": 72000,
+      "PhysicalPortNumber": "2"
+    }
+  }
+}

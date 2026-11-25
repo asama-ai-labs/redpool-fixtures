@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/$metadata#Session.Session","@odata.id":"/redfish/v1/SessionService/Sessions/1346","@odata.type":"#Session.v1_6_0.Session","ClientOriginIPAddress":"192.0.2.1","CreatedTime":"2025-10-21T12:56:11+00:00","Description":"User Session","Id":"1346","Name":"User Session","Password":null,"SessionType":"Redfish","UserName":"DUMMY-User"}

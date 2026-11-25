@@ -1,0 +1,156 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.etag": "\"1007ffb2906d434a98c356\"",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/ToHost",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "ToHost",
+  "Name": "Manager Ethernet Over USB Interface",
+  "Description": "Management Network Interface",
+  "MACAddress": "00:1B:44:AA:00:12",
+  "PermanentMACAddress": "00:1B:44:AA:00:12",
+  "LinkStatus": "LinkDown",
+  "InterfaceEnabled": false,
+  "SpeedMbps": null,
+  "AutoNeg": null,
+  "MTUSize": 1500,
+  "EthernetInterfaceType": "Physical",
+  "FQDN": "",
+  "HostName": "",
+  "IPv4Addresses": [
+    {
+      "Gateway": "192.0.2.1",
+      "Address": "192.0.2.1",
+      "SubnetMask": "192.0.2.1",
+      "AddressOrigin": "Static"
+    }
+  ],
+  "IPv4StaticAddresses": [
+    {
+      "Gateway": "192.0.2.1",
+      "Address": "192.0.2.1",
+      "SubnetMask": "192.0.2.1",
+      "AddressOrigin": "Static"
+    }
+  ],
+  "IPv6Addresses": [
+    {
+      "PrefixLength": 64,
+      "AddressOrigin": "LinkLocal",
+      "Address": "::1",
+      "AddressState": "Preferred"
+    }
+  ],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "State": "Disabled"
+  },
+  "Links": {
+    "HostInterface": {
+      "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1"
+    },
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Oem": {
+    "Lenovo": {
+      "AddressMode": "IPv6LLA",
+      "@odata.type": "#LenovoEthernetInterface.v1_0_0.LenovoEthernetInterfaceProperties",
+      "OSIPv4Address": "192.0.2.1",
+      "PortForwarding": {
+        "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/ToHost/Oem/Lenovo/PortForwarding"
+      }
+    }
+  },
+  "DHCPv4": {
+    "DHCPEnabled": false,
+    "UseDomainName": false,
+    "UseGateway": null,
+    "UseStaticRoutes": null,
+    "UseNTPServers": null,
+    "UseDNSServers": false,
+    "FallbackAddress": "None"
+  },
+  "DHCPv6": {
+    "UseDNSServers": false,
+    "UseDomainName": false,
+    "UseNTPServers": null,
+    "UseRapidCommit": null,
+    "OperatingMode": "Disabled"
+  },
+  "StaticNameServers": [
+    "192.0.2.1",
+    "192.0.2.1",
+    "192.0.2.1",
+    "::1",
+    "::1",
+    "::1"
+  ],
+  "IPv6AddressPolicyTable": [
+    {
+      "Precedence": 50,
+      "Prefix": "::1/128",
+      "Label": 0
+    },
+    {
+      "Precedence": 11,
+      "Prefix": "::1/96",
+      "Label": 3
+    },
+    {
+      "Precedence": 35,
+      "Prefix": "::192.0.2.1/96",
+      "Label": 4
+    },
+    {
+      "Precedence": 10,
+      "Prefix": "::1/32",
+      "Label": 6
+    },
+    {
+      "Precedence": 10,
+      "Prefix": "::1/28",
+      "Label": 7
+    },
+    {
+      "Precedence": 1,
+      "Prefix": "::1/16",
+      "Label": 12
+    },
+    {
+      "Precedence": 30,
+      "Prefix": "::1/16",
+      "Label": 2
+    },
+    {
+      "Precedence": 1,
+      "Prefix": "::1/10",
+      "Label": 11
+    },
+    {
+      "Precedence": 5,
+      "Prefix": "::1/7",
+      "Label": 5
+    },
+    {
+      "Precedence": 40,
+      "Prefix": "::1/0",
+      "Label": 1
+    }
+  ],
+  "IPv6StaticDefaultGateways": [
+    {
+      "PrefixLength": 0,
+      "Address": "::1"
+    }
+  ],
+  "StatelessAddressAutoConfig": {
+    "IPv6AutoConfigEnabled": false,
+    "IPv4AutoConfigEnabled": null
+  },
+  "MaxIPv6StaticAddresses": 0,
+  "VLANs": {}
+}

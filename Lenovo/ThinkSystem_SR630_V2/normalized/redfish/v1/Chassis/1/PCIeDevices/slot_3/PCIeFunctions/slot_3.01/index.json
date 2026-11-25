@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"4e06b2388a352a28f14\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3/PCIeFunctions/slot_3.01",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "slot_3.01",
+  "Name": "NetworkAdapter ::1",
+  "Description": "This resource represents the properties of a PCIeFunction attached to a System.",
+  "DeviceClass": "NetworkController",
+  "FunctionType": "Physical",
+  "FunctionId": 1,
+  "ClassCode": "0x020000",
+  "DeviceId": "0x1015",
+  "VendorId": "0x15b3",
+  "SubsystemId": "0x00d4",
+  "SubsystemVendorId": "0x1590",
+  "RevisionId": "0x00",
+  "Status": {
+    "HealthRollup": "OK",
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "EthernetInterfaces": [],
+    "NetworkDeviceFunctions": [],
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3"
+    }
+  },
+  "Oem": {}
+}

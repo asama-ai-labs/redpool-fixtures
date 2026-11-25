@@ -1,0 +1,69 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "W/\"E6EC3A2C\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm3",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "proc2dimm3",
+  "Name": "proc2dimm3",
+  "CapacityMiB": 32768,
+  "Manufacturer": "Micron Technology",
+  "PartNumber": "36ASF4G72PZ-2G6D1",
+  "SerialNumber": "DUMMY-SerialNumber-11",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 2666,
+  "AllowedSpeedsMHz": [],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 2,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 1,
+    "Channel": 4,
+    "Slot": 0
+  },
+  "Location": {},
+  "DeviceLocator": "PROC 2 DIMM 3",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 32768,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
+      "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
+      "Attributes": [
+        "HpeSmartMemory"
+      ],
+      "BaseModuleType": "RDIMM",
+      "DIMMManufacturingDate": "1803",
+      "DIMMStatus": "GoodInUse",
+      "MaxOperatingSpeedMTs": 2666,
+      "MinimumVoltageVoltsX10": 12,
+      "PartNumber": "840758-091",
+      "VendorName": "Micron"
+    },
+    "Redpool": {
+      "ManufactureWeek": 3,
+      "ManufactureYear": 2018,
+      "ManufactureDate": "2018-01-15",
+      "FruPartNumber": "840758-091",
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

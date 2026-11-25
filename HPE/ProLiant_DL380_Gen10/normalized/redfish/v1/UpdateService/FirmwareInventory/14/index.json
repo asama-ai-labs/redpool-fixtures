@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/14",
+  "@odata.etag": "W/\"4624H780\"",
+  "Id": "14",
+  "Name": "HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",
+  "Description": "15b31015159000d3",
+  "Version": "14.32.1010",
+  "Updateable": false,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+      "DeviceClass": null,
+      "DeviceContext": "Embedded ALOM",
+      "DeviceInstance": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-000000000011"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "14",
+        "device_context": "Embedded ALOM"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

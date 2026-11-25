@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+  "Id": "14",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"05147HHO\"",
+  "Created": "2000-08-21T15:59:19Z",
+  "Severity": "Warning",
+  "Message": "System Power Supplies Not Redundant",
+  "MessageId": "11.54",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Modified": "2000-08-21T16:08:21Z",
+  "Resolution": "Add a power supply or replace the failed power supply.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Power"
+      ],
+      "Class": 11,
+      "ClassDescription": "Power",
+      "Code": 54,
+      "Count": 2,
+      "EventNumber": 14,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Add a power supply or replace the failed power supply.",
+      "Repaired": false,
+      "Severity": "Caution",
+      "Updated": "2000-08-21T16:08:21Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Power"
+      ],
+      "Class": 11,
+      "ClassDescription": "Power",
+      "Code": 54,
+      "Count": 2,
+      "EventNumber": 14,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Add a power supply or replace the failed power supply.",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

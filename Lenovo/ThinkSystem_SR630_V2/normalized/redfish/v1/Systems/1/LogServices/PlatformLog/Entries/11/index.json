@@ -1,0 +1,91 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/PlatformLog/Entries/11",
+  "Id": "11",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"iiNjP1M9JD4eJPNeFH4bAD60iihI32\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-10T16:19:27.073+00:00",
+  "Severity": "OK",
+  "Message": "Host Power has been turned off.",
+  "MessageArgs": [
+    "Host Power"
+  ],
+  "OemLogEntryCode": "DMTF0106",
+  "EventId": "0x806f00091301ffff",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/1L0"
+    }
+  },
+  "MessageArgs@odata.count": 1,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "Source": "Power",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x806f00091301ffff",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 11,
+      "LenovoMessageID": "DMTF0106",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPW0008I",
+      "TotalSequenceNumber": 23,
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDIdentifier": "30e",
+          "LEDState": "Blinking"
+        }
+      ],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
+        }
+      ],
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "ReportingChain": "XCC",
+      "EventFlag": 0,
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventType": 0,
+      "AuxiliaryData": ""
+    },
+    "Redpool": {
+      "Source": "Power",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventSequenceNumber": 11,
+      "LenovoMessageID": "DMTF0106",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPW0008I",
+      "TotalSequenceNumber": 23,
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDIdentifier": "30e",
+          "LEDState": "Blinking"
+        }
+      ],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
+        }
+      ],
+      "ReportingChain": "XCC",
+      "EventFlag": 0,
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventType": 0,
+      "AuxiliaryData": "",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

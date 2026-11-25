@@ -1,0 +1,182 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDeviceCollection.PCIeDeviceCollection",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices",
+  "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-20"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/1-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/128-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/160-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/192-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/199-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/224-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/225-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/3-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/32-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/38-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/64-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/65-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/96-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/96-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/96-4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/96-7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/96-8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/98-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/99-0"
+    }
+  ],
+  "Members@odata.count": 57,
+  "Description": "Collection of PCIe Devices",
+  "Name": "PCIeDeviceCollection",
+  "Oem": {}
+}

@@ -1,0 +1,25 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.etag": "W/\"J441669A\"",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "IEL",
+  "Name": "iLO Event Log",
+  "DateTime": "2026-08-29T22:10:02Z",
+  "DateTimeLocalOffset": "+00:00",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries"
+  },
+  "OverWritePolicy": "WrapsWhenFull",
+  "ServiceEnabled": true,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Actions": {
+    "#LogService.ClearLog": {
+      "target": "/redfish/v1/Managers/1/LogServices/IEL/Actions/LogService.ClearLog"
+    }
+  },
+  "Oem": {}
+}

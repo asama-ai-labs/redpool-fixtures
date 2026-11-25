@@ -1,0 +1,36 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/LCMC_Multinode",
+  "@odata.etag": "db50ef31bef7f74179d6fd01eb8d3d41",
+  "Id": "LCMC_Multinode",
+  "Name": "Multi-node LCMC",
+  "Version": "0.15",
+  "Manufacturer": "SMCI",
+  "Updateable": true,
+  "WriteProtected": false,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "LCMC_Multinode",
+        "related_item_uri": "/redfish/v1/Systems/1",
+        "related_kind": "system",
+        "related_ref": "1",
+        "related_location": "System"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#DriveCollection.DriveCollection",
+  "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives",
+  "@odata.type": "#DriveCollection.DriveCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.1"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Drives",
+  "Name": "DriveCollection",
+  "Oem": {}
+}

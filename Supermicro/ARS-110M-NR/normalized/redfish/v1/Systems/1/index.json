@@ -1,0 +1,163 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+  "@odata.id": "/redfish/v1/Systems/1",
+  "@odata.type": "#ComputerSystem.v1_25_0.ComputerSystem",
+  "Id": "1",
+  "Name": "1",
+  "Description": "Computer System",
+  "SystemType": "Physical",
+  "Manufacturer": "Supermicro",
+  "Model": "R12SPD",
+  "SubModel": "",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "ARS-110M-NR",
+  "UUID": "550e8400-e29b-41d4-a716-446655440000",
+  "AssetTag": "DUMMY-AssetTag",
+  "BiosVersion": "1.2a",
+  "PowerState": "On",
+  "IndicatorLED": "Off",
+  "LocationIndicatorActive": false,
+  "Boot": {
+    "AutomaticRetryConfig": "RetryAttempts",
+    "AutomaticRetryConfig@Redfish.AllowableValues": [
+      "Disabled",
+      "RetryAttempts"
+    ],
+    "BootOptions": {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions"
+    },
+    "BootOrder": [
+      "Boot0002",
+      "Boot0005",
+      "Boot0008",
+      "Boot0009",
+      "Boot0007",
+      "Boot0006"
+    ],
+    "BootSourceOverrideEnabled": "Disabled",
+    "BootSourceOverrideMode": "Legacy",
+    "BootSourceOverrideMode@Redfish.AllowableValues": [
+      "Legacy",
+      "UEFI"
+    ],
+    "BootSourceOverrideTarget": "None",
+    "BootSourceOverrideTarget@Redfish.AllowableValues": [
+      "None",
+      "Pxe",
+      "Hdd",
+      "Cd",
+      "Diags",
+      "BiosSetup",
+      "Usb"
+    ],
+    "TrustedModuleRequiredToBoot": "Disabled",
+    "UefiTargetBootSourceOverride": null
+  },
+  "BootProgress": {
+    "LastState": "SystemHardwareInitializationComplete"
+  },
+  "ProcessorSummary": {
+    "CoreCount": 32,
+    "Count": 1,
+    "Metrics": {
+      "@odata.id": "/redfish/v1/Systems/1/ProcessorSummary/ProcessorMetrics"
+    },
+    "Model": "Ampere(R) Altra(R) Processor",
+    "Status": {
+      "Health": "OK",
+      "HealthRollup": "OK",
+      "State": "Enabled"
+    }
+  },
+  "MemorySummary": {
+    "Metrics": {
+      "@odata.id": "/redfish/v1/Systems/1/MemorySummary/MemoryMetrics"
+    },
+    "Status": {
+      "Health": "OK",
+      "HealthRollup": "OK",
+      "State": "Enabled"
+    },
+    "TotalSystemMemoryGiB": 64
+  },
+  "TrustedModules": [],
+  "HostWatchdogTimer": {
+    "FunctionEnabled": false,
+    "Status": {
+      "State": "Enabled"
+    },
+    "TimeoutAction": "ResetSystem"
+  },
+  "HostingRoles": [],
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ]
+  },
+  "Actions": {
+    "#ComputerSystem.Reset": {
+      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo",
+      "ResetType@Redfish.AllowableValues": [
+        "On",
+        "ForceOff",
+        "ForceOn",
+        "ForceRestart",
+        "GracefulRestart",
+        "GracefulShutdown",
+        "PowerCycle",
+        "Nmi"
+      ],
+      "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset"
+    }
+  },
+  "Bios": {
+    "@odata.id": "/redfish/v1/Systems/1/Bios"
+  },
+  "Processors": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors"
+  },
+  "Memory": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory"
+  },
+  "EthernetInterfaces": {
+    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+  },
+  "Storage": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage"
+  },
+  "SimpleStorage": {},
+  "NetworkInterfaces": {},
+  "SecureBoot": {
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
+  },
+  "VirtualMedia": {},
+  "PCIeDevices": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    }
+  ],
+  "PCIeFunctions": [],
+  "LogServices": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices"
+  },
+  "GraphicalConsole": {
+    "ConnectTypesSupported": [
+      "KVMIP"
+    ],
+    "MaxConcurrentSessions": 4,
+    "ServiceEnabled": true
+  },
+  "Oem": {}
+}

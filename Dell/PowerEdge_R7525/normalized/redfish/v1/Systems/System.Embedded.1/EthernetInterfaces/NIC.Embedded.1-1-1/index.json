@@ -1,0 +1,32 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/EthernetInterfaces/NIC.Embedded.1-1-1",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "NIC.Embedded.1-1-1",
+  "Name": "System Ethernet Interface",
+  "Description": "Embedded NIC 1 Port 1 Partition 1",
+  "MACAddress": "00:1B:44:AA:00:05",
+  "PermanentMACAddress": "00:1B:44:AA:00:05",
+  "LinkStatus": "LinkUp",
+  "InterfaceEnabled": true,
+  "SpeedMbps": 1000,
+  "FullDuplex": true,
+  "AutoNeg": true,
+  "EthernetInterfaceType": "Physical",
+  "IPv4Addresses": [],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    }
+  },
+  "Oem": {}
+}

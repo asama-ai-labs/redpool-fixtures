@@ -1,0 +1,11 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+  "@odata.etag": "W/\"75983E8D\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/LogicalDrives",
+  "@odata.type": "#VolumeCollection.VolumeCollection",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Description": "Collection of Volumes",
+  "Name": "VolumeCollection",
+  "Oem": {}
+}

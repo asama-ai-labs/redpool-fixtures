@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/Memory/dimm6/MemoryMetrics","@odata.type":"#MemoryMetrics.v1_4_1.MemoryMetrics","BandwidthPercent":0,"Id":"MemoryMetrics","Name":"Memory Metrics","OperatingSpeedMHz":0}

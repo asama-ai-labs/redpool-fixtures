@@ -1,0 +1,24 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLD_Motherboard",
+  "Id": "CPLD_Motherboard",
+  "Name": "CPLD Motherboard",
+  "Description": "Other image",
+  "Version": "4D.01.0C",
+  "Updateable": true,
+  "RelatedItem@odata.count": 0,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "CPLD_Motherboard"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

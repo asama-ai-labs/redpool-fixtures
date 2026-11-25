@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/HostLogger",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "HostLogger",
+  "Name": "Host Logger Service",
+  "Description": "Host Logger Service",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/HostLogger/Entries"
+  },
+  "Status": {},
+  "Actions": {},
+  "Oem": {}
+}

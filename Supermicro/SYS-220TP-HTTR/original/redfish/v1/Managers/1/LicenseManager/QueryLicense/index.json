@@ -1,0 +1,1 @@
+{"@odata.type":"#QueryLicense.v1_0_0.QueryLicense","@odata.id":"/redfish/v1/Managers/1/LicenseManager/QueryLicense","Id":"QueryLicense","Name":"LicenseManager","Licenses":["{\"ProductKey\":{\"Node\":{\"LicenseID\":\"1\",\"LicenseName\":\"SFT-OOB-LIC\",\"CreateDate\":\"20221101\"},\"Signature\":\"DUMMY-Signature\"}}"],"@odata.etag":"d84a7d7f56af7fc939c54006d4d1b8c2"}

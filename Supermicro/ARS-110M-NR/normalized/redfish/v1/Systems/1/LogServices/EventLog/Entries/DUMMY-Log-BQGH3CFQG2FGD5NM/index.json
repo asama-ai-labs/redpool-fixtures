@@ -1,0 +1,16 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-BQGH3CFQG2FGD5NM",
+  "Id": "DUMMY-Log-BQGH3CFQG2FGD5NM",
+  "Name": "System Event Log Entry",
+  "EntryType": "Event",
+  "Created": "2025-08-01T01:03:50+00:00",
+  "Severity": "Warning",
+  "Message": "Power supply PSU1 failure predicted.",
+  "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+  "MessageArgs": [
+    "PSU1"
+  ],
+  "MessageArgs@odata.count": 1
+}

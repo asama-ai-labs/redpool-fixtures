@@ -1,0 +1,23 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunctionCollection.PCIeFunctionCollection",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/25-0/PCIeFunctions",
+  "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/25-0/PCIeFunctions/25-0-0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/25-0/PCIeFunctions/25-0-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/25-0/PCIeFunctions/25-0-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/25-0/PCIeFunctions/25-0-3"
+    }
+  ],
+  "Members@odata.count": 4,
+  "Description": "Collection of PCIe Functions",
+  "Name": "PCIeFunctionCollection",
+  "Oem": {}
+}

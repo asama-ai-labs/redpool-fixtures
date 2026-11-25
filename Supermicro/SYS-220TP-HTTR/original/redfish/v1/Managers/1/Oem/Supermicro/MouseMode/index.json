@@ -1,0 +1,1 @@
+{"@odata.type":"#MouseMode.v1_0_0.MouseMode","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/MouseMode","Id":"Mouse Mode","Name":"MouseMode","Mode":"Absolute","Mode@Redfish.AllowableValues":["Absolute","Relative","Single"],"@odata.etag":"4b940148cf9f9d10f0560140d624ed14"}

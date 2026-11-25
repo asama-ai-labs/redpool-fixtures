@@ -1,0 +1,23 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.etag": "\"318096680ac024243de\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/123L0",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "123L0",
+  "Name": "CPU 1 Status",
+  "Description": "This resource is used to represent a sensor for a Redfish implementation.",
+  "Reading": 0,
+  "ReadingUnits": "",
+  "PhysicalContext": "CPU",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {},
+  "Oem": {},
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+    }
+  ]
+}

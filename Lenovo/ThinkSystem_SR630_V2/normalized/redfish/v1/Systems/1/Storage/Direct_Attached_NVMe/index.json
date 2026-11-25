@@ -1,0 +1,72 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+  "@odata.etag": "\"a155bfbd99002ff67870d\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe",
+  "@odata.type": "#Storage.v1_16_0.Storage",
+  "Id": "Direct_Attached_NVMe",
+  "Name": "NVMe Storage",
+  "Description": "This resource is used to represent a storage for a direct attached NVMe storage, including AIC and U.2.",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Drives": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3"
+    }
+  ],
+  "Drives@odata.count": 4,
+  "Volumes": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Volumes"
+  },
+  "StorageControllers": [
+    {
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MemberId": "0",
+      "Name": "VROC",
+      "SupportedRAIDTypes": [
+        "RAID0",
+        "RAID1",
+        "RAID5",
+        "RAID10"
+      ],
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe#/StorageControllers/0",
+      "SupportedControllerProtocols": [
+        "PCIe"
+      ],
+      "SupportedDeviceProtocols": [
+        "NVMe",
+        "SATA"
+      ],
+      "Manufacturer": "Intel",
+      "SpeedGbps": 32,
+      "AssetTag": "",
+      "Model": "VMD"
+    }
+  ],
+  "StorageControllers@odata.count": 1,
+  "Controllers": {},
+  "Identifiers": [],
+  "Links": {
+    "Enclosures@odata.count": 1,
+    "Enclosures": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ]
+  },
+  "Actions": {}
+}

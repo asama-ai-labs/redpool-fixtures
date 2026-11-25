@@ -1,0 +1,1 @@
+{"@odata.etag":"\"17ed9f3eba2628a4a2f\"","@odata.context":"/redfish/v1/$metadata#Session.Session","SessionType":"Redfish","Id":"38","Name":"38","@odata.type":"#Session.v1_3_0.Session","@odata.id":"/redfish/v1/SessionService/Sessions/38","UserName":"DUMMY-User","Password":null}

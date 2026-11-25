@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "W/\"3339B819\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/20",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "20",
+  "Name": "Empty Drive Bay 26",
+  "Description": "Empty Drive Bay 26",
+  "Manufacturer": "Illegal Vendor ID",
+  "Model": "Empty Drive Bay 26",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/20/PCIeFunctions"
+  },
+  "Slot": {
+    "Location": {
+      "Info": "NVMe Drive 45",
+      "PartLocation": {
+        "ServiceLabel": "NVMe.DriveBay.255.26",
+        "LocationType": "Slot"
+      }
+    }
+  },
+  "Status": {
+    "State": null,
+    "Health": null
+  },
+  "Links": {},
+  "Assembly": {},
+  "Oem": {}
+}

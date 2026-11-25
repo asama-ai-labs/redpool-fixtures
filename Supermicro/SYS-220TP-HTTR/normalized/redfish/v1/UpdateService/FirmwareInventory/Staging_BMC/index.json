@@ -1,0 +1,40 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Staging_BMC",
+  "@odata.etag": "8d898ef0f7c734c8eb10b1466554e74c",
+  "Id": "Staging_BMC",
+  "Name": "BMC Staging",
+  "Version": "01.02.34",
+  "Manufacturer": "SMCI",
+  "Updateable": true,
+  "WriteProtected": false,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "UniqueFilename": "BMC_X12AST2600-ROT-6202MS_20220701_01.02.34_STDsp.bin"
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Staging_BMC",
+        "unique_filename": "BMC_X12AST2600-ROT-6202MS_20220701_01.02.34_STDsp.bin",
+        "related_item_uri": "/redfish/v1/Managers/1",
+        "related_kind": "manager",
+        "related_ref": "1",
+        "related_location": "BMC"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

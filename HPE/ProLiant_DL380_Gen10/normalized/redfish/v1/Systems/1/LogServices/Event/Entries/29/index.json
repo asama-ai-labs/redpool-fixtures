@@ -1,0 +1,24 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/29",
+  "Id": "29",
+  "Name": "Event",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"112I1086\"",
+  "Created": "2025-12-06T12:43:00Z",
+  "Severity": "Critical",
+  "MessageId": "iLOEvents.3.14.PowerSupplyACPowerLoss",
+  "MessageArgs": [
+    "2"
+  ],
+  "EventId": "550e8400-e29b-41d4-a716-00000000003d",
+  "EventTimestamp": "2025-12-06T12:43:00Z",
+  "OemRecordFormat": "Hpe-Event",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Power/#PowerSupplies/1"
+    }
+  },
+  "MessageArgs@odata.count": 1
+}

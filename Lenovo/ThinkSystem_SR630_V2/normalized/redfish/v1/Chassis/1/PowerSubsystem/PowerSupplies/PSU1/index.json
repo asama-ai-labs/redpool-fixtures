@@ -1,0 +1,43 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PowerSupply.PowerSupply",
+  "@odata.etag": "\"6d284d61ce9429701d0\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/PSU1",
+  "@odata.type": "#PowerSupply.v1_5_0.PowerSupply",
+  "Id": "PSU1",
+  "Name": "Power Supply 1",
+  "Description": "This resource shall represent Power Supply 1 of a chassis for a Redfish implementation.",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Model": "LENOVO-SP57B07048",
+  "Manufacturer": "ARTE",
+  "SerialNumber": "DUMMY-SerialNumber-4",
+  "PartNumber": "SP57B07048",
+  "SparePartNumber": "03KK305",
+  "FirmwareVersion": "6.52",
+  "PowerCapacityWatts": 1800,
+  "PowerSupplyType": "AC",
+  "InputNominalVoltageType": "AC200To277V",
+  "EfficiencyRatings": [
+    {
+      "EfficiencyPercent": 89,
+      "LoadPercent": 9
+    }
+  ],
+  "HotPluggable": true,
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "PSU1",
+      "LocationOrdinalValue": 1,
+      "LocationType": "Slot"
+    }
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/PSU1/Metrics"
+  },
+  "Assembly": {},
+  "Links": {},
+  "Actions": {},
+  "Oem": {}
+}

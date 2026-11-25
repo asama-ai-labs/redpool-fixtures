@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS",
+  "Id": "BIOS",
+  "Name": "BIOS",
+  "Description": "Host image",
+  "Version": "BIOS Date: 07/01/2024 Ver 1.2a",
+  "Updateable": true,
+  "RelatedItem@odata.count": 1,
+  "ReleaseDate": "2024-05-18T15:36:43Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Bios"
+    }
+  ],
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcSoftwareInventoryExtensions.v1_0_0.SmcSoftwareInventoryExtensions",
+      "UniqueFilename": "BIOS_R12SPD-1C5F_20240701_1.2a_STD.bin"
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "BIOS",
+        "unique_filename": "BIOS_R12SPD-1C5F_20240701_1.2a_STD.bin",
+        "related_item_uri": "/redfish/v1/Systems/1/Bios",
+        "related_kind": "bios",
+        "related_ref": "Bios",
+        "related_location": "BIOS"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

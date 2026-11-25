@@ -1,0 +1,116 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-2",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "Enclosure.Internal.0-2",
+  "Name": "PCIe SSD Backplane 2",
+  "Description": "PCIe SSD Backplane 2",
+  "ChassisType": "StorageEnclosure",
+  "Manufacturer": null,
+  "Model": "PCIe SSD Backplane 2",
+  "SKU": "",
+  "AssetTag": "",
+  "PowerState": "On",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "ContainedBy": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    },
+    "Contains": [],
+    "Contains@odata.count": 0,
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.20:Enclosure.Internal.0-2"
+      }
+    ],
+    "Drives@odata.count": 1,
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+      }
+    ],
+    "ManagedBy@odata.count": 1,
+    "PCIeDevices": [],
+    "PCIeDevices@Redfish.Deprecated": "Please migrate to use /redfish/v1/Chassis/Enclosure.Internal.0-2/PCIeDevices",
+    "PCIeDevices@odata.count": 0,
+    "Storage": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1"
+      }
+    ],
+    "Storage@odata.count": 1
+  },
+  "Actions": {},
+  "Power": {},
+  "Thermal": {},
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {},
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-2/PCIeDevices"
+  },
+  "PCIeSlots": {},
+  "Assembly": {},
+  "Sensors": {},
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOemEnclosureChassis.v1_0_0.DellOemEnclosureChassis",
+      "DellChassisEnclosure": {
+        "AssetName": null,
+        "BackplaneType": "NotShared",
+        "Connector": 0,
+        "Links": {
+          "DellEnclosureEMMCollection": [],
+          "DellEnclosureEMMCollection@odata.count": 0
+        },
+        "RAIDMultipath": "Off",
+        "ServiceTag": null,
+        "SlotCount": 8,
+        "TempProbeCount": 0,
+        "Version": "3.43",
+        "WiredOrder": 2
+      },
+      "DellEnclosure": {
+        "@odata.context": "/redfish/v1/$metadata#DellEnclosure.DellEnclosure",
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-2/Oem/Dell/DellEnclosures/Enclosure.Internal.0-2",
+        "@odata.type": "#DellEnclosure.v1_1_0.DellEnclosure",
+        "AssetName": null,
+        "Connector": null,
+        "Description": "An instance of DellEnclosure will have storage enclosure specific data.",
+        "Id": "Enclosure.Internal.0-2",
+        "LastSystemInventoryTime": null,
+        "LastUpdateTime": null,
+        "Links": {
+          "DellEnclosureEMMCollection": [],
+          "DellEnclosureEMMCollection@odata.count": 0
+        },
+        "Name": "DellEnclosure",
+        "ServiceTag": null,
+        "SlotCount": 8,
+        "TempProbeCount": null,
+        "Version": null,
+        "WiredOrder": 2
+      },
+      "DellEnclosure@Redfish.Deprecated": "Please migrate to use DellChassisEnclosure",
+      "DellPCIeSSDBackPlane": {
+        "@odata.context": "/redfish/v1/$metadata#DellPCIeSSDBackPlane.DellPCIeSSDBackPlane",
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-2/Oem/Dell/DellPCIeSSDBackPlanes/Enclosure.Internal.0-2",
+        "@odata.type": "#DellPCIeSSDBackPlane.v1_3_0.DellPCIeSSDBackPlane",
+        "Description": "An instance of DellPCIeSSDBackPlane will have PCIeSSD back plane specific data.",
+        "FirmwareVersion": "3.43",
+        "Id": "Enclosure.Internal.0-2",
+        "Name": "DellPCIeSSDBackPlane",
+        "PCIExpressGeneration": "Gen 4",
+        "SlotCount": 8,
+        "WiredOrder": 2
+      }
+    }
+  }
+}

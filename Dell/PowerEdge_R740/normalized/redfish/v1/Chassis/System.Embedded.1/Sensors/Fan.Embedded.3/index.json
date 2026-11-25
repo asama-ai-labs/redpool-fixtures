@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Sensors/Fan.Embedded.3",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "Fan.Embedded.3",
+  "Name": "System Board Fan3",
+  "Description": "Instance of Sensor Id",
+  "Reading": 7800.0,
+  "ReadingType": "Rotational",
+  "ReadingUnits": "RPM",
+  "PhysicalContext": "SystemBoard",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "UpperCritical": {
+      "Reading": null
+    },
+    "UpperCaution": {
+      "Reading": null
+    },
+    "LowerCaution": {
+      "Reading": 840
+    },
+    "LowerCritical": {
+      "Reading": 480
+    }
+  },
+  "SpeedRPM": 7800,
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOemSensor.v1_0_0.DellOemSensor",
+      "CurrentState": "Normal",
+      "DeviceID": "0x17||Fan.Embedded.3",
+      "PossibleStates": [
+        "Unknown",
+        "Fatal",
+        "Normal",
+        "Upper Fatal",
+        "Upper Critical",
+        "Upper Non-Critical",
+        "Lower Non-Critical",
+        "Lower Critical",
+        "Lower Fatal"
+      ],
+      "PossibleStates@odata.count": 9,
+      "RequestedState": "NotApplicable"
+    }
+  }
+}

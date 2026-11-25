@@ -1,0 +1,41 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/14",
+  "Id": "14",
+  "Name": "Health Event Log Entry 14",
+  "EntryType": "SEL",
+  "@odata.etag": "948199c5d4e9fd9e1d7c51f50273e2e2",
+  "Created": "2021-09-30T00:02:51Z",
+  "Severity": "Warning",
+  "Message": "[LAN-0006] Dedicated LAN Link Down",
+  "MessageId": "0xA401FF",
+  "EntryCode": "Assert",
+  "SensorType": "OEM",
+  "SensorNumber": 255,
+  "OemSensorType": "System NIC",
+  "GeneratorId": "0x0020",
+  "Links": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
+      "MarkAsAcknowledged": false,
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0xD0",
+        "SensorName": ""
+      }
+    },
+    "Redpool": {
+      "MarkAsAcknowledged": false,
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0xD0",
+        "SensorName": ""
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

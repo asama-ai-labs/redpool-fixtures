@@ -1,0 +1,191 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.etag": "W/\"9B31D9F0\"",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/2",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "2",
+  "Name": "Manager Shared Network Interface",
+  "Description": "Configuration of this Manager Network Interface",
+  "MACAddress": "00:1B:44:AA:00:05",
+  "PermanentMACAddress": "00:1B:44:AA:00:05",
+  "InterfaceEnabled": false,
+  "SpeedMbps": null,
+  "FullDuplex": false,
+  "AutoNeg": null,
+  "HostName": "DUMMY-HostName",
+  "IPv4Addresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "DHCP",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [
+    {
+      "Address": "::1",
+      "PrefixLength": null
+    },
+    {
+      "Address": "::1",
+      "PrefixLength": null
+    },
+    {
+      "Address": "::1",
+      "PrefixLength": null
+    },
+    {
+      "Address": "::1",
+      "PrefixLength": null
+    }
+  ],
+  "IPv6DefaultGateway": "::1",
+  "NameServers": [],
+  "VLAN": {
+    "VLANEnable": false,
+    "VLANId": null
+  },
+  "Status": {
+    "Health": null,
+    "State": "Disabled"
+  },
+  "Links": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOEthernetNetworkInterface.HpeiLOEthernetNetworkInterface",
+      "@odata.type": "#HpeiLOEthernetNetworkInterface.v2_2_1.HpeiLOEthernetNetworkInterface",
+      "ConfigurationSettings": "Current",
+      "DHCPv4": {
+        "ClientIdType": "Default",
+        "Enabled": true,
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseGateway": true,
+        "UseNTPServers": true,
+        "UseStaticRoutes": true,
+        "UseWINSServers": true
+      },
+      "DHCPv6": {
+        "StatefulModeEnabled": true,
+        "StatelessModeEnabled": true,
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true,
+        "UseRapidCommit": false
+      },
+      "DomainName": "",
+      "HostName": "DUMMY-HostName",
+      "IPv4": {
+        "DDNSRegistration": true,
+        "DNSServers": [
+          "192.0.2.1",
+          "192.0.2.1",
+          "192.0.2.1"
+        ],
+        "StaticRoutes": [
+          {
+            "Destination": "192.0.2.1",
+            "Gateway": "192.0.2.1",
+            "SubnetMask": "192.0.2.1"
+          },
+          {
+            "Destination": "192.0.2.1",
+            "Gateway": "192.0.2.1",
+            "SubnetMask": "192.0.2.1"
+          },
+          {
+            "Destination": "192.0.2.1",
+            "Gateway": "192.0.2.1",
+            "SubnetMask": "192.0.2.1"
+          }
+        ],
+        "WINSRegistration": true,
+        "WINSServers": [
+          "192.0.2.1",
+          "192.0.2.1"
+        ]
+      },
+      "IPv6": {
+        "DDNSRegistration": true,
+        "DNSServers": [
+          "::1",
+          "::1",
+          "::1"
+        ],
+        "SLAACEnabled": true,
+        "StaticDefaultGateway": "::1",
+        "StaticRoutes": [
+          {
+            "Destination": "::1",
+            "Gateway": "::1",
+            "PrefixLength": null,
+            "Status": "Unknown"
+          },
+          {
+            "Destination": "::1",
+            "Gateway": "::1",
+            "PrefixLength": null,
+            "Status": "Unknown"
+          },
+          {
+            "Destination": "::1",
+            "Gateway": "::1",
+            "PrefixLength": null,
+            "Status": "Unknown"
+          }
+        ]
+      },
+      "InterfaceType": "Shared",
+      "NICEnabled": false,
+      "NICSupportsIPv6": true,
+      "PingGatewayOnStartup": true,
+      "SharedNetworkPortOptions": {
+        "Port": 1
+      },
+      "SupportsFlexibleLOM": true,
+      "SupportsLOM": true
+    }
+  },
+  "DHCPv4": {
+    "DHCPEnabled": true,
+    "UseDNSServers": true,
+    "UseDomainName": true,
+    "UseGateway": true,
+    "UseNTPServers": true,
+    "UseStaticRoutes": true
+  },
+  "DHCPv6": {
+    "OperatingMode": "Stateful",
+    "UseDNSServers": true,
+    "UseDomainName": true,
+    "UseNTPServers": true,
+    "UseRapidCommit": false
+  },
+  "StaticNameServers": [
+    "192.0.2.1",
+    "192.0.2.1",
+    "192.0.2.1",
+    "::1",
+    "::1",
+    "::1"
+  ],
+  "IPv6AddressPolicyTable": [
+    {
+      "Label": null,
+      "Precedence": 35,
+      "Prefix": "::1/96"
+    }
+  ],
+  "IPv6StaticDefaultGateways": [
+    {
+      "Address": "::1"
+    }
+  ],
+  "StatelessAddressAutoConfig": {
+    "IPv6AutoConfigEnabled": true
+  },
+  "MaxIPv6StaticAddresses": 4,
+  "VLANs": {}
+}

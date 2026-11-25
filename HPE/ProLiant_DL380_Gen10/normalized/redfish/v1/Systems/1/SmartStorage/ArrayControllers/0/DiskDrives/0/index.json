@@ -1,0 +1,53 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+  "@odata.etag": "W/\"A13215J0\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/0",
+  "@odata.type": "#Drive.v1_19_0.Drive",
+  "Id": "0",
+  "Name": "HpeSmartStorageDiskDrive",
+  "Description": "HPE Smart Storage Disk Drive View",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Model": "VK000240GWCFD",
+  "Manufacturer": null,
+  "SerialNumber": "DUMMY-SerialNumber-27",
+  "Revision": "HPG3",
+  "MediaType": "SSD",
+  "Protocol": "SATA",
+  "CapacityBytes": 240057409536,
+  "BlockSizeBytes": 512,
+  "CapableSpeedGbs": null,
+  "NegotiatedSpeedGbs": 6.0,
+  "PredictedMediaLifeLeftPercent": null,
+  "FailurePredicted": null,
+  "StatusIndicator": "OK",
+  "EncryptionAbility": "None",
+  "EncryptionStatus": "Unencrypted",
+  "PhysicalLocation": {
+    "PartLocation": {
+      "LocationType": "Bay",
+      "ServiceLabel": "Port=1I:3:4",
+      "LocationOrdinalValue": 4
+    }
+  },
+  "Location": [
+    {
+      "Info": "1I:3:4",
+      "InfoFormat": "ControllerPort:Box:Bay"
+    }
+  ],
+  "Links": {},
+  "Oem": {
+    "Redpool": {
+      "HpeSmartStorage": {
+        "Kind": "DiskDrive",
+        "TemperatureCelsius": 11,
+        "UncorrectedReadErrors": 0,
+        "UncorrectedWriteErrors": 0
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolDrive"
+    }
+  }
+}

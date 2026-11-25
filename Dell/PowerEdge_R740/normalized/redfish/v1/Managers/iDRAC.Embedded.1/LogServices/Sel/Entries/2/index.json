@@ -1,0 +1,19 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries/2",
+  "Id": "2",
+  "Name": "Log Entry 2",
+  "EntryType": "SEL",
+  "Description": "Log Entry 2",
+  "Created": "2024-09-12T18:39:40+00:00",
+  "Severity": "Warning",
+  "Message": "The system inlet temperature is greater than the upper warning threshold.",
+  "MessageId": "01579796",
+  "MessageArgs": [],
+  "EntryCode": "Upper Non-critical - going high",
+  "SensorType": "Temperature",
+  "SensorNumber": 5,
+  "GeneratorId": "0x0020",
+  "MessageArgs@odata.count": 0
+}

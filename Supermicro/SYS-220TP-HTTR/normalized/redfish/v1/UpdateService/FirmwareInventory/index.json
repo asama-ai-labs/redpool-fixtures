@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+  "@odata.etag": "822299b59656d97839a9d17467a616ed",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+  "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS_ME"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Backup_BIOS"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Backup_BMC"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLD_Motherboard"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Golden_BIOS"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Golden_BMC"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/LCMC_Multinode"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PowerSupply1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PowerSupply2"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Staging_BIOS"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Staging_BMC"
+    }
+  ],
+  "Members@odata.count": 13,
+  "Description": "Collection of Software Inventory",
+  "Name": "Firmware Inventory Collection",
+  "Oem": {}
+}

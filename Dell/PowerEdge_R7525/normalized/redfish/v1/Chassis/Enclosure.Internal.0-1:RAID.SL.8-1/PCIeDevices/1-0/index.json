@@ -1,0 +1,41 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"1781464477\"",
+  "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.8-1/PCIeDevices/1-0",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "1-0",
+  "Name": "PERC H745 Front",
+  "Description": "PERC H745 Front",
+  "DeviceType": "SingleFunction",
+  "Manufacturer": "Broadcom / LSI",
+  "Model": "PERC H745 Front",
+  "SerialNumber": "0",
+  "PartNumber": "0JT47Y",
+  "FirmwareVersion": "51.14.0-3900",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.8-1/PCIeDevices/1-0/PCIeFunctions"
+  },
+  "Slot": {},
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.8-1"
+      }
+    ],
+    "Chassis@odata.count": 1,
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.8-1/PCIeDevices/1-0/PCIeFunctions/1-0-0"
+      }
+    ],
+    "PCIeFunctions@odata.count": 1,
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+  },
+  "Oem": {}
+}

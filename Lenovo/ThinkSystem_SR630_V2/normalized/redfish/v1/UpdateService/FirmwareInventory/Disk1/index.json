@@ -1,0 +1,38 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Disk1",
+  "@odata.etag": "\"5299d827d8762429903\"",
+  "Id": "Disk1",
+  "Name": "Firmware:DISK-MTFDDAV480TDS-1AW1ZA",
+  "Description": "The firmware information of a disk controlled by a RAID, M.2 or NVMe controller.",
+  "Version": "MP33",
+  "SoftwareId": "DISK-SSS7A23277-2-10",
+  "Manufacturer": "LEN",
+  "Updateable": false,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Disk1",
+        "related_item_uri": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0",
+        "related_kind": "drive",
+        "related_ref": "Drive.M.2_Bay_0",
+        "related_scope": "M.2",
+        "related_location": "M.2 - Drive0"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

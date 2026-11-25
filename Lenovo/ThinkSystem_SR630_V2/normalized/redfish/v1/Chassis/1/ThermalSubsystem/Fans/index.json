@@ -1,0 +1,60 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#FanCollection.FanCollection",
+  "@odata.etag": "\"9ac57a874bf034a8bbd1d\"",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans",
+  "@odata.type": "#FanCollection.FanCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_1_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_1_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_2_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_2_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_3_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_3_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_4_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_4_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_5_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_5_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_6_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_6_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_7_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_7_Rear_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_8_Front_Tach"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_8_Rear_Tach"
+    }
+  ],
+  "Members@odata.count": 16,
+  "Description": "Collection of Fans",
+  "Name": "FanCollection",
+  "Oem": {}
+}

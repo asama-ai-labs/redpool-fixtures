@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V2_VDDQ2",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "voltage_1V2_VDDQ2",
+  "Name": "1V2 VDDQ2",
+  "Reading": 1.225,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "V",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 2.5,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 1.049
+    },
+    "LowerCritical": {
+      "Reading": 1.026
+    },
+    "UpperCaution": {
+      "Reading": 1.361
+    },
+    "UpperCritical": {
+      "Reading": 1.386
+    }
+  },
+  "Oem": {}
+}

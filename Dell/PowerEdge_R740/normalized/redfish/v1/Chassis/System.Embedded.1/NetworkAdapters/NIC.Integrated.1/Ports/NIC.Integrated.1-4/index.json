@@ -1,0 +1,27 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Ports/NIC.Integrated.1-4",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "NIC.Integrated.1-4",
+  "Name": "BCM57800 1-Gigabit Ethernet",
+  "Description": "Instance of Port for NIC",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "LinkNetworkTechnology": "Ethernet",
+  "PortId": "4",
+  "Ethernet": {
+    "AssociatedMACAddresses": [
+      "00:1B:44:AA:00:06"
+    ],
+    "EEEEnabled": null,
+    "FlowControlConfiguration": "None",
+    "FlowControlStatus": "None",
+    "LLDPReceive": {},
+    "WakeOnLANEnabled": false
+  },
+  "LinkStatus": "LinkDown",
+  "Oem": {}
+}

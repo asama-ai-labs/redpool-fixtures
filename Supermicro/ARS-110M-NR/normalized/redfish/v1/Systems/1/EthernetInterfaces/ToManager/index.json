@@ -1,0 +1,46 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/ToManager",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "ToManager",
+  "Name": "Host Ethernet Interface",
+  "Description": "Host Network Interface",
+  "MACAddress": "00:1B:44:AA:BB:CC",
+  "PermanentMACAddress": null,
+  "LinkStatus": "LinkDown",
+  "InterfaceEnabled": false,
+  "SpeedMbps": null,
+  "AutoNeg": null,
+  "IPv4Addresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv4StaticAddresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Disabled"
+  },
+  "Links": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcEthernetInterfaceExtensions.v1_0_1.EthernetInterface",
+      "USBConnection": "CDC_ECM"
+    }
+  }
+}

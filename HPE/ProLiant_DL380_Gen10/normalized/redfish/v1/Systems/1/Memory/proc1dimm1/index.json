@@ -1,0 +1,55 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "W/\"6165906D\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm1",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "proc1dimm1",
+  "Name": "proc1dimm1",
+  "CapacityMiB": 0,
+  "Manufacturer": "",
+  "PartNumber": "NOT AVAILABLE",
+  "SerialNumber": "DUMMY-SerialNumber-10",
+  "MemoryType": "DRAM",
+  "AllowedSpeedsMHz": [],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 0,
+    "MemoryController": 1,
+    "Channel": 5,
+    "Slot": 0
+  },
+  "Location": {},
+  "DeviceLocator": "PROC 1 DIMM 1",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 0,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Absent",
+    "HealthRollup": "OK"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
+      "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
+      "DIMMManufacturingDate": "",
+      "DIMMStatus": "NotPresent",
+      "MinimumVoltageVoltsX10": 0,
+      "PartNumber": "Unknown"
+    },
+    "Redpool": {
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

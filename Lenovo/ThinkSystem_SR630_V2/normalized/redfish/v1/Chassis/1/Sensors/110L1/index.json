@@ -1,0 +1,53 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.etag": "\"7019e6df523f2431e15\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/110L1",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "110L1",
+  "Name": "DIMM 30 Temp",
+  "Description": "This resource is used to represent a sensor for a Redfish implementation.",
+  "ReadingType": "Temperature",
+  "ReadingUnits": "C",
+  "ReadingRangeMin": 0,
+  "ReadingRangeMax": 255,
+  "Precision": 0,
+  "PhysicalContext": "Memory",
+  "Status": {
+    "Health": null,
+    "State": "Disabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": null,
+      "Activation": "Decreasing"
+    },
+    "LowerFatal": {
+      "Reading": null,
+      "Activation": "Decreasing"
+    },
+    "UpperCaution": {
+      "Reading": null,
+      "Activation": "Increasing"
+    },
+    "LowerCritical": {
+      "Reading": null,
+      "Activation": "Decreasing"
+    },
+    "UpperCritical": {
+      "Reading": null,
+      "Activation": "Increasing"
+    },
+    "UpperFatal": {
+      "Reading": null,
+      "Activation": "Increasing"
+    }
+  },
+  "MinAllowableOperatingValue": 0,
+  "MaxAllowableOperatingValue": 255,
+  "Oem": {},
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Memory/30"
+    }
+  ]
+}

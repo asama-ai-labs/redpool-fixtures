@@ -1,0 +1,72 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDeviceCollection.PCIeDeviceCollection",
+  "@odata.etag": "W/\"6DBD0E0F\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices",
+  "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/10"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/11"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/12"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/13"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/14"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/15"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/16"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/17"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/18"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/19"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/20"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/6"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/7"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/8"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/9"
+    }
+  ],
+  "Members@odata.count": 20,
+  "Description": "Collection of PCIe Devices",
+  "Name": "PCIeDeviceCollection",
+  "Oem": {}
+}

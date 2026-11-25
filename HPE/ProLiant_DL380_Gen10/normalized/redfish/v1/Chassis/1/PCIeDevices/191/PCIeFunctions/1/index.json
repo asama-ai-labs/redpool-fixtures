@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "W/\"A3A6BF43\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/191/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC",
+  "DeviceClass": "NetworkController",
+  "FunctionType": "Physical",
+  "FunctionId": 1,
+  "ClassCode": "0x020000",
+  "DeviceId": "0X1657",
+  "VendorId": "0X14E4",
+  "SubsystemId": "0X22BE",
+  "SubsystemVendorId": "0X103C",
+  "RevisionId": "0x00",
+  "Status": {},
+  "Links": {},
+  "Oem": {}
+}

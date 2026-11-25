@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/LogServices/Journal/Entries/DUMMY-Log-LLP45DNZP2EP3O5V","@odata.type":"#LogEntry.v1_9_0.LogEntry","Created":"2025-06-24T22:44:57.261227+00:00","EntryType":"Oem","Id":"DUMMY-Log-LLP45DNZP2EP3O5V","Message":"m2tempsensor:  read byte data failed at 3","Name":"BMC Journal Entry","OemRecordFormat":"BMC Journal Entry","Severity":"OK"}

@@ -1,0 +1,41 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/20",
+  "Id": "20",
+  "Name": "Health Event Log Entry 20",
+  "EntryType": "SEL",
+  "@odata.etag": "f3a2e14793705b119e63597dc2f4095f",
+  "Created": "2022-03-10T23:55:20Z",
+  "Severity": "OK",
+  "Message": "[PWR-0000] PS1 Status, Power Supply Installed",
+  "MessageId": "0xF0FFFF",
+  "EntryCode": "Assert",
+  "SensorType": "Power Supply / Converter",
+  "SensorNumber": 202,
+  "GeneratorId": "0x0020",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0x08",
+        "SensorName": "PS1 Status"
+      }
+    },
+    "Redpool": {
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0x08",
+        "SensorName": "PS1 Status"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

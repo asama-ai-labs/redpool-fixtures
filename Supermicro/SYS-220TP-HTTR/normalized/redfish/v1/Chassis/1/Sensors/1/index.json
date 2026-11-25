@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.etag": "d0b1698e6da340bff2bb997abbdda9c8",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/1",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "1",
+  "Name": "VBAT",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Thresholds": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcSensorExtensions.v1_0_0.Sensor",
+      "SensorNumber": 51,
+      "SensorValue": "Battery Presence Detected"
+    }
+  }
+}

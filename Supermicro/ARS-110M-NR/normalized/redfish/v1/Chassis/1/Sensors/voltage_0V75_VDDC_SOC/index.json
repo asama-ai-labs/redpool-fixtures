@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_0V75_VDDC_SOC",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "voltage_0V75_VDDC_SOC",
+  "Name": "0V75 VDDC SOC",
+  "Reading": 0.759,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "V",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 2.5,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 0.655
+    },
+    "LowerCritical": {
+      "Reading": 0.641
+    },
+    "UpperCaution": {
+      "Reading": 0.85
+    },
+    "UpperCritical": {
+      "Reading": 0.866
+    }
+  },
+  "Oem": {}
+}

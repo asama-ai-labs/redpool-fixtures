@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/EthernetInterfaces/2","@odata.type":"#EthernetInterface.v1_6_3.EthernetInterface","Id":"2","MACAddress":"00:1B:44:AA:BB:CC","Name":"OnBoard_NIC1","Status":{"Health":"OK","HealthRollup":"OK"}}

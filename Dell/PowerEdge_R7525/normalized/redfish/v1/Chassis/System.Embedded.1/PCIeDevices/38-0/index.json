@@ -1,0 +1,46 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"1781464476\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/38-0",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "38-0",
+  "Name": "Starship USB 3.0 Host Controller",
+  "Description": "Starship USB 3.0 Host Controller",
+  "DeviceType": "MultiFunction",
+  "Manufacturer": "Advanced Micro Devices, Inc.",
+  "Model": "Starship USB 3.0 Host Controller",
+  "FirmwareVersion": "",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/38-0/PCIeFunctions"
+  },
+  "Slot": {},
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+      }
+    ],
+    "Chassis@odata.count": 1,
+    "Oem": {
+      "Dell": {
+        "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+        "CPUAffinity": [],
+        "CPUAffinity@odata.count": 0
+      }
+    },
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/38-0/PCIeFunctions/38-0-3"
+      }
+    ],
+    "PCIeFunctions@odata.count": 1,
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+  },
+  "Oem": {}
+}

@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/FanMode","@odata.type":"#SmcFanMode.v1_0_0.SmcFanMode","Id":"FanMode","Mode":"Optimal","Mode@Redfish.AllowableValues":["Standard","FullSpeed","Optimal"],"Name":"FanMode"}

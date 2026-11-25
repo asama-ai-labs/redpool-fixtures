@@ -1,0 +1,116 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+  "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-103710-1.9__internal.dualsdmodule.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-3.43__RAID.Backplane.Firmware.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-3.43__RAID.Backplane.Firmware.2"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107656-51.14.0-3900__RAID.SL.8-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108089-21.80.16.92__NIC.Integrated.1-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108089-21.80.16.92__NIC.Integrated.1-2-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108255-21.80.8__NIC.Embedded.1-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108255-21.80.8__NIC.Embedded.2-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-2.7.3__BIOS.Setup.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-2.5.13.3024__AHCI.Slot.3-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-95420260__Disk.Bay.20:Enclosure.Internal.0-2"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-103710-1.9__internal.dualsdmodule.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-104157-00.23.53__PSU.Slot.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-104157-00.23.53__PSU.Slot.2"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-104684-3.6.0__ServiceModule.Embedded.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-3.43__RAID.Backplane.Firmware.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-3.43__RAID.Backplane.Firmware.2"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107656-51.14.0-3900__RAID.SL.8-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108089-21.80.16.92__NIC.Integrated.1-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108089-21.80.16.92__NIC.Integrated.1-2-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108255-21.80.8__NIC.Embedded.1-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108255-21.80.8__NIC.Embedded.2-1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108622-HG58__Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.8-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108622-HG58__Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-109283-J004__Disk.Direct.0-0:AHCI.Slot.3-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-109283-J004__Disk.Direct.1-1:AHCI.Slot.3-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-12345-NotAvailable__TPM.Integrated.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.7.3__BIOS.Setup.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-18981-21.03.08__DriverPack.Embedded.1:LC.Embedded.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25227-7.10.70.00__iDRAC.Embedded.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4301A54__Diagnostics.Embedded.1:LC.Embedded.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.1.12__CPLD.Embedded.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-28897-7.10.70.00__USC.Embedded.1:LC.Embedded.1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-2.18.1__BIOS.Setup.1-1"
+    },
+    {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-25227-7.20.30.00__iDRAC.Embedded.1-1"
+    }
+  ],
+  "Members@odata.count": 35,
+  "Description": "Collection of Firmware Inventory",
+  "Name": "Firmware Inventory Collection",
+  "Oem": {}
+}

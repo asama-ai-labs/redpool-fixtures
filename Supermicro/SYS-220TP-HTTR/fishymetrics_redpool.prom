@@ -1,0 +1,156 @@
+# HELP redfish_cpu_status Current cpu status 1 = OK, 0 = BAD
+# TYPE redfish_cpu_status gauge
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",id="1",model="Intel(R) Xeon(R) Gold 5317",socket="CPU2",totalCores="12"} 1
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",id="2",model="Intel(R) Xeon(R) Gold 5317",socket="CPU1",totalCores="12"} 1
+# HELP redfish_device_info Current snapshot of device firmware information
+# TYPE redfish_device_info gauge
+redfish_device_info{biosVersion="1.4",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="01.02.34",name=""} 1
+# HELP redfish_memory_dimm_status Current dimm status 1 = OK, 0 = BAD
+# TYPE redfish_memory_dimm_status gauge
+redfish_memory_dimm_status{capacityMiB="16384",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",manufacturer="Micron Technology",name="Memory",partNumber="18ASF2G72PDZ-3G2R1"} 1
+# HELP redfish_memory_status Current memory status 1 = OK, 0 = BAD
+# TYPE redfish_memory_status gauge
+redfish_memory_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",totalSystemMemoryGiB="256"} 1
+# HELP redfish_power_supply_input_volts The line input voltage at which the Power Supply is operating in volts
+# TYPE redfish_power_supply_input_volts gauge
+redfish_power_supply_input_volts{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="REV2.4",manufacturer="Supermicro",model="PWS-2K20A-1R",name="Power Supply Bay 2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber"} 228
+# HELP redfish_power_supply_input_watts The power input of Power Supply in watts
+# TYPE redfish_power_supply_input_watts gauge
+redfish_power_supply_input_watts{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="REV2.4",manufacturer="Supermicro",model="PWS-2K20A-1R",name="Power Supply Bay 2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber"} 690
+# HELP redfish_power_supply_output The average power output of Power Supply in watts
+# TYPE redfish_power_supply_output gauge
+redfish_power_supply_output{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="REV2.4",manufacturer="Supermicro",model="PWS-2K20A-1R",name="Power Supply Bay 2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber"} 627
+# HELP redfish_power_supply_status Current power supply status 1 = OK, 0 = BAD
+# TYPE redfish_power_supply_status gauge
+redfish_power_supply_status{bayNumber="0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="REV2.4",manufacturer="Supermicro",model="PWS-2K20A-1R",name="Power Supply Bay 1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber"} 0
+redfish_power_supply_status{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="REV2.4",manufacturer="Supermicro",model="PWS-2K20A-1R",name="Power Supply Bay 2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber"} 1
+# HELP redfish_power_supply_total_consumed Total output of all power supplies in watts
+# TYPE redfish_power_supply_total_consumed gauge
+redfish_power_supply_total_consumed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",memberId="/redfish/v1/Chassis/1/Power"} 690
+# HELP redfish_power_voltage_output Power voltage output in volts
+# TYPE redfish_power_voltage_output gauge
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="0.92V VCC"} 0.924
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.05V PCH"} 1.039
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.0V BMC"} 1.008
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.0V DVDD"} 1.007
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.2V BMC"} 1.225
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.88V"} 1.894
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.8V BMC"} 1.83
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.8V PCH"} 1.804
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="12V"} 11.991
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="2.5V BMC"} 2.569
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="3.3VCC"} 3.317
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="3.3VSB"} 3.294
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="5VCC"} 4.988
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="5V_AUX"} 4.988
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="VNN PCH"} 1.007
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VCCIN"} 1.82
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VCCIO"} 1.06
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VDDQABCD"} 1.23
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VDDQEFGH"} 1.23
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VCCIN"} 1.82
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VCCIO"} 1.06
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VDDQABCD"} 1.23
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VDDQEFGH"} 1.24
+# HELP redfish_power_voltage_status Current power voltage status 1 = OK, 0 = BAD
+# TYPE redfish_power_voltage_status gauge
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="0.92V VCC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.05V PCH"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.0V BMC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.0V DVDD"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.2V BMC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.88V"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.8V BMC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="1.8V PCH"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="12V"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="2.5V BMC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="3.3VCC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="3.3VSB"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="5VCC"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="5V_AUX"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="VNN PCH"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VCCIN"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VCCIO"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VDDQABCD"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu1VDDQEFGH"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VCCIN"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VCCIO"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VDDQABCD"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Vcpu2VDDQEFGH"} 1
+# HELP redfish_thermal_fan_speed Current fan speed in the unit of percentage, possible values are 0 - 100
+# TYPE redfish_thermal_fan_speed gauge
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN1"} 7300
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN2"} 7500
+# HELP redfish_thermal_fan_status Current fan status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_fan_status gauge
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN1"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN2"} 1
+# HELP redfish_thermal_sensor_status Current sensor status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_sensor_status gauge
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="AOC_NIC2 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIN Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIO Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIN Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIO Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMMA~D Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMME~H Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMABCD Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMEFGH Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMMA~D Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMME~H Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMABCD Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMEFGH Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PCH Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="SYS_ART Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 1
+# HELP redfish_thermal_sensor_temperature Current sensor temperature reading in Celsius
+# TYPE redfish_thermal_sensor_temperature gauge
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="AOC_NIC2 Temp"} 66
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1 Temp"} 44
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIN Temp"} 50
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIO Temp"} 55
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2 Temp"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIN Temp"} 41
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIO Temp"} 56
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 32
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMMA~D Temp"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMME~H Temp"} 39
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMABCD Temp"} 44
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMEFGH Temp"} 44
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMMA~D Temp"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMME~H Temp"} 33
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMABCD Temp"} 37
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMEFGH Temp"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PCH Temp"} 49
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 47
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="SYS_ART Temp"} 42
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 30
+# HELP redfish_thermal_sensor_threshold_critical Current sensor upper threshold critical reading in Celsius
+# TYPE redfish_thermal_sensor_threshold_critical gauge
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="AOC_NIC2 Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1 Temp"} 102
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIN Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU1_VRMIO Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2 Temp"} 102
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIN Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="CPU2_VRMIO Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 50
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMMA~D Temp"} 85
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_DIMME~H Temp"} 85
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMABCD Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P1_VRMEFGH Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMMA~D Temp"} 85
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_DIMME~H Temp"} 85
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMABCD Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="P2_VRMEFGH Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PCH Temp"} 85
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="SYS_ART Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 85
+# HELP redfish_up was the last scrape of fishymetrics successful.
+# TYPE redfish_up gauge
+redfish_up 1

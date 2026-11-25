@@ -1,0 +1,22 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/1/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "Embedded Video Controller",
+  "Description": "",
+  "FunctionId": 1,
+  "ClassCode": "0x030000",
+  "DeviceId": "0x0538",
+  "VendorId": "0x102B",
+  "SubsystemId": "0x00E4",
+  "SubsystemVendorId": "0x1590",
+  "Status": {},
+  "Links": {
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/1"
+    }
+  },
+  "Oem": {},
+  "DeviceClass": "DisplayController"
+}

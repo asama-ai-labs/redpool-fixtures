@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+  "@odata.etag": "W/\"570254F2\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives",
+  "@odata.type": "#VolumeCollection.VolumeCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/LogicalDrives/2"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Volumes",
+  "Name": "VolumeCollection",
+  "Oem": {}
+}

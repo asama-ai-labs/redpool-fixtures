@@ -1,0 +1,74 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.etag": "W/\"2173J3L7\"",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Members": [
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/1",
+      "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+      "Id": "1",
+      "Created": "2026-03-20T07:30:56Z",
+      "EntryType": "Oem",
+      "Message": "Browser logout: admin - 192.0.2.1(DNS name not found).",
+      "MessageArgs": [],
+      "MessageId": "35.1018",
+      "Name": "iLO Event Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+          "Categories": [
+            "Security",
+            "Administration"
+          ],
+          "Class": 35,
+          "ClassDescription": "iLO 5",
+          "Code": 1018,
+          "Count": 37,
+          "EventNumber": 278445,
+          "Severity": "Informational",
+          "Updated": "2026-03-20T07:31:55Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-iLOEventLog",
+      "Severity": "OK"
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/10",
+      "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+      "Id": "10",
+      "Created": "2026-03-20T07:35:59Z",
+      "EntryType": "Oem",
+      "Message": "Browser login: admin - 192.0.2.1(DNS name not found).",
+      "MessageArgs": [],
+      "MessageId": "35.1017",
+      "Name": "iLO Event Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+          "Categories": [
+            "Security",
+            "Administration"
+          ],
+          "Class": 35,
+          "ClassDescription": "iLO 5",
+          "Code": 1017,
+          "Count": 18,
+          "EventNumber": 278454,
+          "Severity": "Informational",
+          "Updated": "2026-03-20T07:36:55Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-iLOEventLog",
+      "Severity": "OK"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "iLO Event Logs view",
+  "Name": "iLO Event Logs view",
+  "Oem": {}
+}

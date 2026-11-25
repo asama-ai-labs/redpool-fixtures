@@ -1,0 +1,385 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Power.Power",
+  "@odata.etag": "\"2f04a97d49e0e34a9253bc\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Power",
+  "@odata.type": "#Power.v1_7_3.Power",
+  "Id": "Power",
+  "Name": "Power",
+  "Description": "Power Consumption and Power Limiting",
+  "PowerControl": [
+    {
+      "PowerLimit": {
+        "LimitInWatts": 601,
+        "LimitException": "NoAction"
+      },
+      "PowerAvailableWatts": 0,
+      "PowerAllocatedWatts": 2160,
+      "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+      },
+      "MemberId": "0",
+      "PhysicalContext": "Chassis",
+      "PowerCapacityWatts": 2160,
+      "PowerRequestedWatts": 888,
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerControl/0",
+      "RelatedItem@odata.count": 1,
+      "PowerMetrics": {
+        "AverageConsumedWatts": 324,
+        "IntervalInMin": 1,
+        "MaxConsumedWatts": 344,
+        "MinConsumedWatts": 307
+      },
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoPower.v1_0_0.PowerControl",
+          "HistoryPowerMetric": {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/PowerControl/0/Oem/Lenovo/HistoryPowerMetric"
+          },
+          "PowerUtilization": {
+            "CapacityMaxDC": 834,
+            "CapacityMinAC": 561,
+            "CapacityMinDC": 519,
+            "EnablePowerCapping": true,
+            "GuaranteedInWatts": 561,
+            "LimitMode": "AC",
+            "MaxLimitInWatts": 2160,
+            "EnablePowerCapping@Redfish.Deprecated": "The property is deprecated. Please use LimitInWatts instead.",
+            "MinLimitInWatts": 0,
+            "CapacityMaxAC": 888
+          }
+        }
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "PowerConsumedWatts": 383,
+      "Name": "Server Power Control"
+    },
+    {
+      "Status": {
+        "Health": "OK",
+        "HealthRollup": null,
+        "State": "Enabled"
+      },
+      "MemberId": "1",
+      "PhysicalContext": "CPUSubsystem",
+      "Name": "CPU Sub-system Power",
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerControl/1",
+      "RelatedItem@odata.count": 1,
+      "PowerMetrics": {
+        "AverageConsumedWatts": 209,
+        "IntervalInMin": 1,
+        "MaxConsumedWatts": 229,
+        "MinConsumedWatts": 185
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors"
+        }
+      ],
+      "PowerConsumedWatts": 204
+    },
+    {
+      "Status": {
+        "Health": "OK",
+        "HealthRollup": null,
+        "State": "Enabled"
+      },
+      "MemberId": "2",
+      "PhysicalContext": "MemorySubsystem",
+      "Name": "Memory Sub-system Power",
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerControl/2",
+      "RelatedItem@odata.count": 1,
+      "PowerMetrics": {
+        "AverageConsumedWatts": 9,
+        "IntervalInMin": 1,
+        "MaxConsumedWatts": 10,
+        "MinConsumedWatts": 9
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Memory"
+        }
+      ],
+      "PowerConsumedWatts": 9
+    }
+  ],
+  "PowerControl@odata.count": 3,
+  "PowerSupplies": [
+    {
+      "PowerOutputWatts": 171,
+      "LineInputVoltageType": "ACMidLine",
+      "Model": "LENOVO-SP57B07048",
+      "SerialNumber": "DUMMY-SerialNumber-4",
+      "HotPluggable": true,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "PartNumber": "SP57B07048",
+      "FirmwareVersion": "6.52",
+      "Location": {
+        "PartLocation": {
+          "ServiceLabel": "PSU1",
+          "LocationOrdinalValue": 1,
+          "LocationType": "Slot"
+        }
+      },
+      "EfficiencyPercent": 90,
+      "PowerSupplyType": "AC",
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MemberId": "0",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoPower.v1_0_0.PowerSupply",
+          "FruPartNumber": "03KK305",
+          "HistoryPowerSupplyMetric": {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/PowerSupplies/0/Oem/Lenovo/HistoryPowerSupplyMetric"
+          },
+          "Location@Redfish.Deprecated": "The property is deprecated. Please use Location instead.",
+          "Location": {
+            "InfoFormat": "Slot X",
+            "Info": "Slot 1"
+          }
+        },
+        "Redpool": {
+          "FruPartNumber": "03KK305",
+          "@odata.type": "#Redpool.v1_0_0.RedpoolPowerSupply"
+        }
+      },
+      "Name": "PSU1",
+      "LastPowerOutputWatts": 171,
+      "PowerInputWatts": 189,
+      "RelatedItem@odata.count": 1,
+      "LineInputVoltage": 220,
+      "InputRanges": [
+        {
+          "InputType": "AC",
+          "MinimumVoltage": 200,
+          "OutputWattage": 1800,
+          "MaximumVoltage": 240
+        }
+      ],
+      "Manufacturer": "ARTE",
+      "PowerCapacityWatts": 1800,
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
+    },
+    {
+      "PowerOutputWatts": 153,
+      "LineInputVoltageType": "ACMidLine",
+      "Model": "LENOVO-SP57B07048",
+      "SerialNumber": "DUMMY-SerialNumber-5",
+      "HotPluggable": true,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "PartNumber": "SP57B07048",
+      "FirmwareVersion": "6.52",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoPower.v1_0_0.PowerSupply",
+          "FruPartNumber": "03KK305",
+          "HistoryPowerSupplyMetric": {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/PowerSupplies/1/Oem/Lenovo/HistoryPowerSupplyMetric"
+          },
+          "Location@Redfish.Deprecated": "The property is deprecated. Please use Location instead.",
+          "Location": {
+            "InfoFormat": "Slot X",
+            "Info": "Slot 2"
+          }
+        },
+        "Redpool": {
+          "FruPartNumber": "03KK305",
+          "@odata.type": "#Redpool.v1_0_0.RedpoolPowerSupply"
+        }
+      },
+      "EfficiencyPercent": 85,
+      "PowerSupplyType": "AC",
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "Manufacturer": "ARTE",
+      "MemberId": "1",
+      "Location": {
+        "PartLocation": {
+          "ServiceLabel": "PSU2",
+          "LocationOrdinalValue": 2,
+          "LocationType": "Slot"
+        }
+      },
+      "LastPowerOutputWatts": 153,
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1",
+      "RelatedItem@odata.count": 1,
+      "LineInputVoltage": 220,
+      "InputRanges": [
+        {
+          "InputType": "AC",
+          "MinimumVoltage": 200,
+          "OutputWattage": 1800,
+          "MaximumVoltage": 240
+        }
+      ],
+      "PowerInputWatts": 179,
+      "Name": "PSU2",
+      "PowerCapacityWatts": 1800
+    }
+  ],
+  "PowerSupplies@odata.count": 2,
+  "Redundancy": [
+    {
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "MemberId": "0",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoRedundancy.v1_0_0.LenovoRedundancyProperties",
+          "NonRedundantAvailablePower": 2160,
+          "PowerRedundancySettings": {
+            "EstimatedUsage": "36.53%",
+            "PowerRedundancyPolicy": "RedundantWithThrottling",
+            "MaxPowerLimitWatts": 2160,
+            "PowerFailureLimit": 1
+          }
+        }
+      },
+      "MaxNumSupported": 2,
+      "RedundancySet": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
+        }
+      ],
+      "MinNumNeeded": 2,
+      "RedundancyEnabled": true,
+      "Mode": "N+m",
+      "RedundancySet@odata.count": 2,
+      "Name": "PSU Redundancy",
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/Redundancy/0"
+    }
+  ],
+  "Redundancy@odata.count": 1,
+  "Voltages": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/Voltages/0",
+      "Status": {
+        "State": "Enabled"
+      },
+      "MemberId": "0",
+      "PhysicalContext": "VoltageRegulator",
+      "Name": "SysBrd 12V",
+      "MaxReadingRange": 14.28,
+      "SensorNumber": 97,
+      "LowerThresholdCritical": 10.81,
+      "MinReadingRange": null,
+      "RelatedItem@odata.count": 2,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "UpperThresholdCritical": 13.22,
+      "ReadingVolts": 12.1
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/Voltages/1",
+      "Status": {
+        "State": "Enabled"
+      },
+      "MemberId": "1",
+      "PhysicalContext": "VoltageRegulator",
+      "Name": "SysBrd 5V",
+      "MaxReadingRange": 5.97,
+      "SensorNumber": 99,
+      "LowerThresholdCritical": 4.49,
+      "MinReadingRange": null,
+      "RelatedItem@odata.count": 2,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "UpperThresholdCritical": 5.5,
+      "ReadingVolts": 4.94
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/Voltages/2",
+      "Status": {
+        "State": "Enabled"
+      },
+      "MemberId": "2",
+      "PhysicalContext": "VoltageRegulator",
+      "Name": "SysBrd 3.3V",
+      "MaxReadingRange": 3.95,
+      "SensorNumber": 98,
+      "LowerThresholdCritical": 2.98,
+      "MinReadingRange": null,
+      "RelatedItem@odata.count": 2,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "UpperThresholdCritical": 3.63,
+      "ReadingVolts": 3.27
+    },
+    {
+      "Status": {
+        "State": "Enabled"
+      },
+      "LowerThresholdNonCritical": 2.39,
+      "MemberId": "3",
+      "PhysicalContext": "VoltageRegulator",
+      "Name": "CMOS Battery",
+      "MaxReadingRange": 3.32,
+      "SensorNumber": 3,
+      "LowerThresholdCritical": 2.25,
+      "MinReadingRange": null,
+      "RelatedItem@odata.count": 2,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/Voltages/3",
+      "ReadingVolts": 2.78
+    }
+  ],
+  "Voltages@odata.count": 4,
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoPower.v1_0_0.Capabilities",
+      "LocalPowerControlEnabled": true,
+      "PowerOnPermissionEnabled": true,
+      "WakeOnLANEnabled": true,
+      "PowerRestorePolicy": "Restore",
+      "RandomDelay": false
+    }
+  }
+}

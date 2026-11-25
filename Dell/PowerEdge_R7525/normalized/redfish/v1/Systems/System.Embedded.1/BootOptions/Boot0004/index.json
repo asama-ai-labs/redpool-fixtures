@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0004",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0004",
+  "Name": "Uefi Boot Option",
+  "Description": "Current settings of the UEFI Boot option",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0004",
+  "DisplayName": "Internal SD: Windows Boot Manager",
+  "UefiDevicePath": "HD(2,GPT,550e8400-e29b-41d4-a716-000000000006,0xFA000,0x31800)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi",
+  "RelatedItem": []
+}

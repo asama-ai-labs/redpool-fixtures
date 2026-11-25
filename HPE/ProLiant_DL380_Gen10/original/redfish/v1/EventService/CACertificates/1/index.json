@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/$metadata#HpeCertificate.HpeCertificate","@odata.etag":"W/\"3AB3BCCB\"","@odata.type":"#HpeCertificate.v1_0_0.HpeCertificate","Issuer":"/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd","Subject":"/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd"}

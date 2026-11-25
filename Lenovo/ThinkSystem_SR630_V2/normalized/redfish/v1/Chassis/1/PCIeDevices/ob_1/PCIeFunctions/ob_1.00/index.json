@@ -1,0 +1,33 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"4e44a61dfbf024ea4eb\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_1/PCIeFunctions/ob_1.00",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "ob_1.00",
+  "Name": "Onboard VGA",
+  "Description": "This resource represents the properties of a PCIeFunction attached to a System.",
+  "DeviceClass": "DisplayController",
+  "FunctionType": "Physical",
+  "FunctionId": 0,
+  "ClassCode": "0x030000",
+  "DeviceId": "0x0522",
+  "VendorId": "0x102b",
+  "SubsystemId": "0x0101",
+  "SubsystemVendorId": "0x19a2",
+  "RevisionId": "0x42",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_1"
+    },
+    "NetworkDeviceFunctions": [],
+    "Drives": [],
+    "EthernetInterfaces": [],
+    "StorageControllers": []
+  },
+  "Oem": {}
+}

@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/12",
+  "Id": "12",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"E3094A62\"",
+  "Created": "2000-08-14T17:25:02Z",
+  "Severity": "Critical",
+  "Message": "Non-Volatile Memory Corruption Detected. Configuration settings restored to defaults. If enabled, Secure Boot security settings may be lost.",
+  "MessageId": "10.614",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Modified": "2000-08-14T17:25:02Z",
+  "Resolution": "Restore desired configuration settings. Contact HPE support if issue persists.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Firmware"
+      ],
+      "Class": 10,
+      "ClassDescription": "UEFI",
+      "Code": 614,
+      "Count": 1,
+      "EventNumber": 12,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Restore desired configuration settings. Contact HPE support if issue persists.",
+      "Repaired": false,
+      "Severity": "Critical",
+      "Updated": "2000-08-14T17:25:02Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Firmware"
+      ],
+      "Class": 10,
+      "ClassDescription": "UEFI",
+      "Code": 614,
+      "Count": 1,
+      "EventNumber": 12,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Restore desired configuration settings. Contact HPE support if issue persists.",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/PlatformLog/Entries/13",
+  "Id": "13",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"oaLpI5C2MC6oJNChFA4hGF50kjdH39\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-10T16:19:56.457+00:00",
+  "Severity": "OK",
+  "Message": " Recovery: DIMM 3 has failed the POST memory test. 95D9E39F-VC30-FRU 02JK971",
+  "MessageArgs": [
+    "3",
+    "95D9E39F-VC30-FRU 02JK971"
+  ],
+  "OemLogEntryCode": "DMTF0137",
+  "EventId": "0x816f030c2003ffff",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/131L0"
+    }
+  },
+  "MessageArgs@odata.count": 2,
+  "Originator": "UEFI",
+  "Oem": {
+    "Lenovo": {
+      "ReportingChain": "UEFI",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "Memory",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x816f030c2003ffff",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 13,
+      "LenovoMessageID": "DMTF0137",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSFMA0008M",
+      "TotalSequenceNumber": 28,
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDState": "Off",
+          "LEDIdentifier": "62"
+        },
+        {
+          "LEDState": "Lit",
+          "LEDIdentifier": "0"
+        }
+      ],
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "FailingFRU": [
+        {
+          "FRUNumber": "98",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "EventType": 0
+    },
+    "Redpool": {
+      "ReportingChain": "UEFI",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "Memory",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventSequenceNumber": 13,
+      "LenovoMessageID": "DMTF0137",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSFMA0008M",
+      "TotalSequenceNumber": 28,
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDState": "Off",
+          "LEDIdentifier": "62"
+        },
+        {
+          "LEDState": "Lit",
+          "LEDIdentifier": "0"
+        }
+      ],
+      "FailingFRU": [
+        {
+          "FRUNumber": "98",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "EventType": 0,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

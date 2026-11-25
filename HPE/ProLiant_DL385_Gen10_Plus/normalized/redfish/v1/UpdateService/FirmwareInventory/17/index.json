@@ -1,0 +1,28 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/17",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "17",
+  "Name": "Drive",
+  "Description": "Micron_5210_MTFD",
+  "Version": "D2MU405",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+      "DeviceClass": "550e8400-e29b-41d4-a716-000000000019",
+      "DeviceContext": "PCI-E Slot 12 Port 2I Bay 8",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-00000000001a"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "17",
+        "device_context": "PCI-E Slot 12 Port 2I Bay 8"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

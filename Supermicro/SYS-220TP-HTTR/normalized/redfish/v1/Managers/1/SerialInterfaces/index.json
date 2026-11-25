@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SerialInterfaceCollection.SerialInterfaceCollection",
+  "@odata.etag": "202d3e61380d05544e77b4206e03e605",
+  "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces",
+  "@odata.type": "#SerialInterfaceCollection.SerialInterfaceCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces/1"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of Serial Interfaces",
+  "Name": "SerialInterfaceCollection",
+  "Oem": {}
+}

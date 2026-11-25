@@ -1,0 +1,38 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Disk6",
+  "@odata.etag": "\"557c51a7f59625ab39a\"",
+  "Id": "Disk6",
+  "Name": "Firmware:DISK-WUS4BB076D7P3E3",
+  "Description": "The firmware information of a disk controlled by a RAID, M.2 or NVMe controller.",
+  "Version": "R1110021",
+  "SoftwareId": "DISK-WUS4BB076D7P3E3-3-10",
+  "Manufacturer": "WestDigi",
+  "Updateable": false,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Disk6",
+        "related_item_uri": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3",
+        "related_kind": "drive",
+        "related_ref": "Drive.Bay_3",
+        "related_scope": "Direct_Attached_NVMe",
+        "related_location": "Drive 3"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

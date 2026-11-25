@@ -1,0 +1,161 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors",
+  "@odata.type": "#SensorCollection.SensorCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/battery_VBAT_Status"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_6"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/fantach_FAN6"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/intrusion_Chassis_Intru"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_PSU1_PINPUT"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_PSU1_POUTPUT"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_PSU2_PINPUT"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_PSU2_POUTPUT"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_PW_Consumption"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_S0_CORE_VRD_Pwr"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_S0_DIMM_VR1_Pwr"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_S0_DIMM_VR2_Pwr"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_S0_RCA_VR_Pwr"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/power_S0_SOC_VRD_Pwr"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_Inlet_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_M2_SSD1_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_NIC_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_NVMe_SSDA_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_PSU1_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_PSU2_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_Peripheral_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_CORE_VRD_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_DIMM_CH0_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_DIMM_CH4_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_DIMM_VRD_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_RCA_VR_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_SOC_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_SOC_VRD_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_S0_ThrotOff_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_System_Temp"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_0V75_VDDC_SOC"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_0V75_VPCP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_0V85_VDDC_RCA"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_12V"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V2_VDDQ1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V2_VDDQ2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V5_VDDH"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V8_PCP"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V8_SOC"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V8_VDDH"
+    }
+  ],
+  "Members@odata.count": 50,
+  "Description": "Collection of Sensors",
+  "Name": "SensorCollection",
+  "Oem": {}
+}

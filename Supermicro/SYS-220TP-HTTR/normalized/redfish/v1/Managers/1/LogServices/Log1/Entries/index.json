@@ -1,0 +1,54 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.etag": "7ce86f4d7694dbc85b5acaf98c913ebe",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/Log1/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1/LogServices/Log1/Entries/1",
+      "Id": "1",
+      "Name": "Maintenance Event Log Entry 1",
+      "EntryType": "Oem",
+      "Severity": "OK",
+      "OemRecordFormat": "SMC",
+      "Created": "2022-10-29T02:36:35Z",
+      "Message": "[MEL-0051] The system was configured to power off successfully.",
+      "MessageId": "Event.1.0.SystemPowerAction",
+      "Oem": {
+        "Supermicro": {
+          "@odata.type": "#SmcLogEntryExtensions.v1_0_1.LogEntry",
+          "Interface": "RMCP",
+          "User": "ADMIN",
+          "Source": "192.0.2.1",
+          "Category": "others"
+        }
+      },
+      "@odata.type": "#LogEntry.v1_16_1.LogEntry"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/1/LogServices/Log1/Entries/12",
+      "Id": "12",
+      "Name": "Maintenance Event Log Entry 12",
+      "EntryType": "Oem",
+      "Severity": "OK",
+      "OemRecordFormat": "SMC",
+      "Created": "2022-10-29T09:42:39Z",
+      "Message": "[MEL-0212] The fullsmbios file was uploaded successfully",
+      "MessageId": "Event.1.0.FileUploaded",
+      "Oem": {
+        "Supermicro": {
+          "@odata.type": "#SmcLogEntryExtensions.v1_0_1.LogEntry",
+          "Interface": "RMCP",
+          "User": "N/A",
+          "Source": "N/A",
+          "Category": "others"
+        }
+      },
+      "@odata.type": "#LogEntry.v1_16_1.LogEntry"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Maintenance Event Logs",
+  "Name": "Maintenance Event Log Entry Collection",
+  "Oem": {}
+}

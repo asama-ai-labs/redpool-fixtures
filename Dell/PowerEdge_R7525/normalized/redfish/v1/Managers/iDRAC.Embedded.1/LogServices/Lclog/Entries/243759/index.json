@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/243759",
+  "Id": "243759",
+  "Name": "Log Entry 243759",
+  "EntryType": "Oem",
+  "Description": "Log Entry 243759",
+  "Created": "2026-03-23T14:23:53+00:00",
+  "Severity": "OK",
+  "Message": "The session for DUMMY-User from 192.0.2.1 using GUI is logged off.",
+  "MessageId": "IDRAC.2.9.USR0032",
+  "MessageArgs": [
+    "DUMMY-User",
+    "192.0.2.1",
+    "GUI"
+  ],
+  "OemRecordFormat": "Dell",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "MessageArgs@odata.count": 3,
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellLCLogEntry.v1_1_0.DellLCLogEntry",
+      "Category": "Audit",
+      "Comment": null,
+      "LastUpdatedByUser": null
+    },
+    "Redpool": {
+      "Category": "Audit",
+      "Comment": null,
+      "LastUpdatedByUser": null,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

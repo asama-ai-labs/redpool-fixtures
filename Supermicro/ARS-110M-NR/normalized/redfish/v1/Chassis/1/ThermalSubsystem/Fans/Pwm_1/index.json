@@ -1,0 +1,19 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Fan.Fan",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_1",
+  "@odata.type": "#Fan.v1_5_2.Fan",
+  "Id": "Pwm_1",
+  "Name": "Pwm_1",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "SpeedPercent": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/fanpwm_Pwm_1",
+    "Reading": 37.64705882352941
+  },
+  "Location": {},
+  "PhysicalContext": "Fan",
+  "Assembly": {},
+  "Oem": {}
+}

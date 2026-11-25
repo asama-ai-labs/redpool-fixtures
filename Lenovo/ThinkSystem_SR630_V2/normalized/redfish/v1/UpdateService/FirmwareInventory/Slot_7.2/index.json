@@ -1,0 +1,42 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Slot_7.2",
+  "@odata.etag": "\"37f3je13626248jh574\"",
+  "Id": "Slot_7.2",
+  "Name": "Firmware:DEVICE-Marvell UEFI AHCI Driver & BIOS",
+  "Description": "The information of Marvell UEFI AHCI Driver & BIOS firmware.",
+  "Version": "0.0.20.1016",
+  "SoftwareId": "DEVICE-1D490304-0x8005",
+  "Manufacturer": "Marvell",
+  "Updateable": false,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 2,
+  "ReleaseDate": "2020-11-18T08:03:25Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Slot_7.2",
+        "related_item_uri": "/redfish/v1/Systems/1/Storage/M.2",
+        "related_kind": "storage",
+        "related_ref": "M.2",
+        "related_scope": "M.2",
+        "related_location": "M.2"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

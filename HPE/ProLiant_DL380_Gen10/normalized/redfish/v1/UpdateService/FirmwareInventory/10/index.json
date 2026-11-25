@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/10",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "10",
+  "Name": "Server Platform Services (SPS) Descriptor",
+  "Description": "SPSFirmwareDescriptor",
+  "Version": "1.2 0",
+  "Updateable": true,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+      "DeviceClass": "550e8400-e29b-41d4-a716-000000000018",
+      "DeviceContext": "System Board",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-000000000006"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "10",
+        "device_context": "System Board"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

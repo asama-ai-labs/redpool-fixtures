@@ -1,0 +1,9 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ProcessorMetrics.ProcessorMetrics",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/cpu0/ProcessorMetrics",
+  "@odata.type": "#ProcessorMetrics.v1_6_0.ProcessorMetrics",
+  "Id": "ProcessorMetrics",
+  "Name": "ProcessorMetrics",
+  "OperatingSpeedMHz": 1700,
+  "Oem": {}
+}

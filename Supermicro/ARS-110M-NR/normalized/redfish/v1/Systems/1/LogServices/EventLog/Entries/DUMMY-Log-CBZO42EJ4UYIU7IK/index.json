@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-CBZO42EJ4UYIU7IK",
+  "Id": "DUMMY-Log-CBZO42EJ4UYIU7IK",
+  "Name": "System Event Log Entry",
+  "EntryType": "Event",
+  "Created": "2025-08-01T00:53:03+00:00",
+  "Severity": "OK",
+  "Message": "Power restore policy applied.",
+  "MessageId": "OpenBMC.0.1.PowerRestorePolicyApplied",
+  "MessageArgs": [],
+  "MessageArgs@odata.count": 0
+}

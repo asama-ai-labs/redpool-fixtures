@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/MaintenanceLog/Entries/18",
+  "Id": "18",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"86fm91nc3i7192i0fce\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-19T14:39:11Z",
+  "Severity": null,
+  "Message": "CPU 1(SKU NO: DUMMY-Serial) is removed.",
+  "EventGroupId": 1,
+  "OemRecordFormat": "Lenovo"
+}

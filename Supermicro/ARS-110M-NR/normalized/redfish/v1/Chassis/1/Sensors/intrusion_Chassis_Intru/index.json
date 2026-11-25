@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/intrusion_Chassis_Intru",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "intrusion_Chassis_Intru",
+  "Name": "Chassis Intru",
+  "Reading": 0.0,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {},
+  "Oem": {}
+}

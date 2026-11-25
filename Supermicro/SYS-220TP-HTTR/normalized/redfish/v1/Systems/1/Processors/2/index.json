@@ -1,0 +1,74 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.etag": "de4ccd69b786216393778ed7702a71e8",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/2",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {},
+  "Description": "",
+  "Id": "2",
+  "Name": "Processor",
+  "ProcessorId": {
+    "EffectiveFamily": "0xB",
+    "EffectiveModel": "0x6F",
+    "IdentificationRegisters": "0xBFEBFBFF000606A6",
+    "MicrocodeInfo": "0xd000375",
+    "Step": "0x6",
+    "VendorId": "GenuineIntel"
+  },
+  "ProcessorType": "CPU",
+  "ProcessorArchitecture": "x86",
+  "InstructionSet": "x86-64",
+  "Links": {
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/10"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/11"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/12"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/13"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/14"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/15"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/16"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/9"
+      }
+    ],
+    "Memory@odata.count": 8
+  },
+  "Manufacturer": "Intel(R) Corporation",
+  "MemorySummary": {
+    "TotalMemorySizeMiB": 131072,
+    "ECCModeEnabled": true
+  },
+  "Model": "Intel(R) Xeon(R) Gold 5317",
+  "PartNumber": "Xeon Gold 5317",
+  "SerialNumber": "",
+  "BaseSpeedMHz": 3000,
+  "MaxSpeedMHz": 3000,
+  "TDPWatts": 150,
+  "ProcessorMemory": [],
+  "TotalCores": 12,
+  "TotalThreads": 24,
+  "TotalEnabledCores": null,
+  "Socket": "CPU1",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Metrics": {},
+  "EnvironmentMetrics": {},
+  "Oem": {},
+  "MaxTDPWatts": 150
+}

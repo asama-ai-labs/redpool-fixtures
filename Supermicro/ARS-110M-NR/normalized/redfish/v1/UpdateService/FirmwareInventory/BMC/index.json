@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC",
+  "Id": "BMC",
+  "Name": "BMC",
+  "Description": "BMC image",
+  "Version": "192.0.2.1",
+  "Updateable": true,
+  "RelatedItem@odata.count": 1,
+  "ReleaseDate": "2024-06-04T15:36:43Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1"
+    }
+  ],
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcSoftwareInventoryExtensions.v1_0_0.SmcSoftwareInventoryExtensions",
+      "UniqueFilename": "BMC_R12AST2600-6401MS_20240718_51.02.25.00_STD.bin"
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "BMC",
+        "unique_filename": "BMC_R12AST2600-6401MS_20240718_51.02.25.00_STD.bin",
+        "related_item_uri": "/redfish/v1/Managers/1",
+        "related_kind": "manager",
+        "related_ref": "1",
+        "related_location": "BMC"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

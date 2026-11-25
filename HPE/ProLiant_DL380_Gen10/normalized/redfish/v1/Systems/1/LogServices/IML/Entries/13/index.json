@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/13",
+  "Id": "13",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"B4005550\"",
+  "Created": "2000-08-21T15:59:19Z",
+  "Severity": "Warning",
+  "Message": "System Power Supply: Input Power Loss or Unplugged Power Cord, Verify Power Supply Input (Power Supply 2)",
+  "MessageId": "11.82",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Modified": "2000-08-21T16:08:20Z",
+  "Resolution": "Check the power source, then test and replace any failed power supplies.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Power"
+      ],
+      "Class": 11,
+      "ClassDescription": "Power",
+      "Code": 82,
+      "Count": 2,
+      "EventNumber": 13,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Check the power source, then test and replace any failed power supplies.",
+      "Repaired": false,
+      "Severity": "Caution",
+      "Updated": "2000-08-21T16:08:20Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Power"
+      ],
+      "Class": 11,
+      "ClassDescription": "Power",
+      "Code": 82,
+      "Count": 2,
+      "EventNumber": 13,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Check the power source, then test and replace any failed power supplies.",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

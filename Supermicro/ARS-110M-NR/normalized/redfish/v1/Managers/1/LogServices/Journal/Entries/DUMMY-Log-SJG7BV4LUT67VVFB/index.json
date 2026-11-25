@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/Journal/Entries/DUMMY-Log-SJG7BV4LUT67VVFB",
+  "Id": "DUMMY-Log-SJG7BV4LUT67VVFB",
+  "Name": "BMC Journal Entry",
+  "EntryType": "Oem",
+  "Created": "2025-06-24T22:44:55.008169+00:00",
+  "Severity": "Warning",
+  "Message": "nvme_main: Drive status is good but can not get data.",
+  "OemRecordFormat": "BMC Journal Entry"
+}

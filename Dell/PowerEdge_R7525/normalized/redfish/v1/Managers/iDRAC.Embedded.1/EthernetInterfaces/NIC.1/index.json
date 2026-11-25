@@ -1,0 +1,167 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/EthernetInterfaces/NIC.1",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "NIC.1",
+  "Name": "Manager Ethernet Interface",
+  "Description": "Management Network Interface",
+  "MACAddress": "00:1B:44:AA:00:01",
+  "PermanentMACAddress": "00:1B:44:AA:00:01",
+  "InterfaceEnabled": true,
+  "SpeedMbps": 1000,
+  "FullDuplex": true,
+  "AutoNeg": true,
+  "MTUSize": 1500,
+  "EthernetInterfaceType": "Physical",
+  "FQDN": "",
+  "HostName": "DUMMY-HostName",
+  "IPv4Addresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv4StaticAddresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv6Addresses": [
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": null,
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": null,
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    }
+  ],
+  "IPv6StaticAddresses": [
+    {
+      "Address": "::1",
+      "PrefixLength": 64
+    }
+  ],
+  "IPv6DefaultGateway": "::1",
+  "NameServers": [
+    "192.0.2.1",
+    "192.0.2.1",
+    "::1",
+    "::1"
+  ],
+  "VLAN": {
+    "VLANEnable": false,
+    "VLANId": 1
+  },
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    }
+  },
+  "Oem": {},
+  "DHCPv4": {},
+  "DHCPv6": {},
+  "StaticNameServers": [],
+  "IPv6AddressPolicyTable": [],
+  "IPv6StaticDefaultGateways": [],
+  "StatelessAddressAutoConfig": {},
+  "MaxIPv6StaticAddresses": 1,
+  "VLANs": {}
+}

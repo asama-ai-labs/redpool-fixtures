@@ -1,0 +1,38 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU2",
+  "@odata.etag": "\"3f9a35bd3048272ad20\"",
+  "Id": "PSU2",
+  "Name": "POWER-PSU2",
+  "Description": "The information of PSU firmware",
+  "Version": "6.52",
+  "SoftwareId": "POWER-ARTE7100-10",
+  "Manufacturer": "ARTE",
+  "Updateable": true,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "PSU2",
+        "related_item_uri": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1",
+        "related_kind": "power_supply",
+        "related_ref": "1",
+        "related_scope": "Power",
+        "related_location": "PSU 2"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

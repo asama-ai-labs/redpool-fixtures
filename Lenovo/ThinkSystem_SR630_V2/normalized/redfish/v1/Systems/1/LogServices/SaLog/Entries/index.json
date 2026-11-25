@@ -1,0 +1,11 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.etag": "\"2d2af5edc7cd28a4038\"",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/SaLog/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Description": "A collection of LogEntryServiceAdvisorLogEntry resource instances.",
+  "Name": "LogEntryServiceAdvisorLogEntryCollection",
+  "Oem": {}
+}

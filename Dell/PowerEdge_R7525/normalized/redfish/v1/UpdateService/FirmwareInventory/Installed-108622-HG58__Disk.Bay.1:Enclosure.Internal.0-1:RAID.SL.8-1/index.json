@@ -1,0 +1,73 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108622-HG58__Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+  "Id": "Installed-108622-HG58__Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+  "Name": "Disk 1 in Backplane 1 of RAID Controller in SL 8",
+  "Description": "Represents Firmware Inventory",
+  "Version": "HG58",
+  "SoftwareId": "108622",
+  "Updateable": true,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellSoftwareInventory": {
+        "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108622-HG58__Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+        "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+        "BuildNumber": null,
+        "Classifications": [
+          "Firmware"
+        ],
+        "Classifications@odata.count": 1,
+        "ComponentID": "108622",
+        "ComponentType": "FRMW",
+        "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+        "DeviceID": null,
+        "ElementName": "Disk 1 in Backplane 1 of RAID Controller in SL 8",
+        "HashValue": null,
+        "Id": "DCIM:INSTALLED_0x23_304_C_Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+        "IdentityInfoType": [
+          "OrgID:ComponentType:ComponentID"
+        ],
+        "IdentityInfoType@odata.count": 1,
+        "IdentityInfoValue": [
+          "DCIM:firmware:108622"
+        ],
+        "IdentityInfoValue@odata.count": 1,
+        "InstallationDate": "2025-06-07T08:13:47Z",
+        "IsEntity": true,
+        "MajorVersion": null,
+        "MinorVersion": null,
+        "Name": "DellSoftwareInventory",
+        "PLDMCapabilitiesDuringUpdate": "0x00000000",
+        "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+        "RevisionNumber": null,
+        "RevisionString": null,
+        "SidebandUpdateCapable": false,
+        "Status": "Installed",
+        "SubDeviceID": null,
+        "SubVendorID": null,
+        "VendorID": null,
+        "impactsTPMmeasurements": false
+      }
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Installed-108622-HG58__Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+        "inventory_slot": "installed",
+        "installation_date": "2025-06-07T08:13:47Z",
+        "component_id": "108622",
+        "related_kind": "drive",
+        "related_ref": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1",
+        "related_scope": "Disk",
+        "related_location": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.8-1"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

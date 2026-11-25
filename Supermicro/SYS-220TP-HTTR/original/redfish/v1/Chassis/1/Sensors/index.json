@@ -1,0 +1,1 @@
+{"@odata.type":"#SensorCollection.SensorCollection","@odata.id":"/redfish/v1/Chassis/1/Sensors","Name":"Sensor Collection","Description":"Collection of Sensors.","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/Chassis/1/Sensors/1"}],"@odata.etag":"f0dedd9ece3cf201ea2a97d38886d249"}

@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/Syslog","@odata.type":"#SmcSyslog.v1_0_1.SmcSyslog","EnableSyslog":false,"Id":"Syslog","Name":"Syslog","SyslogPortNumber":514,"SyslogServer":""}

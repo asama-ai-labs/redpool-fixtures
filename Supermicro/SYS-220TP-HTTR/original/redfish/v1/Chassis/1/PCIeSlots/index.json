@@ -1,0 +1,1 @@
+{"@odata.type":"#PCIeSlots.v1_2_0.PCIeSlots","@odata.id":"/redfish/v1/Chassis/1/PCIeSlots","Id":"1","Name":"PCIe Slot Information","Slots":[{"PCIeType":"Gen4","Lanes":16,"SlotType":"FullLength","Status":{"State":"Enabled"},"Location":{"PartLocation":{"LocationOrdinalValue":1,"LocationType":"Slot","ServiceLabel":"System Slot 2"}}}],"@odata.etag":"ccc37556b4aa65798a06eae7a0c8bc13"}

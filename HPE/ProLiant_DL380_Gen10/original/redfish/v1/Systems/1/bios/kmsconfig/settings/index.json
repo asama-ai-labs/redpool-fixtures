@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/$metadata#HpeKmsConfig.HpeKmsConfig","@odata.etag":"W/\"D4FD42A68454635FF2D9A102CA0B7A50\"","@odata.id":"/redfish/v1/systems/1/bios/kmsconfig/settings/","@odata.type":"#HpeKmsConfig.v1_0_0.HpeKmsConfig","EncryptableDevices":[],"Id":"settings","KeyManagementType":"Disabled","Name":"KMS Pending Settings","OpalBlockSid":"Disabled"}

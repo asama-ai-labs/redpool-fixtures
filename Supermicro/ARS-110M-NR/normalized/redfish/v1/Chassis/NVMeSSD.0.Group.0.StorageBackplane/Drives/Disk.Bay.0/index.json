@@ -1,0 +1,60 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+  "@odata.id": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0",
+  "@odata.type": "#Drive.v1_19_0.Drive",
+  "Id": "Disk.Bay.0",
+  "Name": "Disk.Bay.0",
+  "Description": "Disk.Bay.0",
+  "StatusIndicator": "OK",
+  "Model": "",
+  "Manufacturer": "",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "",
+  "Protocol": "NVMe",
+  "CapacityBytes": 960197124096,
+  "FailurePredicted": null,
+  "IndicatorLED": "Off",
+  "Identifiers": [],
+  "PhysicalLocation": {
+    "PartLocation": {
+      "LocationOrdinalValue": 0,
+      "LocationType": "Bay"
+    }
+  },
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {},
+  "Actions": {
+    "Oem": {
+      "#SmcDrive.Eject": {
+        "target": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0/Actions/Oem/SmcDrive.Eject"
+      },
+      "#SmcDrive.Indicate": {
+        "@Redfish.ActionInfo": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0/Oem/Supermicro/IndicateActionInfo",
+        "target": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0/Actions/Oem/SmcDrive.Indicate"
+      },
+      "#SmcDrive.Insert": {
+        "target": "/redfish/v1/Chassis/NVMeSSD.0.Group.0.StorageBackplane/Drives/Disk.Bay.0/Actions/Oem/SmcDrive.Insert"
+      }
+    }
+  },
+  "Assembly": {},
+  "Operations": [],
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcDriveExtensions.v1_0_2.Drive",
+      "DriveFunctional": true,
+      "InitialPowerRequirement": 5,
+      "PCIeMaxLinkSpeedPort0": "16.0 GT/s",
+      "PCIeMaxLinkSpeedPort1": "",
+      "PCIeMaxLinkWidthPort0": "PCIe x4",
+      "PCIeMaxLinkWidthPort1": "",
+      "SlotNumber": "0,0",
+      "Temperature": 26,
+      "VMDMode": false
+    }
+  },
+  "DriveFormFactor": "U2"
+}

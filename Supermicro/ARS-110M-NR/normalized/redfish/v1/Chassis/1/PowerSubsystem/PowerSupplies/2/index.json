@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PowerSupply.PowerSupply",
+  "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/2",
+  "@odata.type": "#PowerSupply.v1_5_0.PowerSupply",
+  "Id": "2",
+  "Name": "Power Supply 2",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Model": "PWS-804P-1R",
+  "Manufacturer": "SUPERMICRO",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "PWS-804P-1R",
+  "FirmwareVersion": "1.3",
+  "PowerCapacityWatts": 800.0,
+  "PowerSupplyType": "AC",
+  "EfficiencyRatings": [],
+  "HotPluggable": null,
+  "Location": {},
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/2/Metrics"
+  },
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/2/Assembly"
+  },
+  "Links": {},
+  "Actions": {},
+  "Oem": {}
+}

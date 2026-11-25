@@ -1,0 +1,40 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS",
+  "@odata.etag": "fc300c9ad54bb74de02ffc0547e82d93",
+  "Id": "BIOS",
+  "Name": "BIOS",
+  "Version": "BIOS Date: 07/14/2022 Ver 1.4",
+  "Manufacturer": "SMCI",
+  "Updateable": true,
+  "WriteProtected": false,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Bios"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "UniqueFilename": "BIOS_X12DPTPT-1C17_20220714_1.4_STDsp.bin"
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "BIOS",
+        "unique_filename": "BIOS_X12DPTPT-1C17_20220714_1.4_STDsp.bin",
+        "related_item_uri": "/redfish/v1/Systems/1/Bios",
+        "related_kind": "bios",
+        "related_ref": "Bios",
+        "related_location": "BIOS"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

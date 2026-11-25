@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.etag": "W/\"A3A6BF43\"",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/14",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "14",
+  "Name": "Boot Option",
+  "BootOptionReference": "Boot0017",
+  "DisplayName": "Slot 1 Port 1 : HPE Ethernet 10Gb 2-port 562T Adapter - NIC (PXE IPv6)",
+  "UefiDevicePath": "PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/MAC(001B44AA0003,0x1)/IPv6(::1)",
+  "RelatedItem": []
+}

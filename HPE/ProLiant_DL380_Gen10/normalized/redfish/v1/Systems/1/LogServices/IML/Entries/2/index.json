@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+  "Id": "2",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"8422D571\"",
+  "Severity": "Critical",
+  "Message": "One-button secure erase completed. User data erase status: Completed With Error.  System settings erase status: Completed Successfully.",
+  "MessageId": "33.3",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Resolution": "No Action needed if there are no failures. Retry One-button secure erase operation if there are failures. Please contact support if the failure persists.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Security",
+        "Administration"
+      ],
+      "Class": 33,
+      "ClassDescription": "Maintenance",
+      "Code": 3,
+      "Count": 1,
+      "EventNumber": 2,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "No Action needed if there are no failures. Retry One-button secure erase operation if there are failures. Please contact support if the failure persists.",
+      "Repaired": false,
+      "Severity": "Critical",
+      "Updated": "0000-00-00T00:00:00Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Security",
+        "Administration"
+      ],
+      "Class": 33,
+      "ClassDescription": "Maintenance",
+      "Code": 3,
+      "Count": 1,
+      "EventNumber": 2,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "No Action needed if there are no failures. Retry One-button secure erase operation if there are failures. Please contact support if the failure persists.",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

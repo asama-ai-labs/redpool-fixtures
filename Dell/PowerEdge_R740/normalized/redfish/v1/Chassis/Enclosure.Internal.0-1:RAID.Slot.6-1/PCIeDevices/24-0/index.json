@@ -1,0 +1,41 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"1795488696\"",
+  "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices/24-0",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "24-0",
+  "Name": "PERC H330 Adapter",
+  "Description": "PERC H330 Adapter",
+  "DeviceType": "SingleFunction",
+  "Manufacturer": "Broadcom / LSI",
+  "Model": "PERC H330 Adapter",
+  "SerialNumber": "0",
+  "PartNumber": "0CG2YM",
+  "FirmwareVersion": "25.5.9.0001",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices/24-0/PCIeFunctions"
+  },
+  "Slot": {},
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1"
+      }
+    ],
+    "Chassis@odata.count": 1,
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices/24-0/PCIeFunctions/24-0-0"
+      }
+    ],
+    "PCIeFunctions@odata.count": 1,
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+  },
+  "Oem": {}
+}

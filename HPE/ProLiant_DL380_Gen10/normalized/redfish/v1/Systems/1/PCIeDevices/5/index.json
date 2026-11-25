@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "W/\"443BO619\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/5",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "5",
+  "Name": "HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",
+  "Description": "HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",
+  "Manufacturer": "Mellanox Technologies",
+  "Model": "MT27710 Family [ConnectX-4 Lx]",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/5/PCIeFunctions"
+  },
+  "Slot": {
+    "Location": {
+      "Info": "Embedded FlexibleLOM 1",
+      "PartLocation": {
+        "ServiceLabel": "NIC.FlexLOM.1.1",
+        "LocationType": "Slot"
+      }
+    }
+  },
+  "Status": {
+    "State": null,
+    "Health": null
+  },
+  "Links": {},
+  "Assembly": {},
+  "Oem": {}
+}

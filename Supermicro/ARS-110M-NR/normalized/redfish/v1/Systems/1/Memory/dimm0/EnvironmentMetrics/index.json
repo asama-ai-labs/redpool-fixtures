@@ -1,0 +1,7 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EnvironmentMetrics.EnvironmentMetrics",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/dimm0/EnvironmentMetrics",
+  "@odata.type": "#EnvironmentMetrics.v1_3_0.EnvironmentMetrics",
+  "Id": "EnvironmentMetrics",
+  "Name": "Memory Environment Metrics"
+}

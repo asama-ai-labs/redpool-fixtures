@@ -1,0 +1,34 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PowerSupplyMetrics.PowerSupplyMetrics",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PowerSubsystem/PowerSupplies/PSU.Slot.1/Metrics",
+  "@odata.type": "#PowerSupplyMetrics.v1_1_0.PowerSupplyMetrics",
+  "Id": "Metrics",
+  "Name": "Metrics for Power Supply 1",
+  "Description": "Represents the properties of Power supply Metrics",
+  "InputPowerWatts": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/PSU.Slot.1_InputPower",
+    "Reading": 113.25
+  },
+  "OutputPowerWatts": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/PSU.Slot.1_OutputPower",
+    "Reading": 91.875
+  },
+  "InputVoltage": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/PS1Voltage",
+    "Reading": 232.0
+  },
+  "InputCurrentAmps": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/PS1Current1",
+    "Reading": 0.6
+  },
+  "RailVoltage": [],
+  "FrequencyHz": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/PSU.Slot.1_MaximumFrequency",
+    "Reading": 63
+  },
+  "FanSpeedsPercent": [],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  }
+}

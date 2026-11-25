@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-3TK2DEV5XZG5AUQA",
+  "Id": "DUMMY-Log-3TK2DEV5XZG5AUQA",
+  "Name": "System Event Log Entry",
+  "EntryType": "Event",
+  "Created": "2025-08-01T00:53:15+00:00",
+  "Severity": "OK",
+  "Message": "PWS-804P-1R PowerSupply with serial number DUMMY-Serial was installed.",
+  "MessageId": "OpenBMC.0.1.InventoryAdded",
+  "MessageArgs": [
+    "PWS-804P-1R",
+    "PowerSupply",
+    "DUMMY-Serial"
+  ],
+  "MessageArgs@odata.count": 3
+}

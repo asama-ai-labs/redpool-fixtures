@@ -1,0 +1,584 @@
+redfish_bmc_manager_health_info{health="OK",id="1"} 1
+redfish_bmc_manager_info{firmware_version="01.02.34",id="1",manufacturer="",model="ASPEED",name="Manager",uuid="550e8400-e29b-41d4-a716-446655440000"} 1
+redfish_bmc_manager_state_info{id="1",state="Enabled"} 1
+redfish_chassis_health_info{health="Critical",health_rollup="Unknown",id="1"} 1
+redfish_chassis_info{asset_tag="DUMMY-AssetTag",chassis_type="RackMount",contained_by="",contains="",device_serial_number="DUMMY-SerialNumber",engineering_change_level="",fru_part_number="",id="1",manufacture_date="",manufacturer="Supermicro",model="X12DPT-PT6",part_number="CSE-217HQ+-R2K20BP4",sku=""} 1
+redfish_chassis_power_state_info{id="1",power_state="On"} 1
+redfish_chassis_state_info{id="1",state="Enabled"} 1
+redfish_firmware_inventory_health_info{health="Critical",health_rollup="Unknown",inventory_id="1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="2"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="BIOS"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="BIOS_ME"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="BMC"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Backup_BIOS"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Backup_BMC"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="CPLD_Motherboard"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Golden_BIOS"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Golden_BMC"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="LCMC_Multinode"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Staging_BIOS"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="Staging_BMC"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="1",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="Power Supply",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="REV2.4",write_protected="true"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="2",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="Power Supply",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="REV2.4",write_protected="true"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="BIOS",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BIOS",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="BIOS Date: 07/14/2022 Ver 1.4",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="BIOS_ME",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BIOS ME",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="192.0.2.1",write_protected="true"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="BMC",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BMC",related_kind="",related_location="",related_ref="",related_scope="",release_date="2021-09-20T18:58:35Z",software_id="",updateable="true",version="01.02.34",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Backup_BIOS",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BIOS Backup",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="Not Present",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Backup_BMC",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BMC Backup",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="Not Present",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="CPLD_Motherboard",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="CPLD Motherboard",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="F1.00.07",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Golden_BIOS",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BIOS Golden",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="BIOS Date: 07/14/2022 Ver 1.4",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Golden_BMC",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BMC Golden",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="01.02.34",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="LCMC_Multinode",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="Multi-node LCMC",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="0.15",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Staging_BIOS",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BIOS Staging",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="BIOS Date: 07/14/2022 Ver 1.4",write_protected="false"} 1
+redfish_firmware_inventory_info{description="",device_context="",installation_date="",inventory_id="Staging_BMC",inventory_slot="",lowest_supported_version="",manufacturer="SMCI",name="BMC Staging",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="01.02.34",write_protected="false"} 1
+redfish_firmware_inventory_state_info{inventory_id="1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="2",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="BIOS",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="BIOS_ME",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="BMC",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Backup_BIOS",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Backup_BMC",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="CPLD_Motherboard",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Golden_BIOS",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Golden_BMC",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="LCMC_Multinode",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Staging_BIOS",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="Staging_BMC",state="Enabled"} 1
+redfish_inventory_exporter_collector_success{collector="bios",target="mock"} 0
+redfish_inventory_exporter_collector_success{collector="bmc",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="chassis",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="memory",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="network",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="pcie",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="power",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="processor",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="sensors",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="storage",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="thermal",target="mock"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMA1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="16",loc_channel="0",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="16"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMB1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="15",loc_channel="1",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="15"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMC1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="14",loc_channel="2",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="14"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMD1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="13",loc_channel="3",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="13"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMME1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="12",loc_channel="4",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="12"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMF1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="11",loc_channel="5",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="11"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMG1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="10",loc_channel="6",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="10"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P1-DIMMH1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="9",loc_channel="7",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="9"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMA1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="8",loc_channel="0",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="8"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMB1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="7",loc_channel="1",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="7"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMC1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="6",loc_channel="2",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="6"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMD1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="5",loc_channel="3",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="5"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMME1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="4",loc_channel="4",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="4"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMF1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="3",loc_channel="5",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="3"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMG1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="2",loc_channel="6",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="16384",data_width_bits="64",device_locator="P2-DIMMH1",device_serial_number="DUMMY-SerialNumber",ecc_bits="",enabled="true",error_correction="SingleBitECC",fru_part_number="",id="1",loc_channel="7",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Micron Technology",max_operating_speed_mhz="3200",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2933",part_number="18ASF2G72PDZ-3G2R1",rank_count="1"} 1
+redfish_memory_health_info{health="OK",id="1"} 1
+redfish_memory_health_info{health="OK",id="10"} 1
+redfish_memory_health_info{health="OK",id="11"} 1
+redfish_memory_health_info{health="OK",id="12"} 1
+redfish_memory_health_info{health="OK",id="13"} 1
+redfish_memory_health_info{health="OK",id="14"} 1
+redfish_memory_health_info{health="OK",id="15"} 1
+redfish_memory_health_info{health="OK",id="16"} 1
+redfish_memory_health_info{health="OK",id="2"} 1
+redfish_memory_health_info{health="OK",id="3"} 1
+redfish_memory_health_info{health="OK",id="4"} 1
+redfish_memory_health_info{health="OK",id="5"} 1
+redfish_memory_health_info{health="OK",id="6"} 1
+redfish_memory_health_info{health="OK",id="7"} 1
+redfish_memory_health_info{health="OK",id="8"} 1
+redfish_memory_health_info{health="OK",id="9"} 1
+redfish_memory_state_info{id="1",state="Enabled"} 1
+redfish_memory_state_info{id="10",state="Enabled"} 1
+redfish_memory_state_info{id="11",state="Enabled"} 1
+redfish_memory_state_info{id="12",state="Enabled"} 1
+redfish_memory_state_info{id="13",state="Enabled"} 1
+redfish_memory_state_info{id="14",state="Enabled"} 1
+redfish_memory_state_info{id="15",state="Enabled"} 1
+redfish_memory_state_info{id="16",state="Enabled"} 1
+redfish_memory_state_info{id="2",state="Enabled"} 1
+redfish_memory_state_info{id="3",state="Enabled"} 1
+redfish_memory_state_info{id="4",state="Enabled"} 1
+redfish_memory_state_info{id="5",state="Enabled"} 1
+redfish_memory_state_info{id="6",state="Enabled"} 1
+redfish_memory_state_info{id="7",state="Enabled"} 1
+redfish_memory_state_info{id="8",state="Enabled"} 1
+redfish_memory_state_info{id="9",state="Enabled"} 1
+redfish_memory_summary_health_info{health="OK"} 1
+redfish_memory_summary_info{device_count="16",total_system_memory_gib="256.00",total_system_memory_mib="262144"} 1
+redfish_memory_summary_state_info{state="Enabled"} 1
+redfish_network{fqdn="",hostname="",id="ToManager",interface_enabled="true",link_status="",mac_address="00:1B:44:AA:BB:CC",name="Host Ethernet Interface",permanent_mac_address="00:1B:44:AA:BB:CC",port_link_status="",port_mac_address="",port_number="",speed_mbps="100"} 1
+redfish_network{fqdn="DUMMY-HostName",hostname="",id="1",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:BB:CC",name="OnBoard LAN 1",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="DUMMY-HostName",hostname="",id="2",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:BB:CC",name="OnBoard LAN 2",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network_health_info{health="OK",id="1"} 1
+redfish_network_health_info{health="OK",id="2"} 1
+redfish_network_health_info{health="OK",id="ToManager"} 1
+redfish_network_state_info{id="1",state="Disabled"} 1
+redfish_network_state_info{id="2",state="Disabled"} 1
+redfish_network_state_info{id="ToManager",state="Enabled"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="0.92V VCC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.05V PCH"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.0V BMC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.0V DVDD"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.2V BMC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.88V"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.8V BMC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="1.8V PCH"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="12V"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="2.5V BMC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="3.3VCC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="3.3VSB"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="5VCC"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="5V_AUX"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="VNN PCH"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu1VCCIN"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu1VCCIO"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu1VDDQABCD"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu1VDDQEFGH"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu2VCCIN"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu2VCCIO"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu2VDDQABCD"} 1
+redfish_power_voltage_health_info{chassis_id="1",health="OK",name="Vcpu2VDDQEFGH"} 1
+redfish_power_voltage_info{chassis_id="1",name="0.92V VCC"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.05V PCH"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.0V BMC"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.0V DVDD"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.2V BMC"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.88V"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.8V BMC"} 1
+redfish_power_voltage_info{chassis_id="1",name="1.8V PCH"} 1
+redfish_power_voltage_info{chassis_id="1",name="12V"} 1
+redfish_power_voltage_info{chassis_id="1",name="2.5V BMC"} 1
+redfish_power_voltage_info{chassis_id="1",name="3.3VCC"} 1
+redfish_power_voltage_info{chassis_id="1",name="3.3VSB"} 1
+redfish_power_voltage_info{chassis_id="1",name="5VCC"} 1
+redfish_power_voltage_info{chassis_id="1",name="5V_AUX"} 1
+redfish_power_voltage_info{chassis_id="1",name="VNN PCH"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu1VCCIN"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu1VCCIO"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu1VDDQABCD"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu1VDDQEFGH"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu2VCCIN"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu2VCCIO"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu2VDDQABCD"} 1
+redfish_power_voltage_info{chassis_id="1",name="Vcpu2VDDQEFGH"} 1
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="0.92V VCC"} 0.8080000281333923
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.05V PCH"} 0.9229999780654907
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.0V BMC"} 0.8840000033378601
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.0V DVDD"} 0.8820000290870667
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.2V BMC"} 1.059999942779541
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.88V"} 1.6610000133514404
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.8V BMC"} 1.6100000143051147
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="1.8V PCH"} 1.6089999675750732
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="12V"} 10.730999946594238
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="2.5V BMC"} 2.23799991607666
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="3.3VCC"} 2.9660000801086426
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="3.3VSB"} 2.9660000801086426
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="5VCC"} 4.484000205993652
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="5V_AUX"} 4.484000205993652
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="VNN PCH"} 0.7620000243186951
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu1VCCIN"} 1.5800000429153442
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu1VCCIO"} 0.8999999761581421
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu1VDDQABCD"} 1.0399999618530273
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu1VDDQEFGH"} 1.0399999618530273
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu2VCCIN"} 1.5800000429153442
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu2VCCIO"} 0.8999999761581421
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu2VDDQABCD"} 1.0399999618530273
+redfish_power_voltage_lower_threshold_critical{chassis_id="1",name="Vcpu2VDDQEFGH"} 1.0399999618530273
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="0.92V VCC"} 0.847000002861023
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.05V PCH"} 0.9229999780654907
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.0V BMC"} 0.8840000033378601
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.0V DVDD"} 0.8820000290870667
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.2V BMC"} 1.059999942779541
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.88V"} 1.6610000133514404
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.8V BMC"} 1.6100000143051147
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="1.8V PCH"} 1.6089999675750732
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="12V"} 10.730999946594238
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="2.5V BMC"} 2.23799991607666
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="3.3VCC"} 2.9660000801086426
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="3.3VSB"} 2.9660000801086426
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="5VCC"} 4.484000205993652
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="5V_AUX"} 4.484000205993652
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="VNN PCH"} 0.7620000243186951
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu1VCCIN"} 1.5199999809265137
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu1VCCIO"} 0.8799999952316284
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu1VDDQABCD"} 1.0199999809265137
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu1VDDQEFGH"} 1.0199999809265137
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu2VCCIN"} 1.5199999809265137
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu2VCCIO"} 0.8799999952316284
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu2VDDQABCD"} 1.0199999809265137
+redfish_power_voltage_lower_threshold_fatal{chassis_id="1",name="Vcpu2VDDQEFGH"} 1.0199999809265137
+redfish_power_voltage_max_reading_range{chassis_id="1",name="0.92V VCC"} 2.4760000705718994
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.05V PCH"} 2.4749999046325684
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.0V BMC"} 2.4579999446868896
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.0V DVDD"} 2.4560000896453857
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.2V BMC"} 2.4769999980926514
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.88V"} 5.947999954223633
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.8V BMC"} 3.312999963760376
+redfish_power_voltage_max_reading_range{chassis_id="1",name="1.8V PCH"} 3.325000047683716
+redfish_power_voltage_max_reading_range{chassis_id="1",name="12V"} 21.482999801635742
+redfish_power_voltage_max_reading_range{chassis_id="1",name="2.5V BMC"} 4.986999988555908
+redfish_power_voltage_max_reading_range{chassis_id="1",name="3.3VCC"} 5.985000133514404
+redfish_power_voltage_max_reading_range{chassis_id="1",name="3.3VSB"} 5.985000133514404
+redfish_power_voltage_max_reading_range{chassis_id="1",name="5VCC"} 10.741000175476074
+redfish_power_voltage_max_reading_range{chassis_id="1",name="5V_AUX"} 10.741000175476074
+redfish_power_voltage_max_reading_range{chassis_id="1",name="VNN PCH"} 2.50600004196167
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu1VCCIN"} 2.549999952316284
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu1VCCIO"} 2.609999895095825
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu1VDDQABCD"} 2.549999952316284
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu1VDDQEFGH"} 2.549999952316284
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu2VCCIN"} 2.549999952316284
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu2VCCIO"} 2.609999895095825
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu2VDDQABCD"} 2.549999952316284
+redfish_power_voltage_max_reading_range{chassis_id="1",name="Vcpu2VDDQEFGH"} 2.549999952316284
+redfish_power_voltage_min_reading_range{chassis_id="1",name="0.92V VCC"} 0.003000000026077032
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.05V PCH"} 0.0010000000474974513
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.0V BMC"} 0.009999999776482582
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.0V DVDD"} 0.00800000037997961
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.2V BMC"} 0.003000000026077032
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.88V"} 0.007000000216066837
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.8V BMC"} 0.024000000208616257
+redfish_power_voltage_min_reading_range{chassis_id="1",name="1.8V PCH"} 0.009999999776482582
+redfish_power_voltage_min_reading_range{chassis_id="1",name="12V"} 0.06300000101327896
+redfish_power_voltage_min_reading_range{chassis_id="1",name="2.5V BMC"} 0.014999999664723873
+redfish_power_voltage_min_reading_range{chassis_id="1",name="3.3VCC"} 0.017999999225139618
+redfish_power_voltage_min_reading_range{chassis_id="1",name="3.3VSB"} 0.017999999225139618
+redfish_power_voltage_min_reading_range{chassis_id="1",name="5VCC"} 0.03200000151991844
+redfish_power_voltage_min_reading_range{chassis_id="1",name="5V_AUX"} 0.03200000151991844
+redfish_power_voltage_min_reading_range{chassis_id="1",name="VNN PCH"} 0.007000000216066837
+redfish_power_voltage_min_reading_range{chassis_id="1",name="Vcpu1VCCIO"} 0.05999999865889549
+redfish_power_voltage_min_reading_range{chassis_id="1",name="Vcpu2VCCIO"} 0.05999999865889549
+redfish_power_voltage_output{chassis_id="1",name="0.92V VCC"} 0.9240000247955322
+redfish_power_voltage_output{chassis_id="1",name="1.05V PCH"} 1.0390000343322754
+redfish_power_voltage_output{chassis_id="1",name="1.0V BMC"} 1.0080000162124634
+redfish_power_voltage_output{chassis_id="1",name="1.0V DVDD"} 1.0069999694824219
+redfish_power_voltage_output{chassis_id="1",name="1.2V BMC"} 1.225000023841858
+redfish_power_voltage_output{chassis_id="1",name="1.88V"} 1.8940000534057617
+redfish_power_voltage_output{chassis_id="1",name="1.8V BMC"} 1.8300000429153442
+redfish_power_voltage_output{chassis_id="1",name="1.8V PCH"} 1.8040000200271606
+redfish_power_voltage_output{chassis_id="1",name="12V"} 11.991000175476074
+redfish_power_voltage_output{chassis_id="1",name="2.5V BMC"} 2.569000005722046
+redfish_power_voltage_output{chassis_id="1",name="3.3VCC"} 3.316999912261963
+redfish_power_voltage_output{chassis_id="1",name="3.3VSB"} 3.2939999103546143
+redfish_power_voltage_output{chassis_id="1",name="5VCC"} 4.98799991607666
+redfish_power_voltage_output{chassis_id="1",name="5V_AUX"} 4.98799991607666
+redfish_power_voltage_output{chassis_id="1",name="VNN PCH"} 1.0069999694824219
+redfish_power_voltage_output{chassis_id="1",name="Vcpu1VCCIN"} 1.8200000524520874
+redfish_power_voltage_output{chassis_id="1",name="Vcpu1VCCIO"} 1.059999942779541
+redfish_power_voltage_output{chassis_id="1",name="Vcpu1VDDQABCD"} 1.2300000190734863
+redfish_power_voltage_output{chassis_id="1",name="Vcpu1VDDQEFGH"} 1.2300000190734863
+redfish_power_voltage_output{chassis_id="1",name="Vcpu2VCCIN"} 1.8200000524520874
+redfish_power_voltage_output{chassis_id="1",name="Vcpu2VCCIO"} 1.059999942779541
+redfish_power_voltage_output{chassis_id="1",name="Vcpu2VDDQABCD"} 1.2300000190734863
+redfish_power_voltage_output{chassis_id="1",name="Vcpu2VDDQEFGH"} 1.2400000095367432
+redfish_power_voltage_state_info{chassis_id="1",name="0.92V VCC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.05V PCH",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.0V BMC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.0V DVDD",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.2V BMC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.88V",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.8V BMC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="1.8V PCH",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="12V",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="2.5V BMC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="3.3VCC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="3.3VSB",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="5VCC",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="5V_AUX",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="VNN PCH",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu1VCCIN",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu1VCCIO",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu1VDDQABCD",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu1VDDQEFGH",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu2VCCIN",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu2VCCIO",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu2VDDQABCD",state="Enabled"} 1
+redfish_power_voltage_state_info{chassis_id="1",name="Vcpu2VDDQEFGH",state="Enabled"} 1
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="0.92V VCC"} 1.0019999742507935
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.05V PCH"} 1.1460000276565552
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.0V BMC"} 1.0850000381469727
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.0V DVDD"} 1.0829999446868896
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.2V BMC"} 1.3029999732971191
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.88V"} 2.056999921798706
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.8V BMC"} 1.9839999675750732
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="1.8V PCH"} 1.9859999418258667
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="12V"} 13.25100040435791
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="2.5V BMC"} 2.7639999389648438
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="3.3VCC"} 3.6449999809265137
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="3.3VSB"} 3.6449999809265137
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="5VCC"} 5.533999919891357
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="5V_AUX"} 5.533999919891357
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="VNN PCH"} 1.1050000190734863
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu1VCCIN"} 1.9900000095367432
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu1VCCIO"} 1.2200000286102295
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu1VDDQABCD"} 1.3600000143051147
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu1VDDQEFGH"} 1.3600000143051147
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu2VCCIN"} 1.9900000095367432
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu2VCCIO"} 1.2200000286102295
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu2VDDQABCD"} 1.3600000143051147
+redfish_power_voltage_upper_threshold_critical{chassis_id="1",name="Vcpu2VDDQEFGH"} 1.3600000143051147
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="0.92V VCC"} 1.0889999866485596
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.05V PCH"} 1.1460000276565552
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.0V BMC"} 1.0850000381469727
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.0V DVDD"} 1.0829999446868896
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.2V BMC"} 1.3029999732971191
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.88V"} 2.056999921798706
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.8V BMC"} 1.9839999675750732
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="1.8V PCH"} 1.9859999418258667
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="12V"} 13.25100040435791
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="2.5V BMC"} 2.7639999389648438
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="3.3VCC"} 3.6449999809265137
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="3.3VSB"} 3.6449999809265137
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="5VCC"} 5.533999919891357
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="5V_AUX"} 5.533999919891357
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="VNN PCH"} 1.1050000190734863
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu1VCCIN"} 2.009999990463257
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu1VCCIO"} 1.2599999904632568
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu1VDDQABCD"} 1.399999976158142
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu1VDDQEFGH"} 1.399999976158142
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu2VCCIN"} 2.009999990463257
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu2VCCIO"} 1.2599999904632568
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu2VDDQABCD"} 1.399999976158142
+redfish_power_voltage_upper_threshold_fatal{chassis_id="1",name="Vcpu2VDDQEFGH"} 1.399999976158142
+redfish_powersupply_average_consumed_watts{chassis_id="1",power_control_name="System Power Control"} 128
+redfish_powersupply_health_info{chassis_id="1",health="Critical",name="Power Supply Bay 1"} 1
+redfish_powersupply_health_info{chassis_id="1",health="OK",name="Power Supply Bay 2"} 1
+redfish_powersupply_info{chassis_id="1",engineering_change_level="",firmware_version="REV2.4",fru_part_number="",hot_pluggable="false",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",member_id="0",model="PWS-2K20A-1R",name="Power Supply Bay 1",part_number="PWS-2K20A-1RPWS-",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber"} 1
+redfish_powersupply_info{chassis_id="1",engineering_change_level="",firmware_version="REV2.4",fru_part_number="",hot_pluggable="false",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",member_id="1",model="PWS-2K20A-1R",name="Power Supply Bay 2",part_number="PWS-2K20A-1R",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber"} 1
+redfish_powersupply_input_volts{chassis_id="1",name="Power Supply Bay 2"} 228
+redfish_powersupply_input_watts{chassis_id="1",name="Power Supply Bay 2"} 690
+redfish_powersupply_max_consumed_watts{chassis_id="1",power_control_name="System Power Control"} 137
+redfish_powersupply_min_consumed_watts{chassis_id="1",power_control_name="System Power Control"} 124
+redfish_powersupply_output_watts{chassis_id="1",name="Power Supply Bay 2"} 627
+redfish_powersupply_power_capacity_watts{chassis_id="1",name="Power Supply Bay 1"} 2200
+redfish_powersupply_power_capacity_watts{chassis_id="1",name="Power Supply Bay 2"} 2200
+redfish_powersupply_power_limit_watts{chassis_id="1",power_control_name="System Power Control"} 425
+redfish_powersupply_redundancy_health_info{chassis_id="1",health="OK",redundancy_id="0"} 1
+redfish_powersupply_redundancy_info{chassis_id="1",max_num_supported="6",member_count="2",min_num_needed="1",mode="Failover",name="PowerSupply Redundancy Group 1",redundancy_enabled="false",redundancy_id="0"} 1
+redfish_powersupply_redundancy_member_info{chassis_id="1",psu_name="Power Supply Bay 1",redundancy_id="0"} 1
+redfish_powersupply_redundancy_member_info{chassis_id="1",psu_name="Power Supply Bay 2",redundancy_id="0"} 1
+redfish_powersupply_redundancy_state_info{chassis_id="1",redundancy_id="0",state="Enabled"} 1
+redfish_powersupply_state_info{chassis_id="1",name="Power Supply Bay 1",state="Enabled"} 1
+redfish_powersupply_state_info{chassis_id="1",name="Power Supply Bay 2",state="Enabled"} 1
+redfish_powersupply_total_consumed_watts{chassis_id="1",power_control_name="System Power Control"} 690
+redfish_processor_health_info{health="OK",id="1"} 1
+redfish_processor_health_info{health="OK",id="2"} 1
+redfish_processor_info{architecture="x86",base_speed_mhz="0",id="1",instruction_set="x86-64",manufacturer="Intel(R) Corporation",max_speed_mhz="3000",model="Intel(R) Xeon(R) Gold 5317 CPU @ 3.00GHz",name="Processor",part_number="",pcie_device_id="",processor_id_effective_family="0xB",processor_id_effective_model="0x6F",processor_id_step="0x6",processor_id_vendor_id="GenuineIntel",processor_memory="",processor_serial_number="",socket="CPU2",speed_mhz="3000",tdp_watts="",total_cores="12",total_enabled_cores="12",total_threads="24",type="CPU"} 1
+redfish_processor_info{architecture="x86",base_speed_mhz="0",id="2",instruction_set="x86-64",manufacturer="Intel(R) Corporation",max_speed_mhz="3000",model="Intel(R) Xeon(R) Gold 5317 CPU @ 3.00GHz",name="Processor",part_number="",pcie_device_id="",processor_id_effective_family="0xB",processor_id_effective_model="0x6F",processor_id_step="0x6",processor_id_vendor_id="GenuineIntel",processor_memory="",processor_serial_number="",socket="CPU1",speed_mhz="3000",tdp_watts="",total_cores="12",total_enabled_cores="12",total_threads="24",type="CPU"} 1
+redfish_processor_state_info{id="1",state="Enabled"} 1
+redfish_processor_state_info{id="2",state="Enabled"} 1
+redfish_processor_summary_health_info{health="OK"} 1
+redfish_processor_summary_info{architecture="x86",logical_processor_count="48",max_speed_mhz="3000",model="Intel(R) Xeon(R) processor",socket_count="2",total_cores="24",total_threads="48",type="CPU"} 1
+redfish_processor_summary_state_info{state="Enabled"} 1
+redfish_system_fan_redundancy_info{fan_redundancy=""} 1
+redfish_system_health_info{aggregate_server_health="",health="Critical",health_rollup="Unknown"} 1
+redfish_system_info{hostname="",manufacturer="Supermicro",model="SYS-220TP-HTTR",pca_part_number="",serial_number="DUMMY-SerialNumber",sub_model="",uuid="550e8400-e29b-41d4-a716-446655440000"} 1
+redfish_system_state_info{post_state="",power_state="On",state="Enabled"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="FAN1",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="FAN2",health="OK"} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="FAN1",physical_context="Fan",related_ref="/redfish/v1/Systems/1"} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="FAN2",physical_context="Fan",related_ref="/redfish/v1/Systems/1"} 1
+redfish_thermal_fan_lower_threshold_critical{chassis_id="1",fan_name="FAN1"} 500
+redfish_thermal_fan_lower_threshold_critical{chassis_id="1",fan_name="FAN2"} 500
+redfish_thermal_fan_lower_threshold_fatal{chassis_id="1",fan_name="FAN1"} 300
+redfish_thermal_fan_lower_threshold_fatal{chassis_id="1",fan_name="FAN2"} 300
+redfish_thermal_fan_max_reading_range{chassis_id="1",fan_name="FAN1"} 25600
+redfish_thermal_fan_max_reading_range{chassis_id="1",fan_name="FAN2"} 25600
+redfish_thermal_fan_min_reading_range{chassis_id="1",fan_name="FAN1"} 200
+redfish_thermal_fan_min_reading_range{chassis_id="1",fan_name="FAN2"} 200
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="FAN1"} 28.515625
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="FAN2"} 29.296875
+redfish_thermal_fan_speed_rpm{chassis_id="1",fan_name="FAN1"} 7300
+redfish_thermal_fan_speed_rpm{chassis_id="1",fan_name="FAN2"} 7500
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="FAN1",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="FAN2",state="Enabled"} 1
+redfish_thermal_fan_upper_threshold_critical{chassis_id="1",fan_name="FAN1"} 25400
+redfish_thermal_fan_upper_threshold_critical{chassis_id="1",fan_name="FAN2"} 25400
+redfish_thermal_fan_upper_threshold_fatal{chassis_id="1",fan_name="FAN1"} 25500
+redfish_thermal_fan_upper_threshold_fatal{chassis_id="1",fan_name="FAN2"} 25500
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="AOC_NIC2 Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU1 Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU1_VRMIN Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU1_VRMIO Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU2 Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU2_VRMIN Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="CPU2_VRMIO Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="Inlet Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P1_DIMMA~D Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P1_DIMME~H Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P1_VRMABCD Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P1_VRMEFGH Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P2_DIMMA~D Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P2_DIMME~H Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P2_VRMABCD Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="P2_VRMEFGH Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="PCH Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="Peripheral Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="SYS_ART Temp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="System Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="ASIC",related_ref="/redfish/v1/Chassis/1",sensor_name="AOC_NIC2 Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/1",sensor_name="CPU1 Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/1",sensor_name="CPU1_VRMIN Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/1",sensor_name="CPU1_VRMIO Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/2",sensor_name="CPU2 Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/2",sensor_name="CPU2_VRMIN Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="/redfish/v1/Systems/1/Processors/2",sensor_name="CPU2_VRMIO Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="/redfish/v1/Systems/1/Processors/1",sensor_name="P1_DIMMA~D Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="/redfish/v1/Systems/1/Processors/1",sensor_name="P1_DIMME~H Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="/redfish/v1/Systems/1/Processors/2",sensor_name="P2_DIMMA~D Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="/redfish/v1/Systems/1/Processors/2",sensor_name="P2_DIMME~H Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="Inlet Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="P1_VRMABCD Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="P1_VRMEFGH Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="P2_VRMABCD Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="P2_VRMEFGH Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="PCH Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="Peripheral Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="SYS_ART Temp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="/redfish/v1/Chassis/1",sensor_name="System Temp"} 1
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 5
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="CPU1 Temp"} 5
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="CPU2 Temp"} 5
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="Inlet Temp"} 5
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="Peripheral Temp"} 5
+redfish_thermal_sensor_lower_threshold_critical{chassis_id="1",sensor_name="SYS_ART Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU1 Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU2 Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="Inlet Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P1_DIMME~H Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P1_VRMABCD Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P2_DIMME~H Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P2_VRMABCD Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} -5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="Peripheral Temp"} 5
+redfish_thermal_sensor_lower_threshold_fatal{chassis_id="1",sensor_name="SYS_ART Temp"} 5
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU1 Temp"} 104
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU2 Temp"} 104
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="Inlet Temp"} 57
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} 92
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P1_DIMME~H Temp"} 92
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P1_VRMABCD Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} 92
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P2_DIMME~H Temp"} 92
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P2_VRMABCD Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="PCH Temp"} 97
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="Peripheral Temp"} 97
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="SYS_ART Temp"} 107
+redfish_thermal_sensor_max_reading_range{chassis_id="1",sensor_name="System Temp"} 92
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU1 Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU2 Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="Inlet Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P1_DIMME~H Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P1_VRMABCD Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P2_DIMME~H Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P2_VRMABCD Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} -7
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="PCH Temp"} -2
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="Peripheral Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="SYS_ART Temp"} 3
+redfish_thermal_sensor_min_reading_range{chassis_id="1",sensor_name="System Temp"} -2
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="AOC_NIC2 Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU1 Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU1_VRMIN Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU1_VRMIO Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU2 Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU2_VRMIN Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="CPU2_VRMIO Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="Inlet Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P1_DIMMA~D Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P1_DIMME~H Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P1_VRMABCD Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P1_VRMEFGH Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P2_DIMMA~D Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P2_DIMME~H Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P2_VRMABCD Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="P2_VRMEFGH Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="PCH Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="Peripheral Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="SYS_ART Temp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="System Temp",state="Enabled"} 1
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 66
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU1 Temp"} 44
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} 50
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} 55
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU2 Temp"} 40
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} 41
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} 56
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="Inlet Temp"} 32
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P1_DIMME~H Temp"} 39
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P1_VRMABCD Temp"} 44
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} 44
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P2_DIMME~H Temp"} 33
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P2_VRMABCD Temp"} 37
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="PCH Temp"} 49
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="Peripheral Temp"} 47
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="SYS_ART Temp"} 42
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="System Temp"} 30
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU1 Temp"} 102
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU2 Temp"} 102
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="Inlet Temp"} 50
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P1_DIMME~H Temp"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P1_VRMABCD Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P2_DIMME~H Temp"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P2_VRMABCD Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="PCH Temp"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="Peripheral Temp"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="SYS_ART Temp"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="System Temp"} 85
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="AOC_NIC2 Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU1 Temp"} 102
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU1_VRMIN Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU1_VRMIO Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU2 Temp"} 102
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU2_VRMIN Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="CPU2_VRMIO Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="Inlet Temp"} 55
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P1_DIMMA~D Temp"} 90
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P1_DIMME~H Temp"} 90
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P1_VRMABCD Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P1_VRMEFGH Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P2_DIMMA~D Temp"} 90
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P2_DIMME~H Temp"} 90
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P2_VRMABCD Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="P2_VRMEFGH Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="PCH Temp"} 95
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="Peripheral Temp"} 95
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="SYS_ART Temp"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="System Temp"} 90
+redfish_thermal_summary_health_info{chassis_id="1",health="Unknown"} 1
+redfish_thermal_summary_info{chassis_id="1",url="/redfish/v1/Chassis/1/Thermal"} 1
+redfish_thermal_summary_state_info{chassis_id="1",state="Unknown"} 1

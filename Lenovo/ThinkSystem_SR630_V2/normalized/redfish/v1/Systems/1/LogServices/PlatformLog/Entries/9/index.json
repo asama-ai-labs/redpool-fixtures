@@ -1,0 +1,81 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/PlatformLog/Entries/9",
+  "Id": "9",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"aaLaC5M7JH4mGPLaDJ4hMK05odbE5\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-10T16:18:48.581+00:00",
+  "Severity": "OK",
+  "Message": "LAN: Ethernet[IMM : ep2] interface is no longer active.",
+  "MessageArgs": [
+    "IMM : ep2"
+  ],
+  "OemLogEntryCode": "Lenovo0024",
+  "EventId": "0x4000001800000000",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/NIC"
+    }
+  },
+  "MessageArgs@odata.count": 1,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "0",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x4000001800000000",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 9,
+      "LenovoMessageID": "Lenovo0024",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPNM4013I",
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "EventType": 0,
+      "TotalSequenceNumber": 12
+    },
+    "Redpool": {
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "0",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventSequenceNumber": 9,
+      "LenovoMessageID": "Lenovo0024",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPNM4013I",
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "EventType": 0,
+      "TotalSequenceNumber": 12,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

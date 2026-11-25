@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_12V",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "voltage_12V",
+  "Name": "12V",
+  "Reading": 12.1799,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "V",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 21.62629807517855,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 11.04
+    },
+    "LowerCritical": {
+      "Reading": 10.8
+    },
+    "UpperCaution": {
+      "Reading": 12.96
+    },
+    "UpperCritical": {
+      "Reading": 13.2
+    }
+  },
+  "Oem": {}
+}

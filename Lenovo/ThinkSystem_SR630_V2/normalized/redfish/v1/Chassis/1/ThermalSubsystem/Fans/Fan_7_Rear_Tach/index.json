@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Fan.Fan",
+  "@odata.etag": "\"3e11bbefc82a2a29317\"",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_7_Rear_Tach",
+  "@odata.type": "#Fan.v1_5_2.Fan",
+  "Id": "Fan_7_Rear_Tach",
+  "Name": "Fan 7 Rear Tach",
+  "Description": "It represents the properties for Temperature and Cooling.",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "SpeedPercent": {
+    "Reading": 8532,
+    "SpeedRPM": 8532,
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/79L0"
+  },
+  "HotPluggable": true,
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "Fan 7 Rear Tach",
+      "LocationType": "Slot",
+      "LocationOrdinalValue": 15
+    }
+  },
+  "PhysicalContext": "Fan",
+  "Assembly": {},
+  "Oem": {}
+}

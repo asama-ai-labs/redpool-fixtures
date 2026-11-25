@@ -1,0 +1,129 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.etag": "W/\"8E33E892\"",
+  "@odata.id": "/redfish/v1/Chassis/1",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "1",
+  "Name": "Computer System Chassis",
+  "ChassisType": "RackMount",
+  "Manufacturer": "HPE",
+  "Model": "ProLiant DL385 Gen10 Plus",
+  "SerialNumber": "DUMMY-SerialNumber-1",
+  "SKU": "DUMMY-SKU-1",
+  "AssetTag": "",
+  "PowerState": "Off",
+  "IndicatorLED": "Off",
+  "Status": {
+    "Health": "Critical",
+    "State": "Disabled"
+  },
+  "Links": {
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "ComputerSystems": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ]
+  },
+  "Actions": {},
+  "Power": {
+    "@odata.id": "/redfish/v1/Chassis/1/Power"
+  },
+  "Thermal": {
+    "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+  },
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+  },
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+  },
+  "PCIeSlots": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+  },
+  "Assembly": {},
+  "Sensors": {},
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+      "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+      "Actions": {
+        "#HpeServerChassis.DisableMCTPOnServer": {
+          "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
+        },
+        "#HpeServerChassis.FactoryResetMCTP": {
+          "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.FactoryResetMCTP"
+        }
+      },
+      "Firmware": {
+        "PlatformDefinitionTable": {
+          "Current": {
+            "VersionString": "11.6.0 Build 44"
+          }
+        },
+        "PowerManagementController": {
+          "Current": {
+            "VersionString": "1.0.8"
+          }
+        },
+        "PowerManagementControllerBootloader": {
+          "Current": {
+            "Family": "25",
+            "VersionString": "1.1"
+          }
+        },
+        "SystemProgrammableLogicDevice": {
+          "Current": {
+            "VersionString": "0x30"
+          }
+        }
+      },
+      "Links": {
+        "Devices": {
+          "@odata.id": "/redfish/v1/Chassis/1/Devices"
+        }
+      },
+      "MCTPEnabledOnServer": true,
+      "SmartStorageBattery": [
+        {
+          "ChargeLevelPercent": 100,
+          "FirmwareVersion": "0.70",
+          "Index": 1,
+          "MaximumCapWatts": 12,
+          "Model": "P02377-B21",
+          "ProductName": "HPE Smart Stor Hybridcap",
+          "RemainingChargeTimeSeconds": 0,
+          "SerialNumber": "DUMMY-SerialNumber-2",
+          "SparePartNumber": "P07473-001",
+          "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+          }
+        }
+      ],
+      "SystemMaintenanceSwitches": {
+        "Sw1": "Off",
+        "Sw10": "Off",
+        "Sw11": "Off",
+        "Sw12": "Off",
+        "Sw2": "Off",
+        "Sw3": "Off",
+        "Sw4": "Off",
+        "Sw5": "Off",
+        "Sw6": "Off",
+        "Sw7": "Off",
+        "Sw8": "Off",
+        "Sw9": "Off"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PowerSupplyMetrics.PowerSupplyMetrics",
+  "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/1/Metrics",
+  "@odata.type": "#PowerSupplyMetrics.v1_1_0.PowerSupplyMetrics",
+  "Id": "Metrics",
+  "Name": "Power Supply 1 Metrics",
+  "InputPowerWatts": {
+    "Reading": 67.5
+  },
+  "OutputPowerWatts": {
+    "Reading": 37.5
+  },
+  "InputVoltage": {
+    "Reading": 206.5
+  },
+  "RailVoltage": [],
+  "TemperatureCelsius": {
+    "Reading": 24.0
+  },
+  "FanSpeedsPercent": [
+    {
+      "SpeedRPM": 3744
+    }
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  }
+}

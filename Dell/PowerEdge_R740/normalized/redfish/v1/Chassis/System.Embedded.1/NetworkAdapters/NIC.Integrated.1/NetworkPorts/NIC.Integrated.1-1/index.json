@@ -1,0 +1,51 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1",
+  "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
+  "Id": "NIC.Integrated.1-1",
+  "Name": "BCM57800 10-Gigabit Ethernet",
+  "Description": "Network Port View",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "ActiveLinkTechnology": "Ethernet",
+  "AssociatedNetworkAddresses": [
+    "00:1B:44:AA:00:05"
+  ],
+  "CurrentLinkSpeedMbps": 0,
+  "FlowControlConfiguration": "None",
+  "FlowControlStatus": "None",
+  "LinkStatus": "Down",
+  "NetDevFuncMaxBWAlloc": [
+    {
+      "MaxBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-1-1"
+      }
+    }
+  ],
+  "NetDevFuncMinBWAlloc": [
+    {
+      "MinBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-1-1"
+      }
+    }
+  ],
+  "PhysicalPortNumber": "1",
+  "SupportedEthernetCapabilities": [
+    "WakeOnLAN"
+  ],
+  "SupportedLinkCapabilities": [
+    {
+      "AutoSpeedNegotiation": true,
+      "LinkNetworkTechnology": "Ethernet",
+      "LinkSpeedMbps": 0
+    }
+  ],
+  "VendorId": "14e4",
+  "WakeOnLANEnabled": false,
+  "Oem": {}
+}

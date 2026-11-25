@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageCollection.StorageCollection",
+  "@odata.etag": "\"2eba45371ed62426e06\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage",
+  "@odata.type": "#StorageCollection.StorageCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Storage subsystems",
+  "Name": "StorageCollection",
+  "Oem": {}
+}

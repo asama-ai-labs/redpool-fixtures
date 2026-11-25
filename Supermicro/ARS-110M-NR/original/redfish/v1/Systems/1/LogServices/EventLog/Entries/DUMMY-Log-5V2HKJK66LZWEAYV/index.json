@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-5V2HKJK66LZWEAYV","@odata.type":"#LogEntry.v1_9_0.LogEntry","Created":"2025-08-01T00:53:05+00:00","EntryType":"Event","Id":"DUMMY-Log-5V2HKJK66LZWEAYV","Message":"Host system DC power is on","MessageArgs":[],"MessageId":"OpenBMC.0.1.DCPowerOn","Name":"System Event Log Entry","Severity":"OK"}

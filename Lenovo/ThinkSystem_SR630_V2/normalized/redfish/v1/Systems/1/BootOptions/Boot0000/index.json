@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.etag": "\"3749aa19183725a731d\"",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0000",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0000",
+  "Name": "WindowsBootManager",
+  "Description": "This resource shall be used to represent a single boot option contained within a system.",
+  "BootOptionReference": "Boot0000",
+  "DisplayName": "WindowsBootManager",
+  "UefiDevicePath": "HD_2_GPT_550e8400_e29b_41d4_a716_446655440000_0x96800_0x32000_EFI_Microsoft_Boot_bootmgfw_efi",
+  "RelatedItem": []
+}

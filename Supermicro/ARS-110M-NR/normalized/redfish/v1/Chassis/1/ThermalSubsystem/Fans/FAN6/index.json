@@ -1,0 +1,23 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Fan.Fan",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN6",
+  "@odata.type": "#Fan.v1_5_2.Fan",
+  "Id": "FAN6",
+  "Name": "FAN6",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "SpeedPercent": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/fantach_FAN6",
+    "SpeedRPM": 8811
+  },
+  "Location": {
+    "PartLocation": {
+      "LocationOrdinalValue": 6
+    }
+  },
+  "PhysicalContext": "Fan",
+  "Assembly": {},
+  "Oem": {}
+}

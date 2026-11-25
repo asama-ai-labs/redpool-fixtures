@@ -1,0 +1,49 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"1781464479\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-20",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "0-20",
+  "Name": "FCH LPC Bridge",
+  "Description": "FCH LPC Bridge",
+  "DeviceType": "MultiFunction",
+  "Manufacturer": "Advanced Micro Devices, Inc.",
+  "Model": "FCH LPC Bridge",
+  "FirmwareVersion": "",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-20/PCIeFunctions"
+  },
+  "Slot": {},
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+      }
+    ],
+    "Chassis@odata.count": 1,
+    "Oem": {
+      "Dell": {
+        "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+        "CPUAffinity": [],
+        "CPUAffinity@odata.count": 0
+      }
+    },
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-20/PCIeFunctions/0-20-3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-20/PCIeFunctions/0-20-0"
+      }
+    ],
+    "PCIeFunctions@odata.count": 2,
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+  },
+  "Oem": {}
+}

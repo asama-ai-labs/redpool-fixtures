@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_System_Temp",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "temperature_System_Temp",
+  "Name": "System Temp",
+  "Reading": 23.438,
+  "ReadingType": "Temperature",
+  "ReadingUnits": "Cel",
+  "ReadingRangeMin": -128.0,
+  "ReadingRangeMax": 127.0,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 10.0
+    },
+    "LowerCritical": {
+      "Reading": 5.0
+    },
+    "UpperCaution": {
+      "Reading": 85.0
+    },
+    "UpperCritical": {
+      "Reading": 90.0
+    }
+  },
+  "Oem": {}
+}

@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOptionCollection.BootOptionCollection",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions",
+  "@odata.type": "#BootOptionCollection.BootOptionCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0002"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0005"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0006"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0007"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0008"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0009"
+    }
+  ],
+  "Members@odata.count": 6,
+  "Description": "Collection of Boot Options",
+  "Name": "BootOptionCollection",
+  "Oem": {}
+}

@@ -1,0 +1,55 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/dimm8",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "dimm8",
+  "Name": "DIMM Slot",
+  "CapacityMiB": 32768,
+  "Manufacturer": "Samsung Electronics Co., Ltd.",
+  "PartNumber": "M393A4K40EB3-CWE",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 3200,
+  "AllowedSpeedsMHz": [
+    3200
+  ],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 2,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 1,
+    "Channel": 0,
+    "Slot": 0
+  },
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "DIMME1"
+    }
+  },
+  "DeviceLocator": "DIMME1",
+  "DeviceID": "",
+  "OperatingMemoryModes": [],
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory/dimm8/MemoryMetrics"
+  },
+  "Oem": {
+    "Redpool": {
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

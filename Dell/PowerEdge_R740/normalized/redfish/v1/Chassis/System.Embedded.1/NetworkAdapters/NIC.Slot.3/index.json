@@ -1,0 +1,85 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3",
+  "@odata.type": "#NetworkAdapter.v1_11_0.NetworkAdapter",
+  "Id": "NIC.Slot.3",
+  "Name": "MT27710 Family [ConnectX-4 Lx]",
+  "Description": "Network Adapter View",
+  "Manufacturer": "Mellanox Technologies",
+  "Model": "MT27710 Family [ConnectX-4 Lx]",
+  "Controllers": [
+    {
+      "ControllerCapabilities": {
+        "DataCenterBridging": {
+          "Capable": true
+        },
+        "NPAR": {
+          "NparCapable": false,
+          "NparEnabled": false
+        },
+        "NPIV": {
+          "MaxDeviceLogins": 0,
+          "MaxPortLogins": 0
+        },
+        "NetworkDeviceFunctionCount": 2,
+        "NetworkPortCount": 1,
+        "VirtualizationOffload": {
+          "SRIOV": {
+            "SRIOVVEPACapable": false
+          },
+          "VirtualFunction": {
+            "DeviceMaxCount": 254,
+            "MinAssignmentGroupSize": 8,
+            "NetworkPortMaxCount": 127
+          }
+        }
+      },
+      "FirmwarePackageVersion": "14.32.1010",
+      "Links": {
+        "NetworkDeviceFunctions": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-2"
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-1"
+          }
+        ],
+        "NetworkDeviceFunctions@odata.count": 2,
+        "NetworkPorts": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-2"
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-1"
+          }
+        ],
+        "NetworkPorts@odata.count": 2,
+        "Oem": {
+          "Dell": {
+            "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+            "CPUAffinity": [],
+            "CPUAffinity@odata.count": 0
+          }
+        }
+      }
+    }
+  ],
+  "NetworkDeviceFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions"
+  },
+  "NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts"
+  },
+  "Ports": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/Ports"
+  },
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+  },
+  "Oem": {}
+}

@@ -1,0 +1,24 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterfaceCollection.EthernetInterfaceCollection",
+  "@odata.etag": "W/\"96E00A2C\"",
+  "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces",
+  "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/4"
+    }
+  ],
+  "Members@odata.count": 4,
+  "Description": "Collection of Ethernet Interfaces",
+  "Name": "EthernetInterfaceCollection",
+  "Oem": {}
+}

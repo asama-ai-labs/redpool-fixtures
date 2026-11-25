@@ -1,0 +1,16 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-JXGOISNVL26EDPRB",
+  "Id": "DUMMY-Log-JXGOISNVL26EDPRB",
+  "Name": "System Event Log Entry",
+  "EntryType": "Event",
+  "Created": "2025-08-01T01:06:18+00:00",
+  "Severity": "OK",
+  "Message": "Power supply PSU1 power restored.",
+  "MessageId": "OpenBMC.0.1.PowerSupplyPowerRestored",
+  "MessageArgs": [
+    "PSU1"
+  ],
+  "MessageArgs@odata.count": 1
+}

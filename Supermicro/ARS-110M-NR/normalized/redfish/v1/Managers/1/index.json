@@ -1,0 +1,134 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Manager.Manager",
+  "@odata.id": "/redfish/v1/Managers/1",
+  "@odata.type": "#Manager.v1_19_1.Manager",
+  "Id": "1",
+  "Name": "OpenBmc Manager",
+  "Description": "Baseboard Management Controller",
+  "Manufacturer": "Supermicro",
+  "ManagerType": "BMC",
+  "Model": "OpenBmc",
+  "FirmwareVersion": "192.0.2.1",
+  "UUID": "550e8400-e29b-41d4-a716-446655440000",
+  "DateTime": "2025-12-23T04:46:46+00:00",
+  "DateTimeLocalOffset": "+00:00",
+  "PowerState": "On",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "ActiveSoftwareImage": {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+    },
+    "ManagerForChassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "ManagerForChassis@odata.count": 1,
+    "ManagerForServers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "ManagerForServers@odata.count": 1,
+    "SoftwareImages": [
+      {
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+      }
+    ],
+    "SoftwareImages@odata.count": 1
+  },
+  "Actions": {
+    "#Manager.Reset": {
+      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetActionInfo",
+      "target": "/redfish/v1/Managers/1/Actions/Manager.Reset"
+    },
+    "#Manager.ResetToDefaults": {
+      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetToDefaultsActionInfo",
+      "target": "/redfish/v1/Managers/1/Actions/Manager.ResetToDefaults"
+    },
+    "Oem": {
+      "#SmcManagerConfig.Reset": {
+        "@Redfish.ActionInfo": "/redfish/v1/Managers/1/Oem/Supermicro/ResetActionInfo",
+        "target": "/redfish/v1/Managers/1/Actions/Oem/SmcManagerConfig.Reset"
+      }
+    }
+  },
+  "EthernetInterfaces": {
+    "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces"
+  },
+  "NetworkProtocol": {
+    "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol"
+  },
+  "HostInterfaces": {
+    "@odata.id": "/redfish/v1/Managers/1/HostInterfaces"
+  },
+  "SerialInterfaces": {
+    "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces"
+  },
+  "VirtualMedia": {
+    "@odata.id": "/redfish/v1/Managers/1/VirtualMedia"
+  },
+  "LogServices": {
+    "@odata.id": "/redfish/v1/Managers/1/LogServices"
+  },
+  "GraphicalConsole": {
+    "ConnectTypesSupported": [
+      "KVMIP"
+    ],
+    "MaxConcurrentSessions": 4,
+    "ServiceEnabled": true
+  },
+  "SerialConsole": {
+    "ConnectTypesSupported": [
+      "IPMI",
+      "SSH"
+    ],
+    "MaxConcurrentSessions": 15,
+    "ServiceEnabled": true
+  },
+  "CommandShell": {},
+  "Redundancy": [],
+  "Oem": {
+    "OpenBmc": {
+      "@odata.id": "/redfish/v1/Managers/1#/Oem/OpenBmc",
+      "@odata.type": "#OemManager.OpenBmc",
+      "Certificates": {
+        "@odata.id": "/redfish/v1/Managers/1/Truststore/Certificates"
+      }
+    },
+    "Supermicro": {
+      "@odata.type": "#SmcManagerExtensions.v1_0_0.SmcManagerExtensions",
+      "FanMode": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/FanMode"
+      },
+      "IPAccessControl": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/IPAccessControl"
+      },
+      "LLDP": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/LLDP"
+      },
+      "LicenseManager": {
+        "@odata.id": "/redfish/v1/Managers/1/LicenseManager"
+      },
+      "NTP": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/NTP"
+      },
+      "RADIUS": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/RADIUS"
+      },
+      "SMCRAKP": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SMCRAKP"
+      },
+      "Snooping": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Snooping"
+      },
+      "Syslog": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Syslog"
+      }
+    }
+  }
+}

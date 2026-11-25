@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0002",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0002",
+  "Name": "Uefi Boot Option",
+  "Description": "Current settings of the UEFI Boot option",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0002",
+  "DisplayName": "Unavailable: Red Hat Enterprise Linux",
+  "UefiDevicePath": "HD(1,GPT,550e8400-e29b-41d4-a716-000000000005,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
+  "RelatedItem": []
+}

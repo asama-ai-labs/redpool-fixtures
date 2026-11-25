@@ -1,0 +1,53 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+  "@odata.etag": "W/\"4M2OF3DL\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/7",
+  "@odata.type": "#Drive.v1_19_0.Drive",
+  "Id": "7",
+  "Name": "HpeSmartStorageDiskDrive",
+  "Description": "HPE Smart Storage Disk Drive View",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Model": "Micron_5210_MTFD",
+  "Manufacturer": null,
+  "SerialNumber": "DUMMY-SerialNumber-24",
+  "Revision": "D2MU405",
+  "MediaType": "SSD",
+  "Protocol": "SATA",
+  "CapacityBytes": 3840755982336,
+  "BlockSizeBytes": 512,
+  "CapableSpeedGbs": null,
+  "NegotiatedSpeedGbs": 6.0,
+  "PredictedMediaLifeLeftPercent": 79,
+  "FailurePredicted": null,
+  "StatusIndicator": "OK",
+  "EncryptionAbility": "None",
+  "EncryptionStatus": "Unencrypted",
+  "PhysicalLocation": {
+    "PartLocation": {
+      "LocationType": "Bay",
+      "ServiceLabel": "Port=2I:0:8",
+      "LocationOrdinalValue": 8
+    }
+  },
+  "Location": [
+    {
+      "Info": "2I:0:8",
+      "InfoFormat": "ControllerPort:Box:Bay"
+    }
+  ],
+  "Links": {},
+  "Oem": {
+    "Redpool": {
+      "HpeSmartStorage": {
+        "Kind": "DiskDrive",
+        "TemperatureCelsius": 0,
+        "UncorrectedReadErrors": 0,
+        "UncorrectedWriteErrors": 0
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolDrive"
+    }
+  }
+}

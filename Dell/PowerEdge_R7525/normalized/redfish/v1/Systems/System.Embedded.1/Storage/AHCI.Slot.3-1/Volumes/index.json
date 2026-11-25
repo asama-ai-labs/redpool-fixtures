@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes",
+  "@odata.type": "#VolumeCollection.VolumeCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Slot.3-1/Volumes/Disk.Virtual.0:AHCI.Slot.3-1"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of Volumes",
+  "Name": "VolumeCollection",
+  "Oem": {}
+}

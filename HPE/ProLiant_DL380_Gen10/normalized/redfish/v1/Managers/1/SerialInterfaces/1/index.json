@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SerialInterface.SerialInterface",
+  "@odata.etag": "W/\"C62A0798\"",
+  "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces/1",
+  "@odata.type": "#SerialInterface.v1_2_0.SerialInterface",
+  "Id": "1",
+  "Name": "SerialInterface",
+  "Description": "Serial Interface",
+  "InterfaceEnabled": true,
+  "BitRate": "9600",
+  "Oem": {}
+}

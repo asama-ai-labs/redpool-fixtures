@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/21",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "21",
+  "Name": "Drive",
+  "Description": "VK001920GWCFH",
+  "Version": "HPG3",
+  "Updateable": false,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+      "DeviceClass": "550e8400-e29b-41d4-a716-00000000000f",
+      "DeviceContext": "Port=1I:Box=3:Bay=2",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-000000000013"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "21",
+        "device_context": "Port=1I:Box=3:Bay=2"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

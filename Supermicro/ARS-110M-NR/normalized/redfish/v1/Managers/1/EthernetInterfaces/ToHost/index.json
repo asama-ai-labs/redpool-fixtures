@@ -1,0 +1,58 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/ToHost",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "ToHost",
+  "Name": "Manager Ethernet Interface",
+  "Description": "Management Network Interface",
+  "MACAddress": null,
+  "PermanentMACAddress": null,
+  "LinkStatus": "LinkDown",
+  "InterfaceEnabled": false,
+  "SpeedMbps": 100,
+  "FullDuplex": true,
+  "AutoNeg": true,
+  "IPv4Addresses": [],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [
+    {
+      "Address": "",
+      "AddressOrigin": "Static",
+      "AddressState": "Failed",
+      "PrefixLength": 0
+    }
+  ],
+  "IPv6StaticAddresses": [
+    {
+      "Address": "",
+      "PrefixLength": 0
+    }
+  ],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Disabled"
+  },
+  "Links": {
+    "HostInterface": {
+      "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1"
+    }
+  },
+  "Oem": {},
+  "DHCPv4": {},
+  "DHCPv6": {},
+  "StaticNameServers": [],
+  "IPv6AddressPolicyTable": [
+    {
+      "Label": 0,
+      "Precedence": 50,
+      "Prefix": "::1/128"
+    }
+  ],
+  "IPv6StaticDefaultGateways": [],
+  "StatelessAddressAutoConfig": {},
+  "MaxIPv6StaticAddresses": 1,
+  "VLANs": {}
+}

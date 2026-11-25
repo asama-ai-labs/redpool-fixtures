@@ -1,0 +1,32 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.etag": "\"1o5e78d3355c32f2ja3\"",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/DiagnosticLog",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "DiagnosticLog",
+  "Name": "LogService",
+  "Description": "This resource is used to represent a log service for a Redfish implementation.",
+  "DateTime": "2025-12-01T18:44:51+00:00",
+  "DateTimeLocalOffset": "+00:00",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/DiagnosticLog/Entries"
+  },
+  "MaxNumberOfRecords": 3,
+  "OverWritePolicy": "WrapsWhenFull",
+  "ServiceEnabled": true,
+  "LogEntryType": "Multiple",
+  "Status": {},
+  "Actions": {
+    "#LogService.CollectDiagnosticData": {
+      "target": "/redfish/v1/Systems/1/LogServices/DiagnosticLog/Actions/LogService.CollectDiagnosticData",
+      "title": "CollectDiagnosticData"
+    }
+  },
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoLogService.v1_0_0.LenovoLogServiceProperties",
+      "MPFA_FirstSeqNum": null,
+      "MPFA_LastSeqNum": null
+    }
+  }
+}

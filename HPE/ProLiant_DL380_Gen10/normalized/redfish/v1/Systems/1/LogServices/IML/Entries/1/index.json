@@ -1,0 +1,49 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+  "Id": "1",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"F65B1D7E\"",
+  "Severity": "Warning",
+  "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+  "MessageId": "10.642",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Resolution": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Administration"
+      ],
+      "Class": 10,
+      "ClassDescription": "UEFI",
+      "Code": 642,
+      "Count": 1,
+      "EventNumber": 1,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+      "Repaired": false,
+      "Severity": "Caution",
+      "Updated": "0000-00-00T00:00:00Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Administration"
+      ],
+      "Class": 10,
+      "ClassDescription": "UEFI",
+      "Code": 642,
+      "Count": 1,
+      "EventNumber": 1,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

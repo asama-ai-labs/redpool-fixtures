@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/power_PW_Consumption","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"power_PW_Consumption","Name":"PW Consumption","Reading":116.25,"ReadingRangeMax":2550.0,"ReadingRangeMin":0.0,"ReadingType":"Power","ReadingUnits":"W","Status":{"Health":"OK","State":"Enabled"}}

@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/LicenseManager/QueryLicense","@odata.type":"#SmcQueryLicense.v1_0_0.SmcQueryLicense","Id":"QueryLicense","Licenses":["{\"ProductKey\":{\"Node\":{\"LicenseID\":\"2\",\"LicenseName\":\"SFT-DCMS-SINGLE\",\"CreateDate\":\"20250319\"},\"Signature\":\"DUMMY-Signature\"}}"],"Name":"SMCI Query License"}

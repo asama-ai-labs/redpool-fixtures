@@ -1,0 +1,40 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/dimm12",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "dimm12",
+  "Name": "DIMM Slot",
+  "CapacityMiB": 0,
+  "Manufacturer": "",
+  "PartNumber": "Array 1 Part Number 13",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 0,
+  "AllowedSpeedsMHz": [
+    0
+  ],
+  "DataWidthBits": 65535,
+  "BusWidthBits": 0,
+  "RankCount": 0,
+  "ErrorCorrection": "MultiBitECC",
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "DIMMG1"
+    }
+  },
+  "DeviceLocator": "DIMMG1",
+  "DeviceID": "",
+  "OperatingMemoryModes": [],
+  "MemoryMedia": [],
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Absent"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Memory/dimm12/MemoryMetrics"
+  },
+  "Oem": {}
+}

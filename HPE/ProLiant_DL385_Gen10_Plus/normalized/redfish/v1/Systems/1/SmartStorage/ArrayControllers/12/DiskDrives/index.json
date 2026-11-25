@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#DriveCollection.DriveCollection",
+  "@odata.etag": "W/\"570254F2\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives",
+  "@odata.type": "#DriveCollection.DriveCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/7"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Drives",
+  "Name": "DriveCollection",
+  "Oem": {}
+}

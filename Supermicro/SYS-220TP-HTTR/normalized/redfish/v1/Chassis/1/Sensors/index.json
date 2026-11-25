@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
+  "@odata.etag": "f0dedd9ece3cf201ea2a97d38886d249",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors",
+  "@odata.type": "#SensorCollection.SensorCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/1"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of Sensors",
+  "Name": "SensorCollection",
+  "Oem": {}
+}

@@ -1,0 +1,44 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+  "@odata.etag": "\"6ef718fe5ef728af3e2\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkPorts/2",
+  "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
+  "Id": "2",
+  "Name": "Phyical Port 2",
+  "Description": "A Network Port represents a discrete physical port capable of connecting to a network.",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "ActiveLinkTechnology": "Ethernet",
+  "AssociatedNetworkAddresses": [
+    "00:1B:44:AA:00:08"
+  ],
+  "CurrentLinkSpeedMbps": null,
+  "LinkStatus": "Down",
+  "NetDevFuncMaxBWAlloc": [
+    {
+      "MaxBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkDeviceFunctions/2.1"
+      }
+    }
+  ],
+  "PhysicalPortNumber": "2",
+  "PortMaximumMTU": 72000,
+  "SupportedLinkCapabilities": [
+    {
+      "CapableLinkSpeedMbps": [
+        107374182400
+      ]
+    }
+  ],
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoNetworkPort.v1_0_0.LenovoNetworkPortProperties",
+      "PortMaxSpeedbps": 107374182400,
+      "PhysicalPortMacAddress": "00:1B:44:AA:00:08"
+    }
+  }
+}

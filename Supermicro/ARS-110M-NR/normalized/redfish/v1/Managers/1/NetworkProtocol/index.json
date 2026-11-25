@@ -1,0 +1,52 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ManagerNetworkProtocol.ManagerNetworkProtocol",
+  "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol",
+  "@odata.type": "#ManagerNetworkProtocol.v1_9_0.ManagerNetworkProtocol",
+  "Id": "NetworkProtocol",
+  "Name": "Manager Network Protocol",
+  "Description": "Manager Network Service",
+  "HostName": "DUMMY-HostName",
+  "FQDN": "DUMMY-HostName",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "HTTP": {
+    "Port": null,
+    "ProtocolEnabled": false
+  },
+  "HTTPS": {
+    "Certificates": {
+      "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol/HTTPS/Certificates"
+    },
+    "Port": 443,
+    "ProtocolEnabled": true
+  },
+  "SSH": {
+    "Port": 22,
+    "ProtocolEnabled": true
+  },
+  "SNMP": {},
+  "IPMI": {
+    "Port": 623,
+    "ProtocolEnabled": true
+  },
+  "KVMIP": {},
+  "NTP": {
+    "NTPServers": [],
+    "ProtocolEnabled": true
+  },
+  "DHCP": {},
+  "DHCPv6": {},
+  "SSDP": {
+    "NotifyIPv6Scope": "Link",
+    "NotifyMulticastIntervalSeconds": 0,
+    "NotifyTTL": 2,
+    "Port": 1900,
+    "ProtocolEnabled": true
+  },
+  "Telnet": {},
+  "VirtualMedia": {},
+  "Oem": {}
+}

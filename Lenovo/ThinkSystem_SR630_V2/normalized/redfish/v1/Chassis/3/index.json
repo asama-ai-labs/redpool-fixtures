@@ -1,0 +1,43 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.etag": "\"498b6d2ec9f92667e49\"",
+  "@odata.id": "/redfish/v1/Chassis/3",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "3",
+  "Name": "HDD BP 1",
+  "Description": "This resource is used to represent a chassis or other physical enclosure for a Redfish implementation.",
+  "ChassisType": "Enclosure",
+  "Manufacturer": "LNVO",
+  "Model": null,
+  "SerialNumber": "DUMMY-SerialNumber-1",
+  "PartNumber": "STA7A43769",
+  "SKU": "DUMMY-SKU-1",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {},
+  "Actions": {},
+  "Power": {},
+  "Thermal": {},
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {},
+  "PCIeDevices": {},
+  "PCIeSlots": {},
+  "Assembly": {},
+  "Sensors": {},
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoChassis.v1_0_0.LenovoChassisProperties",
+      "POS_ID": "008d",
+      "PRODUCT_ID": "0000",
+      "Entity_ID": "0f",
+      "Device_ID": "53",
+      "VPD_ID": "0070"
+    }
+  }
+}

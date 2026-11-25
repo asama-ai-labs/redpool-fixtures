@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/DedicatedNetworkPorts","@odata.type":"#PortCollection.PortCollection","Description":"Collection of DedicatedNetworkPorts","Members":[{"@odata.id":"/redfish/v1/Managers/1/DedicatedNetworkPorts/1"}],"Members@odata.count":1,"Name":"DedicatedNetworkPorts Collection"}

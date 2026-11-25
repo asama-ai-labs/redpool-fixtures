@@ -1,0 +1,76 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"9424168546\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0/PCIeFunctions/24-0-0",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "24-0-0",
+  "Name": "PERC H330 Adapter",
+  "Description": "PERC H330 Adapter",
+  "DeviceClass": "MassStorageController",
+  "FunctionType": "Physical",
+  "FunctionId": 0,
+  "ClassCode": "0x010000",
+  "DeviceId": "0x005f",
+  "VendorId": "0x1000",
+  "SubsystemId": "0x1f44",
+  "SubsystemVendorId": "0x1028",
+  "RevisionId": "0x02",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "StorageControllers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1#/StorageControllers/0"
+      }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      }
+    ],
+    "Drives@odata.count": 8,
+    "EthernetInterfaces": [],
+    "EthernetInterfaces@odata.count": 0,
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0"
+    }
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellChassisPCIeFunction.v1_1_0.DellPCIeFunction",
+      "DellPCIeFunction": {
+        "DataBusWidth": "8XOrX8",
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2025-05-14T11:59:46+00:00",
+        "SlotLength": "LongLength",
+        "SlotType": "PCIExpressGen3X16",
+        "Id": "RAID.Slot.6-1"
+      }
+    }
+  }
+}

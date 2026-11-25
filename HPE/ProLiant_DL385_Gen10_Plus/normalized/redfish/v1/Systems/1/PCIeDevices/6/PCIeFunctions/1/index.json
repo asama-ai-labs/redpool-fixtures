@@ -1,0 +1,22 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/6/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "HPE Smart Array P408i-a SR Gen10",
+  "Description": "",
+  "FunctionId": 0,
+  "ClassCode": "0x010700",
+  "DeviceId": "0x028F",
+  "VendorId": "0x9005",
+  "SubsystemId": "0x0602",
+  "SubsystemVendorId": "0x103C",
+  "Status": {},
+  "Links": {
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/6"
+    }
+  },
+  "Oem": {},
+  "DeviceClass": "MassStorageController"
+}

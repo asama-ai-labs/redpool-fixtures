@@ -1,0 +1,35 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "W/\"4DA55F10\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/191",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "191",
+  "Name": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC",
+  "Description": "HPE Ethernet 1Gb 4-port 331i Adapter - NIC",
+  "Manufacturer": "Broadcom Inc. and subsidiaries",
+  "Model": "N/A",
+  "SerialNumber": "DUMMY-SerialNumber-5",
+  "PartNumber": "N/A",
+  "SKU": "",
+  "FirmwareVersion": "20.30.41",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/191/PCIeFunctions"
+  },
+  "Slot": {
+    "Location": {
+      "Info": "Embedded LOM 1",
+      "PartLocation": {
+        "ServiceLabel": "NIC.LOM.1.1",
+        "LocationType": "Slot"
+      }
+    }
+  },
+  "Status": {
+    "Health": null,
+    "State": null
+  },
+  "Links": {},
+  "Assembly": {},
+  "Oem": {}
+}

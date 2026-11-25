@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Registries/SMC","@odata.type":"#MessageRegistryFile.v1_1_3.MessageRegistryFile","Description":"SMC Message Registry File Location","Id":"SMC","Languages":["en"],"Languages@odata.count":1,"Location":[{"Language":"en","Uri":"/redfish/v1/Registries/SMC/SMC"}],"Location@odata.count":1,"Name":"SMC Message Registry File","Registry":"SMC.1.0.4"}

@@ -1,0 +1,99 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "DIMM.Socket.B2",
+  "Name": "DIMM B2",
+  "Description": "DIMM B2",
+  "CapacityMiB": 32768,
+  "Manufacturer": "Micron Technology",
+  "PartNumber": "36ASF4G72PZ-3G2E7",
+  "SerialNumber": "DUMMY-SerialNumber-23",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 2400,
+  "AllowedSpeedsMHz": [
+    3200
+  ],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 2,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 0,
+    "Channel": 1,
+    "Slot": 0
+  },
+  "Location": {},
+  "DeviceLocator": "DIMM B2",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 32768,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    },
+    "Oem": {
+      "Dell": {
+        "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+        "CPUAffinity": [
+          {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+          }
+        ],
+        "CPUAffinity@odata.count": 1
+      }
+    },
+    "Processors": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+      }
+    ],
+    "Processors@odata.count": 1
+  },
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2/Assembly"
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2/MemoryMetrics"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellMemory": {
+        "BankLabel": "B",
+        "Id": "DIMM.Socket.B2",
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2019-09-07T16:12:18+00:00",
+        "ManufactureDate": "2019-02-01T00:00:00Z",
+        "MemoryTechnology": "DRAM",
+        "Model": "DDR4 DIMM",
+        "Name": "DellMemory",
+        "RemainingRatedWriteEndurancePercent": null,
+        "SystemEraseCapability": "NotSupported",
+        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2/Oem/Dell/DellMemory/DIMM.Socket.B2"
+      }
+    },
+    "Redpool": {
+      "ManufactureWeek": 5,
+      "ManufactureYear": 2019,
+      "ManufactureDate": "2019-02-01",
+      "FruPartNumber": "36ASF4G72PZ-3G2E7",
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

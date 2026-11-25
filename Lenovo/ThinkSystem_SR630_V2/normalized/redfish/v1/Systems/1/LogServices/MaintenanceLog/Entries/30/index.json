@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/MaintenanceLog/Entries/30",
+  "Id": "30",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"2256362a7me94k144jh\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-19T14:50:22Z",
+  "Severity": null,
+  "Message": "DIMM(SN: DUMMY-Serial) in slot 3 is added.",
+  "EventGroupId": 1,
+  "OemRecordFormat": "Lenovo"
+}

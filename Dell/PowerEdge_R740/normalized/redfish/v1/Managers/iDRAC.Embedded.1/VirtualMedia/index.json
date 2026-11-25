@@ -1,0 +1,17 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VirtualMediaCollection.VirtualMediaCollection",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/VirtualMedia",
+  "@odata.type": "#VirtualMediaCollection.VirtualMediaCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/VirtualMedia/CD"
+    },
+    {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/VirtualMedia/RemovableDisk"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Virtual Media",
+  "Name": "VirtualMediaCollection",
+  "Oem": {}
+}

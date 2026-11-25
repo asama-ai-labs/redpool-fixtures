@@ -1,0 +1,1 @@
+{"@odata.type":"#VolumeCollection.VolumeCollection","@odata.id":"/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Volumes","@odata.context":"/redfish/v1/$metadata#VolumeCollection.VolumeCollection","Members":[],"Description":"A collection of volume resource instances.","@odata.etag":"\"25042281a75924e6467\"","Members@odata.count":0,"Name":"VolumeCollection"}

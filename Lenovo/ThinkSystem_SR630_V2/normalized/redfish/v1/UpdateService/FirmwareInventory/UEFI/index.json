@@ -1,0 +1,38 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/UEFI",
+  "@odata.etag": "\"51jhk5g291b419400ge\"",
+  "Id": "UEFI",
+  "Name": "Firmware:UEFI",
+  "Description": "The information of UEFI firmware.",
+  "Version": "22G-1.50",
+  "SoftwareId": "UEFI-AFE1-6",
+  "Manufacturer": "Lenovo",
+  "Updateable": true,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "ReleaseDate": "2022-02-14T08:03:25Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Bios"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "UEFI",
+        "related_item_uri": "/redfish/v1/Systems/1/Bios",
+        "related_kind": "bios",
+        "related_ref": "Bios",
+        "related_location": "BIOS"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

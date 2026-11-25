@@ -1,0 +1,47 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"2953415380\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions/59-0-0",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "59-0-0",
+  "Name": "TU102 [GeForce RTX 2080 Ti]",
+  "Description": "TU102 [GeForce RTX 2080 Ti]",
+  "DeviceClass": "DisplayController",
+  "FunctionType": "Physical",
+  "FunctionId": 0,
+  "ClassCode": "0x030000",
+  "DeviceId": "0x1e04",
+  "VendorId": "0x10de",
+  "SubsystemId": "0x2503",
+  "SubsystemVendorId": "0x19da",
+  "RevisionId": "0xa1",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "StorageControllers": [],
+    "StorageControllers@odata.count": 0,
+    "Drives": [],
+    "Drives@odata.count": 0,
+    "EthernetInterfaces": [],
+    "EthernetInterfaces@odata.count": 0,
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0"
+    }
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellChassisPCIeFunction.v1_1_0.DellPCIeFunction",
+      "DellPCIeFunction": {
+        "DataBusWidth": "16XOrX16",
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2024-10-22T20:23:10+00:00",
+        "SlotLength": "LongLength",
+        "SlotType": "PCIExpressGen3",
+        "Id": "Video.Slot.1-1"
+      }
+    }
+  }
+}

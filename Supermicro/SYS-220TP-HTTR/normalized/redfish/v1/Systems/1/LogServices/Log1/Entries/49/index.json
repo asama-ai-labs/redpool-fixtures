@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/49",
+  "Id": "49",
+  "Name": "Health Event Log Entry 49",
+  "EntryType": "SEL",
+  "@odata.etag": "7adaebfae1521c715e4bc7500e4a5a66",
+  "Created": "2022-09-17T23:12:13Z",
+  "Severity": "OK",
+  "Message": "[COMP-0030] Device changed on SXB4->Slot1",
+  "MessageId": "0x624100",
+  "EntryCode": "Assert",
+  "SensorType": "OEM",
+  "SensorNumber": 255,
+  "OemSensorType": "Components Changed",
+  "GeneratorId": "0x0011",
+  "Links": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0xDC",
+        "SensorName": ""
+      }
+    },
+    "Redpool": {
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0xDC",
+        "SensorName": ""
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Power.Power",
+  "@odata.etag": "W/\"00111A07\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Power",
+  "@odata.type": "#Power.v1_7_3.Power",
+  "Id": "Power",
+  "Name": "PowerMetrics",
+  "PowerControl": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#PowerControl/0",
+      "MemberId": "0",
+      "PowerCapacityWatts": 800,
+      "PowerConsumedWatts": 0,
+      "PowerLimit": {
+        "LimitInWatts": null
+      },
+      "PowerMetrics": {
+        "AverageConsumedWatts": 0,
+        "IntervalInMin": 20,
+        "MaxConsumedWatts": 0,
+        "MinConsumedWatts": 0
+      }
+    }
+  ],
+  "PowerSupplies": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/0",
+      "FirmwareVersion": "2.04",
+      "LastPowerOutputWatts": null,
+      "LineInputVoltage": 0,
+      "LineInputVoltageType": "ACHighLine",
+      "Manufacturer": "Delta Electronics, Inc.",
+      "MemberId": "0",
+      "Model": "P38995-B21",
+      "Name": "PSU Bay 1",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
+          "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
+          "AveragePowerOutputWatts": 0,
+          "BayNumber": 1,
+          "HotplugCapable": false,
+          "MaxPowerOutputWatts": 0,
+          "Mismatched": false,
+          "PowerSupplyStatus": {
+            "State": "Ok"
+          },
+          "iPDUCapable": false
+        }
+      },
+      "PowerCapacityWatts": 0,
+      "PowerSupplyType": "AC",
+      "SerialNumber": "DUMMY-SerialNumber-3",
+      "SparePartNumber": "",
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PartNumber": null,
+      "PowerInputWatts": null,
+      "HotPluggable": false
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/1",
+      "FirmwareVersion": "2.04",
+      "LastPowerOutputWatts": null,
+      "LineInputVoltage": 0,
+      "LineInputVoltageType": "Unknown",
+      "Manufacturer": "Delta Electronics, Inc.",
+      "MemberId": "1",
+      "Model": "P38995-B21",
+      "Name": "PSU Bay 2",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
+          "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
+          "AveragePowerOutputWatts": 0,
+          "BayNumber": 2,
+          "HotplugCapable": false,
+          "MaxPowerOutputWatts": 0,
+          "Mismatched": false,
+          "PowerSupplyStatus": {
+            "State": "Unknown"
+          },
+          "iPDUCapable": false
+        }
+      },
+      "PowerCapacityWatts": 0,
+      "PowerSupplyType": "AC",
+      "SerialNumber": "DUMMY-SerialNumber-4",
+      "SparePartNumber": "",
+      "Status": {
+        "Health": "Warning",
+        "State": "UnavailableOffline"
+      },
+      "PartNumber": null,
+      "PowerInputWatts": null,
+      "HotPluggable": false
+    }
+  ],
+  "PowerSupplies@odata.count": 2,
+  "Redundancy": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power#Redundancy/0",
+      "MaxNumSupported": 2,
+      "MemberId": "0",
+      "MinNumNeeded": 2,
+      "Mode": "Failover",
+      "Name": "PowerSupply Redundancy Group 1",
+      "RedundancySet": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/0"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/1"
+        }
+      ],
+      "Status": {
+        "Health": "Warning",
+        "State": "Disabled"
+      }
+    }
+  ],
+  "Voltages": [],
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpePowerMetricsExt.HpePowerMetricsExt",
+      "@odata.type": "#HpePowerMetricsExt.v2_2_0.HpePowerMetricsExt",
+      "BrownoutRecoveryEnabled": true,
+      "HasCpuPowerMetering": true,
+      "HasDimmPowerMetering": true,
+      "HasGpuPowerMetering": false,
+      "HasPowerMetering": true,
+      "HighEfficiencyMode": "Balanced",
+      "Links": {
+        "PowerMeter": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
+        },
+        "FastPowerMeter": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/FastPowerMeter"
+        },
+        "FederatedGroupCapping": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/FederatedGroupCapping"
+        }
+      },
+      "MinimumSafelyAchievableCap": null,
+      "MinimumSafelyAchievableCapValid": false,
+      "SNMPPowerThresholdAlert": {
+        "DurationInMin": 0,
+        "ThresholdWatts": 0,
+        "Trigger": "Disabled"
+      }
+    }
+  }
+}

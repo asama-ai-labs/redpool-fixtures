@@ -1,0 +1,50 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+  "Id": "10",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"O3P96OKJ\"",
+  "Severity": "OK",
+  "Message": "HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr Connectivity status changed to OK for adapter in slot 0, port 1",
+  "MessageId": "17.10",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Resolution": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+  "Resolved": true,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 17,
+      "ClassDescription": "Network",
+      "Code": 10,
+      "Count": 1,
+      "EventNumber": 10,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+      "Repaired": true,
+      "Severity": "Repaired",
+      "Updated": "0000-00-00T00:00:00Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 17,
+      "ClassDescription": "Network",
+      "Code": 10,
+      "Count": 1,
+      "EventNumber": 10,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+      "Repaired": true,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

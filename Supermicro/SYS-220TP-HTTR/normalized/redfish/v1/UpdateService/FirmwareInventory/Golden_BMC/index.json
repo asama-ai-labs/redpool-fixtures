@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Golden_BMC",
+  "@odata.etag": "bc58ae377c662233bbc4f1daf2a294ce",
+  "Id": "Golden_BMC",
+  "Name": "BMC Golden",
+  "Version": "01.02.34",
+  "Manufacturer": "SMCI",
+  "Updateable": true,
+  "WriteProtected": false,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "UniqueFilename": ""
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Golden_BMC",
+        "related_item_uri": "/redfish/v1/Managers/1",
+        "related_kind": "manager",
+        "related_ref": "1",
+        "related_location": "BMC"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Volume.Volume",
+  "@odata.etag": "\"3ab955e3a2b225a9827\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Volumes/0",
+  "@odata.type": "#Volume.v1_10_0.Volume",
+  "Id": "0",
+  "Name": "VD_0",
+  "Description": "This resource is used to represent a volume for a Redfish implementation.",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "CapacityBytes": 960073695232,
+  "EncryptionTypes": [],
+  "RAIDType": "RAID0",
+  "StripSizeBytes": 32768,
+  "Identifiers": [],
+  "Links": {
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
+      }
+    ]
+  },
+  "Operations": [],
+  "Oem": {}
+}

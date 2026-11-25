@@ -1,0 +1,747 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Thermal.Thermal",
+  "@odata.etag": "d4900bef631c492b0705b8bd83c30c79",
+  "@odata.id": "/redfish/v1/Chassis/1/Thermal",
+  "@odata.type": "#Thermal.v1_7_3.Thermal",
+  "Id": "Thermal",
+  "Name": "Thermal",
+  "Status": {
+    "State": null,
+    "Health": null
+  },
+  "Temperatures": [
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/0",
+      "MemberId": "0",
+      "Name": "CPU1 Temp",
+      "SensorNumber": 1,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 44,
+      "UpperThresholdCritical": 102,
+      "UpperThresholdFatal": 102,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 104,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/1",
+      "MemberId": "1",
+      "Name": "CPU2 Temp",
+      "SensorNumber": 2,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 40,
+      "UpperThresholdCritical": 102,
+      "UpperThresholdFatal": 102,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 104,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/2",
+      "MemberId": "2",
+      "Name": "PCH Temp",
+      "SensorNumber": 10,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 49,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 95,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": 0,
+      "MinReadingRangeTemp": -2,
+      "MaxReadingRangeTemp": 97,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/3",
+      "MemberId": "3",
+      "Name": "System Temp",
+      "SensorNumber": 11,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 30,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 90,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": 0,
+      "MinReadingRangeTemp": -2,
+      "MaxReadingRangeTemp": 92,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/4",
+      "MemberId": "4",
+      "Name": "Peripheral Temp",
+      "SensorNumber": 12,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 47,
+      "UpperThresholdCritical": 90,
+      "UpperThresholdFatal": 95,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 97,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/5",
+      "MemberId": "5",
+      "Name": "SYS_ART Temp",
+      "SensorNumber": 13,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 42,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/6",
+      "MemberId": "6",
+      "Name": "Inlet Temp",
+      "SensorNumber": 9,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 32,
+      "UpperThresholdCritical": 50,
+      "UpperThresholdFatal": 55,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 57,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/7",
+      "MemberId": "7",
+      "Name": "CPU1_VRMIN Temp",
+      "SensorNumber": 16,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 50,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/8",
+      "MemberId": "8",
+      "Name": "CPU1_VRMIO Temp",
+      "SensorNumber": 22,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 55,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/9",
+      "MemberId": "9",
+      "Name": "CPU2_VRMIN Temp",
+      "SensorNumber": 17,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 41,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/10",
+      "MemberId": "10",
+      "Name": "CPU2_VRMIO Temp",
+      "SensorNumber": 23,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 56,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "CPU",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/11",
+      "MemberId": "11",
+      "Name": "P1_VRMABCD Temp",
+      "SensorNumber": 18,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 44,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/12",
+      "MemberId": "12",
+      "Name": "P1_VRMEFGH Temp",
+      "SensorNumber": 19,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 44,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/13",
+      "MemberId": "13",
+      "Name": "P2_VRMABCD Temp",
+      "SensorNumber": 20,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 37,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/14",
+      "MemberId": "14",
+      "Name": "P2_VRMEFGH Temp",
+      "SensorNumber": 21,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 35,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/15",
+      "MemberId": "15",
+      "Name": "P1_DIMMA~D Temp",
+      "SensorNumber": 176,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 35,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 90,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 92,
+      "PhysicalContext": "Memory",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/16",
+      "MemberId": "16",
+      "Name": "P1_DIMME~H Temp",
+      "SensorNumber": 180,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 39,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 90,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 92,
+      "PhysicalContext": "Memory",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/17",
+      "MemberId": "17",
+      "Name": "P2_DIMMA~D Temp",
+      "SensorNumber": 188,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 35,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 90,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 92,
+      "PhysicalContext": "Memory",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/18",
+      "MemberId": "18",
+      "Name": "P2_DIMME~H Temp",
+      "SensorNumber": 189,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 33,
+      "UpperThresholdCritical": 85,
+      "UpperThresholdFatal": 90,
+      "LowerThresholdCritical": 0,
+      "LowerThresholdFatal": -5,
+      "MinReadingRangeTemp": -7,
+      "MaxReadingRangeTemp": 92,
+      "PhysicalContext": "Memory",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/19",
+      "MemberId": "19",
+      "Name": "P1_PMEMA~D Temp",
+      "SensorNumber": 216,
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRangeTemp": null,
+      "MaxReadingRangeTemp": null,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/20",
+      "MemberId": "20",
+      "Name": "P1_PMEME~H Temp",
+      "SensorNumber": 220,
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRangeTemp": null,
+      "MaxReadingRangeTemp": null,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/21",
+      "MemberId": "21",
+      "Name": "P2_PMEMA~D Temp",
+      "SensorNumber": 228,
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRangeTemp": null,
+      "MaxReadingRangeTemp": null,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/22",
+      "MemberId": "22",
+      "Name": "P2_PMEME~H Temp",
+      "SensorNumber": 232,
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRangeTemp": null,
+      "MaxReadingRangeTemp": null,
+      "PhysicalContext": "SystemBoard",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Temperature",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/23",
+      "MemberId": "23",
+      "Name": "AOC_NIC2 Temp",
+      "SensorNumber": 96,
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingCelsius": 66,
+      "UpperThresholdCritical": 100,
+      "UpperThresholdFatal": 105,
+      "LowerThresholdCritical": 5,
+      "LowerThresholdFatal": 5,
+      "MinReadingRangeTemp": 3,
+      "MaxReadingRangeTemp": 107,
+      "PhysicalContext": "ASIC",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        }
+      ]
+    }
+  ],
+  "Fans": [
+    {
+      "@odata.type": "#Thermal.v1_6_0.Fan",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/0",
+      "MemberId": "0",
+      "Name": "FAN1",
+      "SensorNumber": 65,
+      "PhysicalContext": "Fan",
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingUnits": "RPM",
+      "Reading": 7300,
+      "UpperThresholdCritical": 25400,
+      "UpperThresholdFatal": 25500,
+      "LowerThresholdCritical": 500,
+      "LowerThresholdFatal": 300,
+      "MinReadingRange": 200,
+      "MaxReadingRange": 25600,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "FanName": "FAN1"
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Fan",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/1",
+      "MemberId": "1",
+      "Name": "FAN2",
+      "SensorNumber": 66,
+      "PhysicalContext": "Fan",
+      "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+      },
+      "ReadingUnits": "RPM",
+      "Reading": 7500,
+      "UpperThresholdCritical": 25400,
+      "UpperThresholdFatal": 25500,
+      "LowerThresholdCritical": 500,
+      "LowerThresholdFatal": 300,
+      "MinReadingRange": 200,
+      "MaxReadingRange": 25600,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "FanName": "FAN2"
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Fan",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/2",
+      "MemberId": "2",
+      "Name": "FAN3",
+      "SensorNumber": 67,
+      "PhysicalContext": "Fan",
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingUnits": "RPM",
+      "Reading": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRange": null,
+      "MaxReadingRange": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "FanName": "FAN3"
+    },
+    {
+      "@odata.type": "#Thermal.v1_6_0.Fan",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/3",
+      "MemberId": "3",
+      "Name": "FAN4",
+      "SensorNumber": 68,
+      "PhysicalContext": "Fan",
+      "Status": {
+        "State": "Absent"
+      },
+      "ReadingUnits": "RPM",
+      "Reading": null,
+      "UpperThresholdCritical": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdCritical": null,
+      "LowerThresholdFatal": null,
+      "MinReadingRange": null,
+      "MaxReadingRange": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "FanName": "FAN4"
+    }
+  ],
+  "Fans@odata.count": 4,
+  "Redundancy": [],
+  "Oem": {}
+}

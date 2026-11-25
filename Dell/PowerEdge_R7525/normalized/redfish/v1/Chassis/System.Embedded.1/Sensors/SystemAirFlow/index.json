@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Sensors/SystemAirFlow",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "SystemAirFlow",
+  "Name": "SystemAirFlow",
+  "Description": "Net system airflow",
+  "Reading": 103.0,
+  "ReadingType": "AirFlow",
+  "ReadingUnits": "[ft_i]3/min",
+  "PhysicalContext": "Chassis",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {},
+  "Oem": {}
+}

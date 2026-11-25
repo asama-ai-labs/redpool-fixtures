@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.etag": "\"2f3e760121512a27635\"",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0003",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0003",
+  "Name": "Network",
+  "Description": "This resource shall be used to represent a single boot option contained within a system.",
+  "BootOptionReference": "Boot0003",
+  "DisplayName": "Network",
+  "UefiDevicePath": "VenHw_550e8400_e29b_41d4_a716_446655440000_05000000",
+  "RelatedItem": []
+}

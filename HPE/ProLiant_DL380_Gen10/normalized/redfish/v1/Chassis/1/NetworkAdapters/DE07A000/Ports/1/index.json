@@ -1,0 +1,125 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.etag": "W/\"EECBAC54\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "1",
+  "Name": "Port",
+  "Description": "Port status and active configuration data",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "LinkNetworkTechnology": "Ethernet",
+  "CurrentSpeedGbps": 25,
+  "PortId": "1",
+  "Ethernet": {
+    "AssociatedMACAddresses": [
+      "00:1B:44:AA:00:02"
+    ],
+    "EEEEnabled": false,
+    "FlowControlStatus": "RX",
+    "LLDPReceive": {
+      "ChassisId": "00:1B:44:AA:00:0C",
+      "ChassisIdSubtype": "MacAddr",
+      "ManagementAddressIPv4": "192.0.2.1",
+      "PortId": "00:1B:44:AA:BB:CC",
+      "PortIdSubtype": "IfName"
+    },
+    "LLDPTransmit": {
+      "ChassisId": "550e8400-e29b-41d4-a716-000000000003",
+      "ChassisIdSubtype": "LocalAssign",
+      "ManagementAddressMAC": "00:1B:44:AA:00:0D",
+      "PortId": "00:1B:44:AA:00:02",
+      "PortIdSubtype": "MacAddr"
+    }
+  },
+  "LinkStatus": "LinkUp",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeNetworkPort.HpeNetworkPort",
+      "@odata.type": "#HpeNetworkPort.v1_3_2.HpeNetworkPort",
+      "EvbData": {},
+      "LldpData": {
+        "Receiving": {
+          "Dcb": {
+            "ApplicationPriorityReceived": false,
+            "ApplicationPriorityTable": [],
+            "Ets": {
+              "BandwidthAssignmentTable": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "CreditBasedShaper": false,
+              "MaximumTrafficClassCount": 8,
+              "PriorityAssignmentTable": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "TlvReceived": false,
+              "TrafficSelectionAlgorithmTable": [
+                "strict",
+                "strict",
+                "strict",
+                "strict",
+                "strict",
+                "strict",
+                "strict",
+                "strict"
+              ],
+              "Willing": false
+            },
+            "LocalEqualRemote": false,
+            "Pfc": {
+              "EnabledTrafficClasses": "00000000",
+              "MacSecurityBypassCapability": false,
+              "MaximumTrafficClassCount": 0,
+              "TlvReceived": false,
+              "Willing": false
+            },
+            "Version": "unknown"
+          },
+          "ManagementAddress": "192.0.2.1",
+          "ManagementAddressReceived": true,
+          "ManagementAddressType": "IPv4",
+          "ManagementIFNumSubtype": "ifIndex",
+          "ManagementIFNumber": "::1",
+          "ManagementVlanReceived": false,
+          "NearestBridgeTtlExpired": false,
+          "PortDescription": "J9009026-Testing-SVR-Server",
+          "SystemDescription": "Arista Networks EOS version 4.32.4M running on an Arista Networks DCS-7050CX3-32C"
+        },
+        "Transmitting": {
+          "ManagementAddresses": [
+            {
+              "ManagementIPAddress": "00:1B:44:AA:00:0D",
+              "ManagementIPAddressType": "all802"
+            }
+          ],
+          "ManagementCvlanIDTransmitted": false,
+          "PortDescription": "Undefined Slot, Port 1",
+          "SystemDescription": "HPE ProLiant Server"
+        }
+      },
+      "PortDiagnosticEnableLocalLoopback": false,
+      "PortDiagnosticEnableRemoteLoopback": false,
+      "PortDiagnosticLocalLoopbackCapable": true,
+      "PortDiagnosticRemoteLoopbackCapable": false,
+      "PortDiagnosticsEnabled": true,
+      "VirtualFunctionAllocations": []
+    }
+  }
+}

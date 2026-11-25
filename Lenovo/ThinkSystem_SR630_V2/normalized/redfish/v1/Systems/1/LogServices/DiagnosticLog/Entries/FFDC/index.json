@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/DiagnosticLog/Entries/FFDC",
+  "Id": "FFDC",
+  "Name": "FFDC",
+  "EntryType": "Oem",
+  "@odata.etag": "\"34d175e8b88124292cd\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "OemRecordFormat": "Lenovo",
+  "AdditionalDataSizeBytes": 0,
+  "DiagnosticDataType": "Manager"
+}

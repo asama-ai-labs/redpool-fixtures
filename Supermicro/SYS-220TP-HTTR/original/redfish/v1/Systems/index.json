@@ -1,0 +1,1 @@
+{"@odata.type":"#ComputerSystemCollection.ComputerSystemCollection","@odata.id":"/redfish/v1/Systems","Name":"Computer System Collection","Description":"Computer System Collection","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/Systems/1"}],"@odata.etag":"3e54e50aa8432c32ab7d0862ccf91178"}

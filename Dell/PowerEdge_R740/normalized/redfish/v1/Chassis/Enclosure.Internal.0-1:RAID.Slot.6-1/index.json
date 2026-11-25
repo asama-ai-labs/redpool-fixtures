@@ -1,0 +1,131 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "Enclosure.Internal.0-1:RAID.Slot.6-1",
+  "Name": "BP14G+ 0:1",
+  "Description": "Backplane 1 on Connector 0 of RAID Controller in Slot 6",
+  "ChassisType": "StorageEnclosure",
+  "Manufacturer": "Dell Inc.",
+  "Model": "BP14G+ 0:1",
+  "SKU": "",
+  "AssetTag": "",
+  "PowerState": "On",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "ContainedBy": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    },
+    "Contains": [],
+    "Contains@odata.count": 0,
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1"
+      }
+    ],
+    "Drives@odata.count": 8,
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+      }
+    ],
+    "ManagedBy@odata.count": 1,
+    "PCIeDevices": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0"
+      }
+    ],
+    "PCIeDevices@Redfish.Deprecated": "Please migrate to use /redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices",
+    "PCIeDevices@odata.count": 1,
+    "Storage": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Slot.6-1"
+      }
+    ],
+    "Storage@odata.count": 1
+  },
+  "Actions": {},
+  "Power": {},
+  "Thermal": {},
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {},
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices"
+  },
+  "PCIeSlots": {},
+  "Assembly": {},
+  "Sensors": {},
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {},
+  "LogServices": {},
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOemEnclosureChassis.v1_0_0.DellOemEnclosureChassis",
+      "DellChassisEnclosure": {
+        "AssetName": null,
+        "BackplaneType": "NotShared",
+        "Connector": 0,
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2025-05-14T11:59:46+00:00",
+        "Links": {
+          "DellEnclosureEMMCollection": [],
+          "DellEnclosureEMMCollection@odata.count": 0
+        },
+        "RAIDMultipath": "Off",
+        "ServiceTag": null,
+        "SlotCount": 8,
+        "TempProbeCount": 0,
+        "Version": "4.35",
+        "WiredOrder": 1
+      },
+      "DellEnclosure": {
+        "@odata.context": "/redfish/v1/$metadata#DellEnclosure.DellEnclosure",
+        "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/Oem/Dell/DellEnclosures/Enclosure.Internal.0-1:RAID.Slot.6-1",
+        "@odata.type": "#DellEnclosure.v1_1_0.DellEnclosure",
+        "AssetName": null,
+        "Connector": 0,
+        "Description": "An instance of DellEnclosure will have storage enclosure specific data.",
+        "Id": "Enclosure.Internal.0-1:RAID.Slot.6-1",
+        "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
+        "LastUpdateTime": "2025-05-14T11:59:46+00:00",
+        "Links": {
+          "DellEnclosureEMMCollection": [],
+          "DellEnclosureEMMCollection@odata.count": 0
+        },
+        "Name": "DellEnclosure",
+        "ServiceTag": null,
+        "SlotCount": 8,
+        "TempProbeCount": 0,
+        "Version": "4.35",
+        "WiredOrder": 1
+      },
+      "DellEnclosure@Redfish.Deprecated": "Please migrate to use DellChassisEnclosure"
+    }
+  }
+}

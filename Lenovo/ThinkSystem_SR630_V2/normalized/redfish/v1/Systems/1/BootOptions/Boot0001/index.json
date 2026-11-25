@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.etag": "\"3040b97537cb25a7f3c\"",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0001",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0001",
+  "Name": "CD_DVDRom",
+  "Description": "This resource shall be used to represent a single boot option contained within a system.",
+  "BootOptionReference": "Boot0001",
+  "DisplayName": "CD_DVDRom",
+  "UefiDevicePath": "VenHw_550e8400_e29b_41d4_a716_446655440000_02000000",
+  "RelatedItem": []
+}

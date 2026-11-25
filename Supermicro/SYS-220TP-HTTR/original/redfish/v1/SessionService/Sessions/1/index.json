@@ -1,0 +1,1 @@
+{"@odata.type":"#Session.v1_2_1.Session","@odata.id":"/redfish/v1/SessionService/Sessions/1","Id":"1","Name":"User Session","Description":"Manager User Session","UserName":"DUMMY-User","Oem":{},"@odata.etag":"c561466852f848bccbc542ee8eeab365"}

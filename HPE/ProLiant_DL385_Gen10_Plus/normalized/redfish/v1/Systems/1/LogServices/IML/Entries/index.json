@@ -1,0 +1,165 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+  "@odata.etag": "W/\"GJ3D5807\"",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+  "@odata.type": "#LogEntryCollection.LogEntryCollection",
+  "Members": [
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+      "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+      "Id": "1",
+      "Created": "2025-04-07T11:55:00Z",
+      "EntryType": "Oem",
+      "Message": "DIMM Initialization Error - Processor 1 DIMMs 11, 12. The identified memory channel could not be properly trained and has been mapped out. The indicated DIMMs will not be available. (Major Code:00000001, Minor Code:00000001).",
+      "Name": "Integrated Management Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+          "Categories": [
+            "Hardware"
+          ],
+          "Class": 50,
+          "ClassDescription": "UEFI",
+          "Code": 547,
+          "Count": 4,
+          "EventNumber": 2912,
+          "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+          "RecommendedAction": "Re-seat the specified DIMMs and update the System ROM. If the issue persists, contact support.",
+          "Repaired": false,
+          "Severity": "Caution",
+          "Updated": "2025-04-07T12:01:51Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-IML",
+      "Severity": "Warning"
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+      "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+      "Id": "10",
+      "Created": "2025-04-08T11:54:47Z",
+      "EntryType": "Oem",
+      "Message": "System Power Supplies Not Redundant",
+      "Name": "Integrated Management Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+          "Categories": [
+            "Power"
+          ],
+          "Class": 11,
+          "ClassDescription": "Power",
+          "Code": 54,
+          "Count": 2,
+          "EventNumber": 2921,
+          "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+          "RecommendedAction": "Add a power supply or replace the failed power supply.",
+          "Repaired": false,
+          "Severity": "Caution",
+          "Updated": "2025-04-08T12:00:27Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-IML",
+      "Severity": "Warning"
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/11",
+      "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+      "Id": "11",
+      "Created": "2025-04-08T11:55:24Z",
+      "EntryType": "Oem",
+      "Message": "Intel Eth Adptr I350T4 OCPv3 Connectivity status changed to OK for adapter in slot 10, port 1",
+      "Name": "Integrated Management Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+          "Categories": [
+            "Hardware"
+          ],
+          "Class": 17,
+          "ClassDescription": "Network",
+          "Code": 10,
+          "Count": 1,
+          "EventNumber": 2922,
+          "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+          "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+          "Repaired": true,
+          "Severity": "Repaired",
+          "Updated": "2025-04-08T11:55:24Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-IML",
+      "Severity": "OK"
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/16",
+      "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+      "Id": "16",
+      "Created": "2025-04-19T19:18:38Z",
+      "EntryType": "Oem",
+      "Message": "System Power Supply: Input Power Loss or Unplugged Power Cord, Verify Power Supply Input (Power Supply 2)",
+      "Name": "Integrated Management Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+          "Categories": [
+            "Power"
+          ],
+          "Class": 11,
+          "ClassDescription": "Power",
+          "Code": 82,
+          "Count": 2,
+          "EventNumber": 2927,
+          "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+          "RecommendedAction": "Check the power source, then test and replace any failed power supplies.",
+          "Repaired": false,
+          "Severity": "Caution",
+          "Updated": "2025-04-19T19:33:31Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-IML",
+      "Severity": "Warning"
+    },
+    {
+      "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+      "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/23",
+      "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+      "Id": "23",
+      "Created": "2025-04-19T19:38:40Z",
+      "EntryType": "Oem",
+      "Message": "At least one of the links is up in adapter Intel Eth Adptr I350T4 OCPv3 in slot 10",
+      "Name": "Integrated Management Log",
+      "Oem": {
+        "Hpe": {
+          "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+          "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+          "Categories": [
+            "Hardware"
+          ],
+          "Class": 17,
+          "ClassDescription": "Network",
+          "Code": 14,
+          "Count": 1,
+          "EventNumber": 2934,
+          "Repaired": true,
+          "Severity": "Repaired",
+          "Updated": "2025-05-11T11:52:57Z"
+        }
+      },
+      "OemRecordFormat": "Hpe-IML",
+      "Severity": "OK"
+    }
+  ],
+  "Members@odata.count": 5,
+  "Description": "Integrated Management Logs view",
+  "Name": "Integrated Management Logs view",
+  "Oem": {}
+}

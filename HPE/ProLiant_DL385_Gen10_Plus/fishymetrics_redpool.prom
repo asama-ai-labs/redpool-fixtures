@@ -1,0 +1,168 @@
+# HELP redfish_cpu_status Current cpu status 1 = OK, 0 = BAD
+# TYPE redfish_cpu_status gauge
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",id="1",model="AMD EPYC 7763 64-Core Processor",socket="Proc 1",totalCores="64"} 1
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",id="2",model="AMD EPYC 7763 64-Core Processor",socket="Proc 2",totalCores="64"} 1
+# HELP redfish_device_info Current snapshot of device firmware information
+# TYPE redfish_device_info gauge
+redfish_device_info{biosVersion="A42 v3.20 (08/07/2024)",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="iLO 5 v2.30",name=""} 1
+# HELP redfish_disk_drive_status Current Disk Drive status 1 = OK, 0 = BAD, -1 = DISABLED
+# TYPE redfish_disk_drive_status gauge
+redfish_disk_drive_status{capacityMiB="3662830",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="5",location="2I:0:6",name="HpeSmartStorageDiskDrive",serialnumber="DUMMY-SerialNumber-25"} 1
+redfish_disk_drive_status{capacityMiB="3662830",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="7",location="2I:0:8",name="HpeSmartStorageDiskDrive",serialnumber="DUMMY-SerialNumber-24"} 1
+# HELP redfish_ilo_selftest_status Current ilo selftest status 1 = OK, 0 = BAD
+# TYPE redfish_ilo_selftest_status gauge
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="ASICFuses"} 1
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="EEPROM"} 1
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="EmbeddedFlash"} 1
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="HostRom"} 1
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="NVRAMData"} 1
+redfish_ilo_selftest_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="SupportedHost"} 1
+# HELP redfish_memory_dimm_status Current dimm status 1 = OK, 0 = BAD
+# TYPE redfish_memory_dimm_status gauge
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm1",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm10",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm12",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm14",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm16",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm3",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm5",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc1dimm7",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm1",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm10",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm12",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm14",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm16",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm3",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm5",partNumber="36ASF8G72PZ-2G9B1"} 1
+redfish_memory_dimm_status{capacityMiB="65536",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="proc2dimm7",partNumber="36ASF8G72PZ-2G9B1"} 1
+# HELP redfish_memory_status Current memory status 1 = OK, 0 = BAD
+# TYPE redfish_memory_status gauge
+redfish_memory_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",totalSystemMemoryGiB="1024"} 1
+# HELP redfish_power_supply_status Current power supply status 1 = OK, 0 = BAD
+# TYPE redfish_power_supply_status gauge
+redfish_power_supply_status{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="2.04",manufacturer="Delta Electronics, Inc.",model="P38995-B21",name="PSU Bay 1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-3"} 1
+redfish_power_supply_status{bayNumber="2",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="2.04",manufacturer="Delta Electronics, Inc.",model="P38995-B21",name="PSU Bay 2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-4"} 0
+# HELP redfish_power_supply_total_consumed Total output of all power supplies in watts
+# TYPE redfish_power_supply_total_consumed gauge
+redfish_power_supply_total_consumed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",memberId="/redfish/v1/Chassis/1/Power"} 0
+# HELP redfish_storage_controller_status Current storage controller status 1 = OK, 0 = BAD
+# TYPE redfish_storage_controller_status gauge
+redfish_storage_controller_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="4.11",location="Slot 12",model="HPE Smart Array P408i-a SR Gen10",name="HPE Smart Array P408i-a SR Gen10"} 1
+# HELP redfish_thermal_fan_speed Current fan speed in the unit of percentage, possible values are 0 - 100
+# TYPE redfish_thermal_fan_speed gauge
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 1"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 2"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 3"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 4"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 5"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 6"} 37
+# HELP redfish_thermal_fan_status Current fan status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_fan_status gauge
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 1"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 2"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 3"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 4"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 5"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="Fan 6"} 1
+# HELP redfish_thermal_sensor_status Current sensor status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_sensor_status gauge
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="01-Inlet Ambient"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="02-CPU 1"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="03-CPU 2"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="04-P1 DIMM 1-8"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="06-P1 DIMM 9-16"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="08-P2 DIMM 1-8"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="10-P2 DIMM 9-16"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="12-HD Max"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="14-Stor Batt"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="15-Board Inlet"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="16-VR P1"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="17-VR P2"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="18-VR P1 Mem 1"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="19-VR P1 Mem 2"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="20-VR P2 Mem 1"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="21-VR P2 Mem 2"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="23-BMC"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="24-BMC Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="25-HD Controller"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="26-HD Cntlr Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="28-LOM Card"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="29-LOM Card Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="31-PCI 1 Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="33-PCI 2 Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="35-PCI 3 Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="53-Battery Zone"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="54-P/S 1 Inlet"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="55-P/S 2 Inlet"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="56-P/S 1"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="57-P/S 2"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="59-E-Fuse"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="64-CPU 1 PkgTmp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="65-CPU 2 PkgTmp"} 1
+# HELP redfish_thermal_sensor_temperature Current sensor temperature reading in Celsius
+# TYPE redfish_thermal_sensor_temperature gauge
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="01-Inlet Ambient"} 25
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="02-CPU 1"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="03-CPU 2"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="04-P1 DIMM 1-8"} 36
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="06-P1 DIMM 9-16"} 36
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="08-P2 DIMM 1-8"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="10-P2 DIMM 9-16"} 34
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="12-HD Max"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="14-Stor Batt"} 29
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="15-Board Inlet"} 32
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="16-VR P1"} 38
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="17-VR P2"} 36
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="18-VR P1 Mem 1"} 45
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="19-VR P1 Mem 2"} 45
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="20-VR P2 Mem 1"} 45
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="21-VR P2 Mem 2"} 42
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="23-BMC"} 66
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="24-BMC Zone"} 37
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="25-HD Controller"} 61
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="26-HD Cntlr Zone"} 39
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="28-LOM Card"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="29-LOM Card Zone"} 33
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="31-PCI 1 Zone"} 33
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="33-PCI 2 Zone"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="35-PCI 3 Zone"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="53-Battery Zone"} 34
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="54-P/S 1 Inlet"} 33
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="55-P/S 2 Inlet"} 36
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="56-P/S 1"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="57-P/S 2"} 40
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="59-E-Fuse"} 25
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="64-CPU 1 PkgTmp"} 52
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="65-CPU 2 PkgTmp"} 50
+# HELP redfish_thermal_sensor_threshold_critical Current sensor upper threshold critical reading in Celsius
+# TYPE redfish_thermal_sensor_threshold_critical gauge
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="01-Inlet Ambient"} 42
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="02-CPU 1"} 75
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="03-CPU 2"} 75
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="04-P1 DIMM 1-8"} 88
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="06-P1 DIMM 9-16"} 88
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="08-P2 DIMM 1-8"} 88
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="10-P2 DIMM 9-16"} 88
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="12-HD Max"} 60
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="14-Stor Batt"} 60
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="15-Board Inlet"} 60
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="16-VR P1"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="17-VR P2"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="18-VR P1 Mem 1"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="19-VR P1 Mem 2"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="20-VR P2 Mem 1"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="21-VR P2 Mem 2"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="23-BMC"} 110
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="24-BMC Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="25-HD Controller"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="26-HD Cntlr Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="28-LOM Card"} 94
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="29-LOM Card Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="31-PCI 1 Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="33-PCI 2 Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="35-PCI 3 Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="53-Battery Zone"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="59-E-Fuse"} 100
+# HELP redfish_up was the last scrape of fishymetrics successful.
+# TYPE redfish_up gauge
+redfish_up 1

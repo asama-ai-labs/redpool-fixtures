@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Golden_BIOS",
+  "@odata.etag": "8e09caac0a7e053f47e43d0c2945b6fd",
+  "Id": "Golden_BIOS",
+  "Name": "BIOS Golden",
+  "Version": "BIOS Date: 07/14/2022 Ver 1.4",
+  "Manufacturer": "SMCI",
+  "Updateable": true,
+  "WriteProtected": false,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "UniqueFilename": ""
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Golden_BIOS",
+        "related_item_uri": "/redfish/v1/Systems/1",
+        "related_kind": "system",
+        "related_ref": "1",
+        "related_location": "System"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

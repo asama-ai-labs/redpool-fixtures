@@ -1,0 +1,68 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "\"e2a71a5cd817359a457df\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/3",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "3",
+  "Name": "DIMM 3",
+  "Description": "This resource is used to represent a memory for a Redfish implementation.",
+  "CapacityMiB": 65536,
+  "Manufacturer": "SK Hynix",
+  "PartNumber": "HMAA8GR7CJR4N-XN",
+  "SerialNumber": "DUMMY-SerialNumber-15",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 3200,
+  "AllowedSpeedsMHz": [
+    3200
+  ],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 1,
+  "ErrorCorrection": null,
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 0,
+    "Channel": 0,
+    "Slot": 3
+  },
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "DIMM 3",
+      "LocationOrdinalValue": 2,
+      "LocationType": "Slot"
+    }
+  },
+  "DeviceLocator": "DIMM 3",
+  "DeviceID": "DIMM_3",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 65536,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoMemory.v1_0_0.LenovoMemory",
+      "FruPartNumber": "02JK971"
+    },
+    "Redpool": {
+      "FruPartNumber": "02JK971",
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

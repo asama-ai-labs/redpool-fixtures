@@ -1,0 +1,48 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "\"fae111024bf92ff74ae93\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/9",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "9",
+  "Name": "DIMM 9",
+  "Description": "This resource is used to represent a memory for a Redfish implementation.",
+  "Manufacturer": "",
+  "PartNumber": "",
+  "SerialNumber": "",
+  "AllowedSpeedsMHz": [],
+  "ErrorCorrection": null,
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 3,
+    "Channel": 6,
+    "Slot": 9
+  },
+  "Location": {
+    "PartLocation": {
+      "LocationType": "Slot",
+      "ServiceLabel": "DIMM 9",
+      "LocationOrdinalValue": 8
+    }
+  },
+  "DeviceLocator": "",
+  "DeviceID": "",
+  "OperatingMemoryModes": [],
+  "MemoryMedia": [],
+  "Status": {
+    "Health": null,
+    "State": "Absent"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoMemory.v1_0_0.LenovoMemory",
+      "FruPartNumber": null
+    }
+  }
+}

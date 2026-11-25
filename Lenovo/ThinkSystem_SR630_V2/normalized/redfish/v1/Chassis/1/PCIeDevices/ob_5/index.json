@@ -1,0 +1,59 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"a24ab71fd8c430ea37144\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "ob_5",
+  "Name": "Adapter",
+  "Description": "This resource represents the properties of a PCIeDevice attached to a System.",
+  "DeviceType": "SingleFunction",
+  "Manufacturer": null,
+  "Model": "Adapter",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5/PCIeFunctions"
+  },
+  "Slot": {
+    "Location": {
+      "InfoFormat": "OnBoard",
+      "Info": "OnBoard",
+      "PartLocation": {
+        "LocationType": "Slot",
+        "LocationOrdinalValue": 5,
+        "ServiceLabel": "OnBoard"
+      }
+    }
+  },
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5/PCIeFunctions/ob_5.05"
+      }
+    ]
+  },
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoDeviceInfo.v1_0_0.LenovoDeviceInfo",
+      "Location": {
+        "InfoFormat": "OnBoard",
+        "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 5,
+          "ServiceLabel": "OnBoard"
+        },
+        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "Info": "OnBoard"
+      }
+    }
+  }
+}

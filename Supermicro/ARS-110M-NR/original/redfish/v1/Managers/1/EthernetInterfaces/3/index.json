@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Managers/1/EthernetInterfaces/3","@odata.type":"#EthernetInterface.v1_6_0.EthernetInterface","Description":"Management Network Interface","FullDuplex":true,"Id":"3","InterfaceEnabled":true,"LinkStatus":"LinkUp","Name":"AOC Manager Ethernet Interface","SpeedMbps":100,"Status":{"Health":"OK","HealthRollup":"OK","State":"Enabled"}}

@@ -1,0 +1,11 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+  "@odata.etag": "\"25042281a75924e6467\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Volumes",
+  "@odata.type": "#VolumeCollection.VolumeCollection",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Description": "Collection of Volumes",
+  "Name": "VolumeCollection",
+  "Oem": {}
+}

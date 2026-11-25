@@ -1,0 +1,53 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+  "@odata.etag": "W/\"BI14L3O5\"",
+  "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/0/DiskDrives/3",
+  "@odata.type": "#Drive.v1_19_0.Drive",
+  "Id": "3",
+  "Name": "HpeSmartStorageDiskDrive",
+  "Description": "HPE Smart Storage Disk Drive View",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Model": "VK001920GWCFH",
+  "Manufacturer": null,
+  "SerialNumber": "DUMMY-SerialNumber-28",
+  "Revision": "HPG3",
+  "MediaType": "SSD",
+  "Protocol": "SATA",
+  "CapacityBytes": 1920383410176,
+  "BlockSizeBytes": 512,
+  "CapableSpeedGbs": null,
+  "NegotiatedSpeedGbs": 6.0,
+  "PredictedMediaLifeLeftPercent": null,
+  "FailurePredicted": null,
+  "StatusIndicator": "OK",
+  "EncryptionAbility": "None",
+  "EncryptionStatus": "Unencrypted",
+  "PhysicalLocation": {
+    "PartLocation": {
+      "LocationType": "Bay",
+      "ServiceLabel": "Port=1I:3:1",
+      "LocationOrdinalValue": 1
+    }
+  },
+  "Location": [
+    {
+      "Info": "1I:3:1",
+      "InfoFormat": "ControllerPort:Box:Bay"
+    }
+  ],
+  "Links": {},
+  "Oem": {
+    "Redpool": {
+      "HpeSmartStorage": {
+        "Kind": "DiskDrive",
+        "TemperatureCelsius": 12,
+        "UncorrectedReadErrors": 0,
+        "UncorrectedWriteErrors": 0
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolDrive"
+    }
+  }
+}

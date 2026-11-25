@@ -1,0 +1,46 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Volume.Volume",
+  "@odata.etag": "W/\"1FEA0511\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/0/Volumes/2",
+  "@odata.type": "#Volume.v1_10_0.Volume",
+  "Id": "2",
+  "Name": "DUMMY-LogicalDriveName",
+  "DisplayName": "DUMMY-LogicalDriveName",
+  "Description": "HPE Smart Storage Logical Drive View",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "CapacityBytes": 1920349503488,
+  "BlockSizeBytes": null,
+  "StripSizeBytes": 262144,
+  "OptimumIOSizeBytes": 262144,
+  "RAIDType": "RAID1",
+  "Encrypted": false,
+  "EncryptionTypes": [],
+  "Identifiers": [
+    {
+      "DurableName": "00000000000000000000000000000002",
+      "DurableNameFormat": "NAA"
+    }
+  ],
+  "Links": {
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/0/Drives/2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/0/Drives/3"
+      }
+    ],
+    "Drives@odata.count": 2
+  },
+  "Oem": {
+    "Redpool": {
+      "HpeSmartStorage": {
+        "Kind": "LogicalDrive"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolVolume"
+    }
+  }
+}

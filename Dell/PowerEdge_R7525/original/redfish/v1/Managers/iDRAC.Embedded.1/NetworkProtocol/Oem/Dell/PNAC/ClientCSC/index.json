@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/$metadata#CertificateCollection.CertificateCollection","@odata.type":"#CertificateCollection.CertificateCollection","@odata.id":"/redfish/v1/Managers/iDRAC.Embedded.1/NetworkProtocol/Oem/Dell/PNAC/ClientCSC","Name":"Certificate Collection","Description":"A Collection of ClientCSC Certificate resource instances.","Members":[],"Members@odata.count":0}

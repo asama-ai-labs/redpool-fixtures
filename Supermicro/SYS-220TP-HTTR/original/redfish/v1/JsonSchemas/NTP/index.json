@@ -1,0 +1,1 @@
+{"@odata.type":"#JsonSchemaFile.v1_1_4.JsonSchemaFile","@odata.id":"/redfish/v1/JsonSchemas/NTP","Id":"NTP","Name":"NTP Schema File","Description":"NTP Schema File Location","Languages":["en"],"Schema":"NTP","Location":[{"Language":"en","Uri":"/schemas/v1/NTP.json"}],"Oem":{},"@odata.etag":"ed7fc028adb5e7021ca8a5a16d17fb4d"}

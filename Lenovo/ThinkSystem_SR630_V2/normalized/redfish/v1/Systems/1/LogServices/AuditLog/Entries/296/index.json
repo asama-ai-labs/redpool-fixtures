@@ -1,0 +1,79 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/AuditLog/Entries/296",
+  "Id": "296",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"kjBdH5N3ML8gAKDgBJ5aMD35bnfG622\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2025-02-07T16:59:26.372+00:00",
+  "Severity": "OK",
+  "Message": "Security: Userid: USERID using default authentication had 8 login failures from WEB client at IP address 192.0.2.1.",
+  "MessageArgs": [
+    "USERID",
+    "default authentication",
+    "8",
+    "192.0.2.1"
+  ],
+  "OemLogEntryCode": "Lenovo0016",
+  "EventId": "0x4000001000000000",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "MessageArgs@odata.count": 4,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "0",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x4000001000000000",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 296,
+      "LenovoMessageID": "Lenovo0016",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPSE4002I",
+      "TotalSequenceNumber": 452,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "@odata.type": "#LenovoLogEntry.v1_0_0.AuditLogEntry",
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "EventType": 0,
+      "RawDebugLogURL": ""
+    },
+    "Redpool": {
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "0",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventSequenceNumber": 296,
+      "LenovoMessageID": "Lenovo0016",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPSE4002I",
+      "TotalSequenceNumber": 452,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "EventType": 0,
+      "RawDebugLogURL": "",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

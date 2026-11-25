@@ -1,0 +1,37 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC-Primary-Pending",
+  "@odata.etag": "\"4293b316e89427e6eee\"",
+  "Id": "BMC-Primary-Pending",
+  "Name": "Firmware:BMC",
+  "Description": "The information of BMC (Primary) Pending firmware.",
+  "Version": "-*",
+  "SoftwareId": "BMC-*-10",
+  "Manufacturer": "Lenovo",
+  "Updateable": true,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "Status": {
+    "Health": "OK",
+    "State": "Disabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Managers/1"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "BMC-Primary-Pending",
+        "related_item_uri": "/redfish/v1/Managers/1",
+        "related_kind": "manager",
+        "related_ref": "1",
+        "related_location": "BMC"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

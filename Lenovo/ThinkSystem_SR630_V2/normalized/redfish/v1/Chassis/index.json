@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ChassisCollection.ChassisCollection",
+  "@odata.etag": "\"27993098feb02422e6a\"",
+  "@odata.id": "/redfish/v1/Chassis",
+  "@odata.type": "#ChassisCollection.ChassisCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/3"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Chassis",
+  "Name": "ChassisCollection",
+  "Oem": {}
+}

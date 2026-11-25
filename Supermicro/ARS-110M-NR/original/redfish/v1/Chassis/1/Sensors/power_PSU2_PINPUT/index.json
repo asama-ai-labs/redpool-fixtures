@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/power_PSU2_PINPUT","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"power_PSU2_PINPUT","Name":"PSU2 PINPUT","Reading":48.75,"ReadingRangeMax":3000.0,"ReadingRangeMin":0.0,"ReadingType":"Power","ReadingUnits":"W","Status":{"Health":"OK","State":"Enabled"}}

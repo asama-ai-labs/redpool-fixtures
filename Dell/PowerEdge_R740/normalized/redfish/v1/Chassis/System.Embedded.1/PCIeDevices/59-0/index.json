@@ -1,0 +1,65 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "\"1795488696\"",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "59-0",
+  "Name": "TU102 [GeForce RTX 2080 Ti]",
+  "Description": "TU102 [GeForce RTX 2080 Ti]",
+  "DeviceType": "MultiFunction",
+  "Manufacturer": "Nvidia Corporation",
+  "Model": "TU102 [GeForce RTX 2080 Ti]",
+  "FirmwareVersion": "",
+  "PCIeInterface": {
+    "MaxPCIeType": "Gen3",
+    "PCIeType": "Gen3",
+    "MaxLanes": 16,
+    "LanesInUse": 16
+  },
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions"
+  },
+  "Slot": {
+    "Lanes": 16,
+    "Location": {
+      "PartLocation": {
+        "LocationOrdinalValue": 1,
+        "LocationType": "Slot",
+        "ServiceLabel": "PCIe.Slot.1"
+      }
+    },
+    "PCIeType": "Gen3",
+    "SlotType": "FullLength"
+  },
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "Links": {
+    "Chassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+      }
+    ],
+    "Chassis@odata.count": 1,
+    "Oem": {
+      "Dell": {
+        "@odata.type": "#DellOem.v1_3_0.DellOemLinks",
+        "CPUAffinity": [],
+        "CPUAffinity@odata.count": 0
+      }
+    },
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions/59-0-0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/59-0/PCIeFunctions/59-0-2"
+      }
+    ],
+    "PCIeFunctions@odata.count": 2,
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+  },
+  "Oem": {}
+}

@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/Journal/Entries/DUMMY-Log-WOGLFYMQUMKSIKPQ",
+  "Id": "DUMMY-Log-WOGLFYMQUMKSIKPQ",
+  "Name": "BMC Journal Entry",
+  "EntryType": "Oem",
+  "Created": "2025-06-24T22:44:57.261227+00:00",
+  "Severity": "OK",
+  "Message": "m2tempsensor: Invalid read getM2RegsInfoByte",
+  "OemRecordFormat": "BMC Journal Entry"
+}

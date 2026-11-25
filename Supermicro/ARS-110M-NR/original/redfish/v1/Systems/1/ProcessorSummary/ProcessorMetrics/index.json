@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/ProcessorSummary/ProcessorMetrics","@odata.type":"#ProcessorMetrics.v1_3_0.ProcessorMetrics","BandwidthPercent":0,"Id":"ProcessorMetrics","Name":"ProcessorMetrics","OperatingSpeedMHz":1700}

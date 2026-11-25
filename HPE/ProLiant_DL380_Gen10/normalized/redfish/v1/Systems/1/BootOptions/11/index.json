@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.etag": "W/\"P8O4BF19\"",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/11",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "11",
+  "Name": "Boot Option",
+  "BootOptionReference": "Boot001B",
+  "DisplayName": "Embedded FlexibleLOM 1 Port 1 : HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr - NIC (PXE IPv6)",
+  "UefiDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(001B44AA0002,0x1)/IPv6(::1)",
+  "RelatedItem": []
+}

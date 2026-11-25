@@ -1,0 +1,14 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkAdapterCollection.NetworkAdapterCollection",
+  "@odata.etag": "W/\"AA6D42B0\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters",
+  "@odata.type": "#NetworkAdapterCollection.NetworkAdapterCollection",
+  "Description": "NetworkAdapters view",
+  "Name": "NetworkAdapters Collection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1"
+    }
+  ],
+  "Members@odata.count": 1
+}

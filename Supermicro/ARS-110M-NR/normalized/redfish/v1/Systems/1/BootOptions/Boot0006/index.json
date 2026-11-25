@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/1/BootOptions/Boot0006",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0006",
+  "Name": "Boot0006",
+  "Description": "UEFI: Built-in EFI Shell",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0006",
+  "DisplayName": "UEFI: Built-in EFI Shell",
+  "UefiDevicePath": "VenMedia(550e8400-e29b-41d4-a716-446655440000)",
+  "RelatedItem": []
+}

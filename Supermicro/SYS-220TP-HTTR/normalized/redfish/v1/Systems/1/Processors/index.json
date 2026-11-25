@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ProcessorCollection.ProcessorCollection",
+  "@odata.etag": "a44976e1ea35354bb4a206d32f2cd144",
+  "@odata.id": "/redfish/v1/Systems/1/Processors",
+  "@odata.type": "#ProcessorCollection.ProcessorCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Processors for this System",
+  "Name": "ProcessorCollection",
+  "Oem": {}
+}

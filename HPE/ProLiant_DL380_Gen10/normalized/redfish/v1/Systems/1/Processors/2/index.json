@@ -1,0 +1,186 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.etag": "W/\"24B07G12\"",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/2",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {},
+  "Description": "",
+  "Id": "2",
+  "Name": "Processors",
+  "ProcessorId": {
+    "EffectiveFamily": "179",
+    "EffectiveModel": "5",
+    "IdentificationRegisters": "0x06540005fbffbfeb",
+    "MicrocodeInfo": null,
+    "Step": "4",
+    "VendorId": "Intel(R) Corporation"
+  },
+  "ProcessorType": "CPU",
+  "ProcessorArchitecture": "x86",
+  "InstructionSet": "x86-64",
+  "Links": {
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm10"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm11"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm12"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm8"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm9"
+      }
+    ],
+    "Memory@odata.count": 12
+  },
+  "Manufacturer": "Intel(R) Corporation",
+  "MemorySummary": {
+    "TotalMemorySizeMiB": 262144,
+    "ECCModeEnabled": true
+  },
+  "Model": "Intel(R) Xeon(R) Gold 6138",
+  "PartNumber": "Xeon Gold 6138",
+  "SerialNumber": "",
+  "BaseSpeedMHz": 2000,
+  "MaxSpeedMHz": 4000,
+  "ProcessorMemory": [],
+  "TotalCores": 20,
+  "TotalThreads": 40,
+  "TotalEnabledCores": 20,
+  "Socket": "Proc 2",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Metrics": {},
+  "EnvironmentMetrics": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt",
+      "@odata.type": "#HpeProcessorExt.v2_0_1.HpeProcessorExt",
+      "AssetTag": "DUMMY-AssetTag-1",
+      "Cache": [
+        {
+          "Associativity": "8waySetAssociative",
+          "CacheSpeedns": 0,
+          "CurrentSRAMType": [
+            "Synchronous"
+          ],
+          "EccType": "SingleBitECC",
+          "InstalledSizeKB": 1280,
+          "Location": "Internal",
+          "MaximumSizeKB": 1280,
+          "Name": "L1-Cache",
+          "Policy": "WriteBack",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Synchronous"
+          ],
+          "SystemCacheType": "Unified"
+        },
+        {
+          "Associativity": "16waySetAssociative",
+          "CacheSpeedns": 0,
+          "CurrentSRAMType": [
+            "Synchronous"
+          ],
+          "EccType": "SingleBitECC",
+          "InstalledSizeKB": 20480,
+          "Location": "Internal",
+          "MaximumSizeKB": 20480,
+          "Name": "L2-Cache",
+          "Policy": "Varies",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Synchronous"
+          ],
+          "SystemCacheType": "Unified"
+        },
+        {
+          "Associativity": "FullyAssociative",
+          "CacheSpeedns": 0,
+          "CurrentSRAMType": [
+            "Synchronous"
+          ],
+          "EccType": "SingleBitECC",
+          "InstalledSizeKB": 28160,
+          "Location": "Internal",
+          "MaximumSizeKB": 28160,
+          "Name": "L3-Cache",
+          "Policy": "Varies",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Synchronous"
+          ],
+          "SystemCacheType": "Unified"
+        }
+      ],
+      "Characteristics": [
+        "64Bit",
+        "MultiCore",
+        "HwThread",
+        "ExecuteProtection",
+        "EnhancedVirtualization",
+        "PowerPerfControl"
+      ],
+      "ConfigStatus": {
+        "Populated": true,
+        "State": "Enabled"
+      },
+      "CoresEnabled": 20,
+      "ExternalClockMHz": 100,
+      "MicrocodePatches": [
+        {
+          "CpuId": "0x00050654",
+          "Date": "2022-12-09T11:33:07Z",
+          "PatchId": "0x02007006"
+        },
+        {
+          "CpuId": "0x00050655",
+          "Date": "2018-08-21T11:33:07Z",
+          "PatchId": "0x03000010"
+        },
+        {
+          "CpuId": "0x00050656",
+          "Date": "2023-12-05T11:33:07Z",
+          "PatchId": "0x04003707"
+        },
+        {
+          "CpuId": "0x00050657",
+          "Date": "2023-12-05T11:33:07Z",
+          "PatchId": "0x05003707"
+        }
+      ],
+      "PartNumber": "",
+      "RatedSpeedMHz": 2000,
+      "SerialNumber": "",
+      "VoltageVoltsX10": 16
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/FaultList/Entries/Fault_03200002_2",
+  "Id": "Fault_03200002_2",
+  "Name": "DIMM.Socket.A1",
+  "EntryType": "SEL",
+  "Description": "DIMM.Socket.A1",
+  "Created": "2025-06-07T07:53:29+00:00",
+  "Severity": "Warning",
+  "Message": "A diagnostic warning event occurred in the memory device at A1. Reseat the device. (Extended ID: 0x52D5).",
+  "MessageId": "IDRAC.2.9.MEM6102",
+  "MessageArgs": [
+    "A1",
+    "0x52D5"
+  ],
+  "SensorType": null,
+  "SensorNumber": 0,
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1"
+    }
+  },
+  "MessageArgs@odata.count": 2,
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellLogEntry.v1_1_0.DellLogEntry",
+      "FQDD": "DIMM.Socket.A1",
+      "Id": "Fault_03200002_2",
+      "Name": "DIMM.Socket.A1",
+      "SubSystem": "Miscellaneous"
+    },
+    "Redpool": {
+      "FQDD": "DIMM.Socket.A1",
+      "SubSystem": "Miscellaneous",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

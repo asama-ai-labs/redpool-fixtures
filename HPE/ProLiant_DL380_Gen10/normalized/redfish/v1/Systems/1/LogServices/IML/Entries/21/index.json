@@ -1,0 +1,47 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/21",
+  "Id": "21",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"1M5CO6C3\"",
+  "Created": "2000-08-22T20:33:53Z",
+  "Severity": "OK",
+  "Message": "At least one of the links is up in adapter HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr in slot 0",
+  "MessageId": "17.14",
+  "MessageArgs": [],
+  "OemRecordFormat": "Hpe-IML",
+  "MessageArgs@odata.count": 0,
+  "Modified": "2000-08-22T20:34:08Z",
+  "Resolved": true,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 17,
+      "ClassDescription": "Network",
+      "Code": 14,
+      "Count": 1,
+      "EventNumber": 21,
+      "Repaired": true,
+      "Severity": "Repaired",
+      "Updated": "2000-08-22T20:34:08Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 17,
+      "ClassDescription": "Network",
+      "Code": 14,
+      "Count": 1,
+      "EventNumber": 21,
+      "Repaired": true,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EnvironmentMetrics.EnvironmentMetrics",
+  "@odata.id": "/redfish/v1/Chassis/1/EnvironmentMetrics",
+  "@odata.type": "#EnvironmentMetrics.v1_3_0.EnvironmentMetrics",
+  "Id": "EnvironmentMetrics",
+  "Name": "Chassis Environment Metrics",
+  "FanSpeedsPercent": [],
+  "Oem": {}
+}

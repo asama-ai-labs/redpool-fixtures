@@ -1,0 +1,1 @@
+{"@odata.type":"#HostInterfaceCollection.HostInterfaceCollection","@odata.id":"/redfish/v1/Managers/1/HostInterfaces","Name":"Host Interface Collection","Description":"Collection of HostInterfaces for this Manager","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/Managers/1/HostInterfaces/1"}],"@odata.etag":"00e28f9437d9f3b9acc9d2d50b0c1a0e"}

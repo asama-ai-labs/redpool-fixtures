@@ -1,0 +1,104 @@
+# HELP redfish_cpu_status Current cpu status 1 = OK, 0 = BAD
+# TYPE redfish_cpu_status gauge
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",id="cpu0",model="Ampere(R) Altra(R) Processor",socket="CPU 0",totalCores="32"} 1
+# HELP redfish_device_info Current snapshot of device firmware information
+# TYPE redfish_device_info gauge
+redfish_device_info{biosVersion="1.2a",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="192.0.2.1",name=""} 1
+# HELP redfish_memory_dimm_status Current dimm status 1 = OK, 0 = BAD
+# TYPE redfish_memory_dimm_status gauge
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",manufacturer="Samsung",name="DIMM Slot",partNumber="M393A4K40EB3-CWE"} 1
+# HELP redfish_memory_status Current memory status 1 = OK, 0 = BAD
+# TYPE redfish_memory_status gauge
+redfish_memory_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",totalSystemMemoryGiB="64"} 1
+# HELP redfish_nvme_drive_status Current NVME status 1 = OK, 0 = BAD, -1 = DISABLED
+# TYPE redfish_nvme_drive_status gauge
+redfish_nvme_drive_status{capacityMiB="915715",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",failurePredicted="false",id="Disk.Bay.0",protocol="NVMe",serialnumber="DUMMY-SerialNumber",serviceLabel=""} 1
+redfish_nvme_drive_status{capacityMiB="915715",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",failurePredicted="false",id="Disk.Bay.1",protocol="NVMe",serialnumber="DUMMY-SerialNumber",serviceLabel=""} 1
+# HELP redfish_storage_controller_status Current storage controller status 1 = OK, 0 = BAD
+# TYPE redfish_storage_controller_status gauge
+redfish_storage_controller_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",firmwareVersion="CPLD_ID: 1301 Rev: 0D",location="",model="",name="NVMe Storage System"} 1
+# HELP redfish_thermal_fan_speed Current fan speed in the unit of percentage, possible values are 0 - 100
+# TYPE redfish_thermal_fan_speed gauge
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN1"} 8864
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN2"} 8851
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN3"} 8771
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN4"} 8837
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN5"} 8824
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN6"} 8824
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 1"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 2"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 3"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 4"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 5"} 37
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 6"} 37
+# HELP redfish_thermal_fan_status Current fan status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_fan_status gauge
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN1"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN2"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN3"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN4"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN5"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="FAN6"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 1"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 2"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 3"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 4"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 5"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Pwm 6"} 1
+# HELP redfish_thermal_sensor_status Current sensor status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_sensor_status gauge
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="M2 SSD1 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NIC Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NVMe SSDA Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU1 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU2 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 CORE VRD Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH0 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH4 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM VRD Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 RCA VR Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC VRD Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 ThrotOff Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 1
+# HELP redfish_thermal_sensor_temperature Current sensor temperature reading in Celsius
+# TYPE redfish_thermal_sensor_temperature gauge
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 21.5
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="M2 SSD1 Temp"} 0
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NIC Temp"} 0
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NVMe SSDA Temp"} 26
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU1 Temp"} 24
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU2 Temp"} 24
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 26.438
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 CORE VRD Temp"} 25
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH0 Temp"} 31
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH4 Temp"} 32
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM VRD Temp"} 30
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 RCA VR Temp"} 32
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC Temp"} 31
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC VRD Temp"} 30
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 ThrotOff Temp"} 48.995
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 23.5
+# HELP redfish_thermal_sensor_threshold_critical Current sensor upper threshold critical reading in Celsius
+# TYPE redfish_thermal_sensor_threshold_critical gauge
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Inlet Temp"} 45
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="M2 SSD1 Temp"} 75
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NIC Temp"} 105
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="NVMe SSDA Temp"} 75
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU1 Temp"} 64
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="PSU2 Temp"} 64
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="Peripheral Temp"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 CORE VRD Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH0 Temp"} 95
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM CH4 Temp"} 95
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 DIMM VRD Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 RCA VR Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC Temp"} 105
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 SOC VRD Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="S0 ThrotOff Temp"} 100
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber",name="System Temp"} 90
+# HELP redfish_up was the last scrape of fishymetrics successful.
+# TYPE redfish_up gauge
+redfish_up 0

@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPortCollection.NetworkPortCollection",
+  "@odata.etag": "\"375bbd2289592a27e7c\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkPorts",
+  "@odata.type": "#NetworkPortCollection.NetworkPortCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkPorts/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkPorts/2"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Network Ports",
+  "Name": "NetworkPorts Collection",
+  "Oem": {}
+}

@@ -1,0 +1,74 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-2.18.1__BIOS.Setup.1-1",
+  "Id": "Previous-159-2.18.1__BIOS.Setup.1-1",
+  "Name": "BIOS",
+  "Description": "Represents Firmware Inventory",
+  "Version": "2.18.1",
+  "SoftwareId": "159",
+  "Updateable": true,
+  "ReleaseDate": "2022-02-03T13:19:50Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellSoftwareInventory": {
+        "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-2.18.1__BIOS.Setup.1-1/Oem/Dell/DellSoftwareInventory/DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+        "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+        "BuildNumber": 0,
+        "Classifications": [
+          "BIOS/FCode"
+        ],
+        "Classifications@odata.count": 1,
+        "ComponentID": "159",
+        "ComponentType": "BIOS",
+        "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+        "DeviceID": null,
+        "ElementName": "BIOS",
+        "HashValue": "c94f9acb77668f6d4a2a2e01257c54379b3b9da20654778bb18a6b970f7a461d",
+        "Id": "DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+        "IdentityInfoType": [
+          "OrgID:ComponentType:ComponentID"
+        ],
+        "IdentityInfoType@odata.count": 1,
+        "IdentityInfoValue": [
+          "DCIM:BIOS:159"
+        ],
+        "IdentityInfoValue@odata.count": 1,
+        "InstallationDate": "NA",
+        "IsEntity": true,
+        "MajorVersion": 2,
+        "MinorVersion": 18,
+        "Name": "DellSoftwareInventory",
+        "PLDMCapabilitiesDuringUpdate": "0x00000000",
+        "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+        "RevisionNumber": 1,
+        "RevisionString": null,
+        "SidebandUpdateCapable": false,
+        "Status": "AvailableForInstallation",
+        "SubDeviceID": null,
+        "SubVendorID": null,
+        "VendorID": null,
+        "impactsTPMmeasurements": true
+      }
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Previous-159-2.18.1__BIOS.Setup.1-1",
+        "inventory_slot": "previous",
+        "installation_date": "NA",
+        "component_id": "159",
+        "related_kind": "bios",
+        "related_ref": "BIOS.Setup.1-1",
+        "related_scope": "BIOS",
+        "related_location": "BIOS"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

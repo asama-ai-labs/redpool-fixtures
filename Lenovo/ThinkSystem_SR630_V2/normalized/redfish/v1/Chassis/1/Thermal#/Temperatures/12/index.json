@@ -1,0 +1,1920 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Thermal.Thermal",
+  "@odata.etag": "\"12f8fc243bc2ad2f08cfe93\"",
+  "@odata.id": "/redfish/v1/Chassis/1/Thermal",
+  "@odata.type": "#Thermal.v1_7_3.Thermal",
+  "Id": "1",
+  "Name": "Thermal",
+  "Description": "It represents the properties for Temperature and Cooling.",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Temperatures": [
+    {
+      "SensorNumber": 49,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": 43,
+      "ReadingCelsius": 20,
+      "MemberId": "0",
+      "Name": "Ambient Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/0",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": 100,
+      "UpperThresholdFatal": 50,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Intake",
+      "UpperThresholdCritical": 47
+    },
+    {
+      "SensorNumber": 50,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 40,
+      "MemberId": "1",
+      "Name": "Exhaust Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/1",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": 128,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PhysicalContext": "Intake",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 51,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 45,
+      "MemberId": "2",
+      "Name": "CPU 1 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/2",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PhysicalContext": "CPU",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 53,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MinReadingRangeTemp": -51,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": -51,
+      "MemberId": "3",
+      "Name": "CPU 1 DTS",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/3",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": 0,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "CPU",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 52,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 55,
+      "MemberId": "4",
+      "Name": "CPU 2 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/4",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PhysicalContext": "CPU",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 54,
+      "LowerThresholdFatal": null,
+      "MemberId": "5",
+      "MinReadingRangeTemp": -51,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": -43,
+      "UpperThresholdCritical": null,
+      "Name": "CPU 2 DTS",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1/Processors/2"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/5",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PhysicalContext": "CPU",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 81,
+      "LowerThresholdFatal": null,
+      "MemberId": "6",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 1 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/6",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 82,
+      "LowerThresholdFatal": null,
+      "MemberId": "7",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 2 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/7",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 83,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 29,
+      "MemberId": "8",
+      "Name": "DIMM 3 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/8",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 84,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "9",
+      "Name": "DIMM 4 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/9",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 85,
+      "LowerThresholdFatal": null,
+      "MemberId": "10",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 5 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/10",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 86,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "11",
+      "Name": "DIMM 6 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/11",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 87,
+      "LowerThresholdFatal": null,
+      "MemberId": "12",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "Name": "DIMM 7 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/12",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 88,
+      "LowerThresholdFatal": null,
+      "MemberId": "13",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 8 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/13",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 89,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "14",
+      "Name": "DIMM 9 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/14",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 90,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "15",
+      "Name": "DIMM 10 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/15",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 91,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "16",
+      "Name": "DIMM 11 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/16",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 92,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "17",
+      "Name": "DIMM 12 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/17",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 93,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "18",
+      "Name": "DIMM 13 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/18",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 94,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "19",
+      "Name": "DIMM 14 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/19",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 95,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "20",
+      "Name": "DIMM 15 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/20",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      }
+    },
+    {
+      "SensorNumber": 96,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "21",
+      "Name": "DIMM 16 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/21",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 97,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "22",
+      "Name": "DIMM 17 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/22",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 98,
+      "LowerThresholdFatal": null,
+      "MemberId": "23",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 18 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/23",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 99,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 28,
+      "MemberId": "24",
+      "Name": "DIMM 19 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/24",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 100,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "25",
+      "Name": "DIMM 20 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/25",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 101,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "26",
+      "Name": "DIMM 21 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/26",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 102,
+      "LowerThresholdFatal": null,
+      "MemberId": "27",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "UpperThresholdCritical": null,
+      "Name": "DIMM 22 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/27",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 103,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "28",
+      "Name": "DIMM 23 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/28",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 104,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "29",
+      "Name": "DIMM 24 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/29",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 105,
+      "LowerThresholdFatal": null,
+      "UpperThresholdCritical": null,
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "30",
+      "Name": "DIMM 25 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/30",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "PhysicalContext": "Memory",
+      "LowerThresholdNonCritical": null
+    },
+    {
+      "SensorNumber": 106,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "31",
+      "Name": "DIMM 26 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/31",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 107,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "32",
+      "Name": "DIMM 27 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/32",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 108,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "33",
+      "Name": "DIMM 28 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/33",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 109,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "34",
+      "Name": "DIMM 29 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/34",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 110,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "35",
+      "Name": "DIMM 30 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/35",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 111,
+      "LowerThresholdFatal": null,
+      "MemberId": "36",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 31 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/36",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 112,
+      "LowerThresholdFatal": null,
+      "MemberId": "37",
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "Status": {
+        "Health": null,
+        "State": "Disabled"
+      },
+      "Name": "DIMM 32 Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/37",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "Memory",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 57,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "MinReadingRangeTemp": 0,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": 42,
+      "MemberId": "38",
+      "Name": "PCH Temp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/38",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "ComputeBay",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": null,
+      "LowerThresholdFatal": null,
+      "Status": {
+        "Health": null,
+        "State": "Absent"
+      },
+      "MinReadingRangeTemp": null,
+      "UpperThresholdNonCritical": null,
+      "ReadingCelsius": null,
+      "MemberId": "39",
+      "Name": "BoardAverageTemp",
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Temperatures/39",
+      "LowerThresholdCritical": null,
+      "MaxReadingRangeTemp": null,
+      "UpperThresholdFatal": null,
+      "LowerThresholdNonCritical": null,
+      "PhysicalContext": "SystemBoard",
+      "UpperThresholdCritical": null
+    }
+  ],
+  "Temperatures@odata.count": 40,
+  "Fans": [
+    {
+      "SensorNumber": 65,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 1,
+          "ServiceLabel": "Fan 1 Front Tach"
+        }
+      },
+      "MemberId": "0",
+      "ReadingUnits": "RPM",
+      "Name": "Fan 1 Front",
+      "FanName": "Fan 1 Front",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/0",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 32640,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 1"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 66,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 2"
+          }
+        }
+      },
+      "MemberId": "1",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 2,
+          "ServiceLabel": "Fan 2 Front Tach"
+        }
+      },
+      "Name": "Fan 2 Front",
+      "ReadingUnits": "RPM",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/1",
+      "FanName": "Fan 2 Front",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "Reading": 10368,
+      "PhysicalContext": "Fan",
+      "MaxReadingRange": 32640
+    },
+    {
+      "SensorNumber": 67,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 3"
+          }
+        }
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "2",
+      "FanName": "Fan 3 Front",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 3,
+          "ServiceLabel": "Fan 3 Front Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/2",
+      "HotPluggable": true,
+      "MaxReadingRange": 32640,
+      "UpperThresholdCritical": null,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Name": "Fan 3 Front"
+    },
+    {
+      "SensorNumber": 68,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "3",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 4,
+          "ServiceLabel": "Fan 4 Front Tach"
+        }
+      },
+      "Name": "Fan 4 Front",
+      "FanName": "Fan 4 Front",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/3",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 32640,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 4"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 69,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 5,
+          "ServiceLabel": "Fan 5 Front Tach"
+        }
+      },
+      "MemberId": "4",
+      "ReadingUnits": "RPM",
+      "Name": "Fan 5 Front",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 5"
+          }
+        }
+      },
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/4",
+      "FanName": "Fan 5 Front",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "Reading": 10368,
+      "PhysicalContext": "Fan",
+      "MaxReadingRange": 32640
+    },
+    {
+      "SensorNumber": 70,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 6"
+          }
+        }
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "FanName": "Fan 6 Front",
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "5",
+      "UpperThresholdFatal": null,
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 6,
+          "ServiceLabel": "Fan 6 Front Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/5",
+      "HotPluggable": true,
+      "UpperThresholdCritical": null,
+      "MaxReadingRange": 32640,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Name": "Fan 6 Front"
+    },
+    {
+      "SensorNumber": 71,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "6",
+      "FanName": "Fan 7 Front",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 7,
+          "ServiceLabel": "Fan 7 Front Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/6",
+      "HotPluggable": true,
+      "Name": "Fan 7 Front",
+      "MaxReadingRange": 32640,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 7"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 72,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2432,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "7",
+      "FanName": "Fan 8 Front",
+      "Name": "Fan 8 Front",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 8,
+          "ServiceLabel": "Fan 8 Front Tach"
+        }
+      },
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/7",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 32640,
+      "Reading": 9984,
+      "PhysicalContext": "Fan",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 8"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 73,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "8",
+      "FanName": "Fan 1 Rear",
+      "Name": "Fan 1 Rear",
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/8",
+      "PhysicalContext": "Fan",
+      "MaxReadingRange": 27540,
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 9"
+          }
+        }
+      },
+      "Reading": 8208,
+      "HotPluggable": true,
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 9,
+          "ServiceLabel": "Fan 1 Rear Tach"
+        }
+      }
+    },
+    {
+      "SensorNumber": 74,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "9",
+      "FanName": "Fan 2 Rear",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 10,
+          "ServiceLabel": "Fan 2 Rear Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/9",
+      "PhysicalContext": "Fan",
+      "Name": "Fan 2 Rear",
+      "MaxReadingRange": 27540,
+      "Reading": 8208,
+      "HotPluggable": true,
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 10"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 75,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "10",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 11"
+          }
+        }
+      },
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 11,
+          "ServiceLabel": "Fan 3 Rear Tach"
+        }
+      },
+      "FanName": "Fan 3 Rear",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/10",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 27540,
+      "Reading": 8532,
+      "PhysicalContext": "Fan",
+      "Name": "Fan 3 Rear"
+    },
+    {
+      "SensorNumber": 76,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "11",
+      "FanName": "Fan 4 Rear",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 12,
+          "ServiceLabel": "Fan 4 Rear Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/11",
+      "HotPluggable": true,
+      "MaxReadingRange": 27540,
+      "Name": "Fan 4 Rear",
+      "Reading": 8208,
+      "PhysicalContext": "Fan",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 12"
+          }
+        }
+      }
+    },
+    {
+      "SensorNumber": 77,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "12",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 13"
+          }
+        }
+      },
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 13,
+          "ServiceLabel": "Fan 5 Rear Tach"
+        }
+      },
+      "FanName": "Fan 5 Rear",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/12",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 27540,
+      "Reading": 8208,
+      "PhysicalContext": "Fan",
+      "Name": "Fan 5 Rear"
+    },
+    {
+      "SensorNumber": 78,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 14"
+          }
+        }
+      },
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "13",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 14,
+          "ServiceLabel": "Fan 6 Rear Tach"
+        }
+      },
+      "Name": "Fan 6 Rear",
+      "FanName": "Fan 6 Rear",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/13",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 27540,
+      "Reading": 8532,
+      "PhysicalContext": "Fan",
+      "UpperThresholdCritical": null
+    },
+    {
+      "SensorNumber": 79,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "14",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 15"
+          }
+        }
+      },
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 15,
+          "ServiceLabel": "Fan 7 Rear Tach"
+        }
+      },
+      "FanName": "Fan 7 Rear",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/14",
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "MaxReadingRange": 27540,
+      "Reading": 8532,
+      "PhysicalContext": "Fan",
+      "Name": "Fan 7 Rear"
+    },
+    {
+      "SensorNumber": 80,
+      "LowerThresholdFatal": null,
+      "UpperThresholdNonCritical": null,
+      "UpperThresholdCritical": null,
+      "RelatedItem": [
+        {
+          "@odata.id": "/redfish/v1/Systems/1"
+        },
+        {
+          "@odata.id": "/redfish/v1/Chassis/1"
+        }
+      ],
+      "LowerThresholdCritical": 2052,
+      "MinReadingRange": 0,
+      "UpperThresholdFatal": null,
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "ReadingUnits": "RPM",
+      "MemberId": "15",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoThermal.v1_0_0.LenovoFan",
+          "Location": {
+            "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+            "InfoFormat": "Slot X",
+            "Info": "Slot 16"
+          }
+        }
+      },
+      "Name": "Fan 8 Rear",
+      "FanName": "Fan 8 Rear",
+      "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/15",
+      "Location": {
+        "PartLocation": {
+          "LocationType": "Slot",
+          "LocationOrdinalValue": 16,
+          "ServiceLabel": "Fan 8 Rear Tach"
+        }
+      },
+      "LowerThresholdNonCritical": null,
+      "HotPluggable": true,
+      "Reading": 8532,
+      "PhysicalContext": "Fan",
+      "MaxReadingRange": 27540
+    }
+  ],
+  "Fans@odata.count": 16,
+  "Redundancy": [],
+  "Oem": {
+    "Lenovo": {
+      "@odata.type": "#LenovoThermal.v1_0_0.LenovoThermal",
+      "HistoryTempMetric": {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal/Oem/Lenovo/HistoryTempMetric"
+      }
+    }
+  }
+}

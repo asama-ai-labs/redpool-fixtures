@@ -1,0 +1,198 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.etag": "W/\"JOFG513P\"",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/1",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {},
+  "Description": "",
+  "Id": "1",
+  "Name": "Processors",
+  "ProcessorId": {
+    "EffectiveFamily": "107",
+    "EffectiveModel": "1",
+    "IdentificationRegisters": "0x0f1100a0fbff178b",
+    "MicrocodeInfo": null,
+    "Step": "1",
+    "VendorId": "Advanced Micro Devices, Inc."
+  },
+  "ProcessorType": "CPU",
+  "ProcessorArchitecture": "x86",
+  "InstructionSet": "x86-64",
+  "Links": {
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm10"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm11"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm12"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm13"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm14"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm15"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm16"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm8"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm9"
+      }
+    ],
+    "Memory@odata.count": 16
+  },
+  "Manufacturer": "Advanced Micro Devices, Inc.",
+  "MemorySummary": {
+    "TotalMemorySizeMiB": 524288,
+    "ECCModeEnabled": true
+  },
+  "Model": "AMD EPYC 7763 64-Core Processor",
+  "PartNumber": "EPYC 7763",
+  "SerialNumber": "",
+  "BaseSpeedMHz": 2450,
+  "MaxSpeedMHz": 4100,
+  "ProcessorMemory": [],
+  "TotalCores": 64,
+  "TotalThreads": 128,
+  "TotalEnabledCores": null,
+  "Socket": "Proc 1",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Metrics": {},
+  "EnvironmentMetrics": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt",
+      "@odata.type": "#HpeProcessorExt.v2_0_0.HpeProcessorExt",
+      "AssetTag": "DUMMY-AssetTag-1",
+      "Cache": [
+        {
+          "Associativity": "8waySetAssociative",
+          "CacheSpeedns": 1,
+          "CurrentSRAMType": [
+            "Pipeline Burst"
+          ],
+          "EccType": "MultiBitECC",
+          "InstalledSizeKB": 4096,
+          "Location": "Internal",
+          "MaximumSizeKB": 4096,
+          "Name": "L1-Cache",
+          "Policy": "WriteBack",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Pipeline Burst"
+          ],
+          "SystemCacheType": "Unified"
+        },
+        {
+          "Associativity": "8waySetAssociative",
+          "CacheSpeedns": 1,
+          "CurrentSRAMType": [
+            "Pipeline Burst"
+          ],
+          "EccType": "MultiBitECC",
+          "InstalledSizeKB": 32768,
+          "Location": "Internal",
+          "MaximumSizeKB": 32768,
+          "Name": "L2-Cache",
+          "Policy": "WriteBack",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Pipeline Burst"
+          ],
+          "SystemCacheType": "Unified"
+        },
+        {
+          "Associativity": "16waySetAssociative",
+          "CacheSpeedns": 1,
+          "CurrentSRAMType": [
+            "Pipeline Burst"
+          ],
+          "EccType": "MultiBitECC",
+          "InstalledSizeKB": 262144,
+          "Location": "Internal",
+          "MaximumSizeKB": 262144,
+          "Name": "L3-Cache",
+          "Policy": "WriteBack",
+          "Socketed": false,
+          "SupportedSRAMType": [
+            "Pipeline Burst"
+          ],
+          "SystemCacheType": "Unified"
+        }
+      ],
+      "Characteristics": [
+        "64Bit",
+        "MultiCore",
+        "HwThread",
+        "ExecuteProtection",
+        "EnhancedVirtualization",
+        "PowerPerfControl"
+      ],
+      "ConfigStatus": {
+        "Populated": true,
+        "State": "Enabled"
+      },
+      "CoresEnabled": 64,
+      "ExternalClockMHz": 100,
+      "MicrocodePatches": [
+        {
+          "CpuId": "0x0000A000",
+          "Date": "2019-09-23T21:55:22Z",
+          "PatchId": "0x0A000033"
+        },
+        {
+          "CpuId": "0x0000A010",
+          "Date": "2023-08-07T21:55:22Z",
+          "PatchId": "0x0A00107A"
+        },
+        {
+          "CpuId": "0x0000A011",
+          "Date": "2023-08-04T21:55:22Z",
+          "PatchId": "0x0A0011D5"
+        },
+        {
+          "CpuId": "0x0000A012",
+          "Date": "2023-08-07T21:55:22Z",
+          "PatchId": "0x0A001238"
+        }
+      ],
+      "PartNumber": "",
+      "RatedSpeedMHz": 2450,
+      "SerialNumber": "",
+      "VoltageVoltsX10": 11
+    }
+  }
+}

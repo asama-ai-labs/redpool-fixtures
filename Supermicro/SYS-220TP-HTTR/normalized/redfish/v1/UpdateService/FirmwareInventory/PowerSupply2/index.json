@@ -1,0 +1,36 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PowerSupply2",
+  "@odata.etag": "66aa2ddca6eb3ab5085daa59e336bbea",
+  "Id": "2",
+  "Name": "Power Supply",
+  "Version": "REV2.4",
+  "Manufacturer": "SMCI",
+  "Updateable": false,
+  "WriteProtected": true,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/Power"
+    }
+  ],
+  "Actions": {
+    "Oem": {}
+  },
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "2",
+        "related_item_uri": "/redfish/v1/Chassis/1/Power",
+        "related_kind": "power",
+        "related_ref": "Power",
+        "related_location": "Power"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

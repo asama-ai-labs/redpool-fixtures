@@ -1,0 +1,28 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/Ports/NIC.Embedded.1-1",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "NIC.Embedded.1-1",
+  "Name": "PowerEdge Rx5xx LOM Board",
+  "Description": "Instance of Port for NIC",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "LinkNetworkTechnology": "Ethernet",
+  "CurrentSpeedGbps": 1,
+  "PortId": "1",
+  "Ethernet": {
+    "AssociatedMACAddresses": [
+      "00:1B:44:AA:00:05"
+    ],
+    "EEEEnabled": true,
+    "FlowControlConfiguration": "None",
+    "FlowControlStatus": "None",
+    "LLDPReceive": {},
+    "WakeOnLANEnabled": false
+  },
+  "LinkStatus": "LinkUp",
+  "Oem": {}
+}

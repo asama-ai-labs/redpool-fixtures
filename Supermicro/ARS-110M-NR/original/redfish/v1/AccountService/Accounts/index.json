@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/AccountService/Accounts","@odata.type":"#ManagerAccountCollection.ManagerAccountCollection","Description":"BMC User Accounts","Members":[{"@odata.id":"/redfish/v1/AccountService/Accounts/2"}],"Members@odata.count":1,"Name":"Accounts Collection"}

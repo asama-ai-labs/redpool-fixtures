@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#ProcessorMetrics.ProcessorMetrics",
+  "@odata.etag": "\"309f5e4c8f5327e6570\"",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/2/ProcessorMetrics",
+  "@odata.type": "#ProcessorMetrics.v1_6_0.ProcessorMetrics",
+  "Id": "ProcessorMetrics",
+  "Name": "Processor Metrics",
+  "Description": "This resource is used to represent a processor metrics for a Redfish implementation.",
+  "TemperatureCelsius": 56,
+  "ConsumedPowerWatt": 127,
+  "Oem": {}
+}

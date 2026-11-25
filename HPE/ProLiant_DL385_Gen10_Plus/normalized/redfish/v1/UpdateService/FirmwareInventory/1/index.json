@@ -1,0 +1,33 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/1",
+  "@odata.etag": "W/\"918DA6A4\"",
+  "Id": "1",
+  "Name": "iLO 5",
+  "Description": "SystemBMC",
+  "Version": "2.30 Aug 24 2020",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+      "DeviceClass": "550e8400-e29b-41d4-a716-00000000000d",
+      "DeviceContext": "System Board",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-00000000000f",
+        "550e8400-e29b-41d4-a716-00000000000e"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "1",
+        "device_context": "System Board"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

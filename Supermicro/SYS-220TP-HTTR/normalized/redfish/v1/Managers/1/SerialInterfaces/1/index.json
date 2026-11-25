@@ -1,0 +1,19 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SerialInterface.SerialInterface",
+  "@odata.etag": "4fb66a4ff3cbed00a5f1cf9cb48fcb09",
+  "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces/1",
+  "@odata.type": "#SerialInterface.v1_2_0.SerialInterface",
+  "Id": "1",
+  "Name": "SerialInterface",
+  "Description": "Serial over LAN",
+  "InterfaceEnabled": true,
+  "SignalType": "Rs232",
+  "BitRate": "115200",
+  "Parity": "None",
+  "DataBits": "8",
+  "StopBits": "1",
+  "FlowControl": "None",
+  "ConnectorType": "RJ45",
+  "PinOut": "Cyclades",
+  "Oem": {}
+}

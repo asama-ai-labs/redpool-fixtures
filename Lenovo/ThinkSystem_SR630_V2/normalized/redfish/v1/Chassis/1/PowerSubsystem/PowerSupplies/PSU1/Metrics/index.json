@@ -1,0 +1,33 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PowerSupplyMetrics.PowerSupplyMetrics",
+  "@odata.etag": "\"5404209dc56227ee9df\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PowerSubsystem/PowerSupplies/PSU1/Metrics",
+  "@odata.type": "#PowerSupplyMetrics.v1_1_0.PowerSupplyMetrics",
+  "Id": "Metrics",
+  "Name": "Metrics for PSU1",
+  "Description": "This resource shall represent metrics for Power Supply 1 of a chassis for a Redfish implementation.",
+  "InputPowerWatts": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/93L0",
+    "Reading": 195
+  },
+  "OutputPowerWatts": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/95L0",
+    "Reading": 175
+  },
+  "InputVoltage": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/PSU1_InputVol",
+    "Reading": 220
+  },
+  "RailVoltage": [
+    {
+      "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/97L0",
+      "Reading": 12.096
+    }
+  ],
+  "FanSpeedsPercent": [],
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  }
+}

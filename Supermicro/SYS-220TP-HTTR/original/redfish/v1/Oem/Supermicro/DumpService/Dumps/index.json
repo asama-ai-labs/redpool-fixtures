@@ -1,0 +1,1 @@
+{"@odata.type":"#DumpCollection.DumpCollection","@odata.id":"/redfish/v1/Oem/Supermicro/DumpService/Dumps","Name":"Dump Collection","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/Oem/Supermicro/DumpService/Dumps/BMCEvidenceDump/"}],"@odata.etag":"deae65e1154dfc253ed7fe2dd8c87eb5"}

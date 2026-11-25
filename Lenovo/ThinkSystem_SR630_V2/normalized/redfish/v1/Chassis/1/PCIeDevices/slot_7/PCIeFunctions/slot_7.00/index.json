@@ -1,0 +1,42 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "\"691e1c88262727ee94e\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions/slot_7.00",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "slot_7.00",
+  "Name": "ThinkSystem M.2 SATA 2-Bay RAID Enablement Kit",
+  "Description": "This resource represents the properties of a PCIeFunction attached to a System.",
+  "DeviceClass": "MassStorageController",
+  "FunctionType": "Physical",
+  "FunctionId": 0,
+  "ClassCode": "0x010601",
+  "DeviceId": "0x9230",
+  "VendorId": "0x1b4b",
+  "SubsystemId": "0x0304",
+  "SubsystemVendorId": "0x1d49",
+  "RevisionId": "0x11",
+  "Status": {
+    "HealthRollup": "OK",
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
+      }
+    ],
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7"
+    },
+    "StorageControllers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2#/StorageControllers/0"
+      }
+    ]
+  },
+  "Oem": {}
+}

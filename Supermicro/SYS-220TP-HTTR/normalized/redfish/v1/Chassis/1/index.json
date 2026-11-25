@@ -1,0 +1,215 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+  "@odata.etag": "74b2329171b3137d85ca4ac0613e253a",
+  "@odata.id": "/redfish/v1/Chassis/1",
+  "@odata.type": "#Chassis.v1_25_1.Chassis",
+  "Id": "1",
+  "Name": "Computer System Chassis",
+  "ChassisType": "RackMount",
+  "Manufacturer": "Supermicro",
+  "Model": "X12DPT-PT6",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "PartNumber": "CSE-217HQ+-R2K20BP4",
+  "AssetTag": "DUMMY-AssetTag",
+  "PowerState": "On",
+  "IndicatorLED": "Off",
+  "Status": {
+    "State": "Enabled",
+    "Health": "Critical"
+  },
+  "Links": {
+    "ComputerSystems": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "ManagersInChassis": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ]
+  },
+  "Actions": {},
+  "Power": {
+    "@odata.id": "/redfish/v1/Chassis/1/Power"
+  },
+  "Thermal": {
+    "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+  },
+  "PowerSubsystem": {},
+  "ThermalSubsystem": {},
+  "NetworkAdapters": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+  },
+  "PCIeDevices": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+  },
+  "PCIeSlots": {
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+  },
+  "Assembly": {},
+  "Sensors": {
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors"
+  },
+  "EnvironmentMetrics": {},
+  "PhysicalSecurity": {
+    "IntrusionSensorNumber": null,
+    "IntrusionSensor": null,
+    "IntrusionSensorReArm": null
+  },
+  "LogServices": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcChassisExtensions.v1_0_0.Chassis",
+      "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+      "GUID": "550e8400-e29b-41d4-a716-446655440000",
+      "BoardID": "0x1c17",
+      "MultiNode": {
+        "ConfigurationID": 4,
+        "MCUFirmwareVersion": "0.15",
+        "UserDefinedSystemName": "",
+        "SystemPartNo": "SYS-220TP-HTTR",
+        "SystemSerialNo": "DUMMY-SystemSerialNo",
+        "ChassisPartNo": "CSE-217HQ+-R2K20BP4",
+        "ChassisSerialNo": "DUMMY-ChassisSerialNo",
+        "BackplaneModelName": "BPN-SAS3-217HQ3",
+        "BackplaneSerialNo": "DUMMY-BackplaneSerialNo",
+        "BackplaneRevision": "1.00",
+        "TwinType": "a6",
+        "BackplaneLocation": "0",
+        "SelfID": "1",
+        "Nodes": {
+          "@odata.id": "/redfish/v1/Chassis/1/Oem/Supermicro/MultiNodes"
+        }
+      }
+    },
+    "Redpool": {
+      "MultiNodeSystemPartNo": "SYS-220TP-HTTR",
+      "MultiNodeSystemSerialNo": "DUMMY-SystemSerialNo",
+      "MultiNodeChassisPartNo": "CSE-217HQ+-R2K20BP4",
+      "MultiNodeChassisSerialNo": "DUMMY-ChassisSerialNo",
+      "MultiNodeBackplaneModelName": "BPN-SAS3-217HQ3",
+      "MultiNodeBackplaneSerialNo": "DUMMY-BackplaneSerialNo",
+      "MultiNodeSelfID": "1",
+      "MultiNodeTwinType": "a6",
+      "MultiNodeConfigurationID": 4,
+      "MultiNodeNodesUri": "/redfish/v1/Chassis/1/Oem/Supermicro/MultiNodes",
+      "MultiNodeNodes": [
+        {
+          "Id": "NodeA",
+          "PowerStatus": "ON",
+          "Health": "OK",
+          "State": "Enabled",
+          "BoardPartNumber": "X12DPT-PT6",
+          "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+          "BIOSVersion": "1.4",
+          "CPLDVersion": "f1.00.07",
+          "BMCVersion": "01.02.34",
+          "DCOutputPower": 183,
+          "OutputCurrent": 149,
+          "Temperatures": [
+            {
+              "Name": "CPU1",
+              "ReadingCelsius": 52
+            },
+            {
+              "Name": "CPU2",
+              "ReadingCelsius": 53
+            },
+            {
+              "Name": "System",
+              "ReadingCelsius": 29
+            }
+          ]
+        },
+        {
+          "Id": "NodeB",
+          "PowerStatus": "ON",
+          "Health": "OK",
+          "State": "Enabled",
+          "BoardPartNumber": "X12DPT-PT6",
+          "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+          "BIOSVersion": "1.4",
+          "CPLDVersion": "f1.00.07",
+          "BMCVersion": "01.02.34",
+          "DCOutputPower": 139,
+          "OutputCurrent": 104,
+          "Temperatures": [
+            {
+              "Name": "CPU1",
+              "ReadingCelsius": 44
+            },
+            {
+              "Name": "CPU2",
+              "ReadingCelsius": 40
+            },
+            {
+              "Name": "System",
+              "ReadingCelsius": 30
+            }
+          ]
+        },
+        {
+          "Id": "NodeC",
+          "PowerStatus": "ON",
+          "Health": "OK",
+          "State": "Enabled",
+          "BoardPartNumber": "X12DPT-PT6",
+          "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+          "BIOSVersion": "1.4",
+          "CPLDVersion": "f1.00.07",
+          "BMCVersion": "01.02.34",
+          "DCOutputPower": 145,
+          "OutputCurrent": 120,
+          "Temperatures": [
+            {
+              "Name": "CPU1",
+              "ReadingCelsius": 49
+            },
+            {
+              "Name": "CPU2",
+              "ReadingCelsius": 46
+            },
+            {
+              "Name": "System",
+              "ReadingCelsius": 30
+            }
+          ]
+        },
+        {
+          "Id": "NodeD",
+          "PowerStatus": "ON",
+          "Health": "OK",
+          "State": "Enabled",
+          "BoardPartNumber": "X12DPT-PT6",
+          "BoardSerialNumber": "DUMMY-BoardSerialNumber",
+          "BIOSVersion": "1.4",
+          "CPLDVersion": "f1.00.07",
+          "BMCVersion": "01.02.34",
+          "DCOutputPower": 125,
+          "OutputCurrent": 104,
+          "Temperatures": [
+            {
+              "Name": "CPU1",
+              "ReadingCelsius": 49
+            },
+            {
+              "Name": "CPU2",
+              "ReadingCelsius": 44
+            },
+            {
+              "Name": "System",
+              "ReadingCelsius": 31
+            }
+          ]
+        }
+      ],
+      "@odata.type": "#Redpool.v1_0_0.RedpoolChassis"
+    }
+  }
+}

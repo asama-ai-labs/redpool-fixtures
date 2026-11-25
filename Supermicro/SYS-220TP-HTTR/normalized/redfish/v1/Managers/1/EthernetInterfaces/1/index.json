@@ -1,0 +1,94 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.etag": "d6d951f6a2a8794dc50ad8e822e8e3ef",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "1",
+  "Name": "Manager Ethernet Interface",
+  "Description": "Management Network Interface",
+  "MACAddress": "00:1B:44:AA:BB:CC",
+  "PermanentMACAddress": null,
+  "LinkStatus": "LinkUp",
+  "SpeedMbps": 100,
+  "FullDuplex": true,
+  "AutoNeg": true,
+  "MTUSize": 1500,
+  "FQDN": "DUMMY-HostName",
+  "HostName": "DUMMY-HostName",
+  "IPv4Addresses": [
+    {
+      "Address": "192.0.2.1",
+      "SubnetMask": "192.0.2.1",
+      "AddressOrigin": "DHCP",
+      "Gateway": "192.0.2.1"
+    }
+  ],
+  "IPv4StaticAddresses": [
+    {
+      "Address": null,
+      "Gateway": null,
+      "SubnetMask": null
+    }
+  ],
+  "IPv6Addresses": [
+    {
+      "Address": "::1",
+      "PrefixLength": 64,
+      "AddressOrigin": "LinkLocal",
+      "AddressState": "Preferred"
+    }
+  ],
+  "IPv6StaticAddresses": [
+    {
+      "Address": "::1",
+      "PrefixLength": 64
+    }
+  ],
+  "IPv6DefaultGateway": "",
+  "NameServers": [
+    "192.0.2.1",
+    "192.0.2.1",
+    "",
+    ""
+  ],
+  "VLAN": {
+    "VLANEnable": false,
+    "VLANId": 0
+  },
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Links": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcEthernetInterfaceExtensions.v1_0_0.EthernetInterface",
+      "IPProtocolStatus": "Dual"
+    }
+  },
+  "DHCPv4": {
+    "DHCPEnabled": true,
+    "UseDNSServers": false,
+    "UseGateway": false,
+    "UseNTPServers": false,
+    "UseStaticRoutes": false,
+    "UseDomainName": false,
+    "FallbackAddress": "None"
+  },
+  "DHCPv6": {
+    "OperatingMode": "Stateless",
+    "UseDNSServers": false,
+    "UseDomainName": false,
+    "UseNTPServers": false,
+    "UseRapidCommit": false
+  },
+  "StaticNameServers": [],
+  "IPv6AddressPolicyTable": [],
+  "IPv6StaticDefaultGateways": [],
+  "StatelessAddressAutoConfig": {
+    "IPv4AutoConfigEnabled": false,
+    "IPv6AutoConfigEnabled": true
+  },
+  "MaxIPv6StaticAddresses": 5,
+  "VLANs": {}
+}

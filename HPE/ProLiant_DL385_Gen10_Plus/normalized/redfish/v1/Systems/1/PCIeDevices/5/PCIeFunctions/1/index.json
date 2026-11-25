@@ -1,0 +1,22 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/5/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0",
+  "Description": "",
+  "FunctionId": 0,
+  "ClassCode": "0x020000",
+  "DeviceId": "0x1521",
+  "VendorId": "0x8086",
+  "SubsystemId": "0x00A3",
+  "SubsystemVendorId": "0x8086",
+  "Status": {},
+  "Links": {
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/5"
+    }
+  },
+  "Oem": {},
+  "DeviceClass": "NetworkController"
+}

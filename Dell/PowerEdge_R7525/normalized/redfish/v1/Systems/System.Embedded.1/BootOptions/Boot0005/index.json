@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0005",
+  "@odata.type": "#BootOption.v1_0_4.BootOption",
+  "Id": "Boot0005",
+  "Name": "Uefi Boot Option",
+  "Description": "Current settings of the UEFI Boot option",
+  "BootOptionEnabled": true,
+  "BootOptionReference": "Boot0005",
+  "DisplayName": "AHCI Controller in Slot 3: proxmox",
+  "UefiDevicePath": "HD(2,GPT,550e8400-e29b-41d4-a716-000000000008,0x800,0x200000)/\\EFI\\proxmox\\shimx64.efi",
+  "RelatedItem": []
+}

@@ -1,0 +1,12 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/1/LogServices/Journal/Entries/DUMMY-Log-VKETWESMMKSFTKA7",
+  "Id": "DUMMY-Log-VKETWESMMKSFTKA7",
+  "Name": "BMC Journal Entry",
+  "EntryType": "Oem",
+  "Created": "2025-06-24T22:44:54.798958+00:00",
+  "Severity": "Warning",
+  "Message": "ipmid: Failed to GetObject",
+  "OemRecordFormat": "BMC Journal Entry"
+}

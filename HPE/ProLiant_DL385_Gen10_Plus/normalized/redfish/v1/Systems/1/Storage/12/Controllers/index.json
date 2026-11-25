@@ -1,0 +1,13 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageControllerCollection.StorageControllerCollection",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/12/Controllers",
+  "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+  "Name": "StorageControllerCollection",
+  "Description": "Collection of Storage Controllers",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/12/Controllers/12"
+    }
+  ],
+  "Members@odata.count": 1
+}

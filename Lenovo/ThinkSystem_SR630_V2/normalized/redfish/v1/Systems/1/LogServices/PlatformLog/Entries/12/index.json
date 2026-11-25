@@ -1,0 +1,91 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/PlatformLog/Entries/12",
+  "Id": "12",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"igGfH5K9AI2pAAAkKH1eGH37jonO52\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-10T16:19:32.542+00:00",
+  "Severity": "OK",
+  "Message": "Host Power has been turned on.",
+  "MessageArgs": [
+    "Host Power"
+  ],
+  "OemLogEntryCode": "DMTF0107",
+  "EventId": "0x816f00091301ffff",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/1L0"
+    }
+  },
+  "MessageArgs@odata.count": 1,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "LenovoMessageID": "DMTF0107",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPW2008I",
+      "ReportingChain": "XCC",
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
+        }
+      ],
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDIdentifier": "30e",
+          "LEDState": "Lit"
+        }
+      ],
+      "TotalSequenceNumber": 25,
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "Power",
+      "TSLVersion": "16",
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x816f00091301ffff",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventType": 0,
+      "EventSequenceNumber": 12
+    },
+    "Redpool": {
+      "LenovoMessageID": "DMTF0107",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPW2008I",
+      "ReportingChain": "XCC",
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
+        }
+      ],
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDIdentifier": "30e",
+          "LEDState": "Lit"
+        }
+      ],
+      "TotalSequenceNumber": 25,
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "Power",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventType": 0,
+      "EventSequenceNumber": 12,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

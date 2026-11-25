@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "W/\"A3A6BF43\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/199/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "HPE Eth 10Gb 2p 562T Adptr",
+  "DeviceClass": "NetworkController",
+  "FunctionType": "Physical",
+  "FunctionId": 1,
+  "ClassCode": "0x020000",
+  "DeviceId": "0X1563",
+  "VendorId": "0X8086",
+  "SubsystemId": "0X00D1",
+  "SubsystemVendorId": "0X1590",
+  "RevisionId": "0x00",
+  "Status": {},
+  "Links": {},
+  "Oem": {}
+}

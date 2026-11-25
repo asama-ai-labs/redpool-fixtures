@@ -1,0 +1,38 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/LXPMLinuxDriver",
+  "@odata.etag": "\"57o2f2f3b5ic6nak5j9\"",
+  "Id": "LXPMLinuxDriver",
+  "Name": "Firmware:LXPM-LinuxDrivers",
+  "Description": "The information of LXPM Linux Drivers.",
+  "Version": "16D-3.19",
+  "SoftwareId": "DRVLN-XWL2-2",
+  "Manufacturer": "Lenovo",
+  "Updateable": true,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 1,
+  "ReleaseDate": "2021-09-27T08:03:25Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "LXPMLinuxDriver",
+        "related_item_uri": "/redfish/v1/Systems/1",
+        "related_kind": "system",
+        "related_ref": "1",
+        "related_location": "System"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

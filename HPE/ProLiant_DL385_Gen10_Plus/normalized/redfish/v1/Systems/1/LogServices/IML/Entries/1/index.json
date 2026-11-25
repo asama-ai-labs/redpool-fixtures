@@ -1,0 +1,48 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+  "Id": "1",
+  "Name": "Integrated Management Log",
+  "EntryType": "Oem",
+  "@odata.etag": "W/\"73691742\"",
+  "Created": "2025-04-07T11:55:00Z",
+  "Severity": "Warning",
+  "Message": "DIMM Initialization Error - Processor 1 DIMMs 11, 12. The identified memory channel could not be properly trained and has been mapped out. The indicated DIMMs will not be available. (Major Code:00000001, Minor Code:00000001).",
+  "OemRecordFormat": "Hpe-IML",
+  "Modified": "2025-04-07T12:01:51Z",
+  "Resolution": "Re-seat the specified DIMMs and update the System ROM. If the issue persists, contact support.",
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+      "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 50,
+      "ClassDescription": "UEFI",
+      "Code": 547,
+      "Count": 4,
+      "EventNumber": 2912,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Re-seat the specified DIMMs and update the System ROM. If the issue persists, contact support.",
+      "Repaired": false,
+      "Severity": "Caution",
+      "Updated": "2025-04-07T12:01:51Z"
+    },
+    "Redpool": {
+      "Categories": [
+        "Hardware"
+      ],
+      "Class": 50,
+      "ClassDescription": "UEFI",
+      "Code": 547,
+      "Count": 4,
+      "EventNumber": 2912,
+      "LearnMoreLink": "http://DUMMY.example.invalid/DUMMY-Path",
+      "RecommendedAction": "Re-seat the specified DIMMs and update the System ROM. If the issue persists, contact support.",
+      "Repaired": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

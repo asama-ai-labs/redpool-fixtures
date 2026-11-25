@@ -1,0 +1,1 @@
+{"@odata.type":"#SmartPower.v1_0_0.SmartPower","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/SmartPower","Id":"SmartPower","Name":"SmartPower","Option":"ON","PowerStatus":"ON","MaxPower":2200,"PowerConsumption":124,"PowerCapping":425,"ReservePower":500,"@odata.etag":"d6c837707c08f794ebfe8e4805869c66"}

@@ -1,0 +1,22 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/3/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "Empty slot 2",
+  "Description": "",
+  "FunctionId": 0,
+  "ClassCode": "0xffff00",
+  "DeviceId": "0xFFFF",
+  "VendorId": "0xFFFF",
+  "SubsystemId": "0xFFFF",
+  "SubsystemVendorId": "0xFFFF",
+  "Status": {},
+  "Links": {
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/3"
+    }
+  },
+  "Oem": {},
+  "DeviceClass": "UnassignedClass"
+}

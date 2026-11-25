@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Fan.Fan",
+  "@odata.etag": "\"3f133c62406a24e9de5\"",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Fan_3_Front_Tach",
+  "@odata.type": "#Fan.v1_5_2.Fan",
+  "Id": "Fan_3_Front_Tach",
+  "Name": "Fan 3 Front Tach",
+  "Description": "It represents the properties for Temperature and Cooling.",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "SpeedPercent": {
+    "Reading": 9984,
+    "SpeedRPM": 9984,
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/67L0"
+  },
+  "HotPluggable": true,
+  "Location": {
+    "PartLocation": {
+      "ServiceLabel": "Fan 3 Front Tach",
+      "LocationType": "Slot",
+      "LocationOrdinalValue": 3
+    }
+  },
+  "PhysicalContext": "Fan",
+  "Assembly": {},
+  "Oem": {}
+}

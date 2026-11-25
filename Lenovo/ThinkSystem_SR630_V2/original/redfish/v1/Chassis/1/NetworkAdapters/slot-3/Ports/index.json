@@ -1,0 +1,1 @@
+{"@odata.type":"#PortCollection.PortCollection","@odata.id":"/redfish/v1/Chassis/1/NetworkAdapters/slot-3/Ports","@odata.context":"/redfish/v1/$metadata#PortCollection.PortCollection","Members":[],"Description":"A collection of Port resource instances.","@odata.etag":"\"22d69b9d205f24e4a36\"","Members@odata.count":0,"Name":"PortCollection"}

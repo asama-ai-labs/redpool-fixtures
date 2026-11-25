@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+  "@odata.etag": "\"28427cb4a52e29630cd\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Volumes",
+  "@odata.type": "#VolumeCollection.VolumeCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Volumes/0"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of Volumes",
+  "Name": "VolumeCollection",
+  "Oem": {}
+}

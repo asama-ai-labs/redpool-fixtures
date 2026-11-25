@@ -1,0 +1,60 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#StorageController.StorageController",
+  "@odata.etag": "W/\"2D83I246\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/0/Controllers/0",
+  "@odata.type": "#StorageController.v1_7_0.StorageController",
+  "Id": "0",
+  "Name": "HPE Smart Array P408i-a SR Gen10",
+  "Description": "HPE Smart Storage Array Controller View",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Manufacturer": "HPE",
+  "Model": "HPE Smart Array P408i-a SR Gen10",
+  "SerialNumber": "DUMMY-SerialNumber-6",
+  "PartNumber": "DUMMY-ID-29",
+  "FirmwareVersion": "1.04",
+  "Identifiers": [],
+  "SupportedControllerProtocols": [
+    "PCIe"
+  ],
+  "SupportedDeviceProtocols": [
+    "SAS",
+    "SATA"
+  ],
+  "SupportedRAIDTypes": [
+    "RAID0",
+    "RAID1",
+    "RAID10",
+    "RAID5",
+    "RAID50",
+    "RAID6",
+    "RAID60",
+    "RAID1Triple",
+    "RAID10Triple",
+    "None"
+  ],
+  "Location": {
+    "PartLocation": {
+      "LocationType": "Slot",
+      "ServiceLabel": "Slot 0"
+    }
+  },
+  "Links": {
+    "Batteries": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/0/Controllers/0/Batteries/1"
+      }
+    ],
+    "Batteries@odata.count": 1
+  },
+  "Oem": {
+    "Redpool": {
+      "HpeSmartStorage": {
+        "Kind": "ArrayController"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolStorageController"
+    }
+  }
+}

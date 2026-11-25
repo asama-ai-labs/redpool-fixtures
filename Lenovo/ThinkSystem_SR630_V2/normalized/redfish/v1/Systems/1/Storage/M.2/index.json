@@ -1,0 +1,97 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+  "@odata.etag": "\"ce974c9f0a5934a801002\"",
+  "@odata.id": "/redfish/v1/Systems/1/Storage/M.2",
+  "@odata.type": "#Storage.v1_16_0.Storage",
+  "Id": "M.2",
+  "Name": "M.2 Storage",
+  "Description": "This resource is used to represent a storage for a Redfish implementation.",
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Drives": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
+    }
+  ],
+  "Drives@odata.count": 2,
+  "Volumes": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Volumes"
+  },
+  "StorageControllers": [
+    {
+      "SerialNumber": "DUMMY-SerialNumber-3",
+      "SupportedControllerProtocols": [
+        "PCIe"
+      ],
+      "CacheSummary": {
+        "Status": {
+          "State": "Disabled"
+        },
+        "TotalCacheSizeMiB": null,
+        "PersistentCacheSizeMiB": null
+      },
+      "Oem": {
+        "Lenovo": {
+          "SupportedRaidLevels": "0/1",
+          "Mode": "RAID/JBOD",
+          "SupportedRaidLevels@Redfish.Deprecated": "The property is deprecated. Please use SupportedRAIDTypes instead.",
+          "MinStripeSizeBytes": 32768,
+          "@odata.type": "#LenovoStorage.v1_0_0.LenovoStorageController",
+          "MaxStripeSizeBytes": 65536
+        }
+      },
+      "Manufacturer": "Lenovo",
+      "Identifiers": [
+        {
+          "DurableNameFormat": "UUID",
+          "DurableName": "DUMMY-DurableName-3"
+        }
+      ],
+      "FirmwareVersion": "2.3.20.1211",
+      "MemberId": "0",
+      "PartNumber": "SR17A32467",
+      "Name": "ThinkSystem M.2 SATA 2-Bay RAID Enablement Kit",
+      "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+      },
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2#/StorageControllers/0",
+      "SKU": "DUMMY-SKU-3",
+      "Location": {
+        "PartLocation": {
+          "LocationOrdinalValue": 7,
+          "ServiceLabel": "PCI 7",
+          "LocationType": "Slot"
+        },
+        "Info": "Slot 7"
+      },
+      "SupportedDeviceProtocols": [
+        "SATA",
+        "NVMe"
+      ],
+      "SupportedRAIDTypes": [
+        "RAID1"
+      ],
+      "AssetTag": "",
+      "Model": "M.2 SATA 2-Bay RAID Kit"
+    }
+  ],
+  "StorageControllers@odata.count": 1,
+  "Controllers": {},
+  "Identifiers": [],
+  "Links": {
+    "Enclosures": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "Enclosures@odata.count": 1
+  },
+  "Actions": {}
+}

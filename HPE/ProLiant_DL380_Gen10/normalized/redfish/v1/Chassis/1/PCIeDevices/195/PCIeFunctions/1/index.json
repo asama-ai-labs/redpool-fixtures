@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+  "@odata.etag": "W/\"A3A6BF43\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/195/PCIeFunctions/1",
+  "@odata.type": "#PCIeFunction.v1_5_0.PCIeFunction",
+  "Id": "1",
+  "Name": "HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",
+  "DeviceClass": "NetworkController",
+  "FunctionType": "Physical",
+  "FunctionId": 1,
+  "ClassCode": "0x020000",
+  "DeviceId": "0X1015",
+  "VendorId": "0X15B3",
+  "SubsystemId": "0X00D3",
+  "SubsystemVendorId": "0X1590",
+  "RevisionId": "0x00",
+  "Status": {},
+  "Links": {},
+  "Oem": {}
+}

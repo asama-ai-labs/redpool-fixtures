@@ -1,0 +1,15 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeFunctionCollection.PCIeFunctionCollection",
+  "@odata.etag": "\"2f753c2ab08e296883b\"",
+  "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions",
+  "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions/slot_7.00"
+    }
+  ],
+  "Members@odata.count": 1,
+  "Description": "Collection of PCIe Functions",
+  "Name": "PCIeFunctionCollection",
+  "Oem": {}
+}

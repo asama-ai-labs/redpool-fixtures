@@ -1,0 +1,16 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/EventLog/Entries/DUMMY-Log-VGVXOFOXRFQUZZGU",
+  "Id": "DUMMY-Log-VGVXOFOXRFQUZZGU",
+  "Name": "System Event Log Entry",
+  "EntryType": "Event",
+  "Created": "2025-08-01T01:03:50+00:00",
+  "Severity": "Critical",
+  "Message": "Power supply PSU1 power lost.",
+  "MessageId": "OpenBMC.0.1.PowerSupplyPowerLost",
+  "MessageArgs": [
+    "PSU1"
+  ],
+  "MessageArgs@odata.count": 1
+}

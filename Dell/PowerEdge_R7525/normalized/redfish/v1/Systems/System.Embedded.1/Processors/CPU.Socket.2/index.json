@@ -1,0 +1,136 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+  },
+  "Description": "Represents the properties of a Processor attached to this System",
+  "Id": "CPU.Socket.2",
+  "Name": "CPU 2",
+  "ProcessorId": {
+    "EffectiveFamily": "15",
+    "EffectiveModel": "1",
+    "IdentificationRegisters": "0x00A00F11",
+    "MicrocodeInfo": "0xA001173",
+    "ProtectedIdentificationNumber": "DUMMY-ProtectedIdentificationNumber",
+    "Step": "1",
+    "VendorId": "AuthenticAMD"
+  },
+  "ProcessorType": "CPU",
+  "ProcessorArchitecture": "x86",
+  "InstructionSet": "x86-64",
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+    },
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B3"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B4"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B7"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B5"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B6"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B8"
+      }
+    ],
+    "Memory@odata.count": 8
+  },
+  "Manufacturer": "Advanced Micro Devices, Inc.",
+  "MemorySummary": {
+    "TotalCacheSizeMiB": 274,
+    "TotalMemorySizeMiB": 262144
+  },
+  "Model": "AMD EPYC 7763 64-Core Processor",
+  "PartNumber": "EPYC 7763",
+  "SerialNumber": "",
+  "BaseSpeedMHz": 2450,
+  "MaxSpeedMHz": 3900,
+  "OperatingSpeedMHz": 2450,
+  "ProcessorMemory": [],
+  "TotalCores": 64,
+  "TotalThreads": 32,
+  "TotalEnabledCores": 32,
+  "Socket": "CPU.Socket.2",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Metrics": {},
+  "EnvironmentMetrics": {
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/EnvironmentMetrics"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellProcessor": {
+        "CPUFamily": "AMDZenProcessorFamily",
+        "CPUStatus": "CPUEnabled",
+        "Cache1Associativity": "8-WaySet-Associative",
+        "Cache1ErrorMethodology": "Parity",
+        "Cache1InstalledSizeKB": 2048,
+        "Cache1Level": "L1",
+        "Cache1Location": "Internal",
+        "Cache1PrimaryStatus": "OK",
+        "Cache1SRAMType": "Unknown",
+        "Cache1SizeKB": 2048,
+        "Cache1Type": "Unified",
+        "Cache1WritePolicy": "WriteBack",
+        "Cache2Associativity": "8-WaySet-Associative",
+        "Cache2ErrorMethodology": "Multi-bitECC",
+        "Cache2InstalledSizeKB": 16384,
+        "Cache2Level": "L2",
+        "Cache2Location": "Internal",
+        "Cache2PrimaryStatus": "OK",
+        "Cache2SRAMType": "Unknown",
+        "Cache2SizeKB": 16384,
+        "Cache2Type": "Unified",
+        "Cache2WritePolicy": "WriteBack",
+        "Cache3Associativity": "16-WaySet-Associative",
+        "Cache3ErrorMethodology": "Multi-bitECC",
+        "Cache3InstalledSizeKB": 262144,
+        "Cache3Level": "L3",
+        "Cache3Location": "Internal",
+        "Cache3PrimaryStatus": "OK",
+        "Cache3SRAMType": "Unknown",
+        "Cache3SizeKB": 262144,
+        "Cache3Type": "Unified",
+        "Cache3WritePolicy": "WriteBack",
+        "CurrentClockSpeedMhz": 2450,
+        "ExecuteDisabledCapable": "Yes",
+        "ExecuteDisabledEnabled": "Yes",
+        "ExternalBusClockSpeedMhz": 16000,
+        "HyperThreadingCapable": "Yes",
+        "HyperThreadingEnabled": "No",
+        "Id": "CPU.Socket.2",
+        "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
+        "LastUpdateTime": "2026-03-10T04:19:32+00:00",
+        "Name": "DellProcessor",
+        "TurboModeCapable": "Yes",
+        "TurboModeEnabled": "Yes",
+        "VirtualizationTechnologyCapable": "Yes",
+        "VirtualizationTechnologyEnabled": "Yes",
+        "Volts": "1.8",
+        "@odata.context": "/redfish/v1/$metadata#DellProcessor.DellProcessor",
+        "@odata.type": "#DellProcessor.v1_2_0.DellProcessor",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/Oem/Dell/DellProcessors/CPU.Socket.2"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/temperature_M2_SSD1_Temp",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "temperature_M2_SSD1_Temp",
+  "Name": "M2 SSD1 Temp",
+  "ReadingType": "Temperature",
+  "ReadingUnits": "Cel",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 255.0,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 10.0
+    },
+    "LowerCritical": {
+      "Reading": 5.0
+    },
+    "UpperCaution": {
+      "Reading": 70.0
+    },
+    "UpperCritical": {
+      "Reading": 75.0
+    }
+  },
+  "Oem": {}
+}

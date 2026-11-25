@@ -1,0 +1,61 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+  "@odata.etag": "W/\"56AB366D\"",
+  "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm16",
+  "@odata.type": "#Memory.v1_20_0.Memory",
+  "Id": "proc2dimm16",
+  "Name": "proc2dimm16",
+  "CapacityMiB": 65536,
+  "Manufacturer": "Micron Technology",
+  "PartNumber": "36ASF8G72PZ-2G9B1",
+  "SerialNumber": "DUMMY-SerialNumber-17",
+  "MemoryDeviceType": "DDR4",
+  "MemoryType": "DRAM",
+  "BaseModuleType": "RDIMM",
+  "OperatingSpeedMhz": 2933,
+  "AllowedSpeedsMHz": [],
+  "DataWidthBits": 64,
+  "BusWidthBits": 72,
+  "RankCount": 2,
+  "ErrorCorrection": "MultiBitECC",
+  "MemoryLocation": {
+    "Socket": 1,
+    "MemoryController": 2,
+    "Channel": 2,
+    "Slot": 1
+  },
+  "Location": {},
+  "DeviceLocator": "PROC 2 DIMM 16",
+  "DeviceID": "",
+  "OperatingMemoryModes": [
+    "Volatile"
+  ],
+  "VolatileSizeMiB": 65536,
+  "MemoryMedia": [
+    "DRAM"
+  ],
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Metrics": {},
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
+      "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
+      "BaseModuleType": "RDIMM",
+      "DIMMStatus": "GoodInUse",
+      "MaxOperatingSpeedMTs": 2933,
+      "MinimumVoltageVoltsX10": 12,
+      "PartNumber": "Unknown",
+      "VendorName": "Micron"
+    },
+    "Redpool": {
+      "EccBits": 8,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolMemory"
+    }
+  }
+}

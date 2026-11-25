@@ -1,0 +1,43 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/10",
+  "Id": "10",
+  "Name": "Health Event Log Entry 10",
+  "EntryType": "SEL",
+  "@odata.etag": "a9a45b371d4196d21669e7c4c23c2f9e",
+  "Created": "2021-09-29T23:39:36Z",
+  "Severity": "Critical",
+  "Message": "[PWR-0003] PS1 Status, Power Supply input lost (AC/DC)",
+  "MessageId": "0xF3FFFF",
+  "EntryCode": "Assert",
+  "SensorType": "Power Supply / Converter",
+  "SensorNumber": 202,
+  "GeneratorId": "0x0020",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "Oem": {}
+  },
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
+      "MarkAsAcknowledged": false,
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0x08",
+        "SensorName": "PS1 Status"
+      }
+    },
+    "Redpool": {
+      "MarkAsAcknowledged": false,
+      "RawEventData": {
+        "EventDirAndType": "0x6F",
+        "SensorType": "0x08",
+        "SensorName": "PS1 Status"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

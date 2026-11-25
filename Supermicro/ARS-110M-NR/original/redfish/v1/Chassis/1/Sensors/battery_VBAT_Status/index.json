@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/battery_VBAT_Status","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"battery_VBAT_Status","Name":"VBAT Status","Reading":4.0,"Status":{"Health":"OK","State":"Enabled"}}

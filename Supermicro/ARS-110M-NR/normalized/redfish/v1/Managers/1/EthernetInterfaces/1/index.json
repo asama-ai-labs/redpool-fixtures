@@ -1,0 +1,95 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "1",
+  "Name": "Dedicate Manager Ethernet Interface",
+  "Description": "Management Network Interface",
+  "MACAddress": "00:1B:44:AA:BB:CC",
+  "PermanentMACAddress": null,
+  "LinkStatus": "LinkUp",
+  "InterfaceEnabled": true,
+  "SpeedMbps": 1000,
+  "FullDuplex": true,
+  "AutoNeg": null,
+  "MTUSize": 1500,
+  "FQDN": "DUMMY-HostName",
+  "HostName": "DUMMY-HostName",
+  "IPv4Addresses": [
+    {
+      "Address": "192.0.2.1",
+      "AddressOrigin": "DHCP",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
+    }
+  ],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [
+    {
+      "Address": "::1",
+      "AddressOrigin": "SLAAC",
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": "SLAAC",
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    },
+    {
+      "Address": "::1",
+      "AddressOrigin": "LinkLocal",
+      "AddressState": "Preferred",
+      "PrefixLength": 64
+    }
+  ],
+  "IPv6StaticAddresses": [],
+  "IPv6DefaultGateway": "::1",
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "HealthRollup": "OK",
+    "State": "Enabled"
+  },
+  "Links": {},
+  "Oem": {
+    "Supermicro": {
+      "@odata.type": "#SmcEthernetInterfaceExtensions.v1_0_1.EthernetInterface",
+      "ActiveInterface": "Dedicated",
+      "DUID": "DUMMY-DUID",
+      "LANInterface": "Failover",
+      "LANInterface@Redfish.AllowableValues": [
+        "Dedicated",
+        "Failover-AIOM",
+        "Failover-AOC",
+        "Failover",
+        "Failover-Onboard",
+        "Shared-AIOM",
+        "Shared-AOC",
+        "Shared",
+        "Shared-Onboard"
+      ]
+    }
+  },
+  "DHCPv4": {
+    "DHCPEnabled": true,
+    "UseDNSServers": true,
+    "UseDomainName": true,
+    "UseNTPServers": true
+  },
+  "DHCPv6": {
+    "OperatingMode": "Stateless",
+    "UseDNSServers": true,
+    "UseDomainName": true,
+    "UseNTPServers": true
+  },
+  "StaticNameServers": [],
+  "IPv6AddressPolicyTable": [],
+  "IPv6StaticDefaultGateways": [],
+  "StatelessAddressAutoConfig": {},
+  "VLANs": {
+    "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1/VLANs"
+  }
+}

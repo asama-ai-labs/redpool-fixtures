@@ -1,0 +1,1 @@
+{"@odata.type":"#ManagerAccountCollection.ManagerAccountCollection","@odata.id":"/redfish/v1/AccountService/Accounts","Name":"Accounts Collection","Members@odata.count":1,"Members":[{"@odata.id":"/redfish/v1/AccountService/Accounts/2"}],"@odata.etag":"7fa8b721cf46b382edf1037f08ac5d0e"}

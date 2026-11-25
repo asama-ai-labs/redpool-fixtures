@@ -1,0 +1,31 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+  "@odata.id": "/redfish/v1/Chassis/1/Sensors/voltage_1V8_VDDH",
+  "@odata.type": "#Sensor.v1_9_0.Sensor",
+  "Id": "voltage_1V8_VDDH",
+  "Name": "1V8 VDDH",
+  "Reading": 1.796,
+  "ReadingType": "Voltage",
+  "ReadingUnits": "V",
+  "ReadingRangeMin": 0.0,
+  "ReadingRangeMax": 3.3333333333333335,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Thresholds": {
+    "LowerCaution": {
+      "Reading": 1.242
+    },
+    "LowerCritical": {
+      "Reading": 1.215
+    },
+    "UpperCaution": {
+      "Reading": 2.138
+    },
+    "UpperCritical": {
+      "Reading": 2.178
+    }
+  },
+  "Oem": {}
+}

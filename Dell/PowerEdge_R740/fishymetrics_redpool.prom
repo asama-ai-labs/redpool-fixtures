@@ -1,0 +1,112 @@
+# HELP redfish_cpu_status Current cpu status 1 = OK, 0 = BAD
+# TYPE redfish_cpu_status gauge
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",id="CPU.Socket.1",model="Intel(R) Xeon(R) Silver 4208",socket="CPU.Socket.1",totalCores="8"} 1
+redfish_cpu_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",id="CPU.Socket.2",model="Intel(R) Xeon(R) Silver 4208",socket="CPU.Socket.2",totalCores="8"} 1
+# HELP redfish_device_info Current snapshot of device firmware information
+# TYPE redfish_device_info gauge
+redfish_device_info{biosVersion="2.25.0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="7.00.00.183",name="DUMMY-HostName"} 1
+# HELP redfish_disk_drive_status Current Disk Drive status 1 = OK, 0 = BAD, -1 = DISABLED
+# TYPE redfish_disk_drive_status gauge
+redfish_disk_drive_status{capacityMiB="113920",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-30"} 1
+redfish_disk_drive_status{capacityMiB="113920",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-32"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.2:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-34"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.3:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-35"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.4:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-36"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.5:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-29"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.6:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-33"} 1
+redfish_disk_drive_status{capacityMiB="1525632",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",failurePredicted="false",id="Disk.Bay.7:Enclosure.Internal.0-1:RAID.Slot.6-1",location="",name="Solid State Disk ::1",serialnumber="DUMMY-SerialNumber-31"} 1
+# HELP redfish_memory_dimm_status Current dimm status 1 = OK, 0 = BAD
+# TYPE redfish_memory_dimm_status gauge
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM A11",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM A12",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM A5",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM A6",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM B2",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM B3",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM B8",partNumber="36ASF4G72PZ-3G2E7"} 1
+redfish_memory_dimm_status{capacityMiB="32768",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",manufacturer="Micron Technology",name="DIMM B9",partNumber="36ASF4G72PZ-3G2E7"} 1
+# HELP redfish_memory_status Current memory status 1 = OK, 0 = BAD
+# TYPE redfish_memory_status gauge
+redfish_memory_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",totalSystemMemoryGiB="256"} 1
+# HELP redfish_power_supply_input_volts The line input voltage at which the Power Supply is operating in volts
+# TYPE redfish_power_supply_input_volts gauge
+redfish_power_supply_input_volts{bayNumber="0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-17"} 232
+redfish_power_supply_input_volts{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-18"} 232
+# HELP redfish_power_supply_input_watts The power input of Power Supply in watts
+# TYPE redfish_power_supply_input_watts gauge
+redfish_power_supply_input_watts{bayNumber="0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-17"} 112.5
+redfish_power_supply_input_watts{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-18"} 89.25
+# HELP redfish_power_supply_output The average power output of Power Supply in watts
+# TYPE redfish_power_supply_output gauge
+redfish_power_supply_output{bayNumber="0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-17"} 90.625
+redfish_power_supply_output{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-18"} 72.75
+# HELP redfish_power_supply_status Current power supply status 1 = OK, 0 = BAD
+# TYPE redfish_power_supply_status gauge
+redfish_power_supply_status{bayNumber="0",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS1",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-17"} 1
+redfish_power_supply_status{bayNumber="1",chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="00.3D.67",manufacturer="Delta Electronics, Inc.",model="PWR SPLY,1600W,RDNT,DELTA",name="PS2",powerSupplyType="AC",serialNumber="DUMMY-SerialNumber-18"} 1
+# HELP redfish_power_supply_total_consumed Total output of all power supplies in watts
+# TYPE redfish_power_supply_total_consumed gauge
+redfish_power_supply_total_consumed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",memberId="/redfish/v1/Chassis/System.Embedded.1/Power"} 203
+# HELP redfish_power_voltage_output Power voltage output in volts
+# TYPE redfish_power_voltage_output gauge
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 MEM012 VR"} 1.22
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 MEM345 VR"} 1.22
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 VCORE VR"} 1.78
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 MEM012 VR"} 1.22
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 MEM345 VR"} 1.22
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 VCORE VR"} 1.78
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="PS1 Voltage 1"} 232
+redfish_power_voltage_output{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="PS2 Voltage 2"} 228
+# HELP redfish_power_voltage_status Current power voltage status 1 = OK, 0 = BAD
+# TYPE redfish_power_voltage_status gauge
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 MEM012 VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 MEM345 VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 VCORE VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 MEM012 VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 MEM345 VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 VCORE VR"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="PS1 Voltage 1"} 1
+redfish_power_voltage_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="PS2 Voltage 2"} 1
+# HELP redfish_storage_controller_status Current storage controller status 1 = OK, 0 = BAD
+# TYPE redfish_storage_controller_status gauge
+redfish_storage_controller_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",firmwareVersion="25.5.9.0001",location="",model="PERC H330 Adapter",name="PERC H330 Adapter"} 1
+# HELP redfish_thermal_fan_speed Current fan speed in the unit of percentage, possible values are 0 - 100
+# TYPE redfish_thermal_fan_speed gauge
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan1"} 7920
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan2"} 7800
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan3"} 7800
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan4"} 7680
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan5"} 7920
+redfish_thermal_fan_speed{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan6"} 7800
+# HELP redfish_thermal_fan_status Current fan status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_fan_status gauge
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan1"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan2"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan3"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan4"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan5"} 1
+redfish_thermal_fan_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Fan6"} 1
+# HELP redfish_thermal_sensor_status Current sensor status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_sensor_status gauge
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Exhaust Temp"} 1
+redfish_thermal_sensor_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Inlet Temp"} 1
+# HELP redfish_thermal_sensor_temperature Current sensor temperature reading in Celsius
+# TYPE redfish_thermal_sensor_temperature gauge
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 Temp"} 35
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 Temp"} 39
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Exhaust Temp"} 28
+redfish_thermal_sensor_temperature{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Inlet Temp"} 24
+# HELP redfish_thermal_sensor_threshold_critical Current sensor upper threshold critical reading in Celsius
+# TYPE redfish_thermal_sensor_threshold_critical gauge
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU1 Temp"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="CPU2 Temp"} 90
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Exhaust Temp"} 80
+redfish_thermal_sensor_threshold_critical{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",name="System Board Inlet Temp"} 42
+# HELP redfish_thermal_summary_status Current sensor status 1 = OK, 0 = BAD
+# TYPE redfish_thermal_summary_status gauge
+redfish_thermal_summary_status{chassisModel="generic",chassisSerialNumber="DUMMY-SerialNumber-1",url="/redfish/v1/Chassis/System.Embedded.1/Thermal"} 1
+# HELP redfish_up was the last scrape of fishymetrics successful.
+# TYPE redfish_up gauge
+redfish_up 1

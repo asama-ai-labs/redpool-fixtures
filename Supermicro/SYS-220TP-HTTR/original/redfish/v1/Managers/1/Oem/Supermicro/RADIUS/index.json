@@ -1,0 +1,1 @@
+{"@odata.type":"#RADIUS.v1_0_2.RADIUS","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/RADIUS","Id":"RADIUS","Name":"RADIUS","RadiusEnabled":false,"RadiusServer":"192.0.2.1","RadiusPortNumber":1812,"RadiusSecret":null,"@odata.etag":"be6331cd7bbb6490117e8b002c88d4bf"}

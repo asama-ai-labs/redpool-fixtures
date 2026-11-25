@@ -1,0 +1,45 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.etag": "W/\"574A9F3A\"",
+  "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/3",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "3",
+  "Name": "Manager Virtual Network Interface",
+  "Description": "Configuration of this Manager USB Ethernet Interface available for access from Host.",
+  "MACAddress": "00:1B:44:AA:00:04",
+  "PermanentMACAddress": "00:1B:44:AA:00:04",
+  "InterfaceEnabled": false,
+  "SpeedMbps": null,
+  "AutoNeg": null,
+  "IPv4Addresses": [],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": null,
+    "State": "Disabled"
+  },
+  "Links": {
+    "HostInterface": {
+      "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1"
+    }
+  },
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOEthernetNetworkInterface.HpeiLOEthernetNetworkInterface",
+      "@odata.type": "#HpeiLOEthernetNetworkInterface.v2_2_1.HpeiLOEthernetNetworkInterface",
+      "ConfigurationSettings": "Current",
+      "InterfaceType": "HostInterface",
+      "NICSupportsIPv6": false
+    }
+  },
+  "DHCPv4": {},
+  "DHCPv6": {},
+  "StaticNameServers": [],
+  "IPv6AddressPolicyTable": [],
+  "IPv6StaticDefaultGateways": [],
+  "StatelessAddressAutoConfig": {},
+  "VLANs": {}
+}

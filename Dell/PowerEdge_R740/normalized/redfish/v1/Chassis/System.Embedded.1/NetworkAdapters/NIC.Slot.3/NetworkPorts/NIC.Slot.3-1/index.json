@@ -1,0 +1,64 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkPorts/NIC.Slot.3-1",
+  "@odata.type": "#NetworkPort.v1_4_3.NetworkPort",
+  "Id": "NIC.Slot.3-1",
+  "Name": "HPE Eth 10/25Gb 2p 640SFP28 Adptr",
+  "Description": "Network Port View",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "HealthRollup": "OK"
+  },
+  "ActiveLinkTechnology": "Ethernet",
+  "AssociatedNetworkAddresses": [
+    "00:1B:44:AA:00:09",
+    "00:1B:44:AA:00:08"
+  ],
+  "CurrentLinkSpeedMbps": 25000,
+  "LinkStatus": "Up",
+  "NetDevFuncMaxBWAlloc": [
+    {
+      "MaxBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-2"
+      }
+    },
+    {
+      "MaxBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-1"
+      }
+    }
+  ],
+  "NetDevFuncMinBWAlloc": [
+    {
+      "MinBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-2"
+      }
+    },
+    {
+      "MinBWAllocPercent": null,
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Slot.3/NetworkDeviceFunctions/NIC.Slot.3-1"
+      }
+    }
+  ],
+  "PhysicalPortNumber": "1",
+  "SupportedEthernetCapabilities": [],
+  "SupportedLinkCapabilities": [
+    {
+      "AutoSpeedNegotiation": null,
+      "LinkNetworkTechnology": "Ethernet",
+      "LinkSpeedMbps": 0
+    },
+    {
+      "AutoSpeedNegotiation": null,
+      "LinkNetworkTechnology": "Ethernet",
+      "LinkSpeedMbps": 0
+    }
+  ],
+  "VendorId": "15b3",
+  "Oem": {}
+}

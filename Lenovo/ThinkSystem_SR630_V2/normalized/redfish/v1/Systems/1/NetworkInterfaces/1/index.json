@@ -1,0 +1,27 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkInterface.NetworkInterface",
+  "@odata.etag": "\"5d95e9fa5cb928ad4a4\"",
+  "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces/1",
+  "@odata.type": "#NetworkInterface.v1_2_0.NetworkInterface",
+  "Id": "1",
+  "Name": "Network Interface 1",
+  "Description": "A NetworkInterface contains references linking NetworkAdapter, NetworkPort, and NetworkDeviceFunction resources and represents the functionality available to the containing system.",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "NetworkAdapter": {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1"
+    }
+  },
+  "NetworkDeviceFunctions": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkDeviceFunctions"
+  },
+  "NetworkPorts": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkPorts"
+  },
+  "Ports": {
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/Ports"
+  }
+}

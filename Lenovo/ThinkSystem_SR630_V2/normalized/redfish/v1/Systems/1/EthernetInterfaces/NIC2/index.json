@@ -1,0 +1,33 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+  "@odata.etag": "\"42b1d0e8a42425aa971\"",
+  "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/NIC2",
+  "@odata.type": "#EthernetInterface.v1_12_1.EthernetInterface",
+  "Id": "NIC2",
+  "Name": "External Ethernet Interface",
+  "Description": "External Ethernet Interface",
+  "MACAddress": "00:1B:44:AA:00:08",
+  "PermanentMACAddress": "00:1B:44:AA:00:08",
+  "LinkStatus": "LinkDown",
+  "InterfaceEnabled": true,
+  "SpeedMbps": null,
+  "AutoNeg": null,
+  "FQDN": "",
+  "HostName": "",
+  "IPv4Addresses": [],
+  "IPv4StaticAddresses": [],
+  "IPv6Addresses": [],
+  "IPv6StaticAddresses": [],
+  "NameServers": [],
+  "VLAN": {},
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {
+    "Chassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
+  },
+  "Oem": {}
+}

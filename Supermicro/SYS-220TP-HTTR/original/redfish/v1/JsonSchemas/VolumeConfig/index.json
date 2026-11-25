@@ -1,0 +1,1 @@
+{"@odata.type":"#JsonSchemaFile.v1_1_4.JsonSchemaFile","@odata.id":"/redfish/v1/JsonSchemas/VolumeConfig","Id":"VolumeConfig","Name":"VolumeConfig Schema File","Description":"VolumeConfig Schema File Location","Languages":["en"],"Schema":"VolumeConfig","Location":[{"Language":"en","Uri":"/schemas/v1/VolumeConfig.json"}],"Oem":{},"@odata.etag":"f1b8fbe330c1cd7146141f8ce1e680ed"}

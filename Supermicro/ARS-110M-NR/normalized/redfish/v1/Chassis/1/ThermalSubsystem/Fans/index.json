@@ -1,0 +1,47 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#FanCollection.FanCollection",
+  "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans",
+  "@odata.type": "#FanCollection.FanCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/FAN6"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_2"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_4"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_5"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/Pwm_6"
+    }
+  ],
+  "Members@odata.count": 12,
+  "Description": "Collection of Fans",
+  "Name": "FanCollection",
+  "Oem": {}
+}

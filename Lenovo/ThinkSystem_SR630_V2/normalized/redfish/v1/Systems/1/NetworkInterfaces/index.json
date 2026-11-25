@@ -1,0 +1,18 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkInterfaceCollection.NetworkInterfaceCollection",
+  "@odata.etag": "\"3762820f5f382726472\"",
+  "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces",
+  "@odata.type": "#NetworkInterfaceCollection.NetworkInterfaceCollection",
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces/1"
+    },
+    {
+      "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces/2"
+    }
+  ],
+  "Members@odata.count": 2,
+  "Description": "Collection of Network Interfaces",
+  "Name": "NetworkInterfaceCollection",
+  "Oem": {}
+}

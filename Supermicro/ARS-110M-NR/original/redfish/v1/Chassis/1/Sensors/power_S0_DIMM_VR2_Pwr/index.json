@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Chassis/1/Sensors/power_S0_DIMM_VR2_Pwr","@odata.type":"#Sensor.v1_2_0.Sensor","Id":"power_S0_DIMM_VR2_Pwr","Name":"S0 DIMM VR2 Pwr","Reading":1.333,"ReadingRangeMax":99.45,"ReadingRangeMin":0.0,"ReadingType":"Power","ReadingUnits":"W","Status":{"Health":"OK","State":"Enabled"}}

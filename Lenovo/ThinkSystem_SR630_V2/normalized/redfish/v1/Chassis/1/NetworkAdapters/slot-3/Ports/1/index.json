@@ -1,0 +1,21 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3/Ports/1",
+  "@odata.type": "#Port.v1_20_0.Port",
+  "Id": "1",
+  "Name": "NetworkAdapter ::1",
+  "PortId": "1",
+  "Description": "A Network Port represents a discrete physical port capable of connecting to a network.",
+  "LinkNetworkTechnology": null,
+  "Status": {
+    "HealthRollup": "OK",
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Oem": {
+    "Redpool": {
+      "PhysicalPortNumber": "1",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolPort"
+    }
+  }
+}

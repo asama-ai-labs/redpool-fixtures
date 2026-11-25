@@ -1,0 +1,23 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#EnvironmentMetrics.EnvironmentMetrics",
+  "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/EnvironmentMetrics",
+  "@odata.type": "#EnvironmentMetrics.v1_3_0.EnvironmentMetrics",
+  "Id": "EnvironmentMetrics",
+  "Name": "EnvironmentMetrics",
+  "Description": "Represents EnvironmentMetrics of the Chassis",
+  "PowerWatts": {
+    "DataSourceUri": "/redfish/v1/Chassis/System.Embedded.1/Sensors/SystemBoardPwrConsumption",
+    "Reading": 339.0
+  },
+  "FanSpeedsPercent": [],
+  "Oem": {
+    "Dell": {
+      "AverageFanPWM": 40.5,
+      "@odata.type": "#DellEnvironmentMetrics.v1_1_0.DellEnvironmentMetrics"
+    },
+    "Redpool": {
+      "AverageFanPWM": 40.5,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolEnvironmentMetrics"
+    }
+  }
+}

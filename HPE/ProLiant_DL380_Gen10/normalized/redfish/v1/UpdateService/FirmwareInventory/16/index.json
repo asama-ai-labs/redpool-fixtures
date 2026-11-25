@@ -1,0 +1,30 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/16",
+  "@odata.etag": "W/\"0539D502\"",
+  "Id": "16",
+  "Name": "HPE Smart Array P408i-a SR Gen10",
+  "Description": "9005028f103c0602",
+  "Version": "1.04",
+  "Updateable": false,
+  "Oem": {
+    "Hpe": {
+      "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+      "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+      "DeviceClass": null,
+      "DeviceContext": "Embedded RAID",
+      "DeviceInstance": "PciRoot(0x3)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+      "Targets": [
+        "550e8400-e29b-41d4-a716-00000000001d"
+      ]
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "16",
+        "device_context": "Embedded RAID"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

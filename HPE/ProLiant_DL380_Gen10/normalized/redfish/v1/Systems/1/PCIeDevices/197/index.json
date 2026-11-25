@@ -1,0 +1,35 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+  "@odata.etag": "W/\"4DA55F10\"",
+  "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/197",
+  "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+  "Id": "197",
+  "Name": "HPE Smart Array P408i-a SR Gen10",
+  "Description": "HPE Smart Array P408i-a SR Gen10",
+  "Manufacturer": "Adaptec",
+  "Model": "804334-001",
+  "SerialNumber": "DUMMY-SerialNumber-6",
+  "PartNumber": "804334-001",
+  "SKU": "DUMMY-SKU-2",
+  "FirmwareVersion": "1.04",
+  "PCIeInterface": {},
+  "PCIeFunctions": {
+    "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/197/PCIeFunctions"
+  },
+  "Slot": {
+    "Location": {
+      "Info": "Embedded RAID 1",
+      "PartLocation": {
+        "ServiceLabel": "RAID.Emb.1.1",
+        "LocationType": "Slot"
+      }
+    }
+  },
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Links": {},
+  "Assembly": {},
+  "Oem": {}
+}

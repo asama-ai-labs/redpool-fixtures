@@ -1,0 +1,55 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+  "@odata.id": "/redfish/v1/Systems/1/Processors/cpu0",
+  "@odata.type": "#Processor.v1_20_0.Processor",
+  "Assembly": {},
+  "Description": "",
+  "Id": "cpu0",
+  "Name": "Processor",
+  "ProcessorId": {
+    "EffectiveFamily": "0x0101",
+    "IdentificationRegisters": "0x000000A10A160001",
+    "Step": "0x0000"
+  },
+  "ProcessorType": "CPU",
+  "Links": {
+    "Memory": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/dimm0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Memory/dimm8"
+      }
+    ],
+    "Memory@odata.count": 2
+  },
+  "Manufacturer": "Ampere(R) Computing",
+  "MemorySummary": {
+    "TotalMemorySizeMiB": 65536,
+    "ECCModeEnabled": true
+  },
+  "Model": "Ampere(R) Altra(R) Q32-17",
+  "PartNumber": "Q32-17",
+  "SerialNumber": "DUMMY-SerialNumber",
+  "BaseSpeedMHz": 1700,
+  "MaxSpeedMHz": 1700,
+  "OperatingSpeedMHz": 1700,
+  "ProcessorMemory": [],
+  "TotalCores": 32,
+  "TotalThreads": 32,
+  "TotalEnabledCores": null,
+  "Socket": "CPU 0",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors/cpu0/ProcessorMetrics"
+  },
+  "EnvironmentMetrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Processors/cpu0/EnvironmentMetrics"
+  },
+  "Oem": {},
+  "ProcessorArchitecture": "ARM",
+  "InstructionSet": "ARM-A64"
+}

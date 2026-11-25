@@ -1,0 +1,1 @@
+{"@odata.type":"#NTP.v1_0_1.NTP","@odata.id":"/redfish/v1/Managers/1/Oem/Supermicro/NTP","Id":"NTP","Name":"NTP Service","NTPEnable":false,"PrimaryNTPServer":"localhost","SecondaryNTPServer":"192.0.2.1","DaylightSavingTime":false,"@odata.etag":"e1de023ff6ed1fc60ea576a8930ab496"}

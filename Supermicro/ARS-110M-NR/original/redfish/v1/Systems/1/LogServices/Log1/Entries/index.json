@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/LogServices/Log1/Entries","@odata.type":"#LogEntryCollection.LogEntryCollection","Description":"Collection of System IPMI SEL Entries","Members":[],"Members@odata.count":0,"Name":"System IPMI SEL Entries"}

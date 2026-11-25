@@ -1,0 +1,935 @@
+# HELP redfish_bios_attributes One gauge per BIOS attribute from ComputerSystem.Bios (attribute_name / attribute_value labels).
+# TYPE redfish_bios_attributes gauge
+redfish_bios_attributes{attribute_name="AcpiHpet",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AcpiRootBridgePxm",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AcpiSlit",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AdjSecPrefetch",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AdminEmail",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="AdminName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="AdminOtherInfo",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="AdminPhone",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="AdvCrashDumpMode",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="AdvancedMemProtection",attribute_value="FastFaultTolerantADDDC"} 1
+redfish_bios_attributes{attribute_name="AsrStatus",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="AsrTimeoutMinutes",attribute_value="Timeout10"} 1
+redfish_bios_attributes{attribute_name="AssetTagProtection",attribute_value="Unlocked"} 1
+redfish_bios_attributes{attribute_name="AutoPowerOn",attribute_value="RestoreLastState"} 1
+redfish_bios_attributes{attribute_name="BootMode",attribute_value="Uefi"} 1
+redfish_bios_attributes{attribute_name="BootOrderPolicy",attribute_value="RetryIndefinitely"} 1
+redfish_bios_attributes{attribute_name="ChannelInterleaving",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="CollabPowerControl",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ConsistentDevNaming",attribute_value="LomsAndSlots"} 1
+redfish_bios_attributes{attribute_name="CustomPostMessage",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="DaylightSavingsTime",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="DcuIpPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DcuStreamPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Dhcpv4",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="DirectToUpi",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="DynamicPowerCapping",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EmbNicEnable",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="EmbNicLinkSpeed",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="EmbNicPCIeOptionROM",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EmbSas1Aspm",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EmbSas1Boot",attribute_value="TwentyFourTargets"} 1
+redfish_bios_attributes{attribute_name="EmbSas1Enable",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="EmbSas1LinkSpeed",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="EmbSas1PcieOptionROM",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EmbSata1Aspm",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EmbSata2Aspm",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EmbVideoConnection",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="EmbeddedDiagnostics",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EmbeddedSata",attribute_value="Ahci"} 1
+redfish_bios_attributes{attribute_name="EmbeddedSerialPort",attribute_value="Com2Irq3"} 1
+redfish_bios_attributes{attribute_name="EmbeddedUefiShell",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EmsConsole",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EnabledCoresPerProc",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="EnergyEfficientTurbo",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="EnergyPerfBias",attribute_value="BalancedPerf"} 1
+redfish_bios_attributes{attribute_name="EnergyPerformancePreference",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="EraseUserDefaults",attribute_value="No"} 1
+redfish_bios_attributes{attribute_name="ExtendedAmbientTemp",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ExtendedMemTest",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="F11BootMenu",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="FCScanPolicy",attribute_value="CardConfig"} 1
+redfish_bios_attributes{attribute_name="FanFailPolicy",attribute_value="Shutdown"} 1
+redfish_bios_attributes{attribute_name="FanInstallReq",attribute_value="EnableMessaging"} 1
+redfish_bios_attributes{attribute_name="FlexLom1Aspm",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="FlexLom1Enable",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="FlexLom1LinkSpeed",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="FlexLom1PCIeOptionROM",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="HttpSupport",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="HwPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IODCConfiguration",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="IntelDmiLinkFreq",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="IntelNicDmaChannels",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IntelPerfMonitoring",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="IntelProcVtd",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IntelUpiFreq",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="IntelUpiLinkEn",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="IntelUpiPowerManagement",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IntelligentProvisioning",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="InternalSDCardSlot",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="IpmiWatchdogTimerAction",attribute_value="PowerCycle"} 1
+redfish_bios_attributes{attribute_name="IpmiWatchdogTimerStatus",attribute_value="IpmiWatchdogTimerOff"} 1
+redfish_bios_attributes{attribute_name="IpmiWatchdogTimerTimeout",attribute_value="Timeout30Min"} 1
+redfish_bios_attributes{attribute_name="Ipv4Address",attribute_value="192.0.2.1"} 1
+redfish_bios_attributes{attribute_name="Ipv4Gateway",attribute_value="192.0.2.1"} 1
+redfish_bios_attributes{attribute_name="Ipv4PrimaryDNS",attribute_value="192.0.2.1"} 1
+redfish_bios_attributes{attribute_name="Ipv4SecondaryDNS",attribute_value="192.0.2.1"} 1
+redfish_bios_attributes{attribute_name="Ipv4SubnetMask",attribute_value="192.0.2.1"} 1
+redfish_bios_attributes{attribute_name="Ipv6Address",attribute_value="::1"} 1
+redfish_bios_attributes{attribute_name="Ipv6ConfigPolicy",attribute_value="Automatic"} 1
+redfish_bios_attributes{attribute_name="Ipv6Duid",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="Ipv6Gateway",attribute_value="::1"} 1
+redfish_bios_attributes{attribute_name="Ipv6PrimaryDNS",attribute_value="::1"} 1
+redfish_bios_attributes{attribute_name="Ipv6SecondaryDNS",attribute_value="::1"} 1
+redfish_bios_attributes{attribute_name="LLCDeadLineAllocation",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="LlcPrefetch",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="LocalRemoteThreshold",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="MaxMemBusFreqMHz",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="MaxPcieSpeed",attribute_value="PerPortCtrl"} 1
+redfish_bios_attributes{attribute_name="MemClearWarmReset",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="MemFastTraining",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="MemMirrorMode",attribute_value="Full"} 1
+redfish_bios_attributes{attribute_name="MemPatrolScrubbing",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="MemRefreshRate",attribute_value="Refreshx1"} 1
+redfish_bios_attributes{attribute_name="MemoryControllerInterleaving",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="MemoryRemap",attribute_value="NoAction"} 1
+redfish_bios_attributes{attribute_name="MinProcIdlePkgState",attribute_value="C6Retention"} 1
+redfish_bios_attributes{attribute_name="MinProcIdlePower",attribute_value="C6"} 1
+redfish_bios_attributes{attribute_name="MixedPowerSupplyReporting",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="NetworkBootRetry",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="NetworkBootRetryCount",attribute_value="20.00"} 1
+redfish_bios_attributes{attribute_name="NicBoot1",attribute_value="NetworkBoot"} 1
+redfish_bios_attributes{attribute_name="NicBoot2",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NicBoot3",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NicBoot4",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NicBoot5",attribute_value="NetworkBoot"} 1
+redfish_bios_attributes{attribute_name="NicBoot6",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NodeInterleaving",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="NumaGroupSizeOpt",attribute_value="Flat"} 1
+redfish_bios_attributes{attribute_name="NvmeOptionRom",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="OpportunisticSelfRefresh",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PciPeerToPeerSerialization",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PciResourcePadding",attribute_value="Normal"} 1
+redfish_bios_attributes{attribute_name="PciSlot1Aspm",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PciSlot1Bifurcation",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PciSlot1Enable",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PciSlot1LinkSpeed",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PciSlot1OptionROM",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PciSlot2Bifurcation",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PciSlot3Bifurcation",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PersistentMemBackupPowerPolicy",attribute_value="WaitForBackupPower"} 1
+redfish_bios_attributes{attribute_name="PlatformCertificate",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PostBootProgress",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="PostDiscoveryMode",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PostF1Prompt",attribute_value="Delayed20Sec"} 1
+redfish_bios_attributes{attribute_name="PostVideoSupport",attribute_value="DisplayAll"} 1
+redfish_bios_attributes{attribute_name="PostedInterruptThrottle",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PowerButton",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="PowerOnDelay",attribute_value="NoDelay"} 1
+redfish_bios_attributes{attribute_name="PowerRegulator",attribute_value="DynamicPowerSavings"} 1
+redfish_bios_attributes{attribute_name="PreBootNetwork",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PrebootNetworkEnvPolicy",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="PrebootNetworkProxy",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ProcAes",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcHyperthreading",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcTurbo",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcVirtualization",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcX2Apic",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="ProcessorConfigTDPLevel",attribute_value="Normal"} 1
+redfish_bios_attributes{attribute_name="ProcessorJitterControl",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ProcessorJitterControlFrequency",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="ProcessorJitterControlOptimization",attribute_value="ZeroLatency"} 1
+redfish_bios_attributes{attribute_name="ProductId",attribute_value="DUMMY-ID-32"} 1
+redfish_bios_attributes{attribute_name="RedundantPowerSupply",attribute_value="BalancedMode"} 1
+redfish_bios_attributes{attribute_name="RefreshWatermarks",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="RemovableFlashBootSeq",attribute_value="ExternalKeysFirst"} 1
+redfish_bios_attributes{attribute_name="RestoreDefaults",attribute_value="No"} 1
+redfish_bios_attributes{attribute_name="RestoreManufacturingDefaults",attribute_value="No"} 1
+redfish_bios_attributes{attribute_name="RomSelection",attribute_value="CurrentRom"} 1
+redfish_bios_attributes{attribute_name="SataSecureErase",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SaveUserDefaults",attribute_value="No"} 1
+redfish_bios_attributes{attribute_name="SecStartBackupImage",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SecureBootStatus",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SerialConsoleBaudRate",attribute_value="BaudRate115200"} 1
+redfish_bios_attributes{attribute_name="SerialConsoleEmulation",attribute_value="Vt100Plus"} 1
+redfish_bios_attributes{attribute_name="SerialConsolePort",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="SerialNumber",attribute_value="DUMMY-SerialNumber-1"} 1
+redfish_bios_attributes{attribute_name="ServerAssetTag",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServerConfigLockStatus",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ServerName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServerOtherInfo",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServerPrimaryOs",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServiceEmail",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServiceName",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServiceOtherInfo",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="ServicePhone",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="SetupBrowserSelection",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="Slot1MctpBroadcastSupport",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot1NicBoot1",attribute_value="NetworkBoot"} 1
+redfish_bios_attributes{attribute_name="Slot1NicBoot2",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="Slot2MctpBroadcastSupport",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Slot3MctpBroadcastSupport",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="Sriov",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="StaleAtoS",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="SubNumaClustering",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="ThermalConfig",attribute_value="OptimalCooling"} 1
+redfish_bios_attributes{attribute_name="ThermalShutdown",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="TimeFormat",attribute_value="Utc"} 1
+redfish_bios_attributes{attribute_name="TimeZone",attribute_value="Utc0"} 1
+redfish_bios_attributes{attribute_name="TpmChipId",attribute_value="None"} 1
+redfish_bios_attributes{attribute_name="TpmFips",attribute_value="NotSpecified"} 1
+redfish_bios_attributes{attribute_name="TpmState",attribute_value="NotPresent"} 1
+redfish_bios_attributes{attribute_name="TpmType",attribute_value="NoTpm"} 1
+redfish_bios_attributes{attribute_name="UefiOptimizedBoot",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="UefiSerialDebugLevel",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiShellBootOrder",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiShellScriptVerification",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiShellStartup",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiShellStartupLocation",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="UefiShellStartupUrl",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="UefiShellStartupUrlFromDhcp",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UefiVariableAccessFwControl",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UncoreFreqScaling",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="UpiPrefetcher",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="UrlBootFile",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="UrlBootFile2",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="UrlBootFile3",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="UrlBootFile4",attribute_value=""} 1
+redfish_bios_attributes{attribute_name="UsbBoot",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="UsbControl",attribute_value="UsbEnabled"} 1
+redfish_bios_attributes{attribute_name="UserDefaultsState",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="UtilityLang",attribute_value="English"} 1
+redfish_bios_attributes{attribute_name="VirtualInstallDisk",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="VirtualSerialPort",attribute_value="Com1Irq4"} 1
+redfish_bios_attributes{attribute_name="VlanControl",attribute_value="Disabled"} 1
+redfish_bios_attributes{attribute_name="VlanId",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="VlanPriority",attribute_value="0.00"} 1
+redfish_bios_attributes{attribute_name="WakeOnLan",attribute_value="Enabled"} 1
+redfish_bios_attributes{attribute_name="WorkloadProfile",attribute_value="GeneralPowerEfficientCompute"} 1
+redfish_bios_attributes{attribute_name="XptPrefetcher",attribute_value="Auto"} 1
+redfish_bios_attributes{attribute_name="iSCSIPolicy",attribute_value="SoftwareInitiator"} 1
+# HELP redfish_bmc_manager_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_bmc_manager_health_info gauge
+redfish_bmc_manager_health_info{health="OK",id="1"} 1
+# HELP redfish_bmc_manager_info BMC Manager resource (constant 1) with id, name, model, manufacturer, firmware_version, uuid labels (uuid is Manager.UUID; empty when omitted).
+# TYPE redfish_bmc_manager_info gauge
+redfish_bmc_manager_info{firmware_version="iLO 5 v3.08",id="1",manufacturer="HPE",model="iLO 5",name="Manager",uuid="550e8400-e29b-41d4-a716-000000000004"} 1
+# HELP redfish_bmc_manager_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_bmc_manager_state_info gauge
+redfish_bmc_manager_state_info{id="1",state="Enabled"} 1
+# HELP redfish_chassis_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_chassis_health_info gauge
+redfish_chassis_health_info{health="OK",health_rollup="Unknown",id="1"} 1
+# HELP redfish_chassis_info Chassis resource (constant 1) with id, model, sku, manufacturer, device_serial_number, asset_tag, chassis_type, contained_by, and FRU/engineering_change_level from Assembly when present.
+# TYPE redfish_chassis_info gauge
+redfish_chassis_info{asset_tag="",chassis_type="RackMount",contained_by="",contains="",device_serial_number="DUMMY-SerialNumber-1",engineering_change_level="",fru_part_number="",id="1",manufacture_date="",manufacturer="HPE",model="ProLiant DL380 Gen10",part_number="",sku="DUMMY-SKU-1"} 1
+# HELP redfish_chassis_power_state_info Redfish Chassis.PowerState on power_state. Enum: On, Off, PausedSleeping, PoweringOn, PoweringOff. Unknown when omitted.
+# TYPE redfish_chassis_power_state_info gauge
+redfish_chassis_power_state_info{id="1",power_state="On"} 1
+# HELP redfish_chassis_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_chassis_state_info gauge
+redfish_chassis_state_info{id="1",state="Enabled"} 1
+# HELP redfish_firmware_inventory_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_firmware_inventory_health_info gauge
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="1"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="2"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="4"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="8"} 1
+redfish_firmware_inventory_health_info{health="OK",health_rollup="Unknown",inventory_id="9"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="10"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="11"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="12"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="13"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="14"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="15"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="16"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="17"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="18"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="19"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="20"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="21"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="22"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="3"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="5"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="6"} 1
+redfish_firmware_inventory_health_info{health="Unknown",health_rollup="Unknown",inventory_id="7"} 1
+# HELP redfish_firmware_inventory_info UpdateService FirmwareInventory member (constant 1): version, software_id, and placement labels (related_kind, related_ref, related_scope, related_location) per component. Health and state are on redfish_firmware_inventory_health_info and redfish_firmware_inventory_state_info.
+# TYPE redfish_firmware_inventory_info gauge
+redfish_firmware_inventory_info{description="102b0538159000e4",device_context="Embedded Device",installation_date="",inventory_id="18",inventory_slot="",lowest_supported_version="",manufacturer="",name="Embedded Video Controller",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="2.5",write_protected=""} 1
+redfish_firmware_inventory_info{description="14e41657103c22be",device_context="Embedded LOM",installation_date="",inventory_id="15",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="20.30.41",write_protected=""} 1
+redfish_firmware_inventory_info{description="15b31015159000d3",device_context="Embedded ALOM",installation_date="",inventory_id="14",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="14.32.1010",write_protected=""} 1
+redfish_firmware_inventory_info{description="80861563159000d1",device_context="PCI-E Slot 1",installation_date="",inventory_id="17",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Eth 10Gb 2p 562T Adptr",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="10.55.3",write_protected=""} 1
+redfish_firmware_inventory_info{description="9005028f103c0602",device_context="Embedded RAID",installation_date="",inventory_id="16",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Smart Array P408i-a SR Gen10",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="1.04",write_protected=""} 1
+redfish_firmware_inventory_info{description="InnovationEngineFirmware",device_context="System Board",installation_date="",inventory_id="8",inventory_slot="",lowest_supported_version="",manufacturer="",name="Innovation Engine (IE) Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="0.2.3.0",write_protected=""} 1
+redfish_firmware_inventory_info{description="PlatformDefinitionTable",device_context="System Board",installation_date="",inventory_id="3",inventory_slot="",lowest_supported_version="",manufacturer="",name="Intelligent Platform Abstraction Data",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="16.5.0 Build 53",write_protected=""} 1
+redfish_firmware_inventory_info{description="PowerManagementController",device_context="System Board",installation_date="",inventory_id="5",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Management Controller Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="1.1.4",write_protected=""} 1
+redfish_firmware_inventory_info{description="PowerManagementControllerBootloader",device_context="System Board",installation_date="",inventory_id="12",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Management Controller FW Bootloader",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="1.1",write_protected=""} 1
+redfish_firmware_inventory_info{description="PowerSupplies",device_context="Bay 1",installation_date="",inventory_id="6",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Supply Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="1.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="PowerSupplies",device_context="Bay 2",installation_date="",inventory_id="7",inventory_slot="",lowest_supported_version="",manufacturer="",name="Power Supply Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="1.00",write_protected=""} 1
+redfish_firmware_inventory_info{description="SPSFirmwareDescriptor",device_context="System Board",installation_date="",inventory_id="10",inventory_slot="",lowest_supported_version="",manufacturer="",name="Server Platform Services (SPS) Descriptor",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="1.2 0",write_protected=""} 1
+redfish_firmware_inventory_info{description="SPSFirmwareVersionData",device_context="System Board",installation_date="",inventory_id="9",inventory_slot="",lowest_supported_version="",manufacturer="",name="Server Platform Services (SPS) Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="4.1.5.2",write_protected=""} 1
+redfish_firmware_inventory_info{description="SmartStorageEnergyPack",device_context="Embedded Device",installation_date="",inventory_id="13",inventory_slot="",lowest_supported_version="",manufacturer="",name="HPE Smart Storage Energy Pack 1 Firmware",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="0.60",write_protected=""} 1
+redfish_firmware_inventory_info{description="SystemBMC",device_context="System Board",installation_date="",inventory_id="1",inventory_slot="",lowest_supported_version="",manufacturer="",name="iLO 5",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="3.08 Sep 12 2024",write_protected=""} 1
+redfish_firmware_inventory_info{description="SystemProgrammableLogicDevice",device_context="System Board",installation_date="",inventory_id="4",inventory_slot="",lowest_supported_version="",manufacturer="",name="System Programmable Logic Device",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="0x2A",write_protected=""} 1
+redfish_firmware_inventory_info{description="SystemRomActive",device_context="System Board",installation_date="",inventory_id="2",inventory_slot="",lowest_supported_version="",manufacturer="",name="System ROM",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="U30 v3.30 (07/31/2024)",write_protected=""} 1
+redfish_firmware_inventory_info{description="SystemRomBackup",device_context="System Board",installation_date="",inventory_id="11",inventory_slot="",lowest_supported_version="",manufacturer="",name="Redundant System ROM",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="true",version="U30 v2.90 (07/20/2023)",write_protected=""} 1
+redfish_firmware_inventory_info{description="VK000240GWCFD",device_context="Port=1I:Box=3:Bay=3",installation_date="",inventory_id="20",inventory_slot="",lowest_supported_version="",manufacturer="",name="Drive",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="HPG3",write_protected=""} 1
+redfish_firmware_inventory_info{description="VK000240GWCFD",device_context="Port=1I:Box=3:Bay=4",installation_date="",inventory_id="19",inventory_slot="",lowest_supported_version="",manufacturer="",name="Drive",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="HPG3",write_protected=""} 1
+redfish_firmware_inventory_info{description="VK001920GWCFH",device_context="Port=1I:Box=3:Bay=1",installation_date="",inventory_id="22",inventory_slot="",lowest_supported_version="",manufacturer="",name="Drive",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="HPG3",write_protected=""} 1
+redfish_firmware_inventory_info{description="VK001920GWCFH",device_context="Port=1I:Box=3:Bay=2",installation_date="",inventory_id="21",inventory_slot="",lowest_supported_version="",manufacturer="",name="Drive",related_kind="",related_location="",related_ref="",related_scope="",release_date="",software_id="",updateable="false",version="HPG3",write_protected=""} 1
+# HELP redfish_firmware_inventory_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_firmware_inventory_state_info gauge
+redfish_firmware_inventory_state_info{inventory_id="1",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="10",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="11",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="12",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="13",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="14",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="15",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="16",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="17",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="18",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="19",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="2",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="20",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="21",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="22",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="3",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="4",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="5",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="6",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="7",state="Unknown"} 1
+redfish_firmware_inventory_state_info{inventory_id="8",state="Enabled"} 1
+redfish_firmware_inventory_state_info{inventory_id="9",state="Enabled"} 1
+# HELP redfish_inventory_exporter_collector_success 1 when the collector subsystem read everything it asked for during the last scrape, 0 when any request failed. A 0 can still come with partial metrics: members that were read are kept. Use label collector (bios, chassis, memory, network, pcie, power, processor, sensors, storage, thermal). Series absent for subsystems disabled via --disable-collectors.
+# TYPE redfish_inventory_exporter_collector_success gauge
+redfish_inventory_exporter_collector_success{collector="bios",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="bmc",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="chassis",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="memory",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="network",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="pcie",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="power",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="processor",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="sensors",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="storage",target="mock"} 1
+redfish_inventory_exporter_collector_success{collector="thermal",target="mock"} 1
+# HELP redfish_memory Memory module (DIMM) inventory (constant 1) with capacity, type, locator, speed, FRU from Assembly when present, and related labels.
+# TYPE redfish_memory gauge
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 1 DIMM 1",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc1dimm1",loc_channel="5",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 1 DIMM 11",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc1dimm11",loc_channel="2",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 1 DIMM 12",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc1dimm12",loc_channel="2",loc_imc="0",loc_slot="1",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 1 DIMM 2",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc1dimm2",loc_channel="5",loc_imc="1",loc_slot="1",loc_socket="0",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 2 DIMM 1",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc2dimm1",loc_channel="5",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 2 DIMM 11",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc2dimm11",loc_channel="2",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 2 DIMM 12",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc2dimm12",loc_channel="2",loc_imc="0",loc_slot="1",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="",bus_width_bits="72",capacity_mib="0",data_width_bits="64",device_locator="PROC 2 DIMM 2",device_serial_number="DUMMY-SerialNumber-10",ecc_bits="8",enabled="",error_correction="MultiBitECC",fru_part_number="",id="proc2dimm2",loc_channel="5",loc_imc="1",loc_slot="1",loc_socket="1",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="",max_operating_speed_mhz="0",memory_media="DRAM",memory_type="",operating_speed_mhz="0",part_number="NOT AVAILABLE",rank_count="0"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 10",device_serial_number="DUMMY-SerialNumber-21",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm10",loc_channel="1",loc_imc="0",loc_slot="1",loc_socket="0",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 3",device_serial_number="DUMMY-SerialNumber-16",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm3",loc_channel="4",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 4",device_serial_number="DUMMY-SerialNumber-20",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm4",loc_channel="4",loc_imc="1",loc_slot="1",loc_socket="0",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 5",device_serial_number="DUMMY-SerialNumber-24",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm5",loc_channel="3",loc_imc="1",loc_slot="0",loc_socket="0",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 6",device_serial_number="DUMMY-SerialNumber-23",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm6",loc_channel="3",loc_imc="1",loc_slot="1",loc_socket="0",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 7",device_serial_number="DUMMY-SerialNumber-13",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm7",loc_channel="0",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 8",device_serial_number="DUMMY-SerialNumber-22",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm8",loc_channel="0",loc_imc="0",loc_slot="1",loc_socket="0",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 1 DIMM 9",device_serial_number="DUMMY-SerialNumber-12",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc1dimm9",loc_channel="1",loc_imc="0",loc_slot="0",loc_socket="0",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 10",device_serial_number="DUMMY-SerialNumber-9",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm10",loc_channel="1",loc_imc="0",loc_slot="1",loc_socket="1",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 3",device_serial_number="DUMMY-SerialNumber-11",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm3",loc_channel="4",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 4",device_serial_number="DUMMY-SerialNumber-17",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm4",loc_channel="4",loc_imc="1",loc_slot="1",loc_socket="1",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 5",device_serial_number="DUMMY-SerialNumber-15",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm5",loc_channel="3",loc_imc="1",loc_slot="0",loc_socket="1",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 6",device_serial_number="DUMMY-SerialNumber-25",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm6",loc_channel="3",loc_imc="1",loc_slot="1",loc_socket="1",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 7",device_serial_number="DUMMY-SerialNumber-14",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm7",loc_channel="0",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="2018-06-04",manufacture_week="23",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 8",device_serial_number="DUMMY-SerialNumber-18",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm8",loc_channel="0",loc_imc="0",loc_slot="1",loc_socket="1",manufacture_date="2018-01-15",manufacture_week="3",manufacture_year="2018",manufacturer="Micron Technology",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="36ASF4G72PZ-2G6D1",rank_count="2"} 1
+redfish_memory{base_module_type="RDIMM",bus_width_bits="72",capacity_mib="32768",data_width_bits="64",device_locator="PROC 2 DIMM 9",device_serial_number="DUMMY-SerialNumber-19",ecc_bits="8",enabled="true",error_correction="MultiBitECC",fru_part_number="840758-091",id="proc2dimm9",loc_channel="1",loc_imc="0",loc_slot="0",loc_socket="1",manufacture_date="2018-05-28",manufacture_week="22",manufacture_year="2018",manufacturer="Samsung Electronics Co., Ltd.",max_operating_speed_mhz="2666",memory_media="DRAM",memory_type="DDR4",operating_speed_mhz="2666",part_number="M393A4K40CB2-CTD",rank_count="2"} 1
+# HELP redfish_memory_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_memory_health_info gauge
+redfish_memory_health_info{health="OK",id="proc1dimm1"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm10"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm11"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm12"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm2"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm3"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm4"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm5"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm6"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm7"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm8"} 1
+redfish_memory_health_info{health="OK",id="proc1dimm9"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm1"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm10"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm11"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm12"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm2"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm3"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm4"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm5"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm6"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm7"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm8"} 1
+redfish_memory_health_info{health="OK",id="proc2dimm9"} 1
+# HELP redfish_memory_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_memory_state_info gauge
+redfish_memory_state_info{id="proc1dimm1",state="Absent"} 1
+redfish_memory_state_info{id="proc1dimm10",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm11",state="Absent"} 1
+redfish_memory_state_info{id="proc1dimm12",state="Absent"} 1
+redfish_memory_state_info{id="proc1dimm2",state="Absent"} 1
+redfish_memory_state_info{id="proc1dimm3",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm4",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm5",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm6",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm7",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm8",state="Enabled"} 1
+redfish_memory_state_info{id="proc1dimm9",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm1",state="Absent"} 1
+redfish_memory_state_info{id="proc2dimm10",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm11",state="Absent"} 1
+redfish_memory_state_info{id="proc2dimm12",state="Absent"} 1
+redfish_memory_state_info{id="proc2dimm2",state="Absent"} 1
+redfish_memory_state_info{id="proc2dimm3",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm4",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm5",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm6",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm7",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm8",state="Enabled"} 1
+redfish_memory_state_info{id="proc2dimm9",state="Enabled"} 1
+# HELP redfish_memory_summary_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_memory_summary_health_info gauge
+redfish_memory_summary_health_info{health="OK"} 1
+# HELP redfish_memory_summary_info System-wide memory summary (constant 1): total capacity, device_count, etc.
+# TYPE redfish_memory_summary_info gauge
+redfish_memory_summary_info{device_count="24",total_system_memory_gib="512.00",total_system_memory_mib="524288"} 1
+# HELP redfish_memory_summary_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_memory_summary_state_info gauge
+redfish_memory_summary_state_info{state="Unknown"} 1
+# HELP redfish_network EthernetInterface inventory (constant 1). link_status is Redfish LinkStatus. Enum: LinkUp, LinkDown, LinkNegotiating, NoLink. Vendors may emit other strings.
+# TYPE redfish_network gauge
+redfish_network{fqdn="",hostname="",id="1",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:01",name="1",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="13",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:03",name="13",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="14",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:0A",name="14",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="2",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:07",name="2",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="2125",interface_enabled="false",link_status="LinkUp",mac_address="00:1B:44:AA:00:02",name="2125",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="2126",interface_enabled="false",link_status="LinkUp",mac_address="00:1B:44:AA:00:06",name="2126",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="3",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:08",name="3",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+redfish_network{fqdn="",hostname="",id="4",interface_enabled="false",link_status="",mac_address="00:1B:44:AA:00:09",name="4",permanent_mac_address="",port_link_status="",port_mac_address="",port_number="",speed_mbps="0"} 1
+# HELP redfish_network_adapter_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_network_adapter_health_info gauge
+redfish_network_adapter_health_info{chassis_id="1",health="OK",health_rollup="OK",id="DE07A000"} 1
+redfish_network_adapter_health_info{chassis_id="1",health="Unknown",health_rollup="Unknown",id="DC080000"} 1
+# HELP redfish_network_adapter_info Chassis NetworkAdapter inventory (constant 1). Health and state are on redfish_network_adapter_health_info and redfish_network_adapter_state_info.
+# TYPE redfish_network_adapter_info gauge
+redfish_network_adapter_info{chassis_id="1",engineering_change_level="",firmware_version="10.55.3",fru_part_number="",id="DC080000",manufacture_date="",manufacturer="Hewlett Packard Enterprise",model="HPE Eth 10Gb 2p 562T Adptr",name="HPE Eth 10Gb 2p 562T Adptr",part_number="817736-001",serial_number="DUMMY-SerialNumber-8",sku="DUMMY-SKU-5",uuid=""} 1
+redfish_network_adapter_info{chassis_id="1",engineering_change_level="",firmware_version="14.32.1010",fru_part_number="",id="DE07A000",manufacture_date="",manufacturer="Hewlett Packard Enterprise",model="HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",name="HPE Eth 10/25Gb 2p DUMMY-ID-27 Adptr",part_number="817747-001",serial_number="DUMMY-SerialNumber-7",sku="DUMMY-SKU-6",uuid=""} 1
+# HELP redfish_network_adapter_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_network_adapter_state_info gauge
+redfish_network_adapter_state_info{chassis_id="1",id="DC080000",state="Unknown"} 1
+redfish_network_adapter_state_info{chassis_id="1",id="DE07A000",state="Enabled"} 1
+# HELP redfish_network_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_network_health_info gauge
+redfish_network_health_info{health="OK",id="2125"} 1
+redfish_network_health_info{health="OK",id="2126"} 1
+redfish_network_health_info{health="Unknown",id="1"} 1
+redfish_network_health_info{health="Unknown",id="13"} 1
+redfish_network_health_info{health="Unknown",id="14"} 1
+redfish_network_health_info{health="Unknown",id="2"} 1
+redfish_network_health_info{health="Unknown",id="3"} 1
+redfish_network_health_info{health="Unknown",id="4"} 1
+# HELP redfish_network_port_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_network_port_health_info gauge
+redfish_network_port_health_info{adapter_id="DE07A000",chassis_id="1",health="OK",id="1"} 1
+redfish_network_port_health_info{adapter_id="DE07A000",chassis_id="1",health="OK",id="2"} 1
+# HELP redfish_network_port_info Chassis NetworkPort inventory (constant 1): adapter_id, port number, link technology.
+# TYPE redfish_network_port_info gauge
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="DE07A000",chassis_id="1",id="1",mac_address="00:1B:44:AA:00:02",name="Port",physical_port_number="1"} 1
+redfish_network_port_info{active_link_technology="Ethernet",adapter_id="DE07A000",chassis_id="1",id="2",mac_address="00:1B:44:AA:00:06",name="Port",physical_port_number="2"} 1
+# HELP redfish_network_port_state_info Network adapter port state (constant 1). state is Resource.State (see Resource.State enum on redfish_*_state_info metrics; Unknown when omitted). link_status is Port.LinkStatus: LinkUp, LinkDown, NoLink, Starting, Training. Empty when omitted.
+# TYPE redfish_network_port_state_info gauge
+redfish_network_port_state_info{adapter_id="DE07A000",chassis_id="1",current_link_speed_mbps="25000",id="1",link_status="LinkUp",state="Enabled"} 1
+redfish_network_port_state_info{adapter_id="DE07A000",chassis_id="1",current_link_speed_mbps="25000",id="2",link_status="LinkUp",state="Enabled"} 1
+# HELP redfish_network_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_network_state_info gauge
+redfish_network_state_info{id="1",state="Unknown"} 1
+redfish_network_state_info{id="13",state="Unknown"} 1
+redfish_network_state_info{id="14",state="Unknown"} 1
+redfish_network_state_info{id="2",state="Unknown"} 1
+redfish_network_state_info{id="2125",state="Enabled"} 1
+redfish_network_state_info{id="2126",state="Enabled"} 1
+redfish_network_state_info{id="3",state="Unknown"} 1
+redfish_network_state_info{id="4",state="Unknown"} 1
+# HELP redfish_pcie_device_health Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_pcie_device_health gauge
+redfish_pcie_device_health{health="OK",id="195"} 1
+redfish_pcie_device_health{health="OK",id="197"} 1
+redfish_pcie_device_health{health="OK",id="198"} 1
+redfish_pcie_device_health{health="Unknown",id="191"} 1
+redfish_pcie_device_health{health="Unknown",id="199"} 1
+# HELP redfish_pcie_device_info PCIe device / function inventory (constant 1) with vendor/device class, IDs, location, firmware, and PCIeInterface (pcie_type/max_pcie_type, lanes_in_use/max_lanes) labels.
+# TYPE redfish_pcie_device_info gauge
+redfish_pcie_device_info{class_code="0x010000",device_class="MassStorageController",device_id="655",firmware_version="1.04",function_count="1",id="197",lanes_in_use="0",location="Embedded RAID 1",manufacturer="Adaptec",max_lanes="0",max_pcie_type="",model="804334-001",name="Function 1",pcie_type="",subsystem_device_id="1538",subsystem_vendor_id="4156",vendor_id="36869"} 1
+redfish_pcie_device_info{class_code="0x020000",device_class="NetworkController",device_id="4117",firmware_version="14.32.1010",function_count="1",id="195",lanes_in_use="0",location="Embedded FlexibleLOM 1",manufacturer="HPE",max_lanes="0",max_pcie_type="",model="817747-001",name="Function 1",pcie_type="",subsystem_device_id="211",subsystem_vendor_id="5520",vendor_id="5555"} 1
+redfish_pcie_device_info{class_code="0x020000",device_class="NetworkController",device_id="5475",firmware_version="10.55.3",function_count="1",id="199",lanes_in_use="0",location="Slot 1",manufacturer="HPE",max_lanes="0",max_pcie_type="",model="817736-001",name="Function 1",pcie_type="",subsystem_device_id="209",subsystem_vendor_id="5520",vendor_id="32902"} 1
+redfish_pcie_device_info{class_code="0x020000",device_class="NetworkController",device_id="5719",firmware_version="20.30.41",function_count="1",id="191",lanes_in_use="0",location="Embedded LOM 1",manufacturer="Broadcom Inc. and subsidiaries",max_lanes="0",max_pcie_type="",model="N/A",name="Function 1",pcie_type="",subsystem_device_id="8894",subsystem_vendor_id="4156",vendor_id="5348"} 1
+redfish_pcie_device_info{class_code="0x030000",device_class="DisplayController",device_id="1336",firmware_version="2.5",function_count="1",id="198",lanes_in_use="0",location="Embedded Video Controller",manufacturer="Matrox Electronics Systems Ltd.",max_lanes="0",max_pcie_type="",model="iLO5 VGA",name="Function 1",pcie_type="",subsystem_device_id="228",subsystem_vendor_id="5520",vendor_id="4139"} 1
+# HELP redfish_pcie_device_state Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_pcie_device_state gauge
+redfish_pcie_device_state{id="191",state="Unknown"} 1
+redfish_pcie_device_state{id="195",state="Enabled"} 1
+redfish_pcie_device_state{id="197",state="Enabled"} 1
+redfish_pcie_device_state{id="198",state="Enabled"} 1
+redfish_pcie_device_state{id="199",state="Unknown"} 1
+# HELP redfish_powersupply_average_consumed_watts PowerMetrics.AverageConsumedWatts over the reported IntervalInMin window.
+# TYPE redfish_powersupply_average_consumed_watts gauge
+redfish_powersupply_average_consumed_watts{chassis_id="1",power_control_name="0"} 313
+# HELP redfish_powersupply_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_powersupply_health_info gauge
+redfish_powersupply_health_info{chassis_id="1",health="OK",name="PSU Bay 1"} 1
+redfish_powersupply_health_info{chassis_id="1",health="OK",name="PSU Bay 2"} 1
+# HELP redfish_powersupply_info Power supply unit inventory (constant 1): manufacturer, model, part/serial, type, firmware, hot_pluggable, manufacture labels, and engineering_change_level from Assembly when present.
+# TYPE redfish_powersupply_info gauge
+redfish_powersupply_info{chassis_id="1",engineering_change_level="",firmware_version="1.00",fru_part_number="",hot_pluggable="true",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Lite-On Technology Corporation",member_id="0",model="865414-B21",name="PSU Bay 1",part_number="866730-001",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber-3"} 1
+redfish_powersupply_info{chassis_id="1",engineering_change_level="",firmware_version="1.00",fru_part_number="",hot_pluggable="true",manufacture_date="",manufacture_week="",manufacture_year="",manufacturer="Lite-On Technology Corporation",member_id="1",model="865414-B21",name="PSU Bay 2",part_number="866730-001",power_supply_type="AC",psu_serial_number="DUMMY-SerialNumber-4"} 1
+# HELP redfish_powersupply_input_volts Measured line input voltage (volts) for the named PSU.
+# TYPE redfish_powersupply_input_volts gauge
+redfish_powersupply_input_volts{chassis_id="1",name="PSU Bay 1"} 228
+redfish_powersupply_input_volts{chassis_id="1",name="PSU Bay 2"} 228
+# HELP redfish_powersupply_max_consumed_watts PowerMetrics.MaxConsumedWatts over the reported IntervalInMin window.
+# TYPE redfish_powersupply_max_consumed_watts gauge
+redfish_powersupply_max_consumed_watts{chassis_id="1",power_control_name="0"} 318
+# HELP redfish_powersupply_min_consumed_watts PowerMetrics.MinConsumedWatts over the reported IntervalInMin window.
+# TYPE redfish_powersupply_min_consumed_watts gauge
+redfish_powersupply_min_consumed_watts{chassis_id="1",power_control_name="0"} 313
+# HELP redfish_powersupply_output_watts DC output power (watts) for the named PSU (LastPowerOutputWatts or PowerOutputWatts).
+# TYPE redfish_powersupply_output_watts gauge
+redfish_powersupply_output_watts{chassis_id="1",name="PSU Bay 1"} 152
+redfish_powersupply_output_watts{chassis_id="1",name="PSU Bay 2"} 162
+# HELP redfish_powersupply_power_capacity_watts Rated or reported power capacity (watts) for the named PSU.
+# TYPE redfish_powersupply_power_capacity_watts gauge
+redfish_powersupply_power_capacity_watts{chassis_id="1",name="PSU Bay 1"} 800
+redfish_powersupply_power_capacity_watts{chassis_id="1",name="PSU Bay 2"} 800
+# HELP redfish_powersupply_redundancy_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_powersupply_redundancy_health_info gauge
+redfish_powersupply_redundancy_health_info{chassis_id="1",health="OK",redundancy_id="0"} 1
+# HELP redfish_powersupply_redundancy_info Power subsystem Redundancy group (constant 1). mode is Redfish Redundancy.Mode. Enum: Failover, N+m, Sharing, Sparing, NotRedundant. Unknown when omitted.
+# TYPE redfish_powersupply_redundancy_info gauge
+redfish_powersupply_redundancy_info{chassis_id="1",max_num_supported="2",member_count="2",min_num_needed="2",mode="Failover",name="PowerSupply Redundancy Group 1",redundancy_enabled="false",redundancy_id="0"} 1
+# HELP redfish_powersupply_redundancy_member_info Constant 1 per PSU membership in a redundancy group (chassis_id, redundancy_id, psu_name).
+# TYPE redfish_powersupply_redundancy_member_info gauge
+redfish_powersupply_redundancy_member_info{chassis_id="1",psu_name="PSU Bay 1",redundancy_id="0"} 1
+redfish_powersupply_redundancy_member_info{chassis_id="1",psu_name="PSU Bay 2",redundancy_id="0"} 1
+# HELP redfish_powersupply_redundancy_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_powersupply_redundancy_state_info gauge
+redfish_powersupply_redundancy_state_info{chassis_id="1",redundancy_id="0",state="Enabled"} 1
+# HELP redfish_powersupply_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_powersupply_state_info gauge
+redfish_powersupply_state_info{chassis_id="1",name="PSU Bay 1",state="Enabled"} 1
+redfish_powersupply_state_info{chassis_id="1",name="PSU Bay 2",state="Enabled"} 1
+# HELP redfish_powersupply_total_consumed_watts Chassis power control: power consumed in watts (PowerControl.PowerConsumedWatts or average from PowerMetrics).
+# TYPE redfish_powersupply_total_consumed_watts gauge
+redfish_powersupply_total_consumed_watts{chassis_id="1",power_control_name="0"} 314
+# HELP redfish_processor_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_processor_health_info gauge
+redfish_processor_health_info{health="OK",id="1"} 1
+redfish_processor_health_info{health="OK",id="2"} 1
+# HELP redfish_processor_info Processor socket inventory (constant 1) with architecture, speeds, tdp_watts, processor_memory cache capacities, cores, threads, identification labels.
+# TYPE redfish_processor_info gauge
+redfish_processor_info{architecture="x86",base_speed_mhz="2000",id="1",instruction_set="x86-64",manufacturer="Intel(R) Corporation",max_speed_mhz="4000",model="Intel(R) Xeon(R) Gold 6138",name="Processors",part_number="Xeon Gold 6138",pcie_device_id="",processor_id_effective_family="179",processor_id_effective_model="5",processor_id_step="4",processor_id_vendor_id="Intel(R) Corporation",processor_memory="",processor_serial_number="",socket="Proc 1",speed_mhz="2000",tdp_watts="",total_cores="20",total_enabled_cores="20",total_threads="40",type="CPU"} 1
+redfish_processor_info{architecture="x86",base_speed_mhz="2000",id="2",instruction_set="x86-64",manufacturer="Intel(R) Corporation",max_speed_mhz="4000",model="Intel(R) Xeon(R) Gold 6138",name="Processors",part_number="Xeon Gold 6138",pcie_device_id="",processor_id_effective_family="179",processor_id_effective_model="5",processor_id_step="4",processor_id_vendor_id="Intel(R) Corporation",processor_memory="",processor_serial_number="",socket="Proc 2",speed_mhz="2000",tdp_watts="",total_cores="20",total_enabled_cores="20",total_threads="40",type="CPU"} 1
+# HELP redfish_processor_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_processor_state_info gauge
+redfish_processor_state_info{id="1",state="Enabled"} 1
+redfish_processor_state_info{id="2",state="Enabled"} 1
+# HELP redfish_processor_summary_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_processor_summary_health_info gauge
+redfish_processor_summary_health_info{health="OK"} 1
+# HELP redfish_processor_summary_info Aggregated processor summary for the system (constant 1): socket_count, total_cores, total_threads, max_speed_mhz, etc.
+# TYPE redfish_processor_summary_info gauge
+redfish_processor_summary_info{architecture="x86",logical_processor_count="80",max_speed_mhz="4000",model="Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz",socket_count="2",total_cores="40",total_threads="80",type="CPU"} 1
+# HELP redfish_processor_summary_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_processor_summary_state_info gauge
+redfish_processor_summary_state_info{state="Enabled"} 1
+# HELP redfish_storage_battery_capacity_actual_amp_hours Storage-controller battery actual maximum capacity in amp-hours when reported.
+# TYPE redfish_storage_battery_capacity_actual_amp_hours gauge
+redfish_storage_battery_capacity_actual_amp_hours{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_capacity_actual_watt_hours Storage-controller battery actual maximum capacity in watt-hours when reported.
+# TYPE redfish_storage_battery_capacity_actual_watt_hours gauge
+redfish_storage_battery_capacity_actual_watt_hours{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_capacity_rated_amp_hours Storage-controller battery rated maximum capacity in amp-hours when reported.
+# TYPE redfish_storage_battery_capacity_rated_amp_hours gauge
+redfish_storage_battery_capacity_rated_amp_hours{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_capacity_rated_watt_hours Storage-controller battery rated maximum capacity in watt-hours when reported.
+# TYPE redfish_storage_battery_capacity_rated_watt_hours gauge
+redfish_storage_battery_capacity_rated_watt_hours{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_charge_level_percent Battery charge level percent when reported (OEM or state-of-health fallback).
+# TYPE redfish_storage_battery_charge_level_percent gauge
+redfish_storage_battery_charge_level_percent{battery_id="1",controller_id="0",storage_id="0"} 100
+# HELP redfish_storage_battery_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_storage_battery_health_info gauge
+redfish_storage_battery_health_info{battery_id="1",controller_id="0",health="OK",storage_id="0"} 1
+# HELP redfish_storage_battery_info Storage-controller battery inventory (constant 1): model, serial, firmware, spare part, and charge state labels.
+# TYPE redfish_storage_battery_info gauge
+redfish_storage_battery_info{battery_id="1",charge_state="",controller_id="0",firmware_version="0.60",manufacturer="HPE",model="875241-B21",name="HPE Smart Storage Battery ",part_number="",serial_number="DUMMY-SerialNumber-2",spare_part_number="878643-001",storage_id="0"} 1
+# HELP redfish_storage_battery_max_charge_rate_amps Storage-controller battery maximum charge rate in amps when reported.
+# TYPE redfish_storage_battery_max_charge_rate_amps gauge
+redfish_storage_battery_max_charge_rate_amps{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_max_charge_voltage Storage-controller battery maximum charge voltage when reported.
+# TYPE redfish_storage_battery_max_charge_voltage gauge
+redfish_storage_battery_max_charge_voltage{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_max_discharge_rate_amps Storage-controller battery maximum discharge rate in amps when reported.
+# TYPE redfish_storage_battery_max_discharge_rate_amps gauge
+redfish_storage_battery_max_discharge_rate_amps{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_battery_maximum_cap_watts Vendor-reported maximum battery power capability in watts (e.g. HPE Smart Storage MaximumCapWatts), not energy capacity.
+# TYPE redfish_storage_battery_maximum_cap_watts gauge
+redfish_storage_battery_maximum_cap_watts{battery_id="1",controller_id="0",storage_id="0"} 96
+# HELP redfish_storage_battery_remaining_charge_time_seconds Estimated seconds remaining until charge completes when reported by the BMC.
+# TYPE redfish_storage_battery_remaining_charge_time_seconds gauge
+redfish_storage_battery_remaining_charge_time_seconds{battery_id="1",controller_id="0",storage_id="0"} 7
+# HELP redfish_storage_battery_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_storage_battery_state_info gauge
+redfish_storage_battery_state_info{battery_id="1",controller_id="0",state="Enabled",storage_id="0"} 1
+# HELP redfish_storage_battery_state_of_health_percent Battery state of health percent when reported (Redfish StateOfHealthPercent.Reading).
+# TYPE redfish_storage_battery_state_of_health_percent gauge
+redfish_storage_battery_state_of_health_percent{battery_id="1",controller_id="0",storage_id="0"} 0
+# HELP redfish_storage_controller_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_storage_controller_health_info gauge
+redfish_storage_controller_health_info{controller_id="0",health="OK",storage_id="0"} 1
+# HELP redfish_storage_controller_info Storage controller inventory (constant 1): model, firmware, protocols, cache sizes, supported RAID types, identifier (DurableNameFormat:DurableName), and FRU/manufacture/engineering_change_level from Assembly when present.
+# TYPE redfish_storage_controller_info gauge
+redfish_storage_controller_info{asset_tag="",controller_id="0",controller_serial_number="DUMMY-SerialNumber-6",engineering_change_level="",firmware_version="1.04",fru_part_number="",identifier="",manufacture_date="",manufacturer="HPE",model="HPE Smart Array P408i-a SR Gen10",name="HPE Smart Array P408i-a SR Gen10",part_number="DUMMY-ID-29",persistent_cache_size_mib="0",speed_gbps="0",storage_id="0",supported_controller_protocols="PCIe",supported_device_protocols="SAS,SATA",supported_raid_types="RAID0,RAID1,RAID10,RAID5,RAID50,RAID6,RAID60,RAID1Triple,RAID10Triple,None",total_cache_size_mib="0"} 1
+# HELP redfish_storage_controller_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_storage_controller_state_info gauge
+redfish_storage_controller_state_info{controller_id="0",state="Enabled",storage_id="0"} 1
+# HELP redfish_storage_drive_failure_predicted 1 if the drive reports FailurePredicted, else 0.
+# TYPE redfish_storage_drive_failure_predicted gauge
+redfish_storage_drive_failure_predicted{id="0",storage_id="0"} 0
+redfish_storage_drive_failure_predicted{id="1",storage_id="0"} 0
+redfish_storage_drive_failure_predicted{id="2",storage_id="0"} 0
+redfish_storage_drive_failure_predicted{id="3",storage_id="0"} 0
+# HELP redfish_storage_drive_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health. predictive_failure is Oem.Redpool PredictiveFailureState when present (e.g. Dell SmartAlertAbsent). Boolean FailurePredicted is redfish_storage_drive_failure_predicted. status_indicator is Drive.StatusIndicator when present and different from health (e.g. Rebuild, Fail, InACriticalArray).
+# TYPE redfish_storage_drive_health_info gauge
+redfish_storage_drive_health_info{health="OK",id="0",predictive_failure="",storage_id="0"} 1
+redfish_storage_drive_health_info{health="OK",id="1",predictive_failure="",storage_id="0"} 1
+redfish_storage_drive_health_info{health="OK",id="2",predictive_failure="",storage_id="0"} 1
+redfish_storage_drive_health_info{health="OK",id="3",predictive_failure="",storage_id="0"} 1
+# HELP redfish_storage_drive_info Storage drive inventory (constant 1): model, serial, media, protocol, capacity, encryption, location, cpu_affinity, volume_id, etc. Health and predictive failure are on redfish_storage_drive_health_info; state and raid_status are on redfish_storage_drive_state_info.
+# TYPE redfish_storage_drive_info gauge
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="0",capacity_bytes="1920383410176",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-28",drive_form_factor="",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="3",identifier="",location="Port=1I:3:1",manufacturer="",media_type="SSD",model="VK001920GWCFH",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="HPG3",storage_id="0",volume_id="2"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="0",capacity_bytes="1920383410176",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-29",drive_form_factor="",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="2",identifier="",location="Port=1I:3:2",manufacturer="",media_type="SSD",model="VK001920GWCFH",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="HPG3",storage_id="0",volume_id="2"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="0",capacity_bytes="240057409536",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-27",drive_form_factor="",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="0",identifier="",location="Port=1I:3:4",manufacturer="",media_type="SSD",model="VK000240GWCFD",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="HPG3",storage_id="0",volume_id="1"} 1
+redfish_storage_drive_info{block_size_bytes="512",capable_speed_gbps="0",capacity_bytes="240057409536",cpu_affinity="",device_serial_number="DUMMY-SerialNumber-30",drive_form_factor="",encryption_ability="None",encryption_status="Unencrypted",hot_pluggable="false",id="1",identifier="",location="Port=1I:3:3",manufacturer="",media_type="SSD",model="VK000240GWCFD",multipath="false",negotiated_speed_gbps="6",part_number="",protocol="SATA",revision="HPG3",storage_id="0",volume_id="1"} 1
+# HELP redfish_storage_drive_predicted_media_life_percent Vendor-reported remaining media life percent for the drive (0–100 when present).
+# TYPE redfish_storage_drive_predicted_media_life_percent gauge
+redfish_storage_drive_predicted_media_life_percent{id="0",storage_id="0"} 0
+redfish_storage_drive_predicted_media_life_percent{id="1",storage_id="0"} 0
+redfish_storage_drive_predicted_media_life_percent{id="2",storage_id="0"} 0
+redfish_storage_drive_predicted_media_life_percent{id="3",storage_id="0"} 0
+# HELP redfish_storage_drive_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted. raid_status is Oem.Redpool RaidStatus when present (e.g. Dell Online, Ready, Offline, Failed, Foreign, Non-RAID).
+# TYPE redfish_storage_drive_state_info gauge
+redfish_storage_drive_state_info{id="0",raid_status="",state="Enabled",storage_id="0"} 1
+redfish_storage_drive_state_info{id="1",raid_status="",state="Enabled",storage_id="0"} 1
+redfish_storage_drive_state_info{id="2",raid_status="",state="Enabled",storage_id="0"} 1
+redfish_storage_drive_state_info{id="3",raid_status="",state="Enabled",storage_id="0"} 1
+# HELP redfish_storage_drive_temperature_celsius Drive temperature in degrees Celsius from Oem when present.
+# TYPE redfish_storage_drive_temperature_celsius gauge
+redfish_storage_drive_temperature_celsius{id="0",storage_id="0"} 11
+redfish_storage_drive_temperature_celsius{id="1",storage_id="0"} 12
+redfish_storage_drive_temperature_celsius{id="2",storage_id="0"} 12
+redfish_storage_drive_temperature_celsius{id="3",storage_id="0"} 12
+# HELP redfish_storage_drive_uncorrected_read_errors Drive uncorrected read error count from OEM SmartStorage fields.
+# TYPE redfish_storage_drive_uncorrected_read_errors gauge
+redfish_storage_drive_uncorrected_read_errors{id="0",storage_id="0"} 0
+redfish_storage_drive_uncorrected_read_errors{id="1",storage_id="0"} 0
+redfish_storage_drive_uncorrected_read_errors{id="2",storage_id="0"} 0
+redfish_storage_drive_uncorrected_read_errors{id="3",storage_id="0"} 0
+# HELP redfish_storage_drive_uncorrected_write_errors Drive uncorrected write error count from OEM SmartStorage fields.
+# TYPE redfish_storage_drive_uncorrected_write_errors gauge
+redfish_storage_drive_uncorrected_write_errors{id="0",storage_id="0"} 0
+redfish_storage_drive_uncorrected_write_errors{id="1",storage_id="0"} 0
+redfish_storage_drive_uncorrected_write_errors{id="2",storage_id="0"} 0
+redfish_storage_drive_uncorrected_write_errors{id="3",storage_id="0"} 0
+# HELP redfish_storage_drive_write_cache_enabled 1 if host write cache is enabled on the drive, else 0.
+# TYPE redfish_storage_drive_write_cache_enabled gauge
+redfish_storage_drive_write_cache_enabled{id="0",storage_id="0"} 0
+redfish_storage_drive_write_cache_enabled{id="1",storage_id="0"} 0
+redfish_storage_drive_write_cache_enabled{id="2",storage_id="0"} 0
+redfish_storage_drive_write_cache_enabled{id="3",storage_id="0"} 0
+# HELP redfish_storage_volume_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_storage_volume_health_info gauge
+redfish_storage_volume_health_info{health="OK",id="1",storage_id="0"} 1
+redfish_storage_volume_health_info{health="OK",id="2",storage_id="0"} 1
+# HELP redfish_storage_volume_info Storage volume (logical drive) inventory (constant 1): RAID type, capacity, cache policies, LUN, encryption, etc.
+# TYPE redfish_storage_volume_info gauge
+redfish_storage_volume_info{block_size_bytes="0",boot_capable="false",capacity_bytes="1920349503488",encrypted="false",encryption_types="",id="2",io_perf_mode_enabled="false",lun="0",name="DUMMY-LogicalDriveName",optimum_io_size_bytes="262144",provisioning_policy="",raid_type="RAID1",read_cache_policy="",storage_id="0",strip_size_bytes="262144",volume_type="",write_cache_policy="",write_cache_state=""} 1
+redfish_storage_volume_info{block_size_bytes="0",boot_capable="false",capacity_bytes="240021143552",encrypted="false",encryption_types="",id="1",io_perf_mode_enabled="false",lun="0",name="DUMMY-LogicalDriveName",optimum_io_size_bytes="262144",provisioning_policy="",raid_type="RAID1",read_cache_policy="",storage_id="0",strip_size_bytes="262144",volume_type="",write_cache_policy="",write_cache_state=""} 1
+# HELP redfish_storage_volume_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_storage_volume_state_info gauge
+redfish_storage_volume_state_info{id="1",state="Enabled",storage_id="0"} 1
+redfish_storage_volume_state_info{id="2",state="Enabled",storage_id="0"} 1
+# HELP redfish_system_fan_redundancy_info ComputerSystem fan redundancy status (constant 1). fan_redundancy is Oem.Redpool FanRedundancy when present (e.g. HPE AggregateHealthStatus.FanRedundancy).
+# TYPE redfish_system_fan_redundancy_info gauge
+redfish_system_fan_redundancy_info{fan_redundancy="Redundant"} 1
+# HELP redfish_system_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health. health_rollup is Resource.HealthRollup. aggregate_server_health is Oem.Redpool AggregateServerHealth when present (e.g. HPE).
+# TYPE redfish_system_health_info gauge
+redfish_system_health_info{aggregate_server_health="OK",health="OK",health_rollup="OK"} 1
+# HELP redfish_system_info ComputerSystem inventory (constant 1): serial_number, model, sub_model, manufacturer, hostname, uuid, pca_part_number (Oem.Redpool when present). Health and operational state are on redfish_system_health_info and redfish_system_state_info. Fan redundancy is on redfish_system_fan_redundancy_info.
+# TYPE redfish_system_info gauge
+redfish_system_info{hostname="",manufacturer="HPE",model="ProLiant DL380 Gen10",pca_part_number="809455-001",serial_number="DUMMY-SerialNumber-1",sub_model="",uuid="550e8400-e29b-41d4-a716-000000000003"} 1
+# HELP redfish_system_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted. power_state is ComputerSystem.PowerState (On, Off, Paused, PoweringOn, PoweringOff). post_state is Oem.Redpool when present (e.g. HPE).
+# TYPE redfish_system_state_info gauge
+redfish_system_state_info{post_state="FinishedPost",power_state="On",state="Enabled"} 1
+# HELP redfish_thermal_fan_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_thermal_fan_health_info gauge
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 1",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 2",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 3",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 4",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 5",health="OK"} 1
+redfish_thermal_fan_health_info{chassis_id="1",fan_name="Fan 6",health="OK"} 1
+# HELP redfish_thermal_fan_info Constant 1 per fan with chassis_id, fan_name, physical_context, and related_ref (Thermal RelatedItem join) for identification; speed/threshold metrics use chassis_id and fan_name only.
+# TYPE redfish_thermal_fan_info gauge
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 1",physical_context="SystemBoard",related_ref=""} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 2",physical_context="SystemBoard",related_ref=""} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 3",physical_context="SystemBoard",related_ref=""} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 4",physical_context="SystemBoard",related_ref=""} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 5",physical_context="SystemBoard",related_ref=""} 1
+redfish_thermal_fan_info{chassis_id="1",fan_name="Fan 6",physical_context="SystemBoard",related_ref=""} 1
+# HELP redfish_thermal_fan_speed_percent Fan speed as percent: Thermal.Fans when ReadingUnits are percent, Oem.Redpool.FanPWM on a ThermalSubsystem Fan, or RPM divided by MaxReadingRange when both are available.
+# TYPE redfish_thermal_fan_speed_percent gauge
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 1"} 21
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 2"} 21
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 3"} 21
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 4"} 20
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 5"} 20
+redfish_thermal_fan_speed_percent{chassis_id="1",fan_name="Fan 6"} 20
+# HELP redfish_thermal_fan_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_thermal_fan_state_info gauge
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 1",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 2",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 3",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 4",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 5",state="Enabled"} 1
+redfish_thermal_fan_state_info{chassis_id="1",fan_name="Fan 6",state="Enabled"} 1
+# HELP redfish_thermal_sensor_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_thermal_sensor_health_info gauge
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="01-Inlet Ambient"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="02-CPU 1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="03-CPU 2"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="04-P1 DIMM 1-6"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="06-P1 DIMM 7-12"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="08-P2 DIMM 1-6"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="10-P2 DIMM 7-12"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="12-HD Max"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="14-Stor Batt 1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="15-Front Ambient"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="16-VR P1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="17-VR P2"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="18-VR P1 Mem 1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="19-VR P1 Mem 2"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="20-VR P2 Mem 1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="21-VR P2 Mem 2"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="22-Chipset"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="23-BMC"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="24-BMC Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="25-HD Controller"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="26-HD Cntlr Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="27.1-LOM-Communication Channel"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="28.1-LOM Card-I/O module"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="29-LOM Card Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="30.1-PCI 1-Network controller"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="31-PCI 1 Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="33-PCI 2 Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="35-PCI 3 Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="53-Battery Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="54-P/S 1 Inlet"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="55-P/S 2 Inlet"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="56-P/S 1"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="57-P/S 2"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="58-P/S 2 Zone"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="59-E-Fuse"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="96-CPU 1 PkgTmp"} 1
+redfish_thermal_sensor_health_info{chassis_id="1",health="OK",sensor_name="97-CPU 2 PkgTmp"} 1
+# HELP redfish_thermal_sensor_info Constant 1 per temperature sensor with chassis_id, sensor_name, physical_context, and related_ref (Thermal RelatedItem join); value/threshold metrics use chassis_id and sensor_name only.
+# TYPE redfish_thermal_sensor_info gauge
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="",sensor_name="02-CPU 1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="",sensor_name="03-CPU 2"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="",sensor_name="96-CPU 1 PkgTmp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="CPU",related_ref="",sensor_name="97-CPU 2 PkgTmp"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Intake",related_ref="",sensor_name="01-Inlet Ambient"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Intake",related_ref="",sensor_name="15-Front Ambient"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="",sensor_name="04-P1 DIMM 1-6"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="",sensor_name="06-P1 DIMM 7-12"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="",sensor_name="08-P2 DIMM 1-6"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="Memory",related_ref="",sensor_name="10-P2 DIMM 7-12"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="54-P/S 1 Inlet"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="55-P/S 2 Inlet"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="56-P/S 1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="57-P/S 2"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="58-P/S 2 Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="PowerSupply",related_ref="",sensor_name="59-E-Fuse"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="12-HD Max"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="14-Stor Batt 1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="16-VR P1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="17-VR P2"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="18-VR P1 Mem 1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="19-VR P1 Mem 2"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="20-VR P2 Mem 1"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="21-VR P2 Mem 2"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="22-Chipset"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="23-BMC"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="24-BMC Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="25-HD Controller"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="26-HD Cntlr Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="27.1-LOM-Communication Channel"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="28.1-LOM Card-I/O module"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="29-LOM Card Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="30.1-PCI 1-Network controller"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="31-PCI 1 Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="33-PCI 2 Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="35-PCI 3 Zone"} 1
+redfish_thermal_sensor_info{chassis_id="1",physical_context="SystemBoard",related_ref="",sensor_name="53-Battery Zone"} 1
+# HELP redfish_thermal_sensor_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_thermal_sensor_state_info gauge
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="01-Inlet Ambient",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="02-CPU 1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="03-CPU 2",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="04-P1 DIMM 1-6",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="06-P1 DIMM 7-12",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="08-P2 DIMM 1-6",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="10-P2 DIMM 7-12",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="12-HD Max",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="14-Stor Batt 1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="15-Front Ambient",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="16-VR P1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="17-VR P2",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="18-VR P1 Mem 1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="19-VR P1 Mem 2",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="20-VR P2 Mem 1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="21-VR P2 Mem 2",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="22-Chipset",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="23-BMC",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="24-BMC Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="25-HD Controller",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="26-HD Cntlr Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="27.1-LOM-Communication Channel",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="28.1-LOM Card-I/O module",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="29-LOM Card Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="30.1-PCI 1-Network controller",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="31-PCI 1 Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="33-PCI 2 Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="35-PCI 3 Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="53-Battery Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="54-P/S 1 Inlet",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="55-P/S 2 Inlet",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="56-P/S 1",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="57-P/S 2",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="58-P/S 2 Zone",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="59-E-Fuse",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="96-CPU 1 PkgTmp",state="Enabled"} 1
+redfish_thermal_sensor_state_info{chassis_id="1",sensor_name="97-CPU 2 PkgTmp",state="Enabled"} 1
+# HELP redfish_thermal_sensor_temperature Temperature sensor reading in degrees Celsius.
+# TYPE redfish_thermal_sensor_temperature gauge
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="01-Inlet Ambient"} 21
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="02-CPU 1"} 40
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="03-CPU 2"} 40
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="04-P1 DIMM 1-6"} 34
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="06-P1 DIMM 7-12"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="08-P2 DIMM 1-6"} 39
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="10-P2 DIMM 7-12"} 34
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="12-HD Max"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="14-Stor Batt 1"} 22
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="15-Front Ambient"} 27
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="16-VR P1"} 41
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="17-VR P2"} 40
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="18-VR P1 Mem 1"} 30
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="19-VR P1 Mem 2"} 28
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="20-VR P2 Mem 1"} 29
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="21-VR P2 Mem 2"} 31
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="22-Chipset"} 48
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="23-BMC"} 73
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="24-BMC Zone"} 43
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="25-HD Controller"} 61
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="26-HD Cntlr Zone"} 38
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="27.1-LOM-Communication Channel"} 60
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="28.1-LOM Card-I/O module"} 71
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="29-LOM Card Zone"} 38
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="30.1-PCI 1-Network controller"} 46
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="31-PCI 1 Zone"} 33
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="33-PCI 2 Zone"} 35
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="35-PCI 3 Zone"} 36
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="53-Battery Zone"} 39
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="54-P/S 1 Inlet"} 30
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="55-P/S 2 Inlet"} 37
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="56-P/S 1"} 40
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="57-P/S 2"} 43
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="58-P/S 2 Zone"} 41
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="59-E-Fuse"} 32
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="96-CPU 1 PkgTmp"} 60
+redfish_thermal_sensor_temperature{chassis_id="1",sensor_name="97-CPU 2 PkgTmp"} 61
+# HELP redfish_thermal_sensor_upper_threshold_critical Temperature sensor upper critical threshold in degrees Celsius.
+# TYPE redfish_thermal_sensor_upper_threshold_critical gauge
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="01-Inlet Ambient"} 42
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="02-CPU 1"} 70
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="03-CPU 2"} 70
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="04-P1 DIMM 1-6"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="06-P1 DIMM 7-12"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="08-P2 DIMM 1-6"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="10-P2 DIMM 7-12"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="12-HD Max"} 60
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="14-Stor Batt 1"} 60
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="15-Front Ambient"} 70
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="16-VR P1"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="17-VR P2"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="18-VR P1 Mem 1"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="19-VR P1 Mem 2"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="20-VR P2 Mem 1"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="21-VR P2 Mem 2"} 115
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="22-Chipset"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="23-BMC"} 110
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="24-BMC Zone"} 90
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="25-HD Controller"} 100
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="26-HD Cntlr Zone"} 85
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="27.1-LOM-Communication Channel"} 110
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="28.1-LOM Card-I/O module"} 105
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="29-LOM Card Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="30.1-PCI 1-Network controller"} 102
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="31-PCI 1 Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="33-PCI 2 Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="35-PCI 3 Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="53-Battery Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="58-P/S 2 Zone"} 75
+redfish_thermal_sensor_upper_threshold_critical{chassis_id="1",sensor_name="59-E-Fuse"} 100
+# HELP redfish_thermal_sensor_upper_threshold_fatal Temperature sensor upper fatal threshold in degrees Celsius.
+# TYPE redfish_thermal_sensor_upper_threshold_fatal gauge
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="01-Inlet Ambient"} 47
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="16-VR P1"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="17-VR P2"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="18-VR P1 Mem 1"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="19-VR P1 Mem 2"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="20-VR P2 Mem 1"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="21-VR P2 Mem 2"} 120
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="23-BMC"} 115
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="24-BMC Zone"} 95
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="26-HD Cntlr Zone"} 90
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="27.1-LOM-Communication Channel"} 115
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="28.1-LOM Card-I/O module"} 115
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="29-LOM Card Zone"} 80
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="30.1-PCI 1-Network controller"} 105
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="31-PCI 1 Zone"} 80
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="33-PCI 2 Zone"} 80
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="35-PCI 3 Zone"} 80
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="53-Battery Zone"} 80
+redfish_thermal_sensor_upper_threshold_fatal{chassis_id="1",sensor_name="58-P/S 2 Zone"} 80
+# HELP redfish_thermal_sensor_upper_threshold_noncritical Temperature sensor upper non-critical threshold in degrees Celsius.
+# TYPE redfish_thermal_sensor_upper_threshold_noncritical gauge
+redfish_thermal_sensor_upper_threshold_noncritical{chassis_id="1",sensor_name="27.1-LOM-Communication Channel"} 100
+redfish_thermal_sensor_upper_threshold_noncritical{chassis_id="1",sensor_name="28.1-LOM Card-I/O module"} 100
+redfish_thermal_sensor_upper_threshold_noncritical{chassis_id="1",sensor_name="30.1-PCI 1-Network controller"} 92
+# HELP redfish_thermal_summary_health_info Gauge 1 with Redfish health as a label. Redfish Resource.Health on the health label. Enum: OK, Warning, Critical. The exporter uses Unknown when the BMC omits health.
+# TYPE redfish_thermal_summary_health_info gauge
+redfish_thermal_summary_health_info{chassis_id="1",health="Unknown"} 1
+# HELP redfish_thermal_summary_info Thermal subsystem summary (constant 1) for the chassis thermal resource URL.
+# TYPE redfish_thermal_summary_info gauge
+redfish_thermal_summary_info{chassis_id="1",url="/redfish/v1/Chassis/1/Thermal"} 1
+# HELP redfish_thermal_summary_state_info Gauge 1 with Redfish state as a label. Redfish Resource.State on the state label. Enum: Enabled, Disabled, StandbyOffline, StandbySpare, InTest, Starting, Absent, UnavailableOffline, Deferring, Quiesced, Updating, Qualified. Unknown when omitted.
+# TYPE redfish_thermal_summary_state_info gauge
+redfish_thermal_summary_state_info{chassis_id="1",state="Unknown"} 1

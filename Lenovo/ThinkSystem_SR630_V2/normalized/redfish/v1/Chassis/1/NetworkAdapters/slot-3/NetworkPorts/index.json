@@ -1,0 +1,11 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#NetworkPortCollection.NetworkPortCollection",
+  "@odata.etag": "\"277b6cd09c7724231a2\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3/NetworkPorts",
+  "@odata.type": "#NetworkPortCollection.NetworkPortCollection",
+  "Members": [],
+  "Members@odata.count": 0,
+  "Description": "Collection of Network Ports",
+  "Name": "NetworkPorts Collection",
+  "Oem": {}
+}

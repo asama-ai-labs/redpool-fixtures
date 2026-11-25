@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Registries/Event","@odata.type":"#MessageRegistryFile.v1_1_3.MessageRegistryFile","Description":"Event Message Registry File Location","Id":"Event","Languages":["en"],"Languages@odata.count":1,"Location":[{"Language":"en","Uri":"/redfish/v1/Registries/Event/Event"}],"Location@odata.count":1,"Name":"Event Message Registry File","Registry":"Event.1.0.5"}

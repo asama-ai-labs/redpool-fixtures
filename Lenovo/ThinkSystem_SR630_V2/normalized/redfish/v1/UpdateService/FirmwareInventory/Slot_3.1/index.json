@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Slot_3.1",
+  "@odata.etag": "\"5214a0fa955e25a9010\"",
+  "Id": "Slot_3.1",
+  "Name": "Firmware:DEVICE-Firmware",
+  "Description": "The information of Firmware firmware.",
+  "Version": "14.27.4000",
+  "SoftwareId": "DEVICE-159000D4-10",
+  "Updateable": false,
+  "WriteProtected": true,
+  "RelatedItem@odata.count": 2,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled",
+    "HealthRollup": "OK"
+  },
+  "RelatedItem": [
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3"
+    },
+    {
+      "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-3"
+    }
+  ],
+  "Oem": {
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Slot_3.1",
+        "related_item_uri": "/redfish/v1/Chassis/1/PCIeDevices/slot_3",
+        "related_kind": "pcie",
+        "related_ref": "slot_3",
+        "related_location": "PCIe slot_3"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

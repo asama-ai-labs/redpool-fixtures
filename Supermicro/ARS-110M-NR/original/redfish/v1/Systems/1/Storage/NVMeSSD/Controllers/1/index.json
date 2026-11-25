@@ -1,0 +1,1 @@
+{"@odata.id":"/redfish/v1/Systems/1/Storage/NVMeSSD/Controllers/1","@odata.type":"#StorageController.v1_3_0.StorageController","Description":"Storage Controller","FirmwareVersion":"CPLD_ID: 1301 Rev: 0D","Id":"1","Name":"NVMeSSD.0","Status":{"Health":"OK","State":"Enabled"},"SupportedControllerProtocols":["PCIe"],"SupportedDeviceProtocols":["NVMe"]}

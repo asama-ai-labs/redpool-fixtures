@@ -1,0 +1,81 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/PlatformLog/Entries/1",
+  "Id": "1",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"aeJhL1F2CH8lHFEbEF3fNB27cigO0\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2024-09-10T16:17:37.633+00:00",
+  "Severity": "OK",
+  "Message": "Front Video detected as absent.",
+  "MessageArgs": [
+    "Front Video"
+  ],
+  "OemLogEntryCode": "DMTF0392",
+  "EventId": "0x806f01251f02ffff",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Chassis/1/Sensors/253L0"
+    }
+  },
+  "MessageArgs@odata.count": 1,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPR0001I",
+      "TotalSequenceNumber": 3,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "16",
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventID": "0x806f01251f02ffff",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 1,
+      "EventType": 0,
+      "LenovoMessageID": "DMTF0392"
+    },
+    "Redpool": {
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPPR0001I",
+      "TotalSequenceNumber": 3,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "ReportingChain": "XCC",
+      "IsLocalEvent": true,
+      "RawDebugLogURL": "",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "TSLVersion": "16",
+      "RelatedEventID": "",
+      "Hidden": false,
+      "EventSequenceNumber": 1,
+      "EventType": 0,
+      "LenovoMessageID": "DMTF0392",
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

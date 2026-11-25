@@ -1,0 +1,39 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/243724",
+  "Id": "243724",
+  "Name": "Log Entry 243724",
+  "EntryType": "Oem",
+  "Description": "Log Entry 243724",
+  "Created": "2026-03-23T13:23:28+00:00",
+  "Severity": "OK",
+  "Message": "Successfully logged in using DUMMY-User, from 192.0.2.1 and REDFISH.",
+  "MessageId": "IDRAC.2.9.USR0030",
+  "MessageArgs": [
+    "DUMMY-User",
+    "192.0.2.1",
+    "REDFISH"
+  ],
+  "OemRecordFormat": "Dell",
+  "Links": {
+    "OriginOfCondition": {
+      "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+    }
+  },
+  "MessageArgs@odata.count": 3,
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellLCLogEntry.v1_1_0.DellLCLogEntry",
+      "Category": "Audit",
+      "Comment": null,
+      "LastUpdatedByUser": null
+    },
+    "Redpool": {
+      "Category": "Audit",
+      "Comment": null,
+      "LastUpdatedByUser": null,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}

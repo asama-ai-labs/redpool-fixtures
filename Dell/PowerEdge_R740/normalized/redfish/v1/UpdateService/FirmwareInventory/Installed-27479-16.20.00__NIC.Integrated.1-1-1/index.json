@@ -1,0 +1,74 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+  "@odata.type": "#SoftwareInventory.v1_10_2.SoftwareInventory",
+  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-27479-16.20.00__NIC.Integrated.1-1-1",
+  "Id": "Installed-27479-16.20.00__NIC.Integrated.1-1-1",
+  "Name": "QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:05",
+  "Description": "Represents Firmware Inventory",
+  "Version": "16.20.00",
+  "SoftwareId": "27479",
+  "Updateable": true,
+  "ReleaseDate": "2022-11-30T07:53:02Z",
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  },
+  "Oem": {
+    "Dell": {
+      "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+      "DellSoftwareInventory": {
+        "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-27479-16.20.00__NIC.Integrated.1-1-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Integrated.1-1-1",
+        "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+        "BuildNumber": 0,
+        "Classifications": [
+          "Firmware"
+        ],
+        "Classifications@odata.count": 1,
+        "ComponentID": "27479",
+        "ComponentType": "FRMW",
+        "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+        "DeviceID": "168A",
+        "ElementName": "QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 00:1B:44:AA:00:05",
+        "HashValue": null,
+        "Id": "DCIM:INSTALLED_0x23_701__NIC.Integrated.1-1-1",
+        "IdentityInfoType": [
+          "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+        ],
+        "IdentityInfoType@odata.count": 1,
+        "IdentityInfoValue": [
+          "DCIM:firmware:::1"
+        ],
+        "IdentityInfoValue@odata.count": 1,
+        "InstallationDate": "2024-10-22T19:50:10Z",
+        "IsEntity": true,
+        "MajorVersion": 16,
+        "MinorVersion": 20,
+        "Name": "DellSoftwareInventory",
+        "PLDMCapabilitiesDuringUpdate": "0x00000000",
+        "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+        "RevisionNumber": 0,
+        "RevisionString": null,
+        "SidebandUpdateCapable": false,
+        "Status": "Installed",
+        "SubDeviceID": "1F5D",
+        "SubVendorID": "1028",
+        "VendorID": "14E4",
+        "impactsTPMmeasurements": true
+      }
+    },
+    "Redpool": {
+      "FirmwareInventory": {
+        "inventory_id": "Installed-27479-16.20.00__NIC.Integrated.1-1-1",
+        "inventory_slot": "installed",
+        "installation_date": "2024-10-22T19:50:10Z",
+        "component_id": "27479",
+        "related_kind": "network_adapter",
+        "related_ref": "NIC.Integrated.1-1-1",
+        "related_scope": "NIC",
+        "related_location": "NIC.Integrated.1-1-1"
+      },
+      "@odata.type": "#Redpool.v1_0_0.RedpoolSoftwareInventory"
+    }
+  }
+}

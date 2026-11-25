@@ -1,0 +1,20 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+  "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/FaultList",
+  "@odata.type": "#LogService.v1_4_0.LogService",
+  "Id": "FaultList",
+  "Name": "FaultListEntries",
+  "Description": "Collection of FaultList Entries",
+  "DateTime": "2025-10-21T12:56:42+00:00",
+  "DateTimeLocalOffset": "+00:00",
+  "Entries": {
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/FaultList/Entries"
+  },
+  "MaxNumberOfRecords": 500000,
+  "OverWritePolicy": "WrapsWhenFull",
+  "ServiceEnabled": true,
+  "LogEntryType": "SEL",
+  "Status": {},
+  "Actions": {},
+  "Oem": {}
+}

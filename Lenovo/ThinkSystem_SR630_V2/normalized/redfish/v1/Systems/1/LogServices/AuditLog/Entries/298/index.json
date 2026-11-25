@@ -1,0 +1,79 @@
+{
+  "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+  "@odata.type": "#LogEntry.v1_16_1.LogEntry",
+  "@odata.id": "/redfish/v1/Systems/1/LogServices/AuditLog/Entries/298",
+  "Id": "298",
+  "Name": "LogEntry",
+  "EntryType": "Oem",
+  "@odata.etag": "\"adFnJ7I2KE3mHDDbLH0lHO62gmnJ105\"",
+  "Description": "This resource is used to represent a log entry for log services for a Redfish implementation.",
+  "Created": "2025-02-07T16:59:57.641+00:00",
+  "Severity": "OK",
+  "Message": "User LXPM has unmounted file tdm_image.img from Local.",
+  "MessageArgs": [
+    "LXPM",
+    "unmounted",
+    "tdm_image.img",
+    "Local"
+  ],
+  "OemLogEntryCode": "Lenovo0162",
+  "EventId": "0x400000a200000000",
+  "EventGroupId": 0,
+  "OemRecordFormat": "Lenovo",
+  "MessageArgs@odata.count": 4,
+  "Originator": "XCC",
+  "Oem": {
+    "Lenovo": {
+      "EventID": "0x400000a200000000",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 298,
+      "LenovoMessageID": "Lenovo0162",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPDM4009I",
+      "TotalSequenceNumber": 454,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUSerialNumber": "",
+          "FRUNumber": ""
+        }
+      ],
+      "ReportingChain": "XCC",
+      "RawDebugLogURL": "",
+      "IsLocalEvent": true,
+      "@odata.type": "#LenovoLogEntry.v1_0_0.AuditLogEntry",
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "RelatedEventID": "",
+      "TSLVersion": "0",
+      "EventType": 0,
+      "Hidden": false
+    },
+    "Redpool": {
+      "EventSequenceNumber": 298,
+      "LenovoMessageID": "Lenovo0162",
+      "Serviceable": "Not Serviceable",
+      "CommonEventID": "FQXSPDM4009I",
+      "TotalSequenceNumber": 454,
+      "AffectedIndicatorLEDs": [],
+      "FailingFRU": [
+        {
+          "FRUSerialNumber": "",
+          "FRUNumber": ""
+        }
+      ],
+      "ReportingChain": "XCC",
+      "RawDebugLogURL": "",
+      "IsLocalEvent": true,
+      "EventFlag": 0,
+      "AuxiliaryData": "",
+      "Source": "System",
+      "RelatedEventID": "",
+      "TSLVersion": "0",
+      "EventType": 0,
+      "Hidden": false,
+      "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
+    }
+  }
+}
