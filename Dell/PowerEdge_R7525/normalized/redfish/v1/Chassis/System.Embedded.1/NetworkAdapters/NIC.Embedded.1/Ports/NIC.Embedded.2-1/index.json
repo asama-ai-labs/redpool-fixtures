@@ -6,9 +6,9 @@
   "Name": "PowerEdge Rx5xx LOM Board",
   "Description": "Instance of Port for NIC",
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "LinkNetworkTechnology": "Ethernet",
   "PortId": "2",

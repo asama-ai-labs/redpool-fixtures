@@ -9,23 +9,23 @@
   "HostName": "DUMMY-HostName",
   "FQDN": "DUMMY-HostName",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "HTTP": {
-    "ProtocolEnabled": true,
-    "Port": 80
+    "Port": 80,
+    "ProtocolEnabled": true
   },
   "HTTPS": {
-    "ProtocolEnabled": true,
-    "Port": 443,
     "Certificates": {
       "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol/HTTPS/Certificates"
-    }
+    },
+    "Port": 443,
+    "ProtocolEnabled": true
   },
   "SSH": {
-    "ProtocolEnabled": true,
-    "Port": 22
+    "Port": 22,
+    "ProtocolEnabled": true
   },
   "SNMP": {
     "AuthenticationProtocol": null,
@@ -38,37 +38,37 @@
       "PrivateEnterpriseId": "00 00 53 45"
     },
     "HideCommunityStrings": null,
-    "ProtocolEnabled": false,
-    "Port": 161
+    "Port": 161,
+    "ProtocolEnabled": false
   },
   "IPMI": {
-    "ProtocolEnabled": true,
-    "Port": 623
+    "Port": 623,
+    "ProtocolEnabled": true
   },
   "KVMIP": {
-    "ProtocolEnabled": true,
-    "Port": 5900
+    "Port": 5900,
+    "ProtocolEnabled": true
   },
   "NTP": {
-    "ProtocolEnabled": false,
     "NTPServers": [
       "localhost",
       "192.0.2.1"
     ],
-    "NTPServers@odata.count": 2
+    "NTPServers@odata.count": 2,
+    "ProtocolEnabled": false
   },
   "DHCP": {},
   "DHCPv6": {},
   "SSDP": {
-    "ProtocolEnabled": true,
-    "Port": 1900,
+    "NotifyIPv6Scope": "Link",
     "NotifyTTL": 2,
-    "NotifyIPv6Scope": "Link"
+    "Port": 1900,
+    "ProtocolEnabled": true
   },
   "Telnet": {},
   "VirtualMedia": {
-    "ProtocolEnabled": true,
-    "Port": 623
+    "Port": 623,
+    "ProtocolEnabled": true
   },
   "Oem": {}
 }

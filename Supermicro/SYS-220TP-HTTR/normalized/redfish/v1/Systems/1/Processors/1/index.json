@@ -64,8 +64,8 @@
   "TotalEnabledCores": null,
   "Socket": "CPU2",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Metrics": {},
   "EnvironmentMetrics": {},

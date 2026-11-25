@@ -7,18 +7,18 @@
   "Name": "PCIe Slot Information",
   "Slots": [
     {
-      "PCIeType": "Gen4",
       "Lanes": 16,
-      "SlotType": "FullLength",
-      "Status": {
-        "State": "Enabled"
-      },
       "Location": {
         "PartLocation": {
           "LocationOrdinalValue": 1,
           "LocationType": "Slot",
           "ServiceLabel": "System Slot 2"
         }
+      },
+      "PCIeType": "Gen4",
+      "SlotType": "FullLength",
+      "Status": {
+        "State": "Enabled"
       }
     }
   ]

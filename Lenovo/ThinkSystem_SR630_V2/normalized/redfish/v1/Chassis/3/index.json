@@ -33,10 +33,10 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoChassis.v1_0_0.LenovoChassisProperties",
+      "Device_ID": "53",
+      "Entity_ID": "0f",
       "POS_ID": "008d",
       "PRODUCT_ID": "0000",
-      "Entity_ID": "0f",
-      "Device_ID": "53",
       "VPD_ID": "0070"
     }
   }

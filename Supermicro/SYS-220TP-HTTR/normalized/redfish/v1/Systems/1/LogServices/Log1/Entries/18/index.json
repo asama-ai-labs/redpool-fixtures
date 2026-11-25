@@ -24,16 +24,16 @@
       "MarkAsAcknowledged": false,
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0xC8",
-        "SensorName": ""
+        "SensorName": "",
+        "SensorType": "0xC8"
       }
     },
     "Redpool": {
       "MarkAsAcknowledged": false,
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0xC8",
-        "SensorName": ""
+        "SensorName": "",
+        "SensorType": "0xC8"
       },
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }

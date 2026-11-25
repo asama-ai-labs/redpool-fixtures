@@ -18,9 +18,9 @@
   },
   "Slot": {},
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "Chassis": [
@@ -34,8 +34,8 @@
         "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Slot.6-1/PCIeDevices/24-0/PCIeFunctions/24-0-0"
       }
     ],
-    "PCIeFunctions@odata.count": 1,
-    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource.",
+    "PCIeFunctions@odata.count": 1
   },
   "Oem": {}
 }

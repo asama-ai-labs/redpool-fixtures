@@ -133,14 +133,14 @@
       "HasPowerMetering": true,
       "HighEfficiencyMode": "Balanced",
       "Links": {
-        "PowerMeter": {
-          "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
-        },
         "FastPowerMeter": {
           "@odata.id": "/redfish/v1/Chassis/1/Power/FastPowerMeter"
         },
         "FederatedGroupCapping": {
           "@odata.id": "/redfish/v1/Chassis/1/Power/FederatedGroupCapping"
+        },
+        "PowerMeter": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
         }
       },
       "MinimumSafelyAchievableCap": null,

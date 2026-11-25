@@ -19,14 +19,14 @@
     "State": "Enabled"
   },
   "Links": {
-    "ManagedBy": [
-      {
-        "@odata.id": "/redfish/v1/Managers/1"
-      }
-    ],
     "ComputerSystems": [
       {
         "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
       }
     ]
   },

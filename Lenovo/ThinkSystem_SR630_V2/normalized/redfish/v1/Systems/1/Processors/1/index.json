@@ -8,12 +8,12 @@
   "Id": "1",
   "Name": "Processor 1",
   "ProcessorId": {
+    "EffectiveFamily": "0x06",
     "EffectiveModel": "0x6a",
     "IdentificationRegisters": "0x000606a6bfebfbff",
-    "VendorId": "GenuineIntel",
+    "MicrocodeInfo": null,
     "Step": "0x06",
-    "EffectiveFamily": "0x06",
-    "MicrocodeInfo": null
+    "VendorId": "GenuineIntel"
   },
   "ProcessorType": "CPU",
   "ProcessorArchitecture": "x86",
@@ -87,22 +87,22 @@
   "TDPWatts": 250,
   "ProcessorMemory": [
     {
+      "CapacityMiB": 2,
+      "IntegratedMemory": true,
       "MemoryType": "L1Cache",
-      "SpeedMHz": null,
-      "IntegratedMemory": true,
-      "CapacityMiB": 2
+      "SpeedMHz": null
     },
     {
+      "CapacityMiB": 45,
+      "IntegratedMemory": true,
       "MemoryType": "L2Cache",
-      "SpeedMHz": null,
-      "IntegratedMemory": true,
-      "CapacityMiB": 45
+      "SpeedMHz": null
     },
     {
-      "MemoryType": "L3Cache",
-      "SpeedMHz": null,
+      "CapacityMiB": 54,
       "IntegratedMemory": true,
-      "CapacityMiB": 54
+      "MemoryType": "L3Cache",
+      "SpeedMHz": null
     }
   ],
   "TotalCores": 36,
@@ -110,8 +110,8 @@
   "TotalEnabledCores": 36,
   "Socket": "CPU 1",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Metrics": {
     "@odata.id": "/redfish/v1/Systems/1/Processors/1/ProcessorMetrics"
@@ -120,27 +120,27 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoProcessor.v1_0_0.LenovoProcessor",
-      "ProcessorFamily": 179,
       "CacheInfo": [
         {
+          "CacheLevel": "L1",
           "InstalledSizeKByte": 2880,
-          "MaxCacheSizeKByte": 2880,
-          "CacheLevel": "L1"
+          "MaxCacheSizeKByte": 2880
         },
         {
+          "CacheLevel": "L2",
           "InstalledSizeKByte": 46080,
-          "MaxCacheSizeKByte": 46080,
-          "CacheLevel": "L2"
+          "MaxCacheSizeKByte": 46080
         },
         {
+          "CacheLevel": "L3",
           "InstalledSizeKByte": 55296,
-          "MaxCacheSizeKByte": 55296,
-          "CacheLevel": "L3"
+          "MaxCacheSizeKByte": 55296
         }
       ],
       "CurrentClockSpeedMHz": 2400,
+      "ExternalBusClockSpeedMHz": 100,
       "NumberOfEnabledCores": 36,
-      "ExternalBusClockSpeedMHz": 100
+      "ProcessorFamily": 179
     }
   }
 }

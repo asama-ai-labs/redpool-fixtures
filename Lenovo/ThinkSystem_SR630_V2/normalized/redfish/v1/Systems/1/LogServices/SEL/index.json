@@ -15,8 +15,8 @@
   "Status": {},
   "Actions": {
     "#LogService.ClearLog": {
-      "title": "ClearLog",
-      "target": "/redfish/v1/Systems/1/LogServices/SEL/Actions/LogService.ClearLog"
+      "target": "/redfish/v1/Systems/1/LogServices/SEL/Actions/LogService.ClearLog",
+      "title": "ClearLog"
     }
   },
   "Oem": {

@@ -4,11 +4,11 @@
   "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters",
   "@odata.type": "#NetworkAdapterCollection.NetworkAdapterCollection",
   "Description": "NetworkAdapters view",
-  "Name": "NetworkAdapters Collection",
   "Members": [
     {
       "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1"
     }
   ],
-  "Members@odata.count": 1
+  "Members@odata.count": 1,
+  "Name": "NetworkAdapters Collection"
 }

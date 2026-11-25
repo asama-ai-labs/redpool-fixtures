@@ -18,26 +18,26 @@
   "Status": {},
   "Actions": {
     "#LogService.ClearLog": {
-      "title": "ClearLog",
-      "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/LogService.ClearLog"
+      "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/LogService.ClearLog",
+      "title": "ClearLog"
     },
     "Oem": {
       "#LenovoLogService.GetLogEntriesBySequenceNumber": {
-        "title": "GetLogEntriesBySequenceNumber",
-        "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/Oem/LenovoLogService.GetLogEntriesBySequenceNumber"
+        "target": "/redfish/v1/Systems/1/LogServices/AuditLog/Actions/Oem/LenovoLogService.GetLogEntriesBySequenceNumber",
+        "title": "GetLogEntriesBySequenceNumber"
       }
     }
   },
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoLogService.v1_0_0.LenovoLogServiceProperties",
-      "LastSeqNum": 1335,
-      "HiddenFirstSeqNum": 1,
-      "HiddenLastSeqNum": 222,
-      "FirstSeqNum": 291,
       "AuditLogCapabilities": [
         "None"
-      ]
+      ],
+      "FirstSeqNum": 291,
+      "HiddenFirstSeqNum": 1,
+      "HiddenLastSeqNum": 222,
+      "LastSeqNum": 1335
     }
   }
 }

@@ -22,7 +22,7 @@
   "ErrorCorrection": "MultiBitECC",
   "MemoryLocation": {
     "Socket": 0,
-    "MemoryController": 3,
+    "MemoryController": 4,
     "Channel": 7,
     "Slot": 0
   },
@@ -72,6 +72,9 @@
     "Dell": {
       "@odata.type": "#DellOem.v1_3_0.DellOemResources",
       "DellMemory": {
+        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3/Oem/Dell/DellMemory/DIMM.Socket.A3",
+        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
         "BankLabel": "A",
         "Id": "DIMM.Socket.A3",
         "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
@@ -81,10 +84,7 @@
         "Model": "DDR4 DIMM",
         "Name": "DellMemory",
         "RemainingRatedWriteEndurancePercent": null,
-        "SystemEraseCapability": "NotSupported",
-        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
-        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A3/Oem/Dell/DellMemory/DIMM.Socket.A3"
+        "SystemEraseCapability": "NotSupported"
       }
     },
     "Redpool": {

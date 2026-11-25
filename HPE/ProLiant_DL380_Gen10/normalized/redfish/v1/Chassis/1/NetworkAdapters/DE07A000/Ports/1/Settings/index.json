@@ -1,14 +1,13 @@
 {
-  "@odata.context": "/redfish/v1/$metadata#Port.Port",
-  "@odata.etag": "W/\"EECBAC54\"",
-  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Settings",
-  "@odata.type": "#Port.v1_20_0.Port",
-  "Id": "Settings",
   "@Redfish.Settings": {
     "SettingsObject": {
       "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Settings"
     }
   },
+  "@odata.context": "/redfish/v1/$metadata#Port.Port",
+  "@odata.etag": "W/\"EECBAC54\"",
+  "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Settings",
+  "@odata.type": "#Port.v1_20_0.Port",
   "Actions": {
     "#Port.Reset": {
       "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Actions/Port.Reset"
@@ -39,6 +38,7 @@
   },
   "FunctionMaxBandwidth": [],
   "FunctionMinBandwidth": [],
+  "Id": "Settings",
   "LinkConfiguration": [
     {
       "AutoSpeedNegotiationCapable": true,

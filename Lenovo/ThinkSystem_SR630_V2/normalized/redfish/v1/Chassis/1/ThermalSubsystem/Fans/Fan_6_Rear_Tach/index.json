@@ -11,16 +11,16 @@
     "State": "Enabled"
   },
   "SpeedPercent": {
-    "SpeedRPM": 8532,
     "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/78L0",
-    "Reading": 8532
+    "Reading": 8532,
+    "SpeedRPM": 8532
   },
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
       "LocationOrdinalValue": 14,
-      "ServiceLabel": "Fan 6 Rear Tach",
-      "LocationType": "Slot"
+      "LocationType": "Slot",
+      "ServiceLabel": "Fan 6 Rear Tach"
     }
   },
   "PhysicalContext": "Fan",

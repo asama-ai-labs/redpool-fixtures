@@ -7,9 +7,9 @@
   "Name": "Phyical Port 2",
   "Description": "A Network Port represents a discrete physical port capable of connecting to a network.",
   "Status": {
+    "Health": "OK",
     "HealthRollup": "OK",
-    "State": "Enabled",
-    "Health": "OK"
+    "State": "Enabled"
   },
   "LinkNetworkTechnology": "Ethernet",
   "PortId": "2",
@@ -23,8 +23,8 @@
     "Lenovo": {
       "@odata.type": "#LenovoPort.v1_0_0.LenovoPort",
       "PhysicalPortMacAddress": "00:1B:44:AA:00:08",
-      "PortMaximumMTU": 72000,
-      "PhysicalPortNumber": "2"
+      "PhysicalPortNumber": "2",
+      "PortMaximumMTU": 72000
     }
   }
 }

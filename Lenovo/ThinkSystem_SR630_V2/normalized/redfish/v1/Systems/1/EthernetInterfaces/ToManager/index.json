@@ -26,11 +26,11 @@
     "State": "Disabled"
   },
   "Links": {
-    "HostInterface": {
-      "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1"
-    },
     "Chassis": {
       "@odata.id": "/redfish/v1/Chassis/1"
+    },
+    "HostInterface": {
+      "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1"
     }
   },
   "Oem": {}

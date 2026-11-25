@@ -26,55 +26,55 @@
   "Originator": "XCC",
   "Oem": {
     "Lenovo": {
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPPR0001I",
-      "TotalSequenceNumber": 3,
-      "AffectedIndicatorLEDs": [],
-      "FailingFRU": [
-        {
-          "FRUNumber": "",
-          "FRUSerialNumber": ""
-        }
-      ],
-      "ReportingChain": "XCC",
-      "IsLocalEvent": true,
-      "RawDebugLogURL": "",
-      "EventFlag": 0,
-      "AuxiliaryData": "",
-      "Source": "System",
-      "TSLVersion": "16",
       "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
-      "RelatedEventID": "",
-      "Hidden": false,
+      "AffectedIndicatorLEDs": [],
+      "AuxiliaryData": "",
+      "CommonEventID": "FQXSPPR0001I",
+      "EventFlag": 0,
       "EventID": "0x806f01251f02ffff",
       "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
       "EventSequenceNumber": 1,
       "EventType": 0,
-      "LenovoMessageID": "DMTF0392"
-    },
-    "Redpool": {
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPPR0001I",
-      "TotalSequenceNumber": 3,
-      "AffectedIndicatorLEDs": [],
       "FailingFRU": [
         {
           "FRUNumber": "",
           "FRUSerialNumber": ""
         }
       ],
-      "ReportingChain": "XCC",
+      "Hidden": false,
       "IsLocalEvent": true,
+      "LenovoMessageID": "DMTF0392",
       "RawDebugLogURL": "",
-      "EventFlag": 0,
-      "AuxiliaryData": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
       "Source": "System",
       "TSLVersion": "16",
-      "RelatedEventID": "",
-      "Hidden": false,
+      "TotalSequenceNumber": 3
+    },
+    "Redpool": {
+      "AffectedIndicatorLEDs": [],
+      "AuxiliaryData": "",
+      "CommonEventID": "FQXSPPR0001I",
+      "EventFlag": 0,
       "EventSequenceNumber": 1,
       "EventType": 0,
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": ""
+        }
+      ],
+      "Hidden": false,
+      "IsLocalEvent": true,
       "LenovoMessageID": "DMTF0392",
+      "RawDebugLogURL": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
+      "Source": "System",
+      "TSLVersion": "16",
+      "TotalSequenceNumber": 3,
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }
   }

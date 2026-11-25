@@ -17,33 +17,33 @@
   "LogEntryType": "Multiple",
   "Status": {},
   "Actions": {
+    "#LogService.ClearLog": {
+      "target": "/redfish/v1/Systems/1/LogServices/PlatformLog/Actions/LogService.ClearLog",
+      "title": "ClearLog"
+    },
     "Oem": {
       "#LenovoLogService.GetLogEntriesBySequenceNumber": {
         "target": "/redfish/v1/Systems/1/LogServices/PlatformLog/Actions/Oem/LenovoLogService.GetLogEntriesBySequenceNumber",
         "title": "GetLogEntriesBySequenceNumber"
       }
-    },
-    "#LogService.ClearLog": {
-      "target": "/redfish/v1/Systems/1/LogServices/PlatformLog/Actions/LogService.ClearLog",
-      "title": "ClearLog"
     }
   },
   "Oem": {
     "Lenovo": {
-      "SupportedCategories": 3087007930,
+      "@odata.type": "#LenovoLogService.v1_0_0.LenovoLogServiceProperties",
+      "DesiredCategories": 2147483684,
+      "FirstSeqNum": 1,
       "HiddenFirstSeqNum": 1,
       "HiddenLastSeqNum": 45,
-      "FirstSeqNum": 1,
-      "DesiredCategories": 2147483684,
+      "LastSeqNum": 260,
+      "SupportedCategories": 3087007930,
       "VMMoveCategory": [
         {
           "VMMoveCategoryBit": 0,
-          "VMMoveCategoryType": "VMEFlag",
-          "VMMoveCategoryName": "RAS event VM movement support"
+          "VMMoveCategoryName": "RAS event VM movement support",
+          "VMMoveCategoryType": "VMEFlag"
         }
-      ],
-      "@odata.type": "#LenovoLogService.v1_0_0.LenovoLogServiceProperties",
-      "LastSeqNum": 260
+      ]
     }
   }
 }

@@ -31,19 +31,17 @@
   },
   "StorageControllers": [
     {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe#/StorageControllers/0",
+      "AssetTag": "",
+      "Manufacturer": "Intel",
+      "MemberId": "0",
+      "Model": "VMD",
+      "Name": "VROC",
+      "SpeedGbps": 32,
       "Status": {
         "Health": "OK",
         "State": "Enabled"
       },
-      "MemberId": "0",
-      "Name": "VROC",
-      "SupportedRAIDTypes": [
-        "RAID0",
-        "RAID1",
-        "RAID5",
-        "RAID10"
-      ],
-      "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe#/StorageControllers/0",
       "SupportedControllerProtocols": [
         "PCIe"
       ],
@@ -51,22 +49,24 @@
         "NVMe",
         "SATA"
       ],
-      "Manufacturer": "Intel",
-      "SpeedGbps": 32,
-      "AssetTag": "",
-      "Model": "VMD"
+      "SupportedRAIDTypes": [
+        "RAID0",
+        "RAID1",
+        "RAID5",
+        "RAID10"
+      ]
     }
   ],
   "StorageControllers@odata.count": 1,
   "Controllers": {},
   "Identifiers": [],
   "Links": {
-    "Enclosures@odata.count": 1,
     "Enclosures": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
       }
-    ]
+    ],
+    "Enclosures@odata.count": 1
   },
   "Actions": {}
 }

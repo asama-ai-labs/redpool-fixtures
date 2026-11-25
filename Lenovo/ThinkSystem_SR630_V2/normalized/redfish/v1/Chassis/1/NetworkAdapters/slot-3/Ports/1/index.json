@@ -8,8 +8,8 @@
   "Description": "A Network Port represents a discrete physical port capable of connecting to a network.",
   "LinkNetworkTechnology": null,
   "Status": {
-    "HealthRollup": "OK",
     "Health": "OK",
+    "HealthRollup": "OK",
     "State": "Enabled"
   },
   "Oem": {

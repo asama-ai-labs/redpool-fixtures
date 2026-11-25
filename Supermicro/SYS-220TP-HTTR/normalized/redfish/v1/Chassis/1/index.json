@@ -14,8 +14,8 @@
   "PowerState": "On",
   "IndicatorLED": "Off",
   "Status": {
-    "State": "Enabled",
-    "Health": "Critical"
+    "Health": "Critical",
+    "State": "Enabled"
   },
   "Links": {
     "ComputerSystems": [
@@ -58,34 +58,34 @@
   },
   "EnvironmentMetrics": {},
   "PhysicalSecurity": {
-    "IntrusionSensorNumber": null,
     "IntrusionSensor": null,
+    "IntrusionSensorNumber": null,
     "IntrusionSensorReArm": null
   },
   "LogServices": {},
   "Oem": {
     "Supermicro": {
       "@odata.type": "#SmcChassisExtensions.v1_0_0.Chassis",
+      "BoardID": "0x1c17",
       "BoardSerialNumber": "DUMMY-BoardSerialNumber",
       "GUID": "550e8400-e29b-41d4-a716-446655440000",
-      "BoardID": "0x1c17",
       "MultiNode": {
-        "ConfigurationID": 4,
-        "MCUFirmwareVersion": "0.15",
-        "UserDefinedSystemName": "",
-        "SystemPartNo": "SYS-220TP-HTTR",
-        "SystemSerialNo": "DUMMY-SystemSerialNo",
+        "BackplaneLocation": "0",
+        "BackplaneModelName": "BPN-SAS3-217HQ3",
+        "BackplaneRevision": "1.00",
+        "BackplaneSerialNo": "DUMMY-BackplaneSerialNo",
         "ChassisPartNo": "CSE-217HQ+-R2K20BP4",
         "ChassisSerialNo": "DUMMY-ChassisSerialNo",
-        "BackplaneModelName": "BPN-SAS3-217HQ3",
-        "BackplaneSerialNo": "DUMMY-BackplaneSerialNo",
-        "BackplaneRevision": "1.00",
-        "TwinType": "a6",
-        "BackplaneLocation": "0",
-        "SelfID": "1",
+        "ConfigurationID": 4,
+        "MCUFirmwareVersion": "0.15",
         "Nodes": {
           "@odata.id": "/redfish/v1/Chassis/1/Oem/Supermicro/MultiNodes"
-        }
+        },
+        "SelfID": "1",
+        "SystemPartNo": "SYS-220TP-HTTR",
+        "SystemSerialNo": "DUMMY-SystemSerialNo",
+        "TwinType": "a6",
+        "UserDefinedSystemName": ""
       }
     },
     "Redpool": {

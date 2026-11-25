@@ -17,8 +17,8 @@
   "MemoryLocation": {
     "Socket": 0,
     "MemoryController": 3,
-    "Channel": 3,
-    "Slot": 0
+    "Channel": 2,
+    "Slot": 1
   },
   "Location": {},
   "DeviceLocator": "PROC 1 DIMM 13",

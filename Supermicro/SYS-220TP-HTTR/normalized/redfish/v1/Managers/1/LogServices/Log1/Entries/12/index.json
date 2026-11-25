@@ -14,16 +14,16 @@
   "Oem": {
     "Supermicro": {
       "@odata.type": "#SmcLogEntryExtensions.v1_0_1.LogEntry",
+      "Category": "others",
       "Interface": "RMCP",
-      "User": "N/A",
       "Source": "N/A",
-      "Category": "others"
+      "User": "N/A"
     },
     "Redpool": {
-      "Interface": "RMCP",
-      "User": "N/A",
-      "Source": "N/A",
       "Category": "others",
+      "Interface": "RMCP",
+      "Source": "N/A",
+      "User": "N/A",
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }
   }

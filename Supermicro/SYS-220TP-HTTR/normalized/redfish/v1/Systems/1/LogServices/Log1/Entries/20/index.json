@@ -15,25 +15,25 @@
   "SensorNumber": 202,
   "GeneratorId": "0x0020",
   "Links": {
+    "Oem": {},
     "OriginOfCondition": {
       "@odata.id": "/redfish/v1/Chassis/1/Power"
-    },
-    "Oem": {}
+    }
   },
   "Oem": {
     "Supermicro": {
       "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0x08",
-        "SensorName": "PS1 Status"
+        "SensorName": "PS1 Status",
+        "SensorType": "0x08"
       }
     },
     "Redpool": {
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0x08",
-        "SensorName": "PS1 Status"
+        "SensorName": "PS1 Status",
+        "SensorType": "0x08"
       },
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }

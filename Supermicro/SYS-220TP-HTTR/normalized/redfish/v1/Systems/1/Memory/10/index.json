@@ -41,8 +41,8 @@
     "DRAM"
   ],
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "Chassis": {

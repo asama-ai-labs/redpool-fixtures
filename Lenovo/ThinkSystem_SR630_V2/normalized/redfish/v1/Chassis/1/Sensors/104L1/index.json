@@ -21,8 +21,16 @@
       "Activation": "Decreasing",
       "Reading": null
     },
+    "LowerCritical": {
+      "Activation": "Decreasing",
+      "Reading": null
+    },
     "LowerFatal": {
       "Activation": "Decreasing",
+      "Reading": null
+    },
+    "UpperCaution": {
+      "Activation": "Increasing",
       "Reading": null
     },
     "UpperCritical": {
@@ -31,14 +39,6 @@
     },
     "UpperFatal": {
       "Activation": "Increasing",
-      "Reading": null
-    },
-    "UpperCaution": {
-      "Activation": "Increasing",
-      "Reading": null
-    },
-    "LowerCritical": {
-      "Activation": "Decreasing",
       "Reading": null
     }
   },

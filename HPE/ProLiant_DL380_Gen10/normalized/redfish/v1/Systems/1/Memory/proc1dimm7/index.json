@@ -22,7 +22,7 @@
     "Socket": 0,
     "MemoryController": 0,
     "Channel": 0,
-    "Slot": 0
+    "Slot": 1
   },
   "Location": {},
   "DeviceLocator": "PROC 1 DIMM 7",

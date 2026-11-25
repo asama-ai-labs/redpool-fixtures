@@ -14,10 +14,10 @@
   "SKU": "DUMMY-SKU-3",
   "FirmwareVersion": "2.3.20.1211",
   "PCIeInterface": {
-    "MaxPCIeType": "Gen2",
+    "LanesInUse": 2,
     "MaxLanes": 2,
-    "PCIeType": "Gen2",
-    "LanesInUse": 2
+    "MaxPCIeType": "Gen2",
+    "PCIeType": "Gen2"
   },
   "PCIeFunctions": {
     "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions"
@@ -25,12 +25,12 @@
   "Slot": {
     "Location": {
       "Info": "Slot 7",
+      "InfoFormat": "Slot X",
       "PartLocation": {
-        "LocationType": "Slot",
         "LocationOrdinalValue": 7,
+        "LocationType": "Slot",
         "ServiceLabel": "PCIe 7"
-      },
-      "InfoFormat": "Slot X"
+      }
     }
   },
   "Status": {
@@ -38,14 +38,14 @@
     "State": "Enabled"
   },
   "Links": {
-    "PCIeFunctions": [
-      {
-        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions/slot_7.00"
-      }
-    ],
     "Chassis": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "PCIeFunctions": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7/PCIeFunctions/slot_7.00"
       }
     ]
   },
@@ -53,15 +53,15 @@
     "Lenovo": {
       "@odata.type": "#LenovoDeviceInfo.v1_0_0.LenovoDeviceInfo",
       "Location": {
-        "PartLocation": {
-          "LocationType": "Slot",
-          "LocationOrdinalValue": 7,
-          "ServiceLabel": "PCIe 7"
-        },
-        "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
         "Info": "Slot 7",
+        "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "InfoFormat": "Slot X",
         "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
-        "InfoFormat": "Slot X"
+        "PartLocation": {
+          "LocationOrdinalValue": 7,
+          "LocationType": "Slot",
+          "ServiceLabel": "PCIe 7"
+        }
       }
     }
   }

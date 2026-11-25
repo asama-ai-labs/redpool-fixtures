@@ -6,9 +6,9 @@
   "Name": "BCM57800 1-Gigabit Ethernet",
   "Description": "Network Port View",
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "ActiveLinkTechnology": "Ethernet",
   "AssociatedNetworkAddresses": [

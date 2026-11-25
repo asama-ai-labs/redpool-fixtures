@@ -14,23 +14,23 @@
     "State": "Enabled"
   },
   "Thresholds": {
-    "UpperCritical": {
-      "Reading": 42
-    },
-    "UpperCaution": {
-      "Reading": 38
-    },
     "LowerCaution": {
+      "Reading": 3
+    },
+    "LowerCautionUser": {
       "Reading": 3
     },
     "LowerCritical": {
       "Reading": -7
     },
+    "UpperCaution": {
+      "Reading": 38
+    },
     "UpperCautionUser": {
       "Reading": 38
     },
-    "LowerCautionUser": {
-      "Reading": 3
+    "UpperCritical": {
+      "Reading": 42
     }
   },
   "Oem": {

@@ -8,12 +8,12 @@
   "Id": "2",
   "Name": "Processor 2",
   "ProcessorId": {
-    "VendorId": "GenuineIntel",
-    "Step": "0x06",
     "EffectiveFamily": "0x06",
     "EffectiveModel": "0x6a",
+    "IdentificationRegisters": "0x000606a6bfebfbff",
     "MicrocodeInfo": null,
-    "IdentificationRegisters": "0x000606a6bfebfbff"
+    "Step": "0x06",
+    "VendorId": "GenuineIntel"
   },
   "ProcessorType": "CPU",
   "ProcessorArchitecture": "x86",
@@ -87,22 +87,22 @@
   "TDPWatts": 250,
   "ProcessorMemory": [
     {
-      "SpeedMHz": null,
-      "IntegratedMemory": true,
       "CapacityMiB": 2,
-      "MemoryType": "L1Cache"
+      "IntegratedMemory": true,
+      "MemoryType": "L1Cache",
+      "SpeedMHz": null
     },
     {
-      "SpeedMHz": null,
-      "IntegratedMemory": true,
       "CapacityMiB": 45,
-      "MemoryType": "L2Cache"
+      "IntegratedMemory": true,
+      "MemoryType": "L2Cache",
+      "SpeedMHz": null
     },
     {
-      "SpeedMHz": null,
-      "IntegratedMemory": true,
       "CapacityMiB": 54,
-      "MemoryType": "L3Cache"
+      "IntegratedMemory": true,
+      "MemoryType": "L3Cache",
+      "SpeedMHz": null
     }
   ],
   "TotalCores": 36,
@@ -120,27 +120,27 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoProcessor.v1_0_0.LenovoProcessor",
-      "ExternalBusClockSpeedMHz": 100,
-      "NumberOfEnabledCores": 36,
       "CacheInfo": [
         {
-          "MaxCacheSizeKByte": 2880,
           "CacheLevel": "L1",
-          "InstalledSizeKByte": 2880
+          "InstalledSizeKByte": 2880,
+          "MaxCacheSizeKByte": 2880
         },
         {
-          "MaxCacheSizeKByte": 46080,
           "CacheLevel": "L2",
-          "InstalledSizeKByte": 46080
+          "InstalledSizeKByte": 46080,
+          "MaxCacheSizeKByte": 46080
         },
         {
-          "MaxCacheSizeKByte": 55296,
           "CacheLevel": "L3",
-          "InstalledSizeKByte": 55296
+          "InstalledSizeKByte": 55296,
+          "MaxCacheSizeKByte": 55296
         }
       ],
-      "ProcessorFamily": 179,
-      "CurrentClockSpeedMHz": 2400
+      "CurrentClockSpeedMHz": 2400,
+      "ExternalBusClockSpeedMHz": 100,
+      "NumberOfEnabledCores": 36,
+      "ProcessorFamily": 179
     }
   }
 }

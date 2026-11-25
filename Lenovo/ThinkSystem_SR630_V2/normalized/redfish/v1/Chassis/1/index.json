@@ -20,17 +20,9 @@
     "State": "Enabled"
   },
   "Links": {
-    "PoweredBy": [
+    "ComputerSystems": [
       {
-        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
-      },
-      {
-        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
-      }
-    ],
-    "ManagersInChassis": [
-      {
-        "@odata.id": "/redfish/v1/Managers/1"
+        "@odata.id": "/redfish/v1/Systems/1"
       }
     ],
     "CooledBy": [
@@ -83,14 +75,34 @@
         "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/15"
       }
     ],
+    "Drives": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_1"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_2"
+      },
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3"
+      }
+    ],
     "ManagedBy": [
       {
         "@odata.id": "/redfish/v1/Managers/1"
       }
     ],
-    "ComputerSystems": [
+    "ManagersInChassis": [
       {
-        "@odata.id": "/redfish/v1/Systems/1"
+        "@odata.id": "/redfish/v1/Managers/1"
       }
     ],
     "PCIeDevices": [
@@ -122,12 +134,12 @@
         "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_7"
       }
     ],
-    "Storage": [
+    "PoweredBy": [
       {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2"
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
       },
       {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe"
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
       }
     ],
     "Processors": [
@@ -138,24 +150,12 @@
         "@odata.id": "/redfish/v1/Systems/1/Processors/2"
       }
     ],
-    "Drives": [
+    "Storage": [
       {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_0"
+        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2"
       },
       {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/M.2/Drives/Drive.M.2_Bay_1"
-      },
-      {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_0"
-      },
-      {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_1"
-      },
-      {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_2"
-      },
-      {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe/Drives/Drive.Bay_3"
+        "@odata.id": "/redfish/v1/Systems/1/Storage/Direct_Attached_NVMe"
       }
     ]
   },
@@ -195,15 +195,15 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoChassis.v1_0_0.LenovoChassisProperties",
-      "ProductName": "ThinkSystem SR630 V2",
       "FruPartNumber": "03GY115",
       "LEDs": {
         "@odata.id": "/redfish/v1/Chassis/1/Oem/Lenovo/LEDs"
       },
-      "SystemBoardSerialNumber": "DUMMY-SystemBoardSerialNumber-1",
+      "ProductName": "ThinkSystem SR630 V2",
       "Slots": {
         "@odata.id": "/redfish/v1/Chassis/1/Oem/Lenovo/Slots"
-      }
+      },
+      "SystemBoardSerialNumber": "DUMMY-SystemBoardSerialNumber-1"
     },
     "Redpool": {
       "FruPartNumber": "03GY115",

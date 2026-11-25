@@ -18,8 +18,8 @@
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "LocationType": "Slot",
       "LocationOrdinalValue": 6,
+      "LocationType": "Slot",
       "ServiceLabel": "Fan 6 Front Tach"
     }
   },

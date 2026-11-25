@@ -11,10 +11,10 @@
   "Model": "MT27710 Family [ConnectX-4 Lx]",
   "FirmwareVersion": "14.32.1010",
   "PCIeInterface": {
-    "MaxPCIeType": "Gen3",
-    "PCIeType": "Gen3",
+    "LanesInUse": 16,
     "MaxLanes": 16,
-    "LanesInUse": 16
+    "MaxPCIeType": "Gen3",
+    "PCIeType": "Gen3"
   },
   "PCIeFunctions": {
     "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/94-0/PCIeFunctions"
@@ -32,9 +32,9 @@
     "SlotType": "FullLength"
   },
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "Chassis": [
@@ -58,8 +58,8 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/94-0/PCIeFunctions/94-0-0"
       }
     ],
-    "PCIeFunctions@odata.count": 2,
-    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource.",
+    "PCIeFunctions@odata.count": 2
   },
   "Oem": {}
 }

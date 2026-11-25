@@ -17,24 +17,24 @@
   "IPv4Addresses": [
     {
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
       "AddressOrigin": "Static",
-      "Gateway": "192.0.2.1"
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv4StaticAddresses": [
     {
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
-      "Gateway": "192.0.2.1"
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv6Addresses": [
     {
       "Address": "::1",
-      "PrefixLength": 64,
       "AddressOrigin": "Static",
-      "AddressState": "Failed"
+      "AddressState": "Failed",
+      "PrefixLength": 64
     }
   ],
   "IPv6StaticAddresses": [
@@ -46,8 +46,8 @@
   "NameServers": [],
   "VLAN": {},
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "HostInterface": {
@@ -60,9 +60,9 @@
   "StaticNameServers": [],
   "IPv6AddressPolicyTable": [
     {
-      "Prefix": "::1/128",
+      "Label": 0,
       "Precedence": 50,
-      "Label": 0
+      "Prefix": "::1/128"
     }
   ],
   "IPv6StaticDefaultGateways": [],

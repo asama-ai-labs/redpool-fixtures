@@ -8,9 +8,9 @@
       "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
       "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/1",
       "@odata.type": "#LogEntry.v1_1_0.LogEntry",
-      "Id": "1",
       "Created": "2025-02-24T04:42:24Z",
       "EntryType": "Oem",
+      "Id": "1",
       "Message": "Browser logout: Administrator - 192.0.2.1(DNS name not found).",
       "Name": "iLO Event Log",
       "Oem": {
@@ -37,9 +37,9 @@
       "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
       "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/10",
       "@odata.type": "#LogEntry.v1_1_0.LogEntry",
-      "Id": "10",
       "Created": "2025-02-24T13:01:44Z",
       "EntryType": "Oem",
+      "Id": "10",
       "Message": "Browser login: Administrator - 192.0.2.1(DNS name not found).",
       "Name": "iLO Event Log",
       "Oem": {

@@ -17,19 +17,19 @@
     "State": "Enabled"
   },
   "Links": {
-    "ManagerInChassis": {
-      "@odata.id": "/redfish/v1/Chassis/1"
-    },
+    "ManagerForChassis": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
     "ManagerForServers": [
       {
         "@odata.id": "/redfish/v1/Systems/1"
       }
     ],
-    "ManagerForChassis": [
-      {
-        "@odata.id": "/redfish/v1/Chassis/1"
-      }
-    ]
+    "ManagerInChassis": {
+      "@odata.id": "/redfish/v1/Chassis/1"
+    }
   },
   "Actions": {
     "#Manager.Reset": {
@@ -208,43 +208,43 @@
         "LicenseType": "Perpetual"
       },
       "Links": {
-        "DateTimeService": {
-          "@odata.id": "/redfish/v1/Managers/1/DateTime"
-        },
-        "LicenseService": {
-          "@odata.id": "/redfish/v1/Managers/1/LicenseService"
-        },
-        "EmbeddedMediaService": {
-          "@odata.id": "/redfish/v1/Managers/1/EmbeddedMedia"
-        },
-        "FederationPeers": {
-          "@odata.id": "/redfish/v1/Managers/1/FederationPeers"
-        },
-        "FederationGroups": {
-          "@odata.id": "/redfish/v1/Managers/1/FederationGroups"
-        },
         "ActiveHealthSystem": {
           "@odata.id": "/redfish/v1/Managers/1/ActiveHealthSystem"
-        },
-        "SecurityService": {
-          "@odata.id": "/redfish/v1/Managers/1/SecurityService"
         },
         "BackupRestoreService": {
           "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService"
         },
-        "RemoteSupport": {
-          "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService"
+        "DateTimeService": {
+          "@odata.id": "/redfish/v1/Managers/1/DateTime"
         },
-        "GUIService": {
-          "@odata.id": "/redfish/v1/Managers/1/GUIService"
+        "EmbeddedMediaService": {
+          "@odata.id": "/redfish/v1/Managers/1/EmbeddedMedia"
         },
         "FederationDispatch": {
           "extref": "DUMMY-extref"
         },
-        "VSPLogLocation": {
-          "extref": "DUMMY-extref"
+        "FederationGroups": {
+          "@odata.id": "/redfish/v1/Managers/1/FederationGroups"
+        },
+        "FederationPeers": {
+          "@odata.id": "/redfish/v1/Managers/1/FederationPeers"
+        },
+        "GUIService": {
+          "@odata.id": "/redfish/v1/Managers/1/GUIService"
+        },
+        "LicenseService": {
+          "@odata.id": "/redfish/v1/Managers/1/LicenseService"
+        },
+        "RemoteSupport": {
+          "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService"
+        },
+        "SecurityService": {
+          "@odata.id": "/redfish/v1/Managers/1/SecurityService"
         },
         "Thumbnail": {
+          "extref": "DUMMY-extref"
+        },
+        "VSPLogLocation": {
           "extref": "DUMMY-extref"
         }
       },

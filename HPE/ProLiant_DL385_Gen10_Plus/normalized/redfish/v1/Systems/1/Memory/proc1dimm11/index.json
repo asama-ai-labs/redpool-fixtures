@@ -18,7 +18,7 @@
     "Socket": 0,
     "MemoryController": 1,
     "Channel": 1,
-    "Slot": 0
+    "Slot": 1
   },
   "Location": {},
   "DeviceLocator": "PROC 1 DIMM 11",

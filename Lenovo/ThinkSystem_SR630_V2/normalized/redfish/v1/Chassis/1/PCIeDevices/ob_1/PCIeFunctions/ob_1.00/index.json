@@ -21,12 +21,12 @@
     "State": "Enabled"
   },
   "Links": {
+    "Drives": [],
+    "EthernetInterfaces": [],
+    "NetworkDeviceFunctions": [],
     "PCIeDevice": {
       "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_1"
     },
-    "NetworkDeviceFunctions": [],
-    "Drives": [],
-    "EthernetInterfaces": [],
     "StorageControllers": []
   },
   "Oem": {}

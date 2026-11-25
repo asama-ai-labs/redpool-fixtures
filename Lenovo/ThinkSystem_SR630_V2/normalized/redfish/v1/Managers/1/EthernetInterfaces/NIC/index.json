@@ -18,32 +18,32 @@
   "HostName": "DUMMY-HostName",
   "IPv4Addresses": [
     {
-      "Gateway": "192.0.2.1",
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
-      "AddressOrigin": "Static"
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv4StaticAddresses": [
     {
-      "Gateway": "192.0.2.1",
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
-      "AddressOrigin": "Static"
+      "AddressOrigin": "Static",
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv6Addresses": [
     {
-      "AddressState": "Preferred",
       "Address": "::1",
-      "PrefixLength": 64,
-      "AddressOrigin": "LinkLocal"
+      "AddressOrigin": "LinkLocal",
+      "AddressState": "Preferred",
+      "PrefixLength": 64
     }
   ],
   "IPv6StaticAddresses": [
     {
-      "PrefixLength": 64,
-      "Address": "::1"
+      "Address": "::1",
+      "PrefixLength": 64
     }
   ],
   "IPv6DefaultGateway": "::1",
@@ -56,8 +56,8 @@
     "::1"
   ],
   "VLAN": {
-    "VLANId": 1,
-    "VLANEnable": false
+    "VLANEnable": false,
+    "VLANId": 1
   },
   "Status": {
     "Health": "OK",
@@ -70,41 +70,41 @@
   },
   "Oem": {
     "Lenovo": {
-      "IPv6Enabled": true,
-      "InterfaceFailoverMode": {
-        "NicValue": 1,
-        "FailoverMode": "None"
-      },
-      "IPv4AddressAssignedby": "Static",
-      "InterfaceNicMode": {
-        "NicMode": "Dedicated",
-        "NicValue": 1
-      },
       "@odata.type": "#LenovoEthernetInterface.v1_0_0.LenovoEthernetInterfaceProperties",
       "DomainName": "",
+      "IPv4AddressAssignedby": "Static",
       "IPv4Enabled": true,
-      "NetworkSettingSync": true,
       "IPv6AddressAssignedby": [
         "LinkLocal",
         "DHCPv6",
         "SLAAC"
-      ]
+      ],
+      "IPv6Enabled": true,
+      "InterfaceFailoverMode": {
+        "FailoverMode": "None",
+        "NicValue": 1
+      },
+      "InterfaceNicMode": {
+        "NicMode": "Dedicated",
+        "NicValue": 1
+      },
+      "NetworkSettingSync": true
     }
   },
   "DHCPv4": {
-    "UseNTPServers": null,
-    "UseStaticRoutes": null,
     "DHCPEnabled": false,
+    "FallbackAddress": "None",
     "UseDNSServers": true,
     "UseDomainName": true,
-    "FallbackAddress": "None",
-    "UseGateway": null
+    "UseGateway": null,
+    "UseNTPServers": null,
+    "UseStaticRoutes": null
   },
   "DHCPv6": {
-    "UseNTPServers": null,
     "OperatingMode": "Stateful",
     "UseDNSServers": true,
     "UseDomainName": true,
+    "UseNTPServers": null,
     "UseRapidCommit": null
   },
   "StaticNameServers": [
@@ -169,13 +169,13 @@
   ],
   "IPv6StaticDefaultGateways": [
     {
-      "PrefixLength": 0,
-      "Address": "::1"
+      "Address": "::1",
+      "PrefixLength": 0
     }
   ],
   "StatelessAddressAutoConfig": {
-    "IPv6AutoConfigEnabled": true,
-    "IPv4AutoConfigEnabled": null
+    "IPv4AutoConfigEnabled": null,
+    "IPv6AutoConfigEnabled": true
   },
   "MaxIPv6StaticAddresses": 1,
   "VLANs": {}

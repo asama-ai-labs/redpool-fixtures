@@ -17,10 +17,10 @@
   "TransferMethod": "Stream",
   "TransferProtocolType": "OEM",
   "Actions": {
-    "Oem": {},
     "#VirtualMedia.EjectMedia": {
       "target": "/redfish/v1/Managers/1/VirtualMedia/CD1/Actions/VirtualMedia.EjectMedia"
-    }
+    },
+    "Oem": {}
   },
   "Oem": {}
 }

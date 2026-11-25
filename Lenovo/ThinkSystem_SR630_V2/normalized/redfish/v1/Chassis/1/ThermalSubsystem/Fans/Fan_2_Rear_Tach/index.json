@@ -18,9 +18,9 @@
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "ServiceLabel": "Fan 2 Rear Tach",
+      "LocationOrdinalValue": 10,
       "LocationType": "Slot",
-      "LocationOrdinalValue": 10
+      "ServiceLabel": "Fan 2 Rear Tach"
     }
   },
   "PhysicalContext": "Fan",

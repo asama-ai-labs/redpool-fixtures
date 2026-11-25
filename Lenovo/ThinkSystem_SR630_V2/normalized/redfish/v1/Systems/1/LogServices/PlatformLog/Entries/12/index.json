@@ -26,65 +26,65 @@
   "Originator": "XCC",
   "Oem": {
     "Lenovo": {
-      "LenovoMessageID": "DMTF0107",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPPW2008I",
-      "ReportingChain": "XCC",
-      "FailingFRU": [
-        {
-          "FRUNumber": "",
-          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
-        }
-      ],
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
       "AffectedIndicatorLEDs": [
         {
           "LEDIdentifier": "30e",
           "LEDState": "Lit"
         }
       ],
-      "TotalSequenceNumber": 25,
-      "IsLocalEvent": true,
-      "RawDebugLogURL": "",
-      "EventFlag": 0,
       "AuxiliaryData": "",
-      "Source": "Power",
-      "TSLVersion": "16",
-      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
-      "RelatedEventID": "",
-      "Hidden": false,
+      "CommonEventID": "FQXSPPW2008I",
+      "EventFlag": 0,
       "EventID": "0x816f00091301ffff",
       "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 12,
       "EventType": 0,
-      "EventSequenceNumber": 12
-    },
-    "Redpool": {
-      "LenovoMessageID": "DMTF0107",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPPW2008I",
-      "ReportingChain": "XCC",
       "FailingFRU": [
         {
           "FRUNumber": "",
           "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
         }
       ],
+      "Hidden": false,
+      "IsLocalEvent": true,
+      "LenovoMessageID": "DMTF0107",
+      "RawDebugLogURL": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
+      "Source": "Power",
+      "TSLVersion": "16",
+      "TotalSequenceNumber": 25
+    },
+    "Redpool": {
       "AffectedIndicatorLEDs": [
         {
           "LEDIdentifier": "30e",
           "LEDState": "Lit"
         }
       ],
-      "TotalSequenceNumber": 25,
-      "IsLocalEvent": true,
-      "RawDebugLogURL": "",
-      "EventFlag": 0,
       "AuxiliaryData": "",
+      "CommonEventID": "FQXSPPW2008I",
+      "EventFlag": 0,
+      "EventSequenceNumber": 12,
+      "EventType": 0,
+      "FailingFRU": [
+        {
+          "FRUNumber": "",
+          "FRUSerialNumber": "DUMMY-FRUSerialNumber-1"
+        }
+      ],
+      "Hidden": false,
+      "IsLocalEvent": true,
+      "LenovoMessageID": "DMTF0107",
+      "RawDebugLogURL": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
       "Source": "Power",
       "TSLVersion": "16",
-      "RelatedEventID": "",
-      "Hidden": false,
-      "EventType": 0,
-      "EventSequenceNumber": 12,
+      "TotalSequenceNumber": 25,
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }
   }

@@ -18,20 +18,21 @@
     "State": "Enabled"
   },
   "Links": {
+    "ActiveSoftwareImage": {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC-Primary"
+    },
     "ManagerForChassis": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
       }
     ],
-    "ManagerForServers@odata.count": 1,
+    "ManagerForChassis@odata.count": 1,
     "ManagerForServers": [
       {
         "@odata.id": "/redfish/v1/Systems/1"
       }
     ],
-    "ActiveSoftwareImage": {
-      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC-Primary"
-    },
+    "ManagerForServers@odata.count": 1,
     "SoftwareImages": [
       {
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC-Primary"
@@ -40,26 +41,25 @@
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC-Backup"
       }
     ],
-    "ManagerForChassis@odata.count": 1,
     "SoftwareImages@odata.count": 2
   },
   "Actions": {
-    "#Manager.ResetToDefaults": {
-      "target": "/redfish/v1/Managers/1/Actions/Manager.ResetToDefaults",
-      "ResetType@Redfish.AllowableValues": [
-        "ResetAll"
-      ],
-      "title": "ResetToDefaults",
-      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetToDefaultsActionInfo"
-    },
     "#Manager.Reset": {
-      "target": "/redfish/v1/Managers/1/Actions/Manager.Reset",
+      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetActionInfo",
       "ResetType@Redfish.AllowableValues": [
         "GracefulRestart",
         "ForceRestart"
       ],
-      "title": "Reset",
-      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetActionInfo"
+      "target": "/redfish/v1/Managers/1/Actions/Manager.Reset",
+      "title": "Reset"
+    },
+    "#Manager.ResetToDefaults": {
+      "@Redfish.ActionInfo": "/redfish/v1/Managers/1/ResetToDefaultsActionInfo",
+      "ResetType@Redfish.AllowableValues": [
+        "ResetAll"
+      ],
+      "target": "/redfish/v1/Managers/1/Actions/Manager.ResetToDefaults",
+      "title": "ResetToDefaults"
     }
   },
   "EthernetInterfaces": {
@@ -81,30 +81,31 @@
     "@odata.id": "/redfish/v1/Systems/1/LogServices"
   },
   "GraphicalConsole": {
-    "MaxConcurrentSessions": 6,
-    "ServiceEnabled": true,
     "ConnectTypesSupported": [
       "KVMIP"
-    ]
+    ],
+    "MaxConcurrentSessions": 6,
+    "ServiceEnabled": true
   },
   "SerialConsole": {
-    "MaxConcurrentSessions": 2,
-    "ServiceEnabled": true,
     "ConnectTypesSupported": [
       "IPMI",
       "SSH"
-    ]
+    ],
+    "MaxConcurrentSessions": 2,
+    "ServiceEnabled": true
   },
   "CommandShell": {
-    "MaxConcurrentSessions": 2,
-    "ServiceEnabled": true,
     "ConnectTypesSupported": [
       "SSH"
-    ]
+    ],
+    "MaxConcurrentSessions": 2,
+    "ServiceEnabled": true
   },
   "Redundancy": [],
   "Oem": {
     "Lenovo": {
+      "@odata.type": "#LenovoManager.v1_0_0.LenovoManagerProperties",
       "AgentlessCapabilities": [
         "RaidLink",
         "OOB_PCIe",
@@ -117,56 +118,55 @@
         "Storlib",
         "M2"
       ],
-      "ServiceAdvisor": "/redfish/v1/Managers/1/Oem/Lenovo/ServiceAdvisor",
-      "FoD": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/FoD"
+      "Configuration": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Configuration"
       },
       "DateTimeService": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/DateTimeService"
       },
-      "ServerProfile": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/ServerProfile"
+      "FoD": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/FoD"
+      },
+      "KCSEnabled": true,
+      "MPFAHealthStatusEnabled": false,
+      "OPSettings": {
+        "AuthorizationServerUri": null,
+        "ClientID": null,
+        "PubKey": null,
+        "SSOState": false,
+        "UserInfoUri": ""
+      },
+      "Recipients": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Recipients"
       },
       "RecipientsSettings": {
+        "RetryCount": 5,
         "RetryInterval": 0.5,
-        "RntryRetryInterval": 0.5,
-        "RetryCount": 5
+        "RntryRetryInterval": 0.5
       },
       "RemoteControl": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/RemoteControl"
       },
-      "@odata.type": "#LenovoManager.v1_0_0.LenovoManagerProperties",
-      "Watchdogs": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Watchdogs"
+      "RemoteMap": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/RemoteMap"
       },
-      "KCSEnabled": true,
       "SecureKeyLifecycleService": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/SecureKeyLifecycleService"
-      },
-      "MPFAHealthStatusEnabled": false,
-      "Recipients": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Recipients"
       },
       "Security": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Security"
       },
-      "release_name": "whitley_gp_23-1",
-      "Configuration": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Configuration"
+      "ServerProfile": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/ServerProfile"
       },
-      "OPSettings": {
-        "ClientID": null,
-        "PubKey": null,
-        "AuthorizationServerUri": null,
-        "SSOState": false,
-        "UserInfoUri": ""
-      },
+      "ServiceAdvisor": "/redfish/v1/Managers/1/Oem/Lenovo/ServiceAdvisor",
       "ServiceData": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/ServiceData"
       },
-      "RemoteMap": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/RemoteMap"
-      }
+      "Watchdogs": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Lenovo/Watchdogs"
+      },
+      "release_name": "whitley_gp_23-1"
     }
   }
 }

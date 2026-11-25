@@ -130,17 +130,17 @@
       "HasPowerMetering": true,
       "HighEfficiencyMode": "Balanced",
       "Links": {
-        "PowerMeter": {
-          "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
-        },
         "FastPowerMeter": {
           "@odata.id": "/redfish/v1/Chassis/1/Power/FastPowerMeter"
         },
-        "SlowPowerMeter": {
-          "@odata.id": "/redfish/v1/Chassis/1/Power/SlowPowerMeter"
-        },
         "FederatedGroupCapping": {
           "@odata.id": "/redfish/v1/Chassis/1/Power/FederatedGroupCapping"
+        },
+        "PowerMeter": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
+        },
+        "SlowPowerMeter": {
+          "@odata.id": "/redfish/v1/Chassis/1/Power/SlowPowerMeter"
         }
       },
       "MinimumSafelyAchievableCap": null,

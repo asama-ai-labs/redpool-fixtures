@@ -23,9 +23,6 @@
     "BootOptions": {
       "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions"
     },
-    "Certificates": {
-      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Boot/Certificates"
-    },
     "BootOrder": [
       "Boot0002",
       "Boot0003"
@@ -34,7 +31,6 @@
     "BootSourceOverrideEnabled": "Disabled",
     "BootSourceOverrideMode": "UEFI",
     "BootSourceOverrideTarget": "None",
-    "UefiTargetBootSourceOverride": null,
     "BootSourceOverrideTarget@Redfish.AllowableValues": [
       "None",
       "Pxe",
@@ -47,14 +43,18 @@
       "SDCard",
       "UefiHttp"
     ],
-    "StopBootOnFault": "Never"
+    "Certificates": {
+      "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Boot/Certificates"
+    },
+    "StopBootOnFault": "Never",
+    "UefiTargetBootSourceOverride": null
   },
   "BootProgress": {
     "LastState": "OSRunning"
   },
   "ProcessorSummary": {
-    "Count": 2,
     "CoreCount": 16,
+    "Count": 2,
     "LogicalProcessorCount": 16,
     "Model": "Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz",
     "Status": {
@@ -137,8 +137,44 @@
         "BootOrder": {
           "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellBootSources"
         },
+        "DellBIOSService": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellBIOSService"
+        },
         "DellBootSources": {
           "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellBootSources"
+        },
+        "DellChassisCollection": {
+          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellChassis"
+        },
+        "DellGPUSensorCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellGPUSensors"
+        },
+        "DellMetricService": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellMetricService"
+        },
+        "DellNumericSensorCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellNumericSensors"
+        },
+        "DellOSDeploymentService": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellOSDeploymentService"
+        },
+        "DellPSNumericSensorCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors"
+        },
+        "DellPresenceAndStatusSensorCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPresenceAndStatusSensors"
+        },
+        "DellRaidService": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellRaidService"
+        },
+        "DellRollupStatusCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellRollupStatus"
+        },
+        "DellSensorCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSensors"
+        },
+        "DellSlotCollection": {
+          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSlots"
         },
         "DellSoftwareInstallationService": {
           "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSoftwareInstallationService"
@@ -146,44 +182,8 @@
         "DellVideoCollection": {
           "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellVideo"
         },
-        "DellChassisCollection": {
-          "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellChassis"
-        },
-        "DellPresenceAndStatusSensorCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPresenceAndStatusSensors"
-        },
-        "DellSensorCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSensors"
-        },
-        "DellRollupStatusCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellRollupStatus"
-        },
-        "DellPSNumericSensorCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors"
-        },
         "DellVideoNetworkCollection": {
           "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellVideoNetwork"
-        },
-        "DellOSDeploymentService": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellOSDeploymentService"
-        },
-        "DellMetricService": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellMetricService"
-        },
-        "DellGPUSensorCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellGPUSensors"
-        },
-        "DellRaidService": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellRaidService"
-        },
-        "DellNumericSensorCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellNumericSensors"
-        },
-        "DellBIOSService": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellBIOSService"
-        },
-        "DellSlotCollection": {
-          "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSlots"
         }
       }
     },
@@ -199,7 +199,6 @@
   },
   "Actions": {
     "#ComputerSystem.Reset": {
-      "target": "/redfish/v1/Systems/System.Embedded.1/Actions/ComputerSystem.Reset",
       "ResetType@Redfish.AllowableValues": [
         "On",
         "ForceOff",
@@ -209,7 +208,8 @@
         "PushPowerButton",
         "Nmi",
         "PowerCycle"
-      ]
+      ],
+      "target": "/redfish/v1/Systems/System.Embedded.1/Actions/ComputerSystem.Reset"
     }
   },
   "Bios": {
@@ -346,6 +346,9 @@
     "Dell": {
       "@odata.type": "#DellOem.v1_3_0.DellOemResources",
       "DellSystem": {
+        "@odata.context": "/redfish/v1/$metadata#DellSystem.DellSystem",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSystem/System.Embedded.1",
+        "@odata.type": "#DellSystem.v1_4_0.DellSystem",
         "BIOSReleaseDate": "09/26/2025",
         "BaseBoardChassisSlot": "NA",
         "BatteryRollupStatus": null,
@@ -363,9 +366,9 @@
         "EstimatedSystemAirflowCFM": 96,
         "ExpressServiceCode": "DUMMY-ExpressServiceCode",
         "FanRollupStatus": "OK",
-        "Id": "System.Embedded.1",
         "IDSDMRedundancyStatus": null,
         "IDSDMRollupStatus": null,
+        "Id": "System.Embedded.1",
         "IntrusionRollupStatus": "OK",
         "IsOEMBranded": "False",
         "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
@@ -400,10 +403,7 @@
         "TempStatisticsRollupStatus": "OK",
         "UUID": "550e8400-e29b-41d4-a716-000000000002",
         "VoltRollupStatus": "OK",
-        "smbiosGUID": "550e8400-e29b-41d4-a716-000000000003",
-        "@odata.context": "/redfish/v1/$metadata#DellSystem.DellSystem",
-        "@odata.type": "#DellSystem.v1_4_0.DellSystem",
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSystem/System.Embedded.1"
+        "smbiosGUID": "550e8400-e29b-41d4-a716-000000000003"
       }
     },
     "Redpool": {

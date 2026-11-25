@@ -14,28 +14,29 @@
   "DateTime": "2024-12-05T03:52:08Z",
   "DateTimeLocalOffset": "+00:00",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Links": {
-    "ManagerForServers": [
-      {
-        "@odata.id": "/redfish/v1/Systems/1"
-      }
-    ],
-    "ManagerForServers@odata.count": 1,
+    "ActiveSoftwareImage": {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+    },
     "ManagerForChassis": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
       }
     ],
     "ManagerForChassis@odata.count": 1,
+    "ManagerForServers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1"
+      }
+    ],
+    "ManagerForServers@odata.count": 1,
     "ManagerInChassis": {
       "@odata.id": "/redfish/v1/Chassis/1/"
     },
-    "ActiveSoftwareImage": {
-      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
-    },
+    "Oem": {},
     "SoftwareImages": [
       {
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Backup_BMC"
@@ -50,18 +51,17 @@
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
       }
     ],
-    "SoftwareImages@odata.count": 4,
-    "Oem": {}
+    "SoftwareImages@odata.count": 4
   },
   "Actions": {
-    "Oem": {
-      "#SmcManagerConfig.Reset": {
-        "target": "/redfish/v1/Managers/1/Actions/Oem/SmcManagerConfig.Reset",
-        "@Redfish.ActionInfo": "/redfish/v1/Managers/1/Oem/Supermicro/ResetActionInfo"
-      }
-    },
     "#Manager.Reset": {
       "target": "/redfish/v1/Managers/1/Actions/Manager.Reset"
+    },
+    "Oem": {
+      "#SmcManagerConfig.Reset": {
+        "@Redfish.ActionInfo": "/redfish/v1/Managers/1/Oem/Supermicro/ResetActionInfo",
+        "target": "/redfish/v1/Managers/1/Actions/Oem/SmcManagerConfig.Reset"
+      }
     }
   },
   "EthernetInterfaces": {
@@ -83,60 +83,39 @@
     "@odata.id": "/redfish/v1/Managers/1/LogServices"
   },
   "GraphicalConsole": {
-    "ServiceEnabled": true,
-    "MaxConcurrentSessions": 4,
     "ConnectTypesSupported": [
       "KVMIP"
-    ]
+    ],
+    "MaxConcurrentSessions": 4,
+    "ServiceEnabled": true
   },
   "SerialConsole": {
-    "ServiceEnabled": true,
-    "MaxConcurrentSessions": 1,
     "ConnectTypesSupported": [
       "SSH",
       "IPMI"
-    ]
+    ],
+    "MaxConcurrentSessions": 1,
+    "ServiceEnabled": true
   },
   "CommandShell": {
-    "ServiceEnabled": true,
-    "MaxConcurrentSessions": 0,
     "ConnectTypesSupported": [
       "SSH"
-    ]
+    ],
+    "MaxConcurrentSessions": 0,
+    "ServiceEnabled": true
   },
   "Redundancy": [],
   "Oem": {
     "Supermicro": {
       "@odata.type": "#SmcManagerExtensions.v1_0_0.Manager",
-      "RADIUS": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/RADIUS"
-      },
-      "MouseMode": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/MouseMode"
-      },
-      "NTP": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/NTP"
-      },
-      "IPAccessControl": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/IPAccessControl"
-      },
-      "SMCRAKP": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SMCRAKP"
-      },
-      "Syslog": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Syslog"
-      },
-      "SysLockdown": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SysLockdown"
-      },
-      "Snooping": {
-        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Snooping"
-      },
       "FanMode": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/FanMode"
       },
       "IKVM": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/IKVM"
+      },
+      "IPAccessControl": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/IPAccessControl"
       },
       "KCSInterface": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/KCSInterface"
@@ -144,8 +123,29 @@
       "LicenseManager": {
         "@odata.id": "/redfish/v1/Managers/1/LicenseManager"
       },
+      "MouseMode": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/MouseMode"
+      },
+      "NTP": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/NTP"
+      },
+      "RADIUS": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/RADIUS"
+      },
+      "SMCRAKP": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SMCRAKP"
+      },
       "SmartPower": {
         "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SmartPower"
+      },
+      "Snooping": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Snooping"
+      },
+      "SysLockdown": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/SysLockdown"
+      },
+      "Syslog": {
+        "@odata.id": "/redfish/v1/Managers/1/Oem/Supermicro/Syslog"
       }
     }
   }

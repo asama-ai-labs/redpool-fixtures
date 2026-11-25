@@ -16,16 +16,16 @@
   "SubsystemVendorId": "0x17aa",
   "RevisionId": "0x0a",
   "Status": {
-    "HealthRollup": "OK",
     "Health": "OK",
+    "HealthRollup": "OK",
     "State": "Enabled"
   },
   "Links": {
-    "StorageControllers": [],
     "Drives": [],
     "PCIeDevice": {
       "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_2"
-    }
+    },
+    "StorageControllers": []
   },
   "Oem": {}
 }

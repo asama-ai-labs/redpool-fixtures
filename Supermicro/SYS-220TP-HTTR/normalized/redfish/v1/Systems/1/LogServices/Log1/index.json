@@ -15,17 +15,17 @@
   "ServiceEnabled": true,
   "LogEntryType": "SEL",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Actions": {
+    "#LogService.ClearLog": {
+      "target": "/redfish/v1/Systems/1/LogServices/Log1/Actions/LogService.ClearLog"
+    },
     "Oem": {
       "#SmcLogService.ClearAcknowledgements": {
         "target": "/redfish/v1/Systems/1/LogServices/Log1/Actions/Oem/SmcLogService.ClearAcknowledgements"
       }
-    },
-    "#LogService.ClearLog": {
-      "target": "/redfish/v1/Systems/1/LogServices/Log1/Actions/LogService.ClearLog"
     }
   },
   "Oem": {

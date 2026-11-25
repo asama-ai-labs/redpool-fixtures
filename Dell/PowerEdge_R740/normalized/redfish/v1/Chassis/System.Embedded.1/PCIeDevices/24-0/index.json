@@ -13,10 +13,10 @@
   "PartNumber": "0CG2YM",
   "FirmwareVersion": "25.5.9.0001",
   "PCIeInterface": {
-    "MaxPCIeType": "Gen3",
-    "PCIeType": "Gen3",
+    "LanesInUse": 8,
     "MaxLanes": 8,
-    "LanesInUse": 8
+    "MaxPCIeType": "Gen3",
+    "PCIeType": "Gen3"
   },
   "PCIeFunctions": {
     "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0/PCIeFunctions"
@@ -34,9 +34,9 @@
     "SlotType": "FullLength"
   },
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "Chassis": [
@@ -57,8 +57,8 @@
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/24-0/PCIeFunctions/24-0-0"
       }
     ],
-    "PCIeFunctions@odata.count": 1,
-    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource."
+    "PCIeFunctions@Redfish.Deprecated": "Please migrate to PCIeFunctions property in the root resource.",
+    "PCIeFunctions@odata.count": 1
   },
   "Oem": {}
 }

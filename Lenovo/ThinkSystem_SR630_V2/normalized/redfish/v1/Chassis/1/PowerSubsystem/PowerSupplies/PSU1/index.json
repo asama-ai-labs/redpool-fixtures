@@ -28,9 +28,9 @@
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "ServiceLabel": "PSU1",
       "LocationOrdinalValue": 1,
-      "LocationType": "Slot"
+      "LocationType": "Slot",
+      "ServiceLabel": "PSU1"
     }
   },
   "Metrics": {

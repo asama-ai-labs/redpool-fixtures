@@ -4,11 +4,11 @@
   "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/191/PCIeFunctions",
   "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
   "Description": " PCIeFunctions view",
-  "Name": "PCIeFunctions",
   "Members": [
     {
       "@odata.id": "/redfish/v1/Systems/1/PCIeDevices/191/PCIeFunctions/1"
     }
   ],
-  "Members@odata.count": 1
+  "Members@odata.count": 1,
+  "Name": "PCIeFunctions"
 }

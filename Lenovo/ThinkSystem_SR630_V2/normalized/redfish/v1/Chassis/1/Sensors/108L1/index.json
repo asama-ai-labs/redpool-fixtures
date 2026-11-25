@@ -17,28 +17,28 @@
     "State": "Disabled"
   },
   "Thresholds": {
-    "UpperFatal": {
-      "Activation": "Increasing",
-      "Reading": null
-    },
-    "UpperCaution": {
-      "Activation": "Increasing",
-      "Reading": null
-    },
     "LowerCaution": {
       "Activation": "Decreasing",
       "Reading": null
     },
-    "UpperCritical": {
-      "Activation": "Increasing",
+    "LowerCritical": {
+      "Activation": "Decreasing",
       "Reading": null
     },
     "LowerFatal": {
       "Activation": "Decreasing",
       "Reading": null
     },
-    "LowerCritical": {
-      "Activation": "Decreasing",
+    "UpperCaution": {
+      "Activation": "Increasing",
+      "Reading": null
+    },
+    "UpperCritical": {
+      "Activation": "Increasing",
+      "Reading": null
+    },
+    "UpperFatal": {
+      "Activation": "Increasing",
       "Reading": null
     }
   },

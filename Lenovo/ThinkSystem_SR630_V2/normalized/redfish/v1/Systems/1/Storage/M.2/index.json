@@ -25,61 +25,61 @@
   },
   "StorageControllers": [
     {
-      "SerialNumber": "DUMMY-SerialNumber-3",
-      "SupportedControllerProtocols": [
-        "PCIe"
-      ],
+      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2#/StorageControllers/0",
+      "AssetTag": "",
       "CacheSummary": {
+        "PersistentCacheSizeMiB": null,
         "Status": {
           "State": "Disabled"
         },
-        "TotalCacheSizeMiB": null,
-        "PersistentCacheSizeMiB": null
+        "TotalCacheSizeMiB": null
       },
-      "Oem": {
-        "Lenovo": {
-          "SupportedRaidLevels": "0/1",
-          "Mode": "RAID/JBOD",
-          "SupportedRaidLevels@Redfish.Deprecated": "The property is deprecated. Please use SupportedRAIDTypes instead.",
-          "MinStripeSizeBytes": 32768,
-          "@odata.type": "#LenovoStorage.v1_0_0.LenovoStorageController",
-          "MaxStripeSizeBytes": 65536
+      "FirmwareVersion": "2.3.20.1211",
+      "Identifiers": [
+        {
+          "DurableName": "DUMMY-DurableName-3",
+          "DurableNameFormat": "UUID"
+        }
+      ],
+      "Location": {
+        "Info": "Slot 7",
+        "PartLocation": {
+          "LocationOrdinalValue": 7,
+          "LocationType": "Slot",
+          "ServiceLabel": "PCI 7"
         }
       },
       "Manufacturer": "Lenovo",
-      "Identifiers": [
-        {
-          "DurableNameFormat": "UUID",
-          "DurableName": "DUMMY-DurableName-3"
-        }
-      ],
-      "FirmwareVersion": "2.3.20.1211",
       "MemberId": "0",
-      "PartNumber": "SR17A32467",
+      "Model": "M.2 SATA 2-Bay RAID Kit",
       "Name": "ThinkSystem M.2 SATA 2-Bay RAID Enablement Kit",
+      "Oem": {
+        "Lenovo": {
+          "@odata.type": "#LenovoStorage.v1_0_0.LenovoStorageController",
+          "MaxStripeSizeBytes": 65536,
+          "MinStripeSizeBytes": 32768,
+          "Mode": "RAID/JBOD",
+          "SupportedRaidLevels": "0/1",
+          "SupportedRaidLevels@Redfish.Deprecated": "The property is deprecated. Please use SupportedRAIDTypes instead."
+        }
+      },
+      "PartNumber": "SR17A32467",
+      "SKU": "DUMMY-SKU-3",
+      "SerialNumber": "DUMMY-SerialNumber-3",
       "Status": {
         "Health": "OK",
         "State": "Enabled"
       },
-      "@odata.id": "/redfish/v1/Systems/1/Storage/M.2#/StorageControllers/0",
-      "SKU": "DUMMY-SKU-3",
-      "Location": {
-        "PartLocation": {
-          "LocationOrdinalValue": 7,
-          "ServiceLabel": "PCI 7",
-          "LocationType": "Slot"
-        },
-        "Info": "Slot 7"
-      },
+      "SupportedControllerProtocols": [
+        "PCIe"
+      ],
       "SupportedDeviceProtocols": [
         "SATA",
         "NVMe"
       ],
       "SupportedRAIDTypes": [
         "RAID1"
-      ],
-      "AssetTag": "",
-      "Model": "M.2 SATA 2-Bay RAID Kit"
+      ]
     }
   ],
   "StorageControllers@odata.count": 1,

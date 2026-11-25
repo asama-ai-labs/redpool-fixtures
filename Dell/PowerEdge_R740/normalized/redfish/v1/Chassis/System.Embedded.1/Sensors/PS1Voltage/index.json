@@ -14,16 +14,16 @@
     "State": "Enabled"
   },
   "Thresholds": {
-    "UpperCritical": {
+    "LowerCaution": {
+      "Reading": null
+    },
+    "LowerCritical": {
       "Reading": null
     },
     "UpperCaution": {
       "Reading": null
     },
-    "LowerCaution": {
-      "Reading": null
-    },
-    "LowerCritical": {
+    "UpperCritical": {
       "Reading": null
     }
   },

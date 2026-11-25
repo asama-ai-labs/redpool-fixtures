@@ -411,6 +411,9 @@
     }
   },
   "Links": {
+    "ActiveSoftwareImage": {
+      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.25.0__BIOS.Setup.1-1"
+    },
     "SoftwareImages": [
       {
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-2.10.2__BIOS.Setup.1-1"
@@ -422,10 +425,7 @@
         "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-2.25.0__BIOS.Setup.1-1"
       }
     ],
-    "SoftwareImages@odata.count": 3,
-    "ActiveSoftwareImage": {
-      "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-159-2.25.0__BIOS.Setup.1-1"
-    }
+    "SoftwareImages@odata.count": 3
   },
   "Oem": {}
 }

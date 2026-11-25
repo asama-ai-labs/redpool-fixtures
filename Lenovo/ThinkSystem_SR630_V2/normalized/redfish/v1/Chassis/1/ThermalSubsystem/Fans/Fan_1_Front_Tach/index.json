@@ -11,15 +11,15 @@
     "State": "Enabled"
   },
   "SpeedPercent": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/65L0",
     "Reading": 9984,
-    "SpeedRPM": 9984,
-    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/65L0"
+    "SpeedRPM": 9984
   },
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "LocationType": "Slot",
       "LocationOrdinalValue": 1,
+      "LocationType": "Slot",
       "ServiceLabel": "Fan 1 Front Tach"
     }
   },

@@ -6,9 +6,9 @@
   "Name": "HPE Eth 10/25Gb 2p 640SFP28 Adptr",
   "Description": "Network Port View",
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "ActiveLinkTechnology": "Ethernet",
   "AssociatedNetworkAddresses": [

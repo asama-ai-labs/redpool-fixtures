@@ -72,6 +72,9 @@
     "Dell": {
       "@odata.type": "#DellOem.v1_3_0.DellOemResources",
       "DellMemory": {
+        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B9/Oem/Dell/DellMemory/DIMM.Socket.B9",
+        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
         "BankLabel": "B",
         "Id": "DIMM.Socket.B9",
         "LastSystemInventoryTime": "2025-05-14T11:59:48+00:00",
@@ -81,10 +84,7 @@
         "Model": "DDR4 DIMM",
         "Name": "DellMemory",
         "RemainingRatedWriteEndurancePercent": null,
-        "SystemEraseCapability": "NotSupported",
-        "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
-        "@odata.type": "#DellMemory.v1_1_0.DellMemory",
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.B9/Oem/Dell/DellMemory/DIMM.Socket.B9"
+        "SystemEraseCapability": "NotSupported"
       }
     },
     "Redpool": {

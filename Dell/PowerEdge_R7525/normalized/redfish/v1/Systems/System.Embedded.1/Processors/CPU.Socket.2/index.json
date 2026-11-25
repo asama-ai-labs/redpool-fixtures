@@ -80,6 +80,9 @@
     "Dell": {
       "@odata.type": "#DellOem.v1_3_0.DellOemResources",
       "DellProcessor": {
+        "@odata.context": "/redfish/v1/$metadata#DellProcessor.DellProcessor",
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/Oem/Dell/DellProcessors/CPU.Socket.2",
+        "@odata.type": "#DellProcessor.v1_2_0.DellProcessor",
         "CPUFamily": "AMDZenProcessorFamily",
         "CPUStatus": "CPUEnabled",
         "Cache1Associativity": "8-WaySet-Associative",
@@ -126,10 +129,7 @@
         "TurboModeEnabled": "Yes",
         "VirtualizationTechnologyCapable": "Yes",
         "VirtualizationTechnologyEnabled": "Yes",
-        "Volts": "1.8",
-        "@odata.context": "/redfish/v1/$metadata#DellProcessor.DellProcessor",
-        "@odata.type": "#DellProcessor.v1_2_0.DellProcessor",
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2/Oem/Dell/DellProcessors/CPU.Socket.2"
+        "Volts": "1.8"
       }
     }
   }

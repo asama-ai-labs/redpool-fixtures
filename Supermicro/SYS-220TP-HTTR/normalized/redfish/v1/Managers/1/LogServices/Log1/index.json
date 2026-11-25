@@ -15,14 +15,14 @@
   "ServiceEnabled": true,
   "LogEntryType": "OEM",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Actions": {
-    "Oem": {},
     "#LogService.ClearLog": {
       "target": "/redfish/v1/Managers/1/LogServices/Log1/Actions/LogService.ClearLog"
-    }
+    },
+    "Oem": {}
   },
   "Oem": {}
 }

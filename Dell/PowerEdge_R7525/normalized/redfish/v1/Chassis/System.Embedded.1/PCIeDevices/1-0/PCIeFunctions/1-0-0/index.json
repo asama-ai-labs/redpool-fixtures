@@ -16,17 +16,11 @@
   "SubsystemVendorId": "0x1028",
   "RevisionId": "0x01",
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "Links": {
-    "StorageControllers": [
-      {
-        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.8-1#/StorageControllers/0"
-      }
-    ],
-    "StorageControllers@odata.count": 1,
     "Drives": [
       {
         "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.8-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.8-1"
@@ -40,18 +34,24 @@
     "EthernetInterfaces@odata.count": 0,
     "PCIeDevice": {
       "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/1-0"
-    }
+    },
+    "StorageControllers": [
+      {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.8-1#/StorageControllers/0"
+      }
+    ],
+    "StorageControllers@odata.count": 1
   },
   "Oem": {
     "Dell": {
       "@odata.type": "#DellChassisPCIeFunction.v1_1_0.DellPCIeFunction",
       "DellPCIeFunction": {
         "DataBusWidth": "Unknown",
+        "Id": "RAID.SL.8-1",
         "LastSystemInventoryTime": "2026-04-27T08:33:51+00:00",
         "LastUpdateTime": "2026-04-27T09:33:51+00:00",
         "SlotLength": "Unknown",
-        "SlotType": "Unknown",
-        "Id": "RAID.SL.8-1"
+        "SlotType": "Unknown"
       }
     }
   }

@@ -27,73 +27,73 @@
   "Originator": "UEFI",
   "Oem": {
     "Lenovo": {
-      "ReportingChain": "UEFI",
-      "IsLocalEvent": true,
-      "RawDebugLogURL": "",
-      "EventFlag": 0,
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "AffectedIndicatorLEDs": [
+        {
+          "LEDIdentifier": "62",
+          "LEDState": "Off"
+        },
+        {
+          "LEDIdentifier": "0",
+          "LEDState": "Lit"
+        }
+      ],
       "AuxiliaryData": "",
-      "Source": "Memory",
-      "TSLVersion": "16",
-      "RelatedEventID": "",
-      "Hidden": false,
+      "CommonEventID": "FQXSFMA0008M",
+      "EventFlag": 0,
       "EventID": "0x816f030c2003ffff",
       "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
       "EventSequenceNumber": 13,
-      "LenovoMessageID": "DMTF0137",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSFMA0008M",
-      "TotalSequenceNumber": 28,
-      "AffectedIndicatorLEDs": [
-        {
-          "LEDState": "Off",
-          "LEDIdentifier": "62"
-        },
-        {
-          "LEDState": "Lit",
-          "LEDIdentifier": "0"
-        }
-      ],
-      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
+      "EventType": 0,
       "FailingFRU": [
         {
           "FRUNumber": "98",
           "FRUSerialNumber": ""
         }
       ],
-      "EventType": 0
-    },
-    "Redpool": {
-      "ReportingChain": "UEFI",
+      "Hidden": false,
       "IsLocalEvent": true,
+      "LenovoMessageID": "DMTF0137",
       "RawDebugLogURL": "",
-      "EventFlag": 0,
-      "AuxiliaryData": "",
+      "RelatedEventID": "",
+      "ReportingChain": "UEFI",
+      "Serviceable": "Not Serviceable",
       "Source": "Memory",
       "TSLVersion": "16",
-      "RelatedEventID": "",
-      "Hidden": false,
-      "EventSequenceNumber": 13,
-      "LenovoMessageID": "DMTF0137",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSFMA0008M",
-      "TotalSequenceNumber": 28,
+      "TotalSequenceNumber": 28
+    },
+    "Redpool": {
       "AffectedIndicatorLEDs": [
         {
-          "LEDState": "Off",
-          "LEDIdentifier": "62"
+          "LEDIdentifier": "62",
+          "LEDState": "Off"
         },
         {
-          "LEDState": "Lit",
-          "LEDIdentifier": "0"
+          "LEDIdentifier": "0",
+          "LEDState": "Lit"
         }
       ],
+      "AuxiliaryData": "",
+      "CommonEventID": "FQXSFMA0008M",
+      "EventFlag": 0,
+      "EventSequenceNumber": 13,
+      "EventType": 0,
       "FailingFRU": [
         {
           "FRUNumber": "98",
           "FRUSerialNumber": ""
         }
       ],
-      "EventType": 0,
+      "Hidden": false,
+      "IsLocalEvent": true,
+      "LenovoMessageID": "DMTF0137",
+      "RawDebugLogURL": "",
+      "RelatedEventID": "",
+      "ReportingChain": "UEFI",
+      "Serviceable": "Not Serviceable",
+      "Source": "Memory",
+      "TSLVersion": "16",
+      "TotalSequenceNumber": 28,
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }
   }

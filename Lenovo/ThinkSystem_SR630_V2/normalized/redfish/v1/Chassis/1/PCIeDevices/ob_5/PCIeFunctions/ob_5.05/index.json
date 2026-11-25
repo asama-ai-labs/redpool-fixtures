@@ -21,11 +21,11 @@
     "State": "Enabled"
   },
   "Links": {
-    "StorageControllers": [],
+    "Drives": [],
     "PCIeDevice": {
       "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/ob_5"
     },
-    "Drives": []
+    "StorageControllers": []
   },
   "Oem": {}
 }

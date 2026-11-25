@@ -16,8 +16,8 @@
   "SubsystemVendorId": "0x17aa",
   "RevisionId": "0x11",
   "Status": {
-    "HealthRollup": "OK",
     "Health": "OK",
+    "HealthRollup": "OK",
     "State": "Enabled"
   },
   "Links": {
@@ -26,14 +26,14 @@
         "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/NIC1"
       }
     ],
-    "PCIeDevice": {
-      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_1"
-    },
     "NetworkDeviceFunctions": [
       {
         "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/slot-1/NetworkDeviceFunctions/1.1"
       }
-    ]
+    ],
+    "PCIeDevice": {
+      "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_1"
+    }
   },
   "Oem": {}
 }

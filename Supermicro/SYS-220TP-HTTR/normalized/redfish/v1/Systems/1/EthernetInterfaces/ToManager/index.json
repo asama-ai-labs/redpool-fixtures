@@ -16,16 +16,16 @@
   "IPv4Addresses": [
     {
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
       "AddressOrigin": "Static",
-      "Gateway": "192.0.2.1"
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv4StaticAddresses": [
     {
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
-      "Gateway": "192.0.2.1"
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv6Addresses": [],
@@ -33,8 +33,8 @@
   "NameServers": [],
   "VLAN": {},
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Links": {
     "HostInterface": {

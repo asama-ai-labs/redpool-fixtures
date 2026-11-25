@@ -16,8 +16,8 @@
   "SubsystemVendorId": "0x1d49",
   "RevisionId": "0x11",
   "Status": {
-    "HealthRollup": "OK",
     "Health": "OK",
+    "HealthRollup": "OK",
     "State": "Enabled"
   },
   "Links": {

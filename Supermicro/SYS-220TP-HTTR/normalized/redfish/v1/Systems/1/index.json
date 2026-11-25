@@ -35,33 +35,33 @@
   "BootProgress": {},
   "ProcessorSummary": {
     "Count": 2,
-    "Model": "Intel(R) Xeon(R) processor",
-    "Status": {
-      "State": "Enabled",
-      "Health": "OK",
-      "HealthRollup": "OK"
-    },
     "Metrics": {
       "@odata.id": "/redfish/v1/Systems/1/ProcessorSummary/ProcessorMetrics"
+    },
+    "Model": "Intel(R) Xeon(R) processor",
+    "Status": {
+      "Health": "OK",
+      "HealthRollup": "OK",
+      "State": "Enabled"
     }
   },
   "MemorySummary": {
+    "MemoryMirroring": "System",
     "Metrics": {
       "@odata.id": "/redfish/v1/Systems/1/MemorySummary/MemoryMetrics"
     },
-    "TotalSystemMemoryGiB": 256,
-    "MemoryMirroring": "System",
     "Status": {
-      "State": "Enabled",
       "Health": "OK",
-      "HealthRollup": "OK"
-    }
+      "HealthRollup": "OK",
+      "State": "Enabled"
+    },
+    "TotalSystemMemoryGiB": 256
   },
   "TrustedModules": [],
   "HostingRoles": [],
   "Status": {
-    "State": "Enabled",
-    "Health": "Critical"
+    "Health": "Critical",
+    "State": "Enabled"
   },
   "Links": {
     "Chassis": [
@@ -77,11 +77,11 @@
     "Oem": {}
   },
   "Actions": {
-    "Oem": {},
     "#ComputerSystem.Reset": {
-      "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset",
-      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo"
-    }
+      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo",
+      "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset"
+    },
+    "Oem": {}
   },
   "Bios": {
     "@odata.id": "/redfish/v1/Systems/1/Bios"

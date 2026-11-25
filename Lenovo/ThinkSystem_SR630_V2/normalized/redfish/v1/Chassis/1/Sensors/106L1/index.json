@@ -17,7 +17,7 @@
     "State": "Disabled"
   },
   "Thresholds": {
-    "LowerFatal": {
+    "LowerCaution": {
       "Activation": "Decreasing",
       "Reading": null
     },
@@ -25,7 +25,11 @@
       "Activation": "Decreasing",
       "Reading": null
     },
-    "UpperFatal": {
+    "LowerFatal": {
+      "Activation": "Decreasing",
+      "Reading": null
+    },
+    "UpperCaution": {
       "Activation": "Increasing",
       "Reading": null
     },
@@ -33,12 +37,8 @@
       "Activation": "Increasing",
       "Reading": null
     },
-    "UpperCaution": {
+    "UpperFatal": {
       "Activation": "Increasing",
-      "Reading": null
-    },
-    "LowerCaution": {
-      "Activation": "Decreasing",
       "Reading": null
     }
   },

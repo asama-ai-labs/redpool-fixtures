@@ -19,9 +19,9 @@
   },
   "Location": {
     "PartLocation": {
+      "LocationOrdinalValue": 16,
       "LocationType": "Slot",
-      "ServiceLabel": "DIMM 17",
-      "LocationOrdinalValue": 16
+      "ServiceLabel": "DIMM 17"
     }
   },
   "DeviceLocator": "",

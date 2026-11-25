@@ -13,17 +13,11 @@
   "SKU": "DUMMY-SKU-4",
   "Controllers": [
     {
-      "PCIeInterface": {
-        "LanesInUse": 16,
-        "MaxPCIeType": "Gen4",
-        "MaxLanes": 16,
-        "PCIeType": "Gen4"
-      },
-      "FirmwarePackageVersion": "222.1.73.0",
       "ControllerCapabilities": {
         "NetworkDeviceFunctionCount": 2,
         "NetworkPortCount": 2
       },
+      "FirmwarePackageVersion": "222.1.73.0",
       "Links": {
         "NetworkDeviceFunctions": [
           {
@@ -56,15 +50,21 @@
         ]
       },
       "Location": {
-        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
         "Info": "Slot 1",
-        "InfoFormat": "Slot X",
         "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "InfoFormat": "Slot X",
+        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
         "PartLocation": {
           "LocationOrdinalValue": 1,
           "LocationType": "Slot",
           "ServiceLabel": "PCIe 1"
         }
+      },
+      "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16,
+        "MaxPCIeType": "Gen4",
+        "PCIeType": "Gen4"
       }
     }
   ],

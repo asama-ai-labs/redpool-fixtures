@@ -20,15 +20,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A11_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.A11",
             "Id": "DIMM.Socket.A11_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-19",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A11_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-19"
           }
         }
       },
@@ -54,15 +54,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A6_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.A6",
             "Id": "DIMM.Socket.A6_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-20",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A6_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-20"
           }
         }
       },
@@ -88,15 +88,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B3_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.B3",
             "Id": "DIMM.Socket.B3_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-21",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B3_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-21"
           }
         }
       },
@@ -122,15 +122,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B8_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.B8",
             "Id": "DIMM.Socket.B8_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-22",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B8_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-22"
           }
         }
       },
@@ -156,15 +156,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B2_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.B2",
             "Id": "DIMM.Socket.B2_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-23",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B2_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-23"
           }
         }
       },
@@ -190,15 +190,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A5_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.A5",
             "Id": "DIMM.Socket.A5_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-24",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A5_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-24"
           }
         }
       },
@@ -224,15 +224,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A12_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.A12",
             "Id": "DIMM.Socket.A12_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-25",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A12_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-25"
           }
         }
       },
@@ -258,15 +258,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B9_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "DIMM.Socket.B9",
             "Id": "DIMM.Socket.B9_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Memory",
-            "SerialNumber": "DUMMY-SerialNumber-26",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B9_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-26"
           }
         }
       },
@@ -292,15 +292,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/PSU.Slot.1_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "PSU.Slot.1",
             "Id": "PSU.Slot.1_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "PowerSupply",
-            "SerialNumber": "DUMMY-SerialNumber-17",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/PSU.Slot.1_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-17"
           }
         }
       },
@@ -326,15 +326,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/PSU.Slot.2_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "PSU.Slot.2",
             "Id": "PSU.Slot.2_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "PowerSupply",
-            "SerialNumber": "DUMMY-SerialNumber-18",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/PSU.Slot.2_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-18"
           }
         }
       },
@@ -360,15 +360,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/System.Embedded.1_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "System.Embedded.1",
             "Id": "System.Embedded.1_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Module/Card",
-            "SerialNumber": "DUMMY-SerialNumber-1",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/System.Embedded.1_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-1"
           }
         }
       },
@@ -394,15 +394,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/NIC.Integrated.1_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "NIC.Integrated.1",
             "Id": "NIC.Integrated.1_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Module/Card",
-            "SerialNumber": "DUMMY-SerialNumber-16",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/NIC.Integrated.1_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-16"
           }
         }
       },
@@ -428,15 +428,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/Enclosure.Internal.0-1_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "Enclosure.Internal.0-1",
             "Id": "Enclosure.Internal.0-1_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "CrossConnect/Backplane",
-            "SerialNumber": "DUMMY-SerialNumber-27",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/Enclosure.Internal.0-1_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-27"
           }
         }
       },
@@ -462,15 +462,15 @@
         "Dell": {
           "@odata.type": "#DellOem.v1_3_0.DellOemResources",
           "DellAssembly": {
+            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/RAID.Slot.6-1_0x23_FRU",
+            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
             "Description": "This resource shall be used to represent an assembly information.",
             "DeviceFQDD": "RAID.Slot.6-1",
             "Id": "RAID.Slot.6-1_0x23_FRU",
             "Name": "DellAssembly",
             "PackageType": "Module/Card",
-            "SerialNumber": "DUMMY-SerialNumber-28",
-            "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
-            "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
-            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/RAID.Slot.6-1_0x23_FRU"
+            "SerialNumber": "DUMMY-SerialNumber-28"
           }
         }
       },

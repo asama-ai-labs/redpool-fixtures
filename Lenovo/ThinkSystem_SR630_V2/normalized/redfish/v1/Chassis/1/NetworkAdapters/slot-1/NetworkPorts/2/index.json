@@ -37,8 +37,8 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoNetworkPort.v1_0_0.LenovoNetworkPortProperties",
-      "PortMaxSpeedbps": 107374182400,
-      "PhysicalPortMacAddress": "00:1B:44:AA:00:08"
+      "PhysicalPortMacAddress": "00:1B:44:AA:00:08",
+      "PortMaxSpeedbps": 107374182400
     }
   }
 }

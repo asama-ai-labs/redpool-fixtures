@@ -19,8 +19,11 @@
   "PowerState": "On",
   "IndicatorLED": "Off",
   "Boot": {
+    "AutomaticRetryAttempts": 50,
     "AutomaticRetryConfig": "RetryAttempts",
-    "BootOrderPropertySelection": "BootOrder",
+    "BootOptions": {
+      "@odata.id": "/redfish/v1/Systems/1/BootOptions"
+    },
     "BootOrder": [
       "Boot0004",
       "Boot0000",
@@ -28,18 +31,14 @@
       "Boot0002",
       "Boot0003"
     ],
-    "BootOptions": {
-      "@odata.id": "/redfish/v1/Systems/1/BootOptions"
-    },
-    "AutomaticRetryAttempts": 50,
+    "BootOrderPropertySelection": "BootOrder",
+    "BootSourceOverrideEnabled": "Disabled",
     "BootSourceOverrideEnabled@Redfish.AllowableValues": [
       "Once",
       "Disabled"
     ],
-    "BootSourceOverrideTarget": "None",
     "BootSourceOverrideMode": "UEFI",
-    "UefiTargetBootSourceOverride": null,
-    "BootSourceOverrideEnabled": "Disabled",
+    "BootSourceOverrideTarget": "None",
     "BootSourceOverrideTarget@Redfish.AllowableValues": [
       "None",
       "Pxe",
@@ -49,81 +48,69 @@
       "BiosSetup",
       "Diags",
       "UefiTarget"
-    ]
+    ],
+    "UefiTargetBootSourceOverride": null
   },
   "BootProgress": {},
   "ProcessorSummary": {
+    "Count": 2,
+    "LogicalProcessorCount": 144,
     "Metrics": {
       "@odata.id": "/redfish/v1/Systems/1/ProcessorSummary/ProcessorMetrics"
     },
+    "Model": "Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz",
     "Status": {
-      "HealthRollup": "OK",
       "Health": "OK",
+      "HealthRollup": "OK",
       "State": "Enabled"
-    },
-    "Count": 2,
-    "LogicalProcessorCount": 144,
-    "Model": "Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz"
+    }
   },
   "MemorySummary": {
-    "TotalSystemMemoryGiB": 128,
-    "Status": {
-      "HealthRollup": "OK",
-      "Health": "OK",
-      "State": "Enabled"
-    },
     "Metrics": {
       "@odata.id": "/redfish/v1/Systems/1/MemorySummary/MemoryMetrics"
-    }
+    },
+    "Status": {
+      "Health": "OK",
+      "HealthRollup": "OK",
+      "State": "Enabled"
+    },
+    "TotalSystemMemoryGiB": 128
   },
   "TrustedModules": [
     {
-      "InterfaceType": "TPM2_0",
       "FirmwareVersion": "7.2.2.0",
+      "InterfaceType": "TPM2_0",
       "InterfaceTypeSelection": "BiosSetting",
       "Status": {
-        "State": "Enabled",
-        "Health": "OK"
+        "Health": "OK",
+        "State": "Enabled"
       }
     }
   ],
   "HostWatchdogTimer": {
+    "FunctionEnabled": false,
+    "Status": {
+      "State": "Disabled"
+    },
+    "TimeoutAction": "PowerCycle",
     "TimeoutAction@Redfish.AllowableValues": [
       "PowerCycle"
     ],
     "WarningAction": "None",
-    "TimeoutAction": "PowerCycle",
-    "Status": {
-      "State": "Disabled"
-    },
     "WarningAction@Redfish.AllowableValues": [
       "None"
-    ],
-    "FunctionEnabled": false
+    ]
   },
   "HostingRoles": [],
   "Status": {
-    "HealthRollup": "OK",
     "Health": "OK",
+    "HealthRollup": "OK",
     "State": "Enabled"
   },
   "Links": {
     "Chassis": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
-      }
-    ],
-    "PoweredBy": [
-      {
-        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
-      },
-      {
-        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
-      }
-    ],
-    "ManagedBy": [
-      {
-        "@odata.id": "/redfish/v1/Managers/1"
       }
     ],
     "CooledBy": [
@@ -175,10 +162,24 @@
       {
         "@odata.id": "/redfish/v1/Chassis/1/Thermal#/Fans/15"
       }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
+      }
+    ],
+    "PoweredBy": [
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/0"
+      },
+      {
+        "@odata.id": "/redfish/v1/Chassis/1/Power#/PowerSupplies/1"
+      }
     ]
   },
   "Actions": {
     "#ComputerSystem.Reset": {
+      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo",
       "ResetType@Redfish.AllowableValues": [
         "On",
         "Nmi",
@@ -189,31 +190,30 @@
         "ForceRestart"
       ],
       "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset",
-      "title": "Reset",
-      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/ResetActionInfo"
+      "title": "Reset"
     },
     "Oem": {
+      "#LenovoComputerSystem.BootToBIOSSetup": {
+        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.BootToBIOSSetup",
+        "title": "BootToBIOSSetup"
+      },
       "#LenovoComputerSystem.CustomizedReset": {
-        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.CustomizedReset",
-        "title": "CustomizedReset",
         "ResetType@Redfish.AllowableValues": [
           "On"
-        ]
+        ],
+        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.CustomizedReset",
+        "title": "CustomizedReset"
       },
-      "#LenovoComputerSystem.BootToBIOSSetup": {
-        "title": "BootToBIOSSetup",
-        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.BootToBIOSSetup"
+      "#LenovoComputerSystem.RemoteClearCMOS": {
+        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.RemoteClearCMOS",
+        "title": "RemoteClearCMOS"
       },
       "#LenovoComputerSystem.SystemReset": {
         "ResetType@Redfish.AllowableValues": [
           "ACPowerCycle"
         ],
-        "title": "SystemReset",
-        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.SystemReset"
-      },
-      "#LenovoComputerSystem.RemoteClearCMOS": {
-        "title": "RemoteClearCMOS",
-        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.RemoteClearCMOS"
+        "target": "/redfish/v1/Systems/1/Actions/Oem/LenovoComputerSystem.SystemReset",
+        "title": "SystemReset"
       }
     }
   },
@@ -312,41 +312,41 @@
   "GraphicalConsole": {},
   "Oem": {
     "Lenovo": {
-      "FrontPanelUSB": {
-        "InactivityTimeoutMins": 5,
-        "IDButton": "On",
-        "PortSwitchingTo": "Server",
-        "FPMode": "Shared"
-      },
-      "SystemStatus": "BootingOSOrInUndetectedOS",
-      "TotalPowerOnHours": 5112,
+      "@odata.type": "#LenovoComputerSystem.v1_0_0.LenovoSystemProperties",
       "BootSettings": {
         "@odata.id": "/redfish/v1/Systems/1/Oem/Lenovo/BootSettings"
       },
-      "ScheduledPowerActions": {
-        "@odata.id": "/redfish/v1/Systems/1/Oem/Lenovo/ScheduledPowerActions"
-      },
-      "NumberOfReboots": 42,
-      "Sensors": {
-        "@odata.id": "/redfish/v1/Chassis/1/Sensors"
-      },
-      "@odata.type": "#LenovoComputerSystem.v1_0_0.LenovoSystemProperties",
-      "TPMSettings": {
-        "AssertRPP": false,
-        "AssertDurationMins": 30,
-        "EnableRPP": true
+      "BootSettings@Redfish.Deprecated": "The property is deprecated. Please use BootOrder instead.",
+      "FrontPanelUSB": {
+        "FPMode": "Shared",
+        "IDButton": "On",
+        "InactivityTimeoutMins": 5,
+        "PortSwitchingTo": "Server"
       },
       "HistorySysPerf": {
         "@odata.id": "/redfish/v1/Systems/1/Oem/Lenovo/HistorySysPerf"
       },
-      "BootSettings@Redfish.Deprecated": "The property is deprecated. Please use BootOrder instead.",
       "Metrics": {
         "@odata.id": "/redfish/v1/Systems/1/Oem/Lenovo/Metrics"
       },
+      "NumberOfReboots": 42,
+      "ScheduledPowerActions": {
+        "@odata.id": "/redfish/v1/Systems/1/Oem/Lenovo/ScheduledPowerActions"
+      },
       "SecureBootOverKCSSettings": {
-        "AllowEnableSecureBootOverKCS": true,
-        "AllowDisableSecureBootOverKCS": false
-      }
+        "AllowDisableSecureBootOverKCS": false,
+        "AllowEnableSecureBootOverKCS": true
+      },
+      "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/1/Sensors"
+      },
+      "SystemStatus": "BootingOSOrInUndetectedOS",
+      "TPMSettings": {
+        "AssertDurationMins": 30,
+        "AssertRPP": false,
+        "EnableRPP": true
+      },
+      "TotalPowerOnHours": 5112
     }
   }
 }

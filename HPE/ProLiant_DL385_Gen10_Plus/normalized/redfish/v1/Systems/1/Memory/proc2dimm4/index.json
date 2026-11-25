@@ -17,7 +17,7 @@
   "MemoryLocation": {
     "Socket": 1,
     "MemoryController": 5,
-    "Channel": 5,
+    "Channel": 6,
     "Slot": 1
   },
   "Location": {},

@@ -8,8 +8,8 @@
   "FanSpeedsPercent": [],
   "Oem": {
     "Dell": {
-      "AverageFanPWM": 28.0,
-      "@odata.type": "#DellEnvironmentMetrics.v1_0_0.DellEnvironmentMetrics"
+      "@odata.type": "#DellEnvironmentMetrics.v1_0_0.DellEnvironmentMetrics",
+      "AverageFanPWM": 28.0
     },
     "Redpool": {
       "AverageFanPWM": 28.0,

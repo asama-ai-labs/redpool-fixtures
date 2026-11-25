@@ -6,8 +6,8 @@
   "Id": "1",
   "Name": "VBAT",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Thresholds": {},
   "Oem": {

@@ -12,9 +12,9 @@
   "SecureBootDatabases": {},
   "Actions": {
     "#SecureBoot.ResetKeys": {
+      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/SecureBoot/ResetKeysActionInfo",
       "target": "/redfish/v1/Systems/1/SecureBoot/Actions/SecureBoot.ResetKeys",
-      "title": "ResetKeys",
-      "@Redfish.ActionInfo": "/redfish/v1/Systems/1/SecureBoot/ResetKeysActionInfo"
+      "title": "ResetKeys"
     }
   },
   "Oem": {}

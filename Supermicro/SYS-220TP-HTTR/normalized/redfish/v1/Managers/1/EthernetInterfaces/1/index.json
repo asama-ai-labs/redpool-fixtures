@@ -18,9 +18,9 @@
   "IPv4Addresses": [
     {
       "Address": "192.0.2.1",
-      "SubnetMask": "192.0.2.1",
       "AddressOrigin": "DHCP",
-      "Gateway": "192.0.2.1"
+      "Gateway": "192.0.2.1",
+      "SubnetMask": "192.0.2.1"
     }
   ],
   "IPv4StaticAddresses": [
@@ -33,9 +33,9 @@
   "IPv6Addresses": [
     {
       "Address": "::1",
-      "PrefixLength": 64,
       "AddressOrigin": "LinkLocal",
-      "AddressState": "Preferred"
+      "AddressState": "Preferred",
+      "PrefixLength": 64
     }
   ],
   "IPv6StaticAddresses": [
@@ -56,8 +56,8 @@
     "VLANId": 0
   },
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "Links": {},
   "Oem": {
@@ -68,12 +68,12 @@
   },
   "DHCPv4": {
     "DHCPEnabled": true,
+    "FallbackAddress": "None",
     "UseDNSServers": false,
+    "UseDomainName": false,
     "UseGateway": false,
     "UseNTPServers": false,
-    "UseStaticRoutes": false,
-    "UseDomainName": false,
-    "FallbackAddress": "None"
+    "UseStaticRoutes": false
   },
   "DHCPv6": {
     "OperatingMode": "Stateless",

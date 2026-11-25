@@ -23,15 +23,15 @@
       "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0xD0",
-        "SensorName": ""
+        "SensorName": "",
+        "SensorType": "0xD0"
       }
     },
     "Redpool": {
       "RawEventData": {
         "EventDirAndType": "0x6F",
-        "SensorType": "0xD0",
-        "SensorName": ""
+        "SensorName": "",
+        "SensorType": "0xD0"
       },
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }

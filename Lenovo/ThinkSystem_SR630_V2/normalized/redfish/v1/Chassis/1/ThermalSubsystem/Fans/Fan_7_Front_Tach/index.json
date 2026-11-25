@@ -11,15 +11,15 @@
     "State": "Enabled"
   },
   "SpeedPercent": {
+    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/71L0",
     "Reading": 10368,
-    "SpeedRPM": 10368,
-    "DataSourceUri": "/redfish/v1/Chassis/1/Sensors/71L0"
+    "SpeedRPM": 10368
   },
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "LocationType": "Slot",
       "LocationOrdinalValue": 7,
+      "LocationType": "Slot",
       "ServiceLabel": "Fan 7 Front Tach"
     }
   },

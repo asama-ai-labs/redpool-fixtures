@@ -15,8 +15,8 @@
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
-      "ServiceLabel": "System Board Fan3",
-      "LocationType": "Bay"
+      "LocationType": "Bay",
+      "ServiceLabel": "System Board Fan3"
     }
   },
   "PhysicalContext": "SystemBoard",
@@ -24,8 +24,8 @@
   "Oem": {
     "Dell": {
       "@odata.type": "#DellFan.v1_0_0.DellFan",
-      "FanType": "Silver",
-      "FanPWM": 28
+      "FanPWM": 28,
+      "FanType": "Silver"
     },
     "Redpool": {
       "FanPWM": 28,

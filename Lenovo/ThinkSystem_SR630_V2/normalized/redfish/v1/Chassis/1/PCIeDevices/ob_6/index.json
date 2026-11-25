@@ -15,13 +15,13 @@
   },
   "Slot": {
     "Location": {
+      "Info": "OnBoard",
       "InfoFormat": "OnBoard",
       "PartLocation": {
-        "LocationType": "Slot",
         "LocationOrdinalValue": 6,
+        "LocationType": "Slot",
         "ServiceLabel": "OnBoard"
-      },
-      "Info": "OnBoard"
+      }
     }
   },
   "Status": {
@@ -44,15 +44,15 @@
     "Lenovo": {
       "@odata.type": "#LenovoDeviceInfo.v1_0_0.LenovoDeviceInfo",
       "Location": {
-        "InfoFormat": "OnBoard",
-        "PartLocation": {
-          "LocationType": "Slot",
-          "LocationOrdinalValue": 6,
-          "ServiceLabel": "OnBoard"
-        },
+        "Info": "OnBoard",
         "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "InfoFormat": "OnBoard",
         "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
-        "Info": "OnBoard"
+        "PartLocation": {
+          "LocationOrdinalValue": 6,
+          "LocationType": "Slot",
+          "ServiceLabel": "OnBoard"
+        }
       }
     }
   }

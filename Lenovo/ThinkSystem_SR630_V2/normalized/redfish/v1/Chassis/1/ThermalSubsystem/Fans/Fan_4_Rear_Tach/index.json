@@ -19,8 +19,8 @@
   "Location": {
     "PartLocation": {
       "LocationOrdinalValue": 12,
-      "ServiceLabel": "Fan 4 Rear Tach",
-      "LocationType": "Slot"
+      "LocationType": "Slot",
+      "ServiceLabel": "Fan 4 Rear Tach"
     }
   },
   "PhysicalContext": "Fan",

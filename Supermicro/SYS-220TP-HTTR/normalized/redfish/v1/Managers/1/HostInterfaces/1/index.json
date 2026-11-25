@@ -7,8 +7,8 @@
   "Name": "Host Interface",
   "Description": "Management Host Interface",
   "Status": {
-    "State": "Enabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Enabled"
   },
   "InterfaceEnabled": true,
   "HostInterfaceType": "NetworkHostInterface",

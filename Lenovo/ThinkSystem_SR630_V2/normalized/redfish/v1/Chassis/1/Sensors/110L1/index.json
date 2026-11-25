@@ -18,28 +18,28 @@
   },
   "Thresholds": {
     "LowerCaution": {
-      "Reading": null,
-      "Activation": "Decreasing"
-    },
-    "LowerFatal": {
-      "Reading": null,
-      "Activation": "Decreasing"
-    },
-    "UpperCaution": {
-      "Reading": null,
-      "Activation": "Increasing"
+      "Activation": "Decreasing",
+      "Reading": null
     },
     "LowerCritical": {
-      "Reading": null,
-      "Activation": "Decreasing"
+      "Activation": "Decreasing",
+      "Reading": null
+    },
+    "LowerFatal": {
+      "Activation": "Decreasing",
+      "Reading": null
+    },
+    "UpperCaution": {
+      "Activation": "Increasing",
+      "Reading": null
     },
     "UpperCritical": {
-      "Reading": null,
-      "Activation": "Increasing"
+      "Activation": "Increasing",
+      "Reading": null
     },
     "UpperFatal": {
-      "Reading": null,
-      "Activation": "Increasing"
+      "Activation": "Increasing",
+      "Reading": null
     }
   },
   "MinAllowableOperatingValue": 0,

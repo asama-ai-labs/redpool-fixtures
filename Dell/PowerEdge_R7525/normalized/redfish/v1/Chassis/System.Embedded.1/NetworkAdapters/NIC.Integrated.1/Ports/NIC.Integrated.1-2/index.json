@@ -6,9 +6,9 @@
   "Name": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
   "Description": "Instance of Port for NIC",
   "Status": {
-    "State": "Enabled",
     "Health": "OK",
-    "HealthRollup": "OK"
+    "HealthRollup": "OK",
+    "State": "Enabled"
   },
   "LinkNetworkTechnology": "Ethernet",
   "PortId": "2",

@@ -16,9 +16,9 @@
   "Oem": {
     "Lenovo": {
       "@odata.type": "#LenovoSerialInterface.v1_0_0.LenovoSerialInterfaceProperties",
-      "SerialInterfaceState": "Enabled",
+      "CLIMode": "UserDefined",
       "EnterCLIKeySequence": "^[(",
-      "CLIMode": "UserDefined"
+      "SerialInterfaceState": "Enabled"
     }
   }
 }

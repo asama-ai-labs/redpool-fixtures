@@ -6,214 +6,214 @@
   "Members": [
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/1",
-      "Id": "1",
-      "Name": "Health Event Log Entry 1",
-      "EntryType": "SEL",
-      "Severity": "OK",
       "Created": "2021-09-24T01:14:32Z",
       "EntryCode": "Assert",
-      "OemSensorType": "System NIC",
-      "SensorType": "OEM",
-      "SensorNumber": 255,
-      "Message": "[LAN-0005] Dedicated LAN Link Up",
-      "MessageId": "0xA301FF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "1",
       "Links": {
         "Oem": {}
       },
+      "Message": "[LAN-0005] Dedicated LAN Link Up",
+      "MessageId": "0xA301FF",
+      "Name": "Health Event Log Entry 1",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0xD0",
-            "SensorName": ""
+            "SensorName": "",
+            "SensorType": "0xD0"
           }
         }
       },
+      "OemSensorType": "System NIC",
+      "SensorNumber": 255,
+      "SensorType": "OEM",
+      "Severity": "OK",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/10",
-      "Id": "10",
-      "Name": "Health Event Log Entry 10",
-      "EntryType": "SEL",
-      "Severity": "Critical",
       "Created": "2021-09-29T23:39:36Z",
       "EntryCode": "Assert",
-      "SensorType": "Power Supply / Converter",
-      "SensorNumber": 202,
-      "Message": "[PWR-0003] PS1 Status, Power Supply input lost (AC/DC)",
-      "MessageId": "0xF3FFFF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "10",
       "Links": {
+        "Oem": {},
         "OriginOfCondition": {
           "@odata.id": "/redfish/v1/Chassis/1/Power"
-        },
-        "Oem": {}
+        }
       },
+      "Message": "[PWR-0003] PS1 Status, Power Supply input lost (AC/DC)",
+      "MessageId": "0xF3FFFF",
+      "Name": "Health Event Log Entry 10",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "MarkAsAcknowledged": false,
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0x08",
-            "SensorName": "PS1 Status"
+            "SensorName": "PS1 Status",
+            "SensorType": "0x08"
           }
         }
       },
+      "SensorNumber": 202,
+      "SensorType": "Power Supply / Converter",
+      "Severity": "Critical",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/11",
-      "Id": "11",
-      "Name": "Health Event Log Entry 11",
-      "EntryType": "SEL",
-      "Severity": "OK",
       "Created": "2021-09-29T23:50:44Z",
       "EntryCode": "Deassert",
-      "SensorType": "Power Supply / Converter",
-      "SensorNumber": 202,
-      "Message": "[PWR-0001] PS1 Status, Power Supply Failure detected",
-      "MessageId": "0xF1FFFF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "11",
       "Links": {
+        "Oem": {},
         "OriginOfCondition": {
           "@odata.id": "/redfish/v1/Chassis/1/Power"
-        },
-        "Oem": {}
+        }
       },
+      "Message": "[PWR-0001] PS1 Status, Power Supply Failure detected",
+      "MessageId": "0xF1FFFF",
+      "Name": "Health Event Log Entry 11",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "RawEventData": {
             "EventDirAndType": "0xEF",
-            "SensorType": "0x08",
-            "SensorName": "PS1 Status"
+            "SensorName": "PS1 Status",
+            "SensorType": "0x08"
           }
         }
       },
+      "SensorNumber": 202,
+      "SensorType": "Power Supply / Converter",
+      "Severity": "OK",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/14",
-      "Id": "14",
-      "Name": "Health Event Log Entry 14",
-      "EntryType": "SEL",
-      "Severity": "Warning",
       "Created": "2021-09-30T00:02:51Z",
       "EntryCode": "Assert",
-      "OemSensorType": "System NIC",
-      "SensorType": "OEM",
-      "SensorNumber": 255,
-      "Message": "[LAN-0006] Dedicated LAN Link Down",
-      "MessageId": "0xA401FF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "14",
       "Links": {
         "Oem": {}
       },
+      "Message": "[LAN-0006] Dedicated LAN Link Down",
+      "MessageId": "0xA401FF",
+      "Name": "Health Event Log Entry 14",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "MarkAsAcknowledged": false,
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0xD0",
-            "SensorName": ""
+            "SensorName": "",
+            "SensorType": "0xD0"
           }
         }
       },
+      "OemSensorType": "System NIC",
+      "SensorNumber": 255,
+      "SensorType": "OEM",
+      "Severity": "Warning",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/18",
-      "Id": "18",
-      "Name": "Health Event Log Entry 18",
-      "EntryType": "SEL",
-      "Severity": "Warning",
       "Created": "2022-03-10T23:53:49Z",
       "EntryCode": "Assert",
-      "OemSensorType": "AC Power On",
-      "SensorType": "OEM",
-      "SensorNumber": 255,
-      "Message": "[PWR-0020] First AC Power on",
-      "MessageId": "0xFFFFFF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "18",
       "Links": {
         "Oem": {}
       },
+      "Message": "[PWR-0020] First AC Power on",
+      "MessageId": "0xFFFFFF",
+      "Name": "Health Event Log Entry 18",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "MarkAsAcknowledged": false,
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0xC8",
-            "SensorName": ""
+            "SensorName": "",
+            "SensorType": "0xC8"
           }
         }
       },
+      "OemSensorType": "AC Power On",
+      "SensorNumber": 255,
+      "SensorType": "OEM",
+      "Severity": "Warning",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/20",
-      "Id": "20",
-      "Name": "Health Event Log Entry 20",
-      "EntryType": "SEL",
-      "Severity": "OK",
       "Created": "2022-03-10T23:55:20Z",
       "EntryCode": "Assert",
-      "SensorType": "Power Supply / Converter",
-      "SensorNumber": 202,
-      "Message": "[PWR-0000] PS1 Status, Power Supply Installed",
-      "MessageId": "0xF0FFFF",
+      "EntryType": "SEL",
       "GeneratorId": "0x0020",
+      "Id": "20",
       "Links": {
+        "Oem": {},
         "OriginOfCondition": {
           "@odata.id": "/redfish/v1/Chassis/1/Power"
-        },
-        "Oem": {}
+        }
       },
+      "Message": "[PWR-0000] PS1 Status, Power Supply Installed",
+      "MessageId": "0xF0FFFF",
+      "Name": "Health Event Log Entry 20",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0x08",
-            "SensorName": "PS1 Status"
+            "SensorName": "PS1 Status",
+            "SensorType": "0x08"
           }
         }
       },
+      "SensorNumber": 202,
+      "SensorType": "Power Supply / Converter",
+      "Severity": "OK",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     },
     {
       "@odata.id": "/redfish/v1/Systems/1/LogServices/Log1/Entries/49",
-      "Id": "49",
-      "Name": "Health Event Log Entry 49",
-      "EntryType": "SEL",
-      "Severity": "OK",
       "Created": "2022-09-17T23:12:13Z",
       "EntryCode": "Assert",
-      "OemSensorType": "Components Changed",
-      "SensorType": "OEM",
-      "SensorNumber": 255,
-      "Message": "[COMP-0030] Device changed on SXB4->Slot1",
-      "MessageId": "0x624100",
+      "EntryType": "SEL",
       "GeneratorId": "0x0011",
+      "Id": "49",
       "Links": {
         "Oem": {}
       },
+      "Message": "[COMP-0030] Device changed on SXB4->Slot1",
+      "MessageId": "0x624100",
+      "Name": "Health Event Log Entry 49",
       "Oem": {
         "Supermicro": {
           "@odata.type": "#SmcLogEntryExtensions.v1_0_1.HealthEventLogEntry",
           "RawEventData": {
             "EventDirAndType": "0x6F",
-            "SensorType": "0xDC",
-            "SensorName": ""
+            "SensorName": "",
+            "SensorType": "0xDC"
           }
         }
       },
+      "OemSensorType": "Components Changed",
+      "SensorNumber": 255,
+      "SensorType": "OEM",
+      "Severity": "OK",
       "@odata.type": "#LogEntry.v1_16_1.LogEntry"
     }
   ],

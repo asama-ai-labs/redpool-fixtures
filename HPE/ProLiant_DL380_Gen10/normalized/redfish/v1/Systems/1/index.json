@@ -117,14 +117,14 @@
     "State": "Enabled"
   },
   "Links": {
-    "ManagedBy": [
-      {
-        "@odata.id": "/redfish/v1/Managers/1"
-      }
-    ],
     "Chassis": [
       {
         "@odata.id": "/redfish/v1/Chassis/1"
+      }
+    ],
+    "ManagedBy": [
+      {
+        "@odata.id": "/redfish/v1/Managers/1"
       }
     ]
   },
@@ -303,35 +303,35 @@
       "EstimatedEraseTimeInMinutes": 0,
       "IsColdBooting": false,
       "Links": {
-        "PCISlots": {
-          "@odata.id": "/redfish/v1/Systems/1/PCISlots"
-        },
-        "NetworkAdapters": {
-          "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters"
-        },
-        "SmartStorage": {
-          "@odata.id": "/redfish/v1/Systems/1/SmartStorage"
-        },
-        "USBPorts": {
-          "@odata.id": "/redfish/v1/Systems/1/USBPorts"
-        },
-        "USBDevices": {
-          "@odata.id": "/redfish/v1/Systems/1/USBDevices"
-        },
         "EthernetInterfaces": {
           "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
         },
-        "WorkloadPerformanceAdvisor": {
-          "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor"
-        },
-        "SecureEraseReportService": {
-          "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService"
+        "NetworkAdapters": {
+          "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters"
         },
         "PCIDevices": [
           {
             "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
           }
-        ]
+        ],
+        "PCISlots": {
+          "@odata.id": "/redfish/v1/Systems/1/PCISlots"
+        },
+        "SecureEraseReportService": {
+          "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService"
+        },
+        "SmartStorage": {
+          "@odata.id": "/redfish/v1/Systems/1/SmartStorage"
+        },
+        "USBDevices": {
+          "@odata.id": "/redfish/v1/Systems/1/USBDevices"
+        },
+        "USBPorts": {
+          "@odata.id": "/redfish/v1/Systems/1/USBPorts"
+        },
+        "WorkloadPerformanceAdvisor": {
+          "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor"
+        }
       },
       "PCAPartNumber": "809455-001",
       "PCASerialNumber": "DUMMY-PCASerialNumber-1",

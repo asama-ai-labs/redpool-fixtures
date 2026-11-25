@@ -13,37 +13,37 @@
   "SKU": "",
   "Controllers": [
     {
+      "ControllerCapabilities": {
+        "NetworkDeviceFunctionCount": -2,
+        "NetworkPortCount": -2
+      },
+      "FirmwarePackageVersion": "14.27.4000",
       "Links": {
         "NetworkDeviceFunctions": [],
         "NetworkPorts": [],
-        "Ports": [],
         "PCIeDevices": [
           {
             "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/slot_3"
           }
-        ]
-      },
-      "FirmwarePackageVersion": "14.27.4000",
-      "PCIeInterface": {
-        "LanesInUse": 8,
-        "MaxPCIeType": "Gen3",
-        "MaxLanes": 8,
-        "PCIeType": "Gen3"
-      },
-      "ControllerCapabilities": {
-        "NetworkPortCount": -2,
-        "NetworkDeviceFunctionCount": -2
+        ],
+        "Ports": []
       },
       "Location": {
-        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
+        "Info": "Slot 3",
         "Info@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
         "InfoFormat": "Slot X",
-        "Info": "Slot 3",
+        "InfoFormat@Redfish.Deprecated": "The property is deprecated. Please use PartLocation instead.",
         "PartLocation": {
-          "ServiceLabel": "PCIe 3",
+          "LocationOrdinalValue": 3,
           "LocationType": "Slot",
-          "LocationOrdinalValue": 3
+          "ServiceLabel": "PCIe 3"
         }
+      },
+      "PCIeInterface": {
+        "LanesInUse": 8,
+        "MaxLanes": 8,
+        "MaxPCIeType": "Gen3",
+        "PCIeType": "Gen3"
       }
     }
   ],

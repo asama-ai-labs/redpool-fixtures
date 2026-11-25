@@ -14,17 +14,17 @@
     "State": "Enabled"
   },
   "Thresholds": {
-    "UpperCritical": {
-      "Reading": null
-    },
-    "UpperCaution": {
-      "Reading": null
-    },
     "LowerCaution": {
       "Reading": 840
     },
     "LowerCritical": {
       "Reading": 480
+    },
+    "UpperCaution": {
+      "Reading": null
+    },
+    "UpperCritical": {
+      "Reading": null
     }
   },
   "SpeedRPM": 7680,

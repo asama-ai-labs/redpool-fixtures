@@ -21,16 +21,16 @@
   "InputNominalVoltageType": "AC200To277V",
   "EfficiencyRatings": [
     {
-      "LoadPercent": 8,
-      "EfficiencyPercent": 84
+      "EfficiencyPercent": 84,
+      "LoadPercent": 8
     }
   ],
   "HotPluggable": true,
   "Location": {
     "PartLocation": {
+      "LocationOrdinalValue": 2,
       "LocationType": "Slot",
-      "ServiceLabel": "PSU2",
-      "LocationOrdinalValue": 2
+      "ServiceLabel": "PSU2"
     }
   },
   "Metrics": {

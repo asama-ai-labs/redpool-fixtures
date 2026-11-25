@@ -18,8 +18,8 @@
   "NameServers": [],
   "VLAN": {},
   "Status": {
-    "State": "Disabled",
-    "Health": "OK"
+    "Health": "OK",
+    "State": "Disabled"
   },
   "Links": {},
   "Oem": {}

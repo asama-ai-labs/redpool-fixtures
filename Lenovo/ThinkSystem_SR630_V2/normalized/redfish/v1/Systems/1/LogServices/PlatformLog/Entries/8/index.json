@@ -29,55 +29,55 @@
   "Originator": "XCC",
   "Oem": {
     "Lenovo": {
-      "TotalSequenceNumber": 11,
+      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
       "AffectedIndicatorLEDs": [],
+      "AuxiliaryData": "",
+      "CommonEventID": "FQXSPNM4028I",
+      "EventFlag": 0,
+      "EventID": "0x4000003700000000",
+      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead.",
+      "EventSequenceNumber": 8,
+      "EventType": 0,
       "FailingFRU": [
         {
           "FRUNumber": "",
           "FRUSerialNumber": ""
         }
       ],
-      "ReportingChain": "XCC",
+      "Hidden": false,
       "IsLocalEvent": true,
+      "LenovoMessageID": "Lenovo0055",
       "RawDebugLogURL": "",
-      "EventFlag": 0,
-      "AuxiliaryData": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
       "Source": "System",
       "TSLVersion": "0",
-      "RelatedEventID": "",
-      "Hidden": false,
-      "EventID": "0x4000003700000000",
-      "@odata.type": "#LenovoLogEntry.v1_0_0.PlatformLogEntry",
-      "EventSequenceNumber": 8,
-      "LenovoMessageID": "Lenovo0055",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPNM4028I",
-      "EventType": 0,
-      "EventID@Redfish.Deprecated": "The property is deprecated. Please use EventId instead."
+      "TotalSequenceNumber": 11
     },
     "Redpool": {
-      "TotalSequenceNumber": 11,
       "AffectedIndicatorLEDs": [],
+      "AuxiliaryData": "",
+      "CommonEventID": "FQXSPNM4028I",
+      "EventFlag": 0,
+      "EventSequenceNumber": 8,
+      "EventType": 0,
       "FailingFRU": [
         {
           "FRUNumber": "",
           "FRUSerialNumber": ""
         }
       ],
-      "ReportingChain": "XCC",
+      "Hidden": false,
       "IsLocalEvent": true,
+      "LenovoMessageID": "Lenovo0055",
       "RawDebugLogURL": "",
-      "EventFlag": 0,
-      "AuxiliaryData": "",
+      "RelatedEventID": "",
+      "ReportingChain": "XCC",
+      "Serviceable": "Not Serviceable",
       "Source": "System",
       "TSLVersion": "0",
-      "RelatedEventID": "",
-      "Hidden": false,
-      "EventSequenceNumber": 8,
-      "LenovoMessageID": "Lenovo0055",
-      "Serviceable": "Not Serviceable",
-      "CommonEventID": "FQXSPNM4028I",
-      "EventType": 0,
+      "TotalSequenceNumber": 11,
       "@odata.type": "#Redpool.v1_0_0.RedpoolLogEntry"
     }
   }
