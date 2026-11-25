@@ -68,7 +68,7 @@
         }
       },
       "PCIeType": "Gen4",
-      "SlotType": "OCPSmall",
+      "SlotType": "OCP3Small",
       "Status": {
         "Health": "OK",
         "State": "Enabled"
